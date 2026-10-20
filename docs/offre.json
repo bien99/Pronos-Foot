@@ -1,0 +1,196 @@
+{
+ "genere": "20/10/2026 à 15:54",
+ "seuil": 75,
+ "offre": [
+  {
+   "jour": "2026-10-21",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "Real Madrid CF - RB Leipzig",
+   "home": "Real Madrid CF",
+   "away": "RB Leipzig",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.822,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-20",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "FC Porto - PSV",
+   "home": "FC Porto",
+   "away": "PSV",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.798,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-20",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "SSC Napoli - FK Bodø/Glimt",
+   "home": "SSC Napoli",
+   "away": "FK Bodø/Glimt",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.79,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-21",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "FC Internazionale Milano - FK Shakhtar Donetsk",
+   "home": "FC Internazionale Milano",
+   "away": "FK Shakhtar Donetsk",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.782,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-21",
+   "heure": "17:45",
+   "ligue": "Champions League",
+   "match": "Lille OSC - Galatasaray SK",
+   "home": "Lille OSC",
+   "away": "Galatasaray SK",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.777,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-21",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "Club Brugge KV - Racing Club de Lens",
+   "home": "Club Brugge KV",
+   "away": "Racing Club de Lens",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.777,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-20",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "Liverpool FC - Villarreal CF",
+   "home": "Liverpool FC",
+   "away": "Villarreal CF",
+   "pari": "Victoire domicile",
+   "k": 0,
+   "p": 0.77,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-21",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "FC Bayern München - Arsenal FC",
+   "home": "FC Bayern München",
+   "away": "Arsenal FC",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.767,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-20",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "VfB Stuttgart - Club Atlético de Madrid",
+   "home": "VfB Stuttgart",
+   "away": "Club Atlético de Madrid",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.765,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-20",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "Paris Saint-Germain FC - FC Barcelona",
+   "home": "Paris Saint-Germain FC",
+   "away": "FC Barcelona",
+   "pari": "Plus de 2.5 buts",
+   "k": 7,
+   "p": 0.765,
+   "fam": "fd"
+  }
+ ],
+ "ticket": {
+  "paris": [
+   {
+    "jour": "2026-10-21",
+    "heure": "20:00",
+    "ligue": "Champions League",
+    "match": "Real Madrid CF - RB Leipzig",
+    "home": "Real Madrid CF",
+    "away": "RB Leipzig",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.822,
+    "fam": "fd"
+   },
+   {
+    "jour": "2026-10-20",
+    "heure": "20:00",
+    "ligue": "Champions League",
+    "match": "FC Porto - PSV",
+    "home": "FC Porto",
+    "away": "PSV",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.798,
+    "fam": "fd"
+   },
+   {
+    "jour": "2026-10-20",
+    "heure": "20:00",
+    "ligue": "Champions League",
+    "match": "SSC Napoli - FK Bodø/Glimt",
+    "home": "SSC Napoli",
+    "away": "FK Bodø/Glimt",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.79,
+    "fam": "fd"
+   }
+  ],
+  "p": 0.518,
+  "cote": 1.93
+ },
+ "sur": null,
+ "stats": [
+  {
+   "label": "Championnats avec cotes",
+   "matchs": 6423,
+   "paris": 5500,
+   "taux": 79.0
+  },
+  {
+   "label": "Championnats sans cotes",
+   "matchs": 6428,
+   "paris": 5728,
+   "taux": 76.5
+  },
+  {
+   "label": "Coupes d'Europe et Brésil",
+   "matchs": 1196,
+   "paris": 836,
+   "taux": 75.1
+  }
+ ],
+ "bilan": {
+  "n": 0,
+  "gagnes": 0,
+  "recent": [],
+  "en_attente": 10
+ },
+ "ignores": 8
+}

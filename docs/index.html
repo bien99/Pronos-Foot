@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pronos Foot</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f3f5f1;--card:#fff;--fg:#17211b;--muted:#5d6b62;--line:#dde3dc;--accent:#0f6b3f;--warn:#9a5b00;--warn-bg:#fdf1dc;--bar:#cfe3d6;--bad:#a12b2b;
+--display:'Barlow Condensed','Arial Narrow',sans-serif;--body:'IBM Plex Sans',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1612;--card:#18211b;--fg:#e8efe9;--muted:#9db0a3;--line:#2a372e;--accent:#58c98a;--warn:#f0b867;--warn-bg:#33270f;--bar:#264033;--bad:#ef8a8a;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);padding:20px max(16px,env(safe-area-inset-right,0px)) 40px max(16px,env(safe-area-inset-left,0px))}
+main{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+h1{font:700 34px/1 var(--display);letter-spacing:.02em;text-transform:uppercase;margin:0}
+h2{font:700 22px/1.1 var(--display);letter-spacing:.04em;text-transform:uppercase;margin:0}
+.sub{color:var(--muted);margin:6px 0 0;font-size:14px}
+.stats{display:flex;gap:10px;flex-wrap:wrap}
+.stat{flex:1 1 140px;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:10px 12px;min-width:0}
+.stat b{display:block;font:700 26px/1 var(--display);color:var(--accent);font-variant-numeric:tabular-nums}
+.stat span{font-size:12.5px;color:var(--muted)}
+.warn{background:var(--warn-bg);color:var(--warn);border-radius:10px;padding:10px 12px;font-size:13.5px}
+.day{display:flex;flex-direction:column;gap:8px}
+.day h3{margin:8px 0 0;font:600 13px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.row{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;grid-template-columns:1fr auto;gap:2px 12px;min-width:0}
+.match{font-weight:600;min-width:0;overflow-wrap:anywhere}
+.p{font:700 24px/1 var(--display);color:var(--accent);text-align:right;font-variant-numeric:tabular-nums}
+.pari{font-size:14px;min-width:0}
+.meta{font-size:12.5px;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.bar{grid-column:1/-1;height:4px;background:var(--bar);border-radius:2px;margin-top:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+.slip{border:1.5px dashed var(--line);background:var(--card);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.slip ul{margin:0;padding-left:18px}
+.tot{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding-top:8px;font-weight:600;font-variant-numeric:tabular-nums}
+.ok{color:var(--accent);font-weight:600}.ko{color:var(--bad);font-weight:600}
+button{font:600 15px var(--body);background:var(--accent);color:var(--bg);border:0;border-radius:10px;padding:13px 16px;cursor:pointer}
+button:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+small{color:var(--muted);font-size:12.5px}
+</style></head><body><main id="app"></main>
+<script>
+var D={"genere": "20/10/2026 à 15:54", "seuil": 75, "offre": [{"jour": "2026-10-21", "heure": "20:00", "ligue": "Champions League", "match": "Real Madrid CF - RB Leipzig", "home": "Real Madrid CF", "away": "RB Leipzig", "pari": "Plus de 1.5 buts", "k": 6, "p": 0.822, "fam": "fd"}, {"jour": "2026-10-20", "heure": "20:00", "ligue": "Champions League", "match": "FC Porto - PSV", "home": "FC Porto", "away": "PSV", "pari": "Plus de 1.5 buts", "k": 6, "p": 0.798, "fam": "fd"}, {"jour": "2026-10-20", "heure": "20:00", "ligue": "Champions League", "match": "SSC Napoli - FK Bodø/Glimt", "home": "SSC Napoli", "away": "FK Bodø/Glimt", "pari": "Plus de 1.5 buts", "k": 6, "p": 0.79, "fam": "fd"}, {"jour": "2026-10-21", "heure": "20:00", "ligue": "Champions League", "match": "FC Internazionale Milano - FK Shakhtar Donetsk", "home": "FC Internazionale Milano", "away": "FK Shakhtar Donetsk", "pari": "1X (domicile ou nul)", "k": 2, "p": 0.782, "fam": "fd"}, {"jour": "2026-10-21", "heure": "17:45", "ligue": "Champions League", "match": "Lille OSC - Galatasaray SK", "home": "Lille OSC", "away": "Galatasaray SK", "pari": "1X (domicile ou nul)", "k": 2, "p": 0.777, "fam": "fd"}, {"jour": "2026-10-21", "heure": "20:00", "ligue": "Champions League", "match": "Club Brugge KV - Racing Club de Lens", "home": "Club Brugge KV", "away": "Racing Club de Lens", "pari": "Plus de 1.5 buts", "k": 6, "p": 0.777, "fam": "fd"}, {"jour": "2026-10-20", "heure": "20:00", "ligue": "Champions League", "match": "Liverpool FC - Villarreal CF", "home": "Liverpool FC", "away": "Villarreal CF", "pari": "Victoire domicile", "k": 0, "p": 0.77, "fam": "fd"}, {"jour": "2026-10-21", "heure": "20:00", "ligue": "Champions League", "match": "FC Bayern München - Arsenal FC", "home": "FC Bayern München", "away": "Arsenal FC", "pari": "Plus de 1.5 buts", "k": 6, "p": 0.767, "fam": "fd"}, {"jour": "2026-10-20", "heure": "20:00", "ligue": "Champions League", "match": "VfB Stuttgart - Club Atlético de Madrid", "home": "VfB Stuttgart", "away": "Club Atlético de Madrid", "pari": "Plus de 1.5 buts", "k": 6, "p": 0.765, "fam": "fd"}, {"jour": "2026-10-20", "heure": "20:00", "ligue": "Champions League", "match": "Paris Saint-Germain FC - FC Barcelona", "home": "Paris Saint-Germain FC", "away": "FC Barcelona", "pari": "Plus de 2.5 buts", "k": 7, "p": 0.765, "fam": "fd"}], "ticket": {"paris": [{"jour": "2026-10-21", "heure": "20:00", "ligue": "Champions League", "match": "Real Madrid CF - RB Leipzig", "home": "Real Madrid CF", "away": "RB Leipzig", "pari": "Plus de 1.5 buts", "k": 6, "p": 0.822, "fam": "fd"}, {"jour": "2026-10-20", "heure": "20:00", "ligue": "Champions League", "match": "FC Porto - PSV", "home": "FC Porto", "away": "PSV", "pari": "Plus de 1.5 buts", "k": 6, "p": 0.798, "fam": "fd"}, {"jour": "2026-10-20", "heure": "20:00", "ligue": "Champions League", "match": "SSC Napoli - FK Bodø/Glimt", "home": "SSC Napoli", "away": "FK Bodø/Glimt", "pari": "Plus de 1.5 buts", "k": 6, "p": 0.79, "fam": "fd"}], "p": 0.518, "cote": 1.93}, "sur": null, "stats": [{"label": "Championnats avec cotes", "matchs": 6423, "paris": 5500, "taux": 79.0}, {"label": "Championnats sans cotes", "matchs": 6428, "paris": 5728, "taux": 76.5}, {"label": "Coupes d'Europe et Brésil", "matchs": 1196, "paris": 836, "taux": 75.1}], "bilan": {"n": 0, "gagnes": 0, "recent": [], "en_attente": 10}, "ignores": 8};
+function esc(s){return String(s).replace(/[&<>]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;"}[c]})}
+function fr(n){return String(n).replace(".",",")}
+var MOIS=["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],JOURS=["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"];
+function jourLong(s){var d=new Date(s+"T12:00:00");return JOURS[d.getDay()]+" "+d.getDate()+" "+MOIS[d.getMonth()]}
+function line(o){return esc(o.match)+" : "+esc(o.pari)+" ("+Math.round(o.p*100)+" %)"}
+var h='<header><h1>Pronos Foot</h1><p class="sub">Mis à jour le '+D.genere+' (heure du Bénin)</p></header>';
+h+='<div class="stats">';
+D.stats.forEach(function(s){h+='<div class="stat"><b>'+fr(s.taux)+' %</b><span>réussite réelle sur le passé, '+esc(s.label.toLowerCase())+' ('+s.paris+' paris à '+D.seuil+' % et plus)</span></div>'});
+h+='<div class="stat"><b>'+D.offre.length+'</b><span>pronostics aujourd\'hui et demain</span></div>';
+if(D.bilan.n>0)h+='<div class="stat"><b>'+D.bilan.gagnes+' / '+D.bilan.n+'</b><span>pronostics publiés ici et déjà vérifiés ('+fr(Math.round(D.bilan.gagnes/D.bilan.n*1000)/10)+' %)</span></div>';
+h+='</div><div class="warn">Aucun pronostic n\'est garanti. À 80 % de réussite, environ 1 pari sur 5 est perdu. Les cotes affichées sont des cotes équitables calculées par le modèle, celles du bookmaker seront plus basses. Jeu réservé aux 18 ans et plus : joue seulement ce que tu peux perdre.</div>';
+if(!D.offre.length)h+='<div class="warn">Aucun match avec une probabilité d\'au moins '+D.seuil+' % pour le moment. Reviens demain.</div>';
+var jours=[];D.offre.forEach(function(o){if(jours.indexOf(o.jour)<0)jours.push(o.jour)});jours.sort();
+h+='<section class="day">';
+jours.forEach(function(j){
+  h+='<h3>'+jourLong(j)+'</h3>';
+  D.offre.filter(function(o){return o.jour==j}).sort(function(a,b){return (a.heure||"")<(b.heure||"")?-1:(a.heure||"")>(b.heure||"")?1:b.p-a.p}).forEach(function(o){
+    h+='<div class="row"><div class="match">'+esc(o.match)+'</div><div class="p">'+Math.round(o.p*100)+' %</div><div class="pari">'+esc(o.pari)+' · '+esc(o.ligue)+'</div><div class="meta">'+(o.heure?o.heure+' · ':'')+'cote '+fr((1/o.p).toFixed(2))+'</div><div class="bar"><i style="width:'+Math.round(o.p*100)+'%"></i></div></div>';
+  });
+});
+h+='</section>';
+if(D.ticket){h+='<section class="slip"><h2>Ticket cote environ 2</h2><ul>'+D.ticket.paris.map(function(o){return'<li>'+line(o)+'</li>'}).join('')+'</ul><div class="tot"><span>Probabilité que le ticket passe</span><span>'+Math.round(D.ticket.p*100)+' %</span></div><div class="tot"><span>Cote équitable</span><span>'+fr(D.ticket.cote.toFixed(2))+'</span></div><div class="warn">Ce ticket est risqué : il perd environ '+(100-Math.round(D.ticket.p*100))+' fois sur 100. Un ticket de cote 2 sans risque n\'existe pas.</div></section>'}
+if(D.sur){h+='<section class="slip"><h2>Pari le plus sûr</h2><ul>'+D.sur.paris.map(function(o){return'<li>'+line(o)+'</li>'}).join('')+'</ul><div class="tot"><span>Probabilité estimée</span><span>'+fr((D.sur.p*100).toFixed(1))+' %</span></div><small>Cote équitable '+fr(D.sur.cote.toFixed(2))+'. Même à ce niveau, le gain est minime et rien n\'est garanti.</small></section>'}
+if(D.bilan.recent.length){h+='<section class="slip"><h2>Derniers résultats</h2>';D.bilan.recent.forEach(function(r){h+='<div><span class="'+(r.ok?'ok':'ko')+'">'+(r.ok?'Gagné':'Perdu')+'</span> · '+esc(r.match)+' · '+esc(r.pari)+'</div>'});h+='<small>Les pronostics sont enregistrés avant les matchs, puis vérifiés avec les vrais scores.</small></section>'}
+h+='<button id="copy" type="button">Copier le message WhatsApp</button><small id="msg" aria-live="polite"></small>';
+h+='<small>Pour les coupes d\'Europe et le Brésil, le modèle n\'a pas les cotes des bookmakers et reste moins précis.</small>';
+document.getElementById("app").innerHTML=h;
+document.getElementById("copy").onclick=function(){
+  var t="PRONOS DU JOUR (heure du Bénin)\n\n"+D.offre.map(function(o){var d=o.jour.slice(8)+"/"+o.jour.slice(5,7);return d+" "+(o.heure||"")+" | "+o.match+" | "+o.pari+" ("+Math.round(o.p*100)+"%)"}).join("\n");
+  if(D.ticket)t+="\n\nTicket cote ~2 (risqué, ~"+Math.round(D.ticket.p*100)+"%):\n"+D.ticket.paris.map(line).join("\n");
+  t+="\n\nAucun gain garanti. +18 ans, joue responsable.";
+  var m=document.getElementById("msg");
+  function ok(){m.textContent="Message copié, colle-le dans ta Chaîne WhatsApp."}
+  try{navigator.clipboard.writeText(t).then(ok,function(){m.textContent="Copie refusée par ce navigateur."})}catch(e){m.textContent="Copie refusée par ce navigateur."}
+};
+</script></body></html>
