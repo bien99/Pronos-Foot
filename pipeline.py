@@ -3,14 +3,14 @@
 Lancé chaque jour par GitHub Actions. Clé football-data.org : variable d'environnement FD_KEY.
 Mode test hors ligne : PRONOS_OFFLINE=<dossier de fichiers factices>.
 """
-import io, os, json, time, itertools, datetime as dt
+import io, os, json, math, time, itertools, datetime as dt
 from collections import defaultdict, deque
 from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
 import requests
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression, PoissonRegressor
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
@@ -248,6 +248,35 @@ def fit_predict(train, test, cols):
     return P
 
 
+def fit_goals(train, test, cols):
+    """Buts attendus (domicile, extérieur) par régression de Poisson."""
+    if len(train) < 300 or len(test) == 0:
+        return None
+    out = []
+    for c in ("hg", "ag"):
+        m = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
+        m.fit(train[cols], train[c].astype(float))
+        out.append(m.predict(test[cols]))
+    return out[0], out[1]
+
+
+def score_table(lh, la, nmax=7):
+    k = np.arange(nmax)
+    f = np.array([math.factorial(int(i)) for i in k], dtype=float)
+    ph = np.exp(-lh)[:, None] * lh[:, None] ** k / f
+    pa = np.exp(-la)[:, None] * la[:, None] ** k / f
+    return ph[:, :, None] * pa[:, None, :]          # (n, buts dom., buts ext.)
+
+
+def top_scores(lh, la, n=3):
+    M = score_table(lh, la)
+    res = []
+    for mat in M:
+        flat = np.argsort(mat.ravel())[::-1][:n]
+        res.append([(f"{i // M.shape[2]}-{i % M.shape[2]}", float(mat.ravel()[i])) for i in flat])
+    return res
+
+
 def choisir(E, seuil=SEUIL):
     mask = E >= seuil
     idx = np.where(mask, E, 9).argmin(axis=1)
@@ -286,9 +315,19 @@ def main():
 
     # --- test sur le passé (modèle entraîné avant CUT, testé après)
     stats = {}
+    sc_hit, sc_n, sc_all_hit, sc_all_n = 0, 0, 0, 0
     for fam, (label, _, cols, _) in FAMILIES.items():
         m = family_mask(df, fam) & df["fin"]
         tr, te = df[m & (df["dt"] < CUT)], df[m & (df["dt"] >= CUT)]
+        G = fit_goals(tr, te, cols)
+        if G is not None:
+            ts = top_scores(G[0], G[1], 1)
+            ok_ = np.array([f"{int(a)}-{int(b)}" == s[0][0] for a, b, s in zip(te["hg"], te["ag"], ts)])
+            pp = np.array([s[0][1] for s in ts])
+            sc_all_hit += int(ok_.sum()); sc_all_n += len(ok_)
+            tmp = pd.DataFrame({"d": te["dt"].dt.normalize().values, "p": pp, "ok": ok_})
+            top = tmp.sort_values("p", ascending=False).groupby("d").head(5)
+            sc_hit += int(top["ok"].sum()); sc_n += len(top)
         P = fit_predict(tr, te, cols)
         if P is None:
             continue
@@ -306,12 +345,21 @@ def main():
     keep = np.where(up["has_t"], up["dt"] >= now_utc, local.dt.normalize() >= today_b) & (local.dt.normalize() <= tomorrow_b)
     up = up[keep]
     picks = []
+    scores = []
     ignores = 0
     for fam, (label, _, cols, _) in FAMILIES.items():
         trm = family_mask(df, fam) & df["fin"]
         um = up[family_mask(up, fam)]
         if fam == "uk":
             um = up[(up["src"] == "uk") & up["ok"] & ~up["has_odds"]]
+        G = fit_goals(df[trm], um, cols)
+        if G is not None:
+            for row, ts, a, b in zip(um.itertuples(), top_scores(G[0], G[1], 3), G[0], G[1]):
+                kb = row.dt + pd.Timedelta(hours=1)
+                scores.append({"jour": kb.strftime("%Y-%m-%d"), "heure": kb.strftime("%H:%M") if row.has_t else "",
+                               "ligue": row.lg, "match": f"{row.home} - {row.away}", "score": ts[0][0],
+                               "p": round(ts[0][1], 3), "alt": [[s, round(q, 3)] for s, q in ts[1:]],
+                               "buts": round(float(a + b), 1)})
         P = fit_predict(df[trm], um, cols)
         if P is None:
             continue
@@ -326,6 +374,10 @@ def main():
                           "ligue": row.lg, "match": f"{row.home} - {row.away}", "home": row.home, "away": row.away,
                           "pari": EVN[k], "k": int(k), "p": round(float(e[k]), 3), "fam": fam})
     ignores = int((~up["ok"]).sum())
+    scores.sort(key=lambda x: -x["p"])
+    scores = scores[:5]
+    scores_stat = {"paris": sc_n, "taux": round(100 * sc_hit / sc_n, 1) if sc_n else None,
+                   "base": round(100 * sc_all_hit / sc_all_n, 1) if sc_all_n else None}
     picks.sort(key=lambda x: -x["p"])
     offre = picks[:MAX_OFFRE]
 
@@ -372,7 +424,7 @@ def main():
              "en_attente": int(H["resultat"].isna().sum())}
 
     data = {"genere": now_b.strftime("%d/%m/%Y à %H:%M"), "seuil": int(SEUIL * 100), "offre": offre,
-            "ticket": ticket, "sur": sur_info, "stats": list(stats.values()), "bilan": bilan, "ignores": ignores}
+            "ticket": ticket, "sur": sur_info, "stats": list(stats.values()), "scores": scores, "scores_stat": scores_stat, "bilan": bilan, "ignores": ignores}
     tpl = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "template.html"), encoding="utf-8").read()
     os.makedirs(os.path.join(OUT, "docs"), exist_ok=True)
     open(os.path.join(OUT, "docs", "index.html"), "w", encoding="utf-8").write(
