@@ -109,7 +109,9 @@ def uk_frame(df, div, fin):
 
 
 def read_csv_bytes(b):
-    return pd.read_csv(io.BytesIO(b), encoding="latin-1", on_bad_lines="skip")
+    df = pd.read_csv(io.BytesIO(b), encoding="latin-1", on_bad_lines="skip")
+    df.columns = [str(c).replace("ï»¿", "").replace("\ufeff", "").strip() for c in df.columns]
+    return df
 
 
 def load_uk():
@@ -331,7 +333,8 @@ def cc_section(df, up):
     cols = BASE + CC
     ucc = up[up["ok_cc"]]
     for name in out:
-        tr, te = base[base["dt"] < CUT], base[base["dt"] >= CUT]
+        bn = base.dropna(subset=[name])
+        tr, te = bn[bn["dt"] < CUT], bn[bn["dt"] >= CUT]
         r = fit_count(tr, te, cols, name)
         if r:
             mu, phi = r
@@ -345,7 +348,7 @@ def cc_section(df, up):
                 top = t.sort_values("p", ascending=False).groupby("d").head(MAX_CC)
                 stat[name] = {"paris": int(len(top)), "taux": round(100 * float(top["w"].mean()), 1)}
                 log(f"  test {name} : {len(top)} paris, réussite {stat[name]['taux']} %")
-        r = fit_count(base, ucc, cols, name)
+        r = fit_count(bn, ucc, cols, name)
         if r:
             mu, phi = r
             for row, m_ in zip(ucc.itertuples(), mu):
@@ -479,7 +482,11 @@ def main():
         p = float(np.prod([x["p"] for x in sur]))
         sur_info = {"paris": sur, "p": round(p, 3), "cote": round(1 / p, 2)}
 
-    cc, cc_stat = cc_section(df, up)
+    try:
+        cc, cc_stat = cc_section(df, up)
+    except Exception as e:
+        log("  cartons/corners ignorés :", repr(e))
+        cc, cc_stat = {"corners": [], "cartons": []}, {}
 
     # --- historique des pronostics (enregistrés avant les matchs) et bilan
     hist_path = os.path.join(OUT, "data", "historique.csv")
