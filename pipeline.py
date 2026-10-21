@@ -3,13 +3,14 @@
 Lancé chaque jour par GitHub Actions. Clé football-data.org : variable d'environnement FD_KEY.
 Mode test hors ligne : PRONOS_OFFLINE=<dossier de fichiers factices>.
 """
-import io, os, json, math, time, itertools, datetime as dt
+import io, os, json, math, time, itertools, warnings, datetime as dt
 from collections import defaultdict, deque
 from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
 import requests
+from scipy.stats import nbinom, poisson
 from sklearn.linear_model import LogisticRegression, PoissonRegressor
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
@@ -40,6 +41,10 @@ EVN = ["Victoire domicile", "Victoire extérieur", "1X (domicile ou nul)", "X2 (
        "Plus de 1.5 buts", "Plus de 2.5 buts", "Moins de 2.5 buts"]
 BASE = ["d", "pe", "pdraw", "h_gf", "h_ga", "h_bt", "h_o25", "a_gf", "a_ga", "a_bt", "a_o25", "xh", "xa"]
 ODDS = ["qH", "qD", "qA", "qO"]
+CC = ["h_cf", "h_ca", "a_cf", "a_ca", "h_cd", "a_cd", "xc", "xk"]
+LINES = {"corners": [8.5, 9.5, 10.5, 11.5], "cartons": [2.5, 3.5, 4.5, 5.5]}
+SEUIL_CC = 0.70
+MAX_CC = 10
 
 
 def log(*a):
@@ -93,6 +98,8 @@ def uk_frame(df, div, fin):
         "hg": pick(df, ["FTHG"]) if fin else np.nan, "ag": pick(df, ["FTAG"]) if fin else np.nan,
         "oh": pick(df, ["B365H", "AvgH"]), "od": pick(df, ["B365D", "AvgD"]), "oa": pick(df, ["B365A", "AvgA"]),
         "oo": pick(df, ["B365>2.5", "Avg>2.5"]), "ou": pick(df, ["B365<2.5", "Avg<2.5"]),
+        "hc": pick(df, ["HC"]), "ac": pick(df, ["AC"]), "hy": pick(df, ["HY"]), "ay": pick(df, ["AY"]),
+        "hr": pick(df, ["HR"]), "ar": pick(df, ["AR"]),
     })
     out = out[out["dt"].notna()]
     if fin:
@@ -176,7 +183,8 @@ def load_fd():
                     continue
                 rows.append(dict(src="fd", div=code, lg=name, dt=t, has_t=True,
                                  home=m["homeTeam"]["name"], away=m["awayTeam"]["name"],
-                                 hg=hg, ag=ag, oh=np.nan, od=np.nan, oa=np.nan, oo=np.nan, ou=np.nan, fin=fin))
+                                 hg=hg, ag=ag, oh=np.nan, od=np.nan, oa=np.nan, oo=np.nan, ou=np.nan, fin=fin,
+                                 hc=np.nan, ac=np.nan, hy=np.nan, ay=np.nan, hr=np.nan, ar=np.nan))
     return [pd.DataFrame(rows)] if rows else []
 
 
@@ -185,7 +193,7 @@ def build(df):
     df = df.sort_values("dt").reset_index(drop=True)
     elo = defaultdict(lambda: 1500.0)
     hist = defaultdict(lambda: deque(maxlen=N_FORME))
-    feats = []
+    feats, feats_cc = [], []
     for r in df.itertuples():
         kh, ka = (r.div, r.home), (r.div, r.away)
         hh, ha = hist[kh], hist[ka]
@@ -199,17 +207,27 @@ def build(df):
             sh, sa = stats(hh), stats(ha)
             f = [diff / 100, pe, 0.28 - 0.14 * abs(2 * pe - 1), *sh, *sa, sh[0] + sa[1], sa[0] + sh[1]]
         feats.append(f)
+        cc = [np.nan] * len(CC)
+        if f is not None:
+            a, b = np.array(hh, dtype=float), np.array(ha, dtype=float)
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore")
+                v = [np.nanmean(a[:, 2]), np.nanmean(a[:, 3]), np.nanmean(b[:, 2]), np.nanmean(b[:, 3]),
+                     np.nanmean(a[:, 4]), np.nanmean(b[:, 4])]
+            cc = v + [v[0] + v[3] + v[2] + v[1], v[4] + v[5]]
+        feats_cc.append(cc)
         if r.fin:
             s = 1.0 if r.hg > r.ag else 0.5 if r.hg == r.ag else 0.0
             pe = 1 / (1 + 10 ** (-(elo[kh] + ELO_HA - elo[ka]) / 400))
             elo[kh] += ELO_K * (s - pe)
             elo[ka] -= ELO_K * (s - pe)
-            hh.append((r.hg, r.ag))
-            ha.append((r.ag, r.hg))
+            hh.append((r.hg, r.ag, r.hc, r.ac, r.hy + r.hr, r.ay + r.ar))
+            ha.append((r.ag, r.hg, r.ac, r.hc, r.ay + r.ar, r.hy + r.hr))
     ok = np.array([f is not None for f in feats])
     X = pd.DataFrame([f if f is not None else [np.nan] * len(BASE) for f in feats], columns=BASE)
-    df = pd.concat([df, X], axis=1)
+    df = pd.concat([df, X, pd.DataFrame(feats_cc, columns=CC)], axis=1)
     df["ok"] = ok
+    df["ok_cc"] = ok & df[CC].notna().all(axis=1)
     # probabilités implicites du bookmaker
     inv = 1 / df[["oh", "od", "oa"]]
     s = inv.sum(axis=1, min_count=3)
@@ -275,6 +293,71 @@ def top_scores(lh, la, n=3):
         flat = np.argsort(mat.ravel())[::-1][:n]
         res.append([(f"{i // M.shape[2]}-{i % M.shape[2]}", float(mat.ravel()[i])) for i in flat])
     return res
+
+
+def fit_count(train, test, cols, y):
+    if len(train) < 300 or len(test) == 0:
+        return None
+    m = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
+    m.fit(train[cols], train[y])
+    mu_tr = np.maximum(m.predict(train[cols]), 0.1)
+    phi = max(1.0, float(np.mean((train[y].values - mu_tr) ** 2 / mu_tr)))
+    return m.predict(test[cols]), phi
+
+
+def over_prob(mu, phi, line):
+    k = int(math.floor(line))
+    if phi > 1.05:
+        n = mu / (phi - 1)
+        return 1 - nbinom.cdf(k, n, n / (n + mu))
+    return 1 - poisson.cdf(k, mu)
+
+
+def choisir_cc(mu, phi, stat, seuil=SEUIL_CC):
+    best = None
+    for line in LINES[stat]:
+        q = float(over_prob(mu, phi, line))
+        for side, pr in (("Plus de", q), ("Moins de", 1 - q)):
+            if pr >= seuil and (best is None or pr < best[2]):
+                best = (side, line, pr)
+    return best
+
+
+def cc_section(df, up):
+    out, stat = {"corners": [], "cartons": []}, {}
+    base = df[df["ok_cc"] & df["fin"]].copy()
+    base["corners"] = base["hc"] + base["ac"]
+    base["cartons"] = base["hy"] + base["hr"] + base["ay"] + base["ar"]
+    cols = BASE + CC
+    ucc = up[up["ok_cc"]]
+    for name in out:
+        tr, te = base[base["dt"] < CUT], base[base["dt"] >= CUT]
+        r = fit_count(tr, te, cols, name)
+        if r:
+            mu, phi = r
+            rows = []
+            for m_, d_, y_ in zip(mu, te["dt"].dt.normalize(), te[name]):
+                c = choisir_cc(m_, phi, name)
+                if c:
+                    rows.append((d_, c[2], bool(y_ > c[1]) if c[0] == "Plus de" else bool(y_ < c[1])))
+            if rows:
+                t = pd.DataFrame(rows, columns=["d", "p", "w"])
+                top = t.sort_values("p", ascending=False).groupby("d").head(MAX_CC)
+                stat[name] = {"paris": int(len(top)), "taux": round(100 * float(top["w"].mean()), 1)}
+                log(f"  test {name} : {len(top)} paris, réussite {stat[name]['taux']} %")
+        r = fit_count(base, ucc, cols, name)
+        if r:
+            mu, phi = r
+            for row, m_ in zip(ucc.itertuples(), mu):
+                c = choisir_cc(m_, phi, name)
+                if c:
+                    kb = row.dt + pd.Timedelta(hours=1)
+                    out[name].append({"jour": kb.strftime("%Y-%m-%d"), "heure": kb.strftime("%H:%M") if row.has_t else "",
+                                      "ligue": row.lg, "match": f"{row.home} - {row.away}",
+                                      "pari": f"{c[0]} {c[1]} {name}", "p": round(c[2], 3), "mu": round(float(m_), 1)})
+        out[name].sort(key=lambda x: -x["p"])
+        out[name] = out[name][:MAX_CC]
+    return out, stat
 
 
 def choisir(E, seuil=SEUIL):
@@ -396,6 +479,8 @@ def main():
         p = float(np.prod([x["p"] for x in sur]))
         sur_info = {"paris": sur, "p": round(p, 3), "cote": round(1 / p, 2)}
 
+    cc, cc_stat = cc_section(df, up)
+
     # --- historique des pronostics (enregistrés avant les matchs) et bilan
     hist_path = os.path.join(OUT, "data", "historique.csv")
     os.makedirs(os.path.dirname(hist_path), exist_ok=True)
@@ -424,7 +509,8 @@ def main():
              "en_attente": int(H["resultat"].isna().sum())}
 
     data = {"genere": now_b.strftime("%d/%m/%Y à %H:%M"), "seuil": int(SEUIL * 100), "offre": offre,
-            "ticket": ticket, "sur": sur_info, "stats": list(stats.values()), "scores": scores, "scores_stat": scores_stat, "bilan": bilan, "ignores": ignores}
+            "ticket": ticket, "sur": sur_info, "stats": list(stats.values()), "scores": scores, "scores_stat": scores_stat,
+            "corners": cc["corners"], "cartons": cc["cartons"], "cc_stat": cc_stat, "bilan": bilan, "ignores": ignores}
     tpl = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "template.html"), encoding="utf-8").read()
     os.makedirs(os.path.join(OUT, "docs"), exist_ok=True)
     open(os.path.join(OUT, "docs", "index.html"), "w", encoding="utf-8").write(
