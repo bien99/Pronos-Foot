@@ -4,6 +4,7 @@
 <title>Pronos Foot</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
+[hidden]{display:none!important}
 :root{--bg:#f3f5f1;--card:#fff;--fg:#17211b;--muted:#5d6b62;--line:#dde3dc;--accent:#0f6b3f;--warn:#9a5b00;--warn-bg:#fdf1dc;--bar:#cfe3d6;--bad:#a12b2b;
 --display:'Barlow Condensed','Arial Narrow',sans-serif;--body:'IBM Plex Sans',system-ui,sans-serif}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1612;--card:#18211b;--fg:#e8efe9;--muted:#9db0a3;--line:#2a372e;--accent:#58c98a;--warn:#f0b867;--warn-bg:#33270f;--bar:#264033;--bad:#ef8a8a;color-scheme:dark}}
@@ -33,6 +34,11 @@ h2{font:700 22px/1.1 var(--display);letter-spacing:.04em;text-transform:uppercas
 nav{display:flex;gap:6px;position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:5}
 nav button{flex:1;background:var(--card);color:var(--fg);border:1px solid var(--line);padding:11px 6px;font-size:14px;line-height:1.2}
 nav button[aria-selected="true"]{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.big{display:flex;flex-direction:column;gap:2px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--fg)}
+.big b{font:700 24px/1.1 var(--display);letter-spacing:.03em;text-transform:uppercase;color:var(--accent)}
+.big span{font-size:13.5px;color:var(--muted)}
+.big:focus-visible,.back:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+.back{color:var(--accent);font-weight:600;text-decoration:none;padding:6px 0}
 .sc{font:700 30px/1 var(--display);color:var(--accent);text-align:right;font-variant-numeric:tabular-nums}
 button{font:600 15px var(--body);background:var(--accent);color:var(--bg);border:0;border-radius:10px;padding:13px 16px;cursor:pointer}
 button:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
@@ -70,11 +76,22 @@ t3+='</div>';
 if(!D.scores.length)t3+='<div class="warn">Pas de score à proposer pour le moment.</div>';
 t3+='<section class="day">'+byDay(D.scores,function(o){return '<div class="row"><div class="match">'+esc(o.match)+'</div><div class="sc">'+esc(o.score.replace("-"," - "))+'</div><div class="pari">'+esc(o.ligue)+' · autres : '+o.alt.map(function(a){return esc(a[0])+' ('+Math.round(a[1]*100)+' %)'}).join(', ')+'</div><div class="meta">'+(o.heure?o.heure+' · ':'')+Math.round(o.p*100)+' % · ~'+fr(o.buts)+' buts</div></div>'})+'</section>';
 
-var tabs=[["Pronostics du jour",t1],["Cote 2",t2],["Score exact",t3]];
-var h='<header><h1>Pronos Foot</h1><p class="sub">Mis à jour le '+D.genere+' (heure du Bénin)</p></header><nav role="tablist">'+tabs.map(function(x,i){return'<button type="button" role="tab" data-i="'+i+'">'+x[0]+'</button>'}).join('')+'</nav>'+tabs.map(function(x,i){return'<div class="pane" role="tabpanel" data-i="'+i+'" style="display:flex;flex-direction:column;gap:20px">'+x[1]+'</div>'}).join('');
+function ccTab(list,stat,nom,note){var h='<div class="warn">'+note;
+  if(stat&&stat.paris)h+=' Sur le passé, avec au plus 10 matchs par jour, le pari est passé '+fr(stat.taux)+' % du temps.';
+  h+=' Aucun résultat n\'est garanti.</div>';
+  if(!list.length)h+='<div class="warn">Pas de pari '+nom+' à proposer pour le moment.</div>';
+  return h+'<section class="day">'+byDay(list,function(o){return '<div class="row"><div class="match">'+esc(o.match)+'</div><div class="p">'+Math.round(o.p*100)+' %</div><div class="pari">'+esc(o.pari)+' · '+esc(o.ligue)+'</div><div class="meta">'+(o.heure?o.heure+' · ':'')+'~'+fr(o.mu)+' attendus</div><div class="bar"><i style="width:'+Math.round(o.p*100)+'%"></i></div></div>'})+'</section>'+'<small>Seulement les championnats nationaux : les données de corners et cartons n\'existent pas pour les coupes d\'Europe ni le Brésil.</small>'}
+var t4=ccTab(D.cartons||[],(D.cc_stat||{}).cartons,"cartons","Total de cartons du match (jaunes et rouges ensemble).");
+var t5=ccTab(D.corners||[],(D.cc_stat||{}).corners,"corners","Total de corners du match (les deux équipes ensemble).");
+var tabs=[["jour","Pronostics du jour","Les 15 meilleurs pronostics",t1],["cote2","Cote 2","Ticket de cote environ 2",t2],["score","Score exact","Jusqu'à 5 matchs, juste une idée",t3],["cartons","Cartons","Jusqu'à 10 matchs",t4],["corners","Corners","Jusqu'à 10 matchs",t5]];
+var h='<header><h1>Pronos Foot</h1><p class="sub">Mis à jour le '+D.genere+' (heure du Bénin)</p></header>';
+h+='<div id="menu" style="display:flex;flex-direction:column;gap:10px">'+tabs.map(function(x){return'<a class="big" href="#'+x[0]+'"><b>'+x[1]+'</b><span>'+x[2]+'</span></a>'}).join('')+WARN+'</div>';
+h+=tabs.map(function(x){return'<div class="pane" data-k="'+x[0]+'" hidden style="flex-direction:column;gap:20px"><a class="back" href="#">← Retour au menu</a><h2>'+x[1]+'</h2>'+x[3]+'</div>'}).join('');
 document.getElementById("app").innerHTML=h;
-function show(i){document.querySelectorAll(".pane").forEach(function(p){p.hidden=p.dataset.i!=i});document.querySelectorAll("nav button").forEach(function(b){b.setAttribute("aria-selected",b.dataset.i==i?"true":"false")})}
-document.querySelectorAll("nav button").forEach(function(b){b.onclick=function(){show(b.dataset.i)}});show(0);
+function route(){var k=(location.hash||"").slice(1),found=false;
+  document.querySelectorAll(".pane").forEach(function(p){var on=p.dataset.k==k;p.hidden=!on;p.style.display=on?"flex":"none";if(on)found=true});
+  document.getElementById("menu").hidden=found;window.scrollTo(0,0)}
+window.addEventListener("hashchange",route);route();
 document.getElementById("copy").onclick=function(){
   var t="PRONOS DU JOUR (heure du Bénin)\n\n"+D.offre.map(function(o){var d=o.jour.slice(8)+"/"+o.jour.slice(5,7);return d+" "+(o.heure||"")+" | "+o.match+" | "+o.pari+" ("+Math.round(o.p*100)+"%)"}).join("\n");
   if(D.ticket)t+="\n\nTicket cote ~2 (risqué, ~"+Math.round(D.ticket.p*100)+"%):\n"+D.ticket.paris.map(line).join("\n");
