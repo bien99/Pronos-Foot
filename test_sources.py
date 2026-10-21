@@ -16,9 +16,18 @@ for code, slug in LIGUES.items():
     df = pd.read_csv(io.BytesIO(h.content), encoding="latin-1")
     df.columns = [c.replace("ï»¿", "") for c in df.columns]
     noms = set(df.tail(600)["Home"]) | set(df.tail(600)["Away"])
-    r = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates={rng}")
-    if r is None or r.status_code != 200:
-        print("ESPN indisponible", None if r is None else r.status_code); continue
+    base = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
+    essais = [base, base + f"?dates={today:%Y%m%d}", base + f"?dates={today + dt.timedelta(days=1):%Y%m%d}", base + f"?dates={rng}",
+              f"https://site.web.api.espn.com/apis/v2/sports/soccer/{slug}/scoreboard?dates={today:%Y%m%d}"]
+    r = None
+    for u in essais:
+        x = get(u)
+        print("  essai", u.split("espn.com")[1][:75], "->", None if x is None else x.status_code,
+              "" if x is None or x.status_code != 200 else str(len(x.json().get("events", []))) + " matchs")
+        if x is not None and x.status_code == 200 and x.json().get("events") and r is None:
+            r = x
+    if r is None:
+        print("ESPN : aucun essai n'a donné de match"); continue
     ev = r.json().get("events", [])
     print(len(ev), "matchs à venir (4 jours)")
     ok = 0; tot = 0; mal = []
