@@ -1,237 +1,81 @@
 {
- "genere": "21/10/2026 à 11:22",
+ "genere": "21/10/2026 à 23:13",
  "seuil": 75,
- "offre": [
-  {
-   "jour": "2026-10-21",
-   "heure": "20:00",
-   "ligue": "Champions League",
-   "match": "Real Madrid CF - RB Leipzig",
-   "home": "Real Madrid CF",
-   "away": "RB Leipzig",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.825,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-10-21",
-   "heure": "20:00",
-   "ligue": "Champions League",
-   "match": "FC Internazionale Milano - FK Shakhtar Donetsk",
-   "home": "FC Internazionale Milano",
-   "away": "FK Shakhtar Donetsk",
-   "pari": "1X (domicile ou nul)",
-   "k": 2,
-   "p": 0.782,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-10-21",
-   "heure": "17:45",
-   "ligue": "Champions League",
-   "match": "Lille OSC - Galatasaray SK",
-   "home": "Lille OSC",
-   "away": "Galatasaray SK",
-   "pari": "1X (domicile ou nul)",
-   "k": 2,
-   "p": 0.778,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-10-21",
-   "heure": "20:00",
-   "ligue": "Champions League",
-   "match": "Club Brugge KV - Racing Club de Lens",
-   "home": "Club Brugge KV",
-   "away": "Racing Club de Lens",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.776,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-10-21",
-   "heure": "20:00",
-   "ligue": "Champions League",
-   "match": "FC Bayern München - Arsenal FC",
-   "home": "FC Bayern München",
-   "away": "Arsenal FC",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.765,
-   "fam": "fd"
-  }
- ],
- "ticket": {
-  "paris": [
-   {
-    "jour": "2026-10-21",
-    "heure": "20:00",
-    "ligue": "Champions League",
-    "match": "Real Madrid CF - RB Leipzig",
-    "home": "Real Madrid CF",
-    "away": "RB Leipzig",
-    "pari": "Plus de 1.5 buts",
-    "k": 6,
-    "p": 0.825,
-    "fam": "fd"
-   },
-   {
-    "jour": "2026-10-21",
-    "heure": "20:00",
-    "ligue": "Champions League",
-    "match": "FC Internazionale Milano - FK Shakhtar Donetsk",
-    "home": "FC Internazionale Milano",
-    "away": "FK Shakhtar Donetsk",
-    "pari": "1X (domicile ou nul)",
-    "k": 2,
-    "p": 0.782,
-    "fam": "fd"
-   },
-   {
-    "jour": "2026-10-21",
-    "heure": "17:45",
-    "ligue": "Champions League",
-    "match": "Lille OSC - Galatasaray SK",
-    "home": "Lille OSC",
-    "away": "Galatasaray SK",
-    "pari": "1X (domicile ou nul)",
-    "k": 2,
-    "p": 0.778,
-    "fam": "fd"
-   }
-  ],
-  "p": 0.502,
-  "cote": 1.99
- },
+ "offre": [],
+ "ticket": null,
  "sur": null,
  "stats": [
   {
    "label": "Championnats avec cotes",
-   "matchs": 6423,
+   "matchs": 6424,
    "paris": 5500,
    "taux": 79.0
   },
   {
    "label": "Championnats sans cotes",
-   "matchs": 6428,
-   "paris": 5728,
+   "matchs": 6429,
+   "paris": 5729,
    "taux": 76.5
   },
   {
    "label": "Coupes d'Europe et Brésil",
-   "matchs": 1202,
-   "paris": 840,
-   "taux": 75.1
+   "matchs": 1207,
+   "paris": 845,
+   "taux": 75.0
   }
  ],
- "scores": [
-  {
-   "jour": "2026-10-21",
-   "heure": "20:00",
-   "ligue": "Champions League",
-   "match": "Real Madrid CF - RB Leipzig",
-   "score": "2-0",
-   "p": 0.118,
-   "alt": [
-    [
-     "1-0",
-     0.105
-    ],
-    [
-     "2-1",
-     0.096
-    ]
-   ],
-   "buts": 3.1
-  },
-  {
-   "jour": "2026-10-21",
-   "heure": "20:00",
-   "ligue": "Champions League",
-   "match": "FC Bayern München - Arsenal FC",
-   "score": "1-1",
-   "p": 0.113,
-   "alt": [
-    [
-     "2-1",
-     0.094
-    ],
-    [
-     "1-0",
-     0.091
-    ]
-   ],
-   "buts": 2.9
-  },
-  {
-   "jour": "2026-10-21",
-   "heure": "20:00",
-   "ligue": "Champions League",
-   "match": "Club Brugge KV - Racing Club de Lens",
-   "score": "1-1",
-   "p": 0.112,
-   "alt": [
-    [
-     "2-1",
-     0.095
-    ],
-    [
-     "1-0",
-     0.09
-    ]
-   ],
-   "buts": 2.9
-  },
-  {
-   "jour": "2026-10-21",
-   "heure": "20:00",
-   "ligue": "Champions League",
-   "match": "FC Internazionale Milano - FK Shakhtar Donetsk",
-   "score": "1-1",
-   "p": 0.108,
-   "alt": [
-    [
-     "2-1",
-     0.098
-    ],
-    [
-     "1-0",
-     0.097
-    ]
-   ],
-   "buts": 2.9
-  },
-  {
-   "jour": "2026-10-21",
-   "heure": "17:45",
-   "ligue": "Champions League",
-   "match": "Lille OSC - Galatasaray SK",
-   "score": "1-1",
-   "p": 0.1,
-   "alt": [
-    [
-     "2-1",
-     0.099
-    ],
-    [
-     "1-0",
-     0.089
-    ]
-   ],
-   "buts": 3.1
-  }
- ],
+ "scores": [],
  "scores_stat": {
-  "paris": 4793,
+  "paris": 4800,
   "taux": 14.1,
   "base": 12.6
  },
+ "corners": [],
+ "cartons": [],
+ "cc_stat": {
+  "corners": {
+   "paris": 2564,
+   "taux": 75.7
+  },
+  "cartons": {
+   "paris": 3037,
+   "taux": 79.3
+  }
+ },
  "bilan": {
-  "n": 5,
-  "gagnes": 4,
+  "n": 10,
+  "gagnes": 8,
   "recent": [
+   {
+    "jour": "2026-10-21",
+    "match": "Real Madrid CF - RB Leipzig",
+    "pari": "Plus de 1.5 buts",
+    "ok": true
+   },
+   {
+    "jour": "2026-10-21",
+    "match": "FC Internazionale Milano - FK Shakhtar Donetsk",
+    "pari": "1X (domicile ou nul)",
+    "ok": true
+   },
+   {
+    "jour": "2026-10-21",
+    "match": "Lille OSC - Galatasaray SK",
+    "pari": "1X (domicile ou nul)",
+    "ok": false
+   },
+   {
+    "jour": "2026-10-21",
+    "match": "Club Brugge KV - Racing Club de Lens",
+    "pari": "Plus de 1.5 buts",
+    "ok": true
+   },
+   {
+    "jour": "2026-10-21",
+    "match": "FC Bayern München - Arsenal FC",
+    "pari": "Plus de 1.5 buts",
+    "ok": true
+   },
    {
     "jour": "2026-10-20",
     "match": "FC Porto - PSV",
@@ -263,7 +107,7 @@
     "ok": true
    }
   ],
-  "en_attente": 5
+  "en_attente": 0
  },
- "ignores": 4
+ "ignores": 0
 }
