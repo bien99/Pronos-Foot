@@ -1,5 +1,5 @@
 {
- "genere": "21/10/2026 à 08:37",
+ "genere": "21/10/2026 à 11:22",
  "seuil": 75,
  "offre": [
   {
@@ -126,6 +126,108 @@
    "taux": 75.1
   }
  ],
+ "scores": [
+  {
+   "jour": "2026-10-21",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "Real Madrid CF - RB Leipzig",
+   "score": "2-0",
+   "p": 0.118,
+   "alt": [
+    [
+     "1-0",
+     0.105
+    ],
+    [
+     "2-1",
+     0.096
+    ]
+   ],
+   "buts": 3.1
+  },
+  {
+   "jour": "2026-10-21",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "FC Bayern München - Arsenal FC",
+   "score": "1-1",
+   "p": 0.113,
+   "alt": [
+    [
+     "2-1",
+     0.094
+    ],
+    [
+     "1-0",
+     0.091
+    ]
+   ],
+   "buts": 2.9
+  },
+  {
+   "jour": "2026-10-21",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "Club Brugge KV - Racing Club de Lens",
+   "score": "1-1",
+   "p": 0.112,
+   "alt": [
+    [
+     "2-1",
+     0.095
+    ],
+    [
+     "1-0",
+     0.09
+    ]
+   ],
+   "buts": 2.9
+  },
+  {
+   "jour": "2026-10-21",
+   "heure": "20:00",
+   "ligue": "Champions League",
+   "match": "FC Internazionale Milano - FK Shakhtar Donetsk",
+   "score": "1-1",
+   "p": 0.108,
+   "alt": [
+    [
+     "2-1",
+     0.098
+    ],
+    [
+     "1-0",
+     0.097
+    ]
+   ],
+   "buts": 2.9
+  },
+  {
+   "jour": "2026-10-21",
+   "heure": "17:45",
+   "ligue": "Champions League",
+   "match": "Lille OSC - Galatasaray SK",
+   "score": "1-1",
+   "p": 0.1,
+   "alt": [
+    [
+     "2-1",
+     0.099
+    ],
+    [
+     "1-0",
+     0.089
+    ]
+   ],
+   "buts": 3.1
+  }
+ ],
+ "scores_stat": {
+  "paris": 4793,
+  "taux": 14.1,
+  "base": 12.6
+ },
  "bilan": {
   "n": 5,
   "gagnes": 4,
