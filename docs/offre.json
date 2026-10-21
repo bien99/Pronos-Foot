@@ -1,8 +1,122 @@
 {
- "genere": "21/10/2026 à 23:13",
+ "genere": "22/10/2026 à 00:10",
  "seuil": 75,
- "offre": [],
- "ticket": null,
+ "offre": [
+  {
+   "jour": "2026-10-22",
+   "heure": "02:00",
+   "ligue": "Liga MX",
+   "match": "Atlas - Club America",
+   "home": "Atlas",
+   "away": "Club America",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.84,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-10-22",
+   "heure": "02:00",
+   "ligue": "Liga MX",
+   "match": "Toluca - Club Tijuana",
+   "home": "Toluca",
+   "away": "Club Tijuana",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.813,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-10-22",
+   "heure": "04:10",
+   "ligue": "Liga MX",
+   "match": "Pachuca - Cruz Azul",
+   "home": "Pachuca",
+   "away": "Cruz Azul",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.795,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-10-23",
+   "heure": "22:00",
+   "ligue": "Liga Argentina",
+   "match": "Gimnasia L.P. - Sarmiento Junin",
+   "home": "Gimnasia L.P.",
+   "away": "Sarmiento Junin",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.781,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-10-22",
+   "heure": "04:10",
+   "ligue": "Liga MX",
+   "match": "Santos Laguna - UNAM Pumas",
+   "home": "Santos Laguna",
+   "away": "UNAM Pumas",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.77,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-10-23",
+   "heure": "22:30",
+   "ligue": "Liga Argentina",
+   "match": "Gimnasia Mendoza - Platense",
+   "home": "Gimnasia Mendoza",
+   "away": "Platense",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.767,
+   "fam": "am"
+  }
+ ],
+ "ticket": {
+  "paris": [
+   {
+    "jour": "2026-10-22",
+    "heure": "02:00",
+    "ligue": "Liga MX",
+    "match": "Atlas - Club America",
+    "home": "Atlas",
+    "away": "Club America",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.84,
+    "fam": "am"
+   },
+   {
+    "jour": "2026-10-22",
+    "heure": "02:00",
+    "ligue": "Liga MX",
+    "match": "Toluca - Club Tijuana",
+    "home": "Toluca",
+    "away": "Club Tijuana",
+    "pari": "1X (domicile ou nul)",
+    "k": 2,
+    "p": 0.813,
+    "fam": "am"
+   },
+   {
+    "jour": "2026-10-22",
+    "heure": "04:10",
+    "ligue": "Liga MX",
+    "match": "Santos Laguna - UNAM Pumas",
+    "home": "Santos Laguna",
+    "away": "UNAM Pumas",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.77,
+    "fam": "am"
+   }
+  ],
+  "p": 0.526,
+  "cote": 1.9
+ },
  "sur": null,
  "stats": [
   {
@@ -22,13 +136,115 @@
    "matchs": 1207,
    "paris": 845,
    "taux": 75.0
+  },
+  {
+   "label": "Argentine, Mexique, Colombie",
+   "matchs": 2730,
+   "paris": 1382,
+   "taux": 77.6
   }
  ],
- "scores": [],
+ "scores": [
+  {
+   "jour": "2026-10-22",
+   "heure": "02:00",
+   "ligue": "Liga MX",
+   "match": "Puebla - Monterrey",
+   "score": "1-1",
+   "p": 0.131,
+   "alt": [
+    [
+     "0-1",
+     0.113
+    ],
+    [
+     "1-0",
+     0.106
+    ]
+   ],
+   "buts": 2.4
+  },
+  {
+   "jour": "2026-10-23",
+   "heure": "22:30",
+   "ligue": "Liga Argentina",
+   "match": "Gimnasia Mendoza - Platense",
+   "score": "1-0",
+   "p": 0.128,
+   "alt": [
+    [
+     "1-1",
+     0.125
+    ],
+    [
+     "2-0",
+     0.093
+    ]
+   ],
+   "buts": 2.4
+  },
+  {
+   "jour": "2026-10-22",
+   "heure": "04:10",
+   "ligue": "Liga MX",
+   "match": "Santos Laguna - UNAM Pumas",
+   "score": "1-1",
+   "p": 0.124,
+   "alt": [
+    [
+     "1-0",
+     0.096
+    ],
+    [
+     "0-1",
+     0.092
+    ]
+   ],
+   "buts": 2.6
+  },
+  {
+   "jour": "2026-10-22",
+   "heure": "04:10",
+   "ligue": "Liga MX",
+   "match": "Pachuca - Cruz Azul",
+   "score": "1-1",
+   "p": 0.122,
+   "alt": [
+    [
+     "0-1",
+     0.092
+    ],
+    [
+     "1-0",
+     0.09
+    ]
+   ],
+   "buts": 2.7
+  },
+  {
+   "jour": "2026-10-22",
+   "heure": "02:00",
+   "ligue": "Liga MX",
+   "match": "Atlas - Club America",
+   "score": "1-1",
+   "p": 0.116,
+   "alt": [
+    [
+     "1-2",
+     0.087
+    ],
+    [
+     "0-1",
+     0.083
+    ]
+   ],
+   "buts": 2.9
+  }
+ ],
  "scores_stat": {
-  "paris": 4800,
-  "taux": 14.1,
-  "base": 12.6
+  "paris": 6715,
+  "taux": 14.4,
+  "base": 12.9
  },
  "corners": [],
  "cartons": [],
@@ -107,7 +323,7 @@
     "ok": true
    }
   ],
-  "en_attente": 0
+  "en_attente": 6
  },
  "ignores": 0
 }
