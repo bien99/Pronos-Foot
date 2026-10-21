@@ -3,7 +3,7 @@
 Lancé chaque jour par GitHub Actions. Clé football-data.org : variable d'environnement FD_KEY.
 Mode test hors ligne : PRONOS_OFFLINE=<dossier de fichiers factices>.
 """
-import io, os, json, math, time, itertools, warnings, datetime as dt
+import io, os, re, json, math, time, difflib, unicodedata, itertools, warnings, datetime as dt
 from collections import defaultdict, deque
 from zoneinfo import ZoneInfo
 
@@ -34,6 +34,10 @@ UK_DIVS = {"E0": "Premier League", "F1": "Ligue 1", "SP1": "La Liga", "I1": "Ser
            "P1": "Liga Portugal", "T1": "Süper Lig"}
 FD_COMPS = {"CL": "Champions League", "BSA": "Brasileirão"}
 FD_SEASONS = [2023, 2024, 2025, 2026]
+AM = {"ARG": ("Liga Argentina", "arg.1"), "MEX": ("Liga MX", "mex.1"), "COL": ("Liga Colombia", "col.1")}
+AM_FROM = pd.Timestamp("2018-01-01")
+ALIASES = {}   # corrections manuelles : "nom ESPN": "nom dans l'historique"
+INCONNUS = []
 
 TARGETS = ["H", "A", "X1", "X2", "BT", "O15", "O25"]
 EVN = ["Victoire domicile", "Victoire extérieur", "1X (domicile ou nul)", "X2 (nul ou extérieur)",
@@ -147,6 +151,93 @@ def load_uk():
                     frames.append(uk_frame(g, div, False))
     except Exception as e:
         log("  fixtures illisible", e)
+    return frames
+
+
+STOP = {"fc", "cf", "fk", "sc", "cd", "ca", "club", "de", "del", "la", "el", "los", "las", "c", "a"}
+
+
+def norm_tokens(s):
+    s = unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower().replace(".", "")
+    toks = [t for t in re.split(r"[^a-z0-9]+", s) if t and t not in STOP]
+    return sorted(toks)
+
+
+def match_name(name, known):
+    if name in ALIASES:
+        return ALIASES[name]
+    if name in known:
+        return name
+    t = norm_tokens(name)
+    scored = []
+    for k in known:
+        kt = norm_tokens(k)
+        r = difflib.SequenceMatcher(None, " ".join(t), " ".join(kt)).ratio()
+        if t and kt and (set(t) <= set(kt) or set(kt) <= set(t)):
+            r = max(r, 0.85)
+        scored.append((r, k))
+    scored.sort(reverse=True)
+    if scored and scored[0][0] >= 0.75 and (len(scored) == 1 or scored[0][0] - scored[1][0] >= 0.08):
+        return scored[0][1]
+    return None
+
+
+def load_am():
+    frames = []
+    for code, (lname, slug) in AM.items():
+        if OFFLINE:
+            p_ = f"{OFFLINE}/new_{code}.csv"
+            raw = open(p_, "rb").read() if os.path.exists(p_) else None
+        else:
+            r = http_get(f"https://www.football-data.co.uk/new/{code}.csv")
+            raw = r.content if r is not None else None
+        if not raw:
+            log("  manquant :", code)
+            continue
+        df = read_csv_bytes(raw)
+        d = pd.to_datetime(df["Date"], dayfirst=True, errors="coerce", format="mixed") + pd.Timedelta(hours=12)
+        h = pd.DataFrame({"src": "am", "div": code, "lg": lname, "dt": d, "has_t": False,
+                          "home": df["Home"].astype(str), "away": df["Away"].astype(str),
+                          "hg": pd.to_numeric(df["HG"], errors="coerce"), "ag": pd.to_numeric(df["AG"], errors="coerce"),
+                          "fin": True})
+        h = h[h["dt"].notna() & h["hg"].notna() & h["ag"].notna() & (h["dt"] >= AM_FROM)]
+        frames.append(h)
+        known = set(h.tail(800)["home"]) | set(h.tail(800)["away"])
+        # matchs à venir (ESPN, non officiel)
+        base = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
+        today = dt.date.today()
+        urls = [base] + [f"{base}?dates={today + dt.timedelta(days=i):%Y%m%d}" for i in range(3)]
+        events = {}
+        for u in urls:
+            if OFFLINE:
+                p_ = f"{OFFLINE}/espn_{slug}.json"
+                data = json.load(open(p_)) if os.path.exists(p_) else {}
+            else:
+                r = http_get(u)
+                time.sleep(0.5)
+                data = r.json() if r is not None else {}
+            for e in data.get("events", []):
+                try:
+                    if e["status"]["type"]["name"] != "STATUS_SCHEDULED":
+                        continue
+                    c = e["competitions"][0]["competitors"]
+                    home = [x for x in c if x["homeAway"] == "home"][0]["team"]["displayName"]
+                    away = [x for x in c if x["homeAway"] == "away"][0]["team"]["displayName"]
+                    events[e["id"]] = (pd.to_datetime(e["date"], utc=True).tz_localize(None), home, away)
+                except Exception:
+                    continue
+        rows, ok = [], 0
+        for t, home, away in events.values():
+            mh, ma = match_name(home, known), match_name(away, known)
+            if mh is None or ma is None:
+                INCONNUS.extend([n for n, m in ((home, mh), (away, ma)) if m is None])
+                continue
+            ok += 1
+            rows.append({"src": "am", "div": code, "lg": lname, "dt": t, "has_t": True, "home": mh, "away": ma,
+                         "hg": np.nan, "ag": np.nan, "fin": False})
+        log(f"  {code} : {len(h)} matchs passés, {len(events)} à venir trouvés, {ok} reconnus")
+        if rows:
+            frames.append(pd.DataFrame(rows))
     return frames
 
 
@@ -373,6 +464,7 @@ FAMILIES = {
     "uk_odds": ("Championnats avec cotes", ["uk"], BASE + ODDS, True),
     "uk": ("Championnats sans cotes", ["uk"], BASE, False),
     "fd": ("Coupes d'Europe et Brésil", ["fd"], BASE, False),
+    "am": ("Argentine, Mexique, Colombie", ["am"], BASE, False),
 }
 
 
@@ -390,7 +482,7 @@ def main():
     now_b = now_utc + pd.Timedelta(hours=1)
     today_b, tomorrow_b = now_b.normalize(), now_b.normalize() + pd.Timedelta(days=1)
 
-    frames = load_uk() + load_fd()
+    frames = load_uk() + load_fd() + load_am()
     if not frames:
         raise SystemExit("Aucune donnée téléchargée.")
     raw = pd.concat(frames, ignore_index=True)
@@ -460,6 +552,8 @@ def main():
                           "ligue": row.lg, "match": f"{row.home} - {row.away}", "home": row.home, "away": row.away,
                           "pari": EVN[k], "k": int(k), "p": round(float(e[k]), 3), "fam": fam})
     ignores = int((~up["ok"]).sum())
+    if INCONNUS:
+        log("  noms d'équipes non reconnus (à ajouter dans ALIASES) :", sorted(set(INCONNUS)))
     scores.sort(key=lambda x: -x["p"])
     scores = scores[:5]
     scores_stat = {"paris": sc_n, "taux": round(100 * sc_hit / sc_n, 1) if sc_n else None,
