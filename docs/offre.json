@@ -1,43 +1,7 @@
 {
- "genere": "22/10/2026 à 00:10",
+ "genere": "22/10/2026 à 08:35",
  "seuil": 75,
  "offre": [
-  {
-   "jour": "2026-10-22",
-   "heure": "02:00",
-   "ligue": "Liga MX",
-   "match": "Atlas - Club America",
-   "home": "Atlas",
-   "away": "Club America",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.84,
-   "fam": "am"
-  },
-  {
-   "jour": "2026-10-22",
-   "heure": "02:00",
-   "ligue": "Liga MX",
-   "match": "Toluca - Club Tijuana",
-   "home": "Toluca",
-   "away": "Club Tijuana",
-   "pari": "1X (domicile ou nul)",
-   "k": 2,
-   "p": 0.813,
-   "fam": "am"
-  },
-  {
-   "jour": "2026-10-22",
-   "heure": "04:10",
-   "ligue": "Liga MX",
-   "match": "Pachuca - Cruz Azul",
-   "home": "Pachuca",
-   "away": "Cruz Azul",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.795,
-   "fam": "am"
-  },
   {
    "jour": "2026-10-23",
    "heure": "22:00",
@@ -48,18 +12,6 @@
    "pari": "Plus de 1.5 buts",
    "k": 6,
    "p": 0.781,
-   "fam": "am"
-  },
-  {
-   "jour": "2026-10-22",
-   "heure": "04:10",
-   "ligue": "Liga MX",
-   "match": "Santos Laguna - UNAM Pumas",
-   "home": "Santos Laguna",
-   "away": "UNAM Pumas",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.77,
    "fam": "am"
   },
   {
@@ -75,48 +27,7 @@
    "fam": "am"
   }
  ],
- "ticket": {
-  "paris": [
-   {
-    "jour": "2026-10-22",
-    "heure": "02:00",
-    "ligue": "Liga MX",
-    "match": "Atlas - Club America",
-    "home": "Atlas",
-    "away": "Club America",
-    "pari": "Plus de 1.5 buts",
-    "k": 6,
-    "p": 0.84,
-    "fam": "am"
-   },
-   {
-    "jour": "2026-10-22",
-    "heure": "02:00",
-    "ligue": "Liga MX",
-    "match": "Toluca - Club Tijuana",
-    "home": "Toluca",
-    "away": "Club Tijuana",
-    "pari": "1X (domicile ou nul)",
-    "k": 2,
-    "p": 0.813,
-    "fam": "am"
-   },
-   {
-    "jour": "2026-10-22",
-    "heure": "04:10",
-    "ligue": "Liga MX",
-    "match": "Santos Laguna - UNAM Pumas",
-    "home": "Santos Laguna",
-    "away": "UNAM Pumas",
-    "pari": "Plus de 1.5 buts",
-    "k": 6,
-    "p": 0.77,
-    "fam": "am"
-   }
-  ],
-  "p": 0.526,
-  "cote": 1.9
- },
+ "ticket": null,
  "sur": null,
  "stats": [
   {
@@ -146,25 +57,6 @@
  ],
  "scores": [
   {
-   "jour": "2026-10-22",
-   "heure": "02:00",
-   "ligue": "Liga MX",
-   "match": "Puebla - Monterrey",
-   "score": "1-1",
-   "p": 0.131,
-   "alt": [
-    [
-     "0-1",
-     0.113
-    ],
-    [
-     "1-0",
-     0.106
-    ]
-   ],
-   "buts": 2.4
-  },
-  {
    "jour": "2026-10-23",
    "heure": "22:30",
    "ligue": "Liga Argentina",
@@ -184,61 +76,23 @@
    "buts": 2.4
   },
   {
-   "jour": "2026-10-22",
-   "heure": "04:10",
-   "ligue": "Liga MX",
-   "match": "Santos Laguna - UNAM Pumas",
+   "jour": "2026-10-23",
+   "heure": "22:00",
+   "ligue": "Liga Argentina",
+   "match": "Gimnasia L.P. - Sarmiento Junin",
    "score": "1-1",
-   "p": 0.124,
+   "p": 0.113,
    "alt": [
     [
      "1-0",
-     0.096
+     0.103
     ],
     [
-     "0-1",
-     0.092
+     "2-1",
+     0.097
     ]
    ],
-   "buts": 2.6
-  },
-  {
-   "jour": "2026-10-22",
-   "heure": "04:10",
-   "ligue": "Liga MX",
-   "match": "Pachuca - Cruz Azul",
-   "score": "1-1",
-   "p": 0.122,
-   "alt": [
-    [
-     "0-1",
-     0.092
-    ],
-    [
-     "1-0",
-     0.09
-    ]
-   ],
-   "buts": 2.7
-  },
-  {
-   "jour": "2026-10-22",
-   "heure": "02:00",
-   "ligue": "Liga MX",
-   "match": "Atlas - Club America",
-   "score": "1-1",
-   "p": 0.116,
-   "alt": [
-    [
-     "1-2",
-     0.087
-    ],
-    [
-     "0-1",
-     0.083
-    ]
-   ],
-   "buts": 2.9
+   "buts": 2.8
   }
  ],
  "scores_stat": {
