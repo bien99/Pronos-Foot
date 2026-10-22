@@ -1,17 +1,30 @@
-cle,genere,jour,ligue,match,home,away,pari,k,p,resultat
-2026-10-21|Real Madrid CF|RB Leipzig|Plus de 1.5 buts,2026-10-20 15:54,2026-10-21,Champions League,Real Madrid CF - RB Leipzig,Real Madrid CF,RB Leipzig,Plus de 1.5 buts,6,0.822,1.0
-2026-10-20|FC Porto|PSV|Plus de 1.5 buts,2026-10-20 15:54,2026-10-20,Champions League,FC Porto - PSV,FC Porto,PSV,Plus de 1.5 buts,6,0.798,0.0
-2026-10-20|SSC Napoli|FK Bodø/Glimt|Plus de 1.5 buts,2026-10-20 15:54,2026-10-20,Champions League,SSC Napoli - FK Bodø/Glimt,SSC Napoli,FK Bodø/Glimt,Plus de 1.5 buts,6,0.79,1.0
-2026-10-21|FC Internazionale Milano|FK Shakhtar Donetsk|1X (domicile ou nul),2026-10-20 15:54,2026-10-21,Champions League,FC Internazionale Milano - FK Shakhtar Donetsk,FC Internazionale Milano,FK Shakhtar Donetsk,1X (domicile ou nul),2,0.782,1.0
-2026-10-21|Lille OSC|Galatasaray SK|1X (domicile ou nul),2026-10-20 15:54,2026-10-21,Champions League,Lille OSC - Galatasaray SK,Lille OSC,Galatasaray SK,1X (domicile ou nul),2,0.777,0.0
-2026-10-21|Club Brugge KV|Racing Club de Lens|Plus de 1.5 buts,2026-10-20 15:54,2026-10-21,Champions League,Club Brugge KV - Racing Club de Lens,Club Brugge KV,Racing Club de Lens,Plus de 1.5 buts,6,0.777,1.0
-2026-10-20|Liverpool FC|Villarreal CF|Victoire domicile,2026-10-20 15:54,2026-10-20,Champions League,Liverpool FC - Villarreal CF,Liverpool FC,Villarreal CF,Victoire domicile,0,0.77,1.0
-2026-10-21|FC Bayern München|Arsenal FC|Plus de 1.5 buts,2026-10-20 15:54,2026-10-21,Champions League,FC Bayern München - Arsenal FC,FC Bayern München,Arsenal FC,Plus de 1.5 buts,6,0.767,1.0
-2026-10-20|VfB Stuttgart|Club Atlético de Madrid|Plus de 1.5 buts,2026-10-20 15:54,2026-10-20,Champions League,VfB Stuttgart - Club Atlético de Madrid,VfB Stuttgart,Club Atlético de Madrid,Plus de 1.5 buts,6,0.765,1.0
-2026-10-20|Paris Saint-Germain FC|FC Barcelona|Plus de 2.5 buts,2026-10-20 15:54,2026-10-20,Champions League,Paris Saint-Germain FC - FC Barcelona,Paris Saint-Germain FC,FC Barcelona,Plus de 2.5 buts,7,0.765,1.0
-2026-10-22|Atlas|Club America|Plus de 1.5 buts,2026-10-22 00:10,2026-10-22,Liga MX,Atlas - Club America,Atlas,Club America,Plus de 1.5 buts,6,0.84,
-2026-10-22|Toluca|Club Tijuana|1X (domicile ou nul),2026-10-22 00:10,2026-10-22,Liga MX,Toluca - Club Tijuana,Toluca,Club Tijuana,1X (domicile ou nul),2,0.813,
-2026-10-22|Pachuca|Cruz Azul|Plus de 1.5 buts,2026-10-22 00:10,2026-10-22,Liga MX,Pachuca - Cruz Azul,Pachuca,Cruz Azul,Plus de 1.5 buts,6,0.795,
-2026-10-23|Gimnasia L.P.|Sarmiento Junin|Plus de 1.5 buts,2026-10-22 00:10,2026-10-23,Liga Argentina,Gimnasia L.P. - Sarmiento Junin,Gimnasia L.P.,Sarmiento Junin,Plus de 1.5 buts,6,0.781,
-2026-10-22|Santos Laguna|UNAM Pumas|Plus de 1.5 buts,2026-10-22 00:10,2026-10-22,Liga MX,Santos Laguna - UNAM Pumas,Santos Laguna,UNAM Pumas,Plus de 1.5 buts,6,0.77,
-2026-10-23|Gimnasia Mendoza|Platense|1X (domicile ou nul),2026-10-22 00:10,2026-10-23,Liga Argentina,Gimnasia Mendoza - Platense,Gimnasia Mendoza,Platense,1X (domicile ou nul),2,0.767,
+cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra
+2026-10-21|Real Madrid CF|RB Leipzig|Plus de 1.5 buts,2026-10-20 15:54,2026-10-21,Champions League,Real Madrid CF - RB Leipzig,Real Madrid CF,RB Leipzig,Plus de 1.5 buts,6,0.822,1.0,jour,
+2026-10-20|FC Porto|PSV|Plus de 1.5 buts,2026-10-20 15:54,2026-10-20,Champions League,FC Porto - PSV,FC Porto,PSV,Plus de 1.5 buts,6,0.798,0.0,jour,
+2026-10-20|SSC Napoli|FK Bodø/Glimt|Plus de 1.5 buts,2026-10-20 15:54,2026-10-20,Champions League,SSC Napoli - FK Bodø/Glimt,SSC Napoli,FK Bodø/Glimt,Plus de 1.5 buts,6,0.79,1.0,jour,
+2026-10-21|FC Internazionale Milano|FK Shakhtar Donetsk|1X (domicile ou nul),2026-10-20 15:54,2026-10-21,Champions League,FC Internazionale Milano - FK Shakhtar Donetsk,FC Internazionale Milano,FK Shakhtar Donetsk,1X (domicile ou nul),2,0.782,1.0,jour,
+2026-10-21|Lille OSC|Galatasaray SK|1X (domicile ou nul),2026-10-20 15:54,2026-10-21,Champions League,Lille OSC - Galatasaray SK,Lille OSC,Galatasaray SK,1X (domicile ou nul),2,0.777,0.0,jour,
+2026-10-21|Club Brugge KV|Racing Club de Lens|Plus de 1.5 buts,2026-10-20 15:54,2026-10-21,Champions League,Club Brugge KV - Racing Club de Lens,Club Brugge KV,Racing Club de Lens,Plus de 1.5 buts,6,0.777,1.0,jour,
+2026-10-20|Liverpool FC|Villarreal CF|Victoire domicile,2026-10-20 15:54,2026-10-20,Champions League,Liverpool FC - Villarreal CF,Liverpool FC,Villarreal CF,Victoire domicile,0,0.77,1.0,jour,
+2026-10-21|FC Bayern München|Arsenal FC|Plus de 1.5 buts,2026-10-20 15:54,2026-10-21,Champions League,FC Bayern München - Arsenal FC,FC Bayern München,Arsenal FC,Plus de 1.5 buts,6,0.767,1.0,jour,
+2026-10-20|VfB Stuttgart|Club Atlético de Madrid|Plus de 1.5 buts,2026-10-20 15:54,2026-10-20,Champions League,VfB Stuttgart - Club Atlético de Madrid,VfB Stuttgart,Club Atlético de Madrid,Plus de 1.5 buts,6,0.765,1.0,jour,
+2026-10-20|Paris Saint-Germain FC|FC Barcelona|Plus de 2.5 buts,2026-10-20 15:54,2026-10-20,Champions League,Paris Saint-Germain FC - FC Barcelona,Paris Saint-Germain FC,FC Barcelona,Plus de 2.5 buts,7,0.765,1.0,jour,
+2026-10-22|Atlas|Club America|Plus de 1.5 buts,2026-10-22 00:10,2026-10-22,Liga MX,Atlas - Club America,Atlas,Club America,Plus de 1.5 buts,6,0.84,,jour,
+2026-10-22|Toluca|Club Tijuana|1X (domicile ou nul),2026-10-22 00:10,2026-10-22,Liga MX,Toluca - Club Tijuana,Toluca,Club Tijuana,1X (domicile ou nul),2,0.813,,jour,
+2026-10-22|Pachuca|Cruz Azul|Plus de 1.5 buts,2026-10-22 00:10,2026-10-22,Liga MX,Pachuca - Cruz Azul,Pachuca,Cruz Azul,Plus de 1.5 buts,6,0.795,,jour,
+2026-10-23|Gimnasia L.P.|Sarmiento Junin|Plus de 1.5 buts,2026-10-22 00:10,2026-10-23,Liga Argentina,Gimnasia L.P. - Sarmiento Junin,Gimnasia L.P.,Sarmiento Junin,Plus de 1.5 buts,6,0.781,,jour,
+2026-10-22|Santos Laguna|UNAM Pumas|Plus de 1.5 buts,2026-10-22 00:10,2026-10-22,Liga MX,Santos Laguna - UNAM Pumas,Santos Laguna,UNAM Pumas,Plus de 1.5 buts,6,0.77,,jour,
+2026-10-23|Gimnasia Mendoza|Platense|1X (domicile ou nul),2026-10-22 00:10,2026-10-23,Liga Argentina,Gimnasia Mendoza - Platense,Gimnasia Mendoza,Platense,1X (domicile ou nul),2,0.767,,jour,
+2026-10-22|Trabzonspor|Heart of Midlothian|Plus de 1.5 buts,2026-10-22 09:38,2026-10-22,Conference League,Trabzonspor - Heart of Midlothian,Trabzonspor,Heart of Midlothian,Plus de 1.5 buts,6,0.819,,jour,
+2026-10-22|Braga|KAA Gent|X2 (nul ou extérieur),2026-10-22 09:38,2026-10-22,Conference League,Braga - KAA Gent,Braga,KAA Gent,X2 (nul ou extérieur),3,0.817,,jour,
+2026-10-22|Juventus|Stade Rennais|Plus de 1.5 buts,2026-10-22 09:38,2026-10-22,Europa League,Juventus - Stade Rennais,Juventus,Stade Rennais,Plus de 1.5 buts,6,0.815,,jour,
+2026-10-22|TSG Hoffenheim|Lyon|Plus de 1.5 buts,2026-10-22 09:38,2026-10-22,Europa League,TSG Hoffenheim - Lyon,TSG Hoffenheim,Lyon,Plus de 1.5 buts,6,0.779,,jour,
+2026-10-22|Olympiacos|Sparta Prague|1X (domicile ou nul),2026-10-22 09:38,2026-10-22,Europa League,Olympiacos - Sparta Prague,Olympiacos,Sparta Prague,1X (domicile ou nul),2,0.777,,jour,
+2026-10-22|Borac Banja Luka|KuPS Kuopio|1X (domicile ou nul),2026-10-22 09:38,2026-10-22,Conference League,Borac Banja Luka - KuPS Kuopio,Borac Banja Luka,KuPS Kuopio,1X (domicile ou nul),2,0.774,,jour,
+2026-10-22|Omonia Nicosia|Benfica|Plus de 1.5 buts,2026-10-22 09:38,2026-10-22,Europa League,Omonia Nicosia - Benfica,Omonia Nicosia,Benfica,Plus de 1.5 buts,6,0.764,,jour,
+2026-10-23|Gimnasia Mendoza|Platense|score,2026-10-22 09:38,2026-10-23,Liga Argentina,Gimnasia Mendoza - Platense,Gimnasia Mendoza,Platense,1-0,-1,0.128,,score,
+2026-10-22|SK Sturm Graz|Marseille|score,2026-10-22 09:38,2026-10-22,Europa League,SK Sturm Graz - Marseille,SK Sturm Graz,Marseille,1-1,-1,0.127,,score,
+2026-10-22|Celtic|Celta Vigo|score,2026-10-22 09:38,2026-10-22,Europa League,Celtic - Celta Vigo,Celtic,Celta Vigo,1-1,-1,0.121,,score,
+2026-10-22|Omonia Nicosia|Benfica|score,2026-10-22 09:38,2026-10-22,Europa League,Omonia Nicosia - Benfica,Omonia Nicosia,Benfica,1-1,-1,0.118,,score,
+2026-10-22|Juventus|Stade Rennais|score,2026-10-22 09:38,2026-10-22,Europa League,Juventus - Stade Rennais,Juventus,Stade Rennais,1-0,-1,0.114,,score,
+2026-10-22|cote2|2026-10-22|Trabzonspor|Heart of Midlothian|Plus de 1.5 buts+2026-10-22|Braga|KAA Gent|X2 (nul ou extérieur)+2026-10-23|Gimnasia L.P.|Sarmiento Junin|Plus de 1.5 buts,2026-10-22 09:38,2026-10-22,Ticket,Ticket du 22/10,,,"3 paris, cote ~1.91",-1,0.523,,cote2,2026-10-22|Trabzonspor|Heart of Midlothian|Plus de 1.5 buts;2026-10-22|Braga|KAA Gent|X2 (nul ou extérieur);2026-10-23|Gimnasia L.P.|Sarmiento Junin|Plus de 1.5 buts
