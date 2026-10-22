@@ -1205,3 +1205,2329 @@ dt,div,home,away,hg,ag
 2026-10-15 19:00:00,ECL,SC Freiburg,Jablonec,3,2
 2026-10-15 19:00:00,ECL,Sint-Truidense,Iberia 1999,2,0
 2026-10-15 19:00:00,ECL,SK Brann,Lincoln Red Imps,2,1
+2019-07-04 17:30:00,EL,Cardiff MU,Progres Niederkorn,2,1
+2019-07-04 17:30:00,EL,UE Engordany,Fiorita,2,1
+2019-07-04 18:00:00,EL,NSI Runavik,Ballymena,0,0
+2019-07-04 18:30:00,EL,Europa FC,UE Sant Julia,4,0
+2019-07-04 18:45:00,EL,Cliftonville,Barry Town,4,0
+2019-07-04 18:45:00,EL,Tre Fiori,KI Klaksvik,0,4
+2019-07-11 13:30:00,EL,Pyunik,Shkupi,3,3
+2019-07-11 14:00:00,EL,Ordabasy Shymkent,Torpedo Kutaisi,1,0
+2019-07-11 14:45:00,EL,FK Ventspils,KS Teuta,3,0
+2019-07-11 15:00:00,EL,Alashkert FC,FK Makedonija,3,1
+2019-07-11 15:30:00,EL,AEK Larnaca,Petrocub,1,0
+2019-07-11 15:30:00,EL,JK Narva Trans,Buducnost Podgorica,0,2
+2019-07-11 15:30:00,EL,KF Laci,Hapoel Be'er,1,1
+2019-07-11 16:00:00,EL,Flora,Radnicki Nis,2,0
+2019-07-11 16:00:00,EL,KuPS Kuopio,FC Vitebsk,2,0
+2019-07-11 16:00:00,EL,Sabail,CSU Craiova,2,3
+2019-07-11 16:30:00,EL,Balzan FC,NK Domzale,3,4
+2019-07-11 16:30:00,EL,MFK Ruzomberok,Levski Sofia,0,2
+2019-07-11 16:30:00,EL,Trakai,KI Klaksvik,1,1
+2019-07-11 17:00:00,EL,Akademija Pandev,Zrinjski Mostar,0,3
+2019-07-11 17:00:00,EL,Brøndby IF,FC Inter Turku,4,1
+2019-07-11 17:00:00,EL,Crusaders,B36 Torshavn,2,0
+2019-07-11 17:00:00,EL,Debrecen,FK Kukesi,3,0
+2019-07-11 17:00:00,EL,Dinamo Tbilisi,UE Engordany,6,0
+2019-07-11 17:00:00,EL,FK Liepaja,Dinamo Minsk,1,1
+2019-07-11 17:00:00,EL,Kauno Zalgiris,Apollon Limassol,0,2
+2019-07-11 17:00:00,EL,Maccabi Haifa,NS Mura,2,0
+2019-07-11 17:00:00,EL,Malmö FF,Ballymena,7,0
+2019-07-11 17:00:00,EL,Molde,KR Reykjavik,7,1
+2019-07-11 17:00:00,EL,Radnik Bijeljina,FC Spartak Trnava,2,0
+2019-07-11 17:00:00,EL,Shakhter Soligorsk,Hibernians,1,0
+2019-07-11 17:00:00,EL,SK Brann,Shamrock Rovers,2,2
+2019-07-11 17:00:00,EL,Speranta Nisporeni,Neftchi,0,3
+2019-07-11 17:30:00,EL,CS Fola Esch,Chikhura Sachkhere,1,2
+2019-07-11 18:00:00,EL,Connah's Quay,Kilmarnock,1,2
+2019-07-11 18:00:00,EL,Olimpija Ljubljana,Rigas Futbola Skola,2,3
+2019-07-11 18:30:00,EL,Cukaricki Belgrade,FC Urartu,3,0
+2019-07-11 18:30:00,EL,Dunajska Streda,Cracovia,1,1
+2019-07-11 18:30:00,EL,Europa FC,Legia Warsaw,0,0
+2019-07-11 18:30:00,EL,FCSB,FC Milsami,2,0
+2019-07-11 18:30:00,EL,FK Zeta,Fehérvár,1,5
+2019-07-11 18:45:00,EL,Aberdeen,RoPS,2,1
+2019-07-11 18:45:00,EL,Cliftonville,Haugesund,0,1
+2019-07-11 18:45:00,EL,Cork,Progres Niederkorn,0,2
+2019-07-11 18:45:00,EL,St Patrick's Athletic,IFK Norrköping,0,2
+2019-07-11 19:00:00,EL,Honvéd,Zalgiris Vilnius,3,1
+2019-07-11 19:00:00,EL,Siroki Brijeg,Kairat Almaty,1,2
+2019-07-11 20:00:00,EL,Breidablik,FC Vaduz,0,0
+2019-07-11 20:00:00,EL,Stjarnan,FC Levadia Tallinn,2,1
+2019-07-18 12:00:00,EL,Tobol Kostanay,Jeunesse Esch,1,1
+2019-07-18 14:30:00,EL,FK Makedonija,Alashkert FC,0,3
+2019-07-18 14:30:00,EL,Kairat Almaty,Siroki Brijeg,2,1
+2019-07-18 15:00:00,EL,KS Teuta,FK Ventspils,1,0
+2019-07-18 15:30:00,EL,FC Inter Turku,Brøndby IF,2,0
+2019-07-18 16:00:00,EL,CSU Craiova,Sabail,3,2
+2019-07-18 16:00:00,EL,Rigas Futbola Skola,Olimpija Ljubljana,0,2
+2019-07-18 16:00:00,EL,RoPS,Aberdeen,1,2
+2019-07-18 16:30:00,EL,Dinamo Minsk,FK Liepaja,1,2
+2019-07-18 16:30:00,EL,Levski Sofia,MFK Ruzomberok,2,0
+2019-07-18 17:00:00,EL,Apollon Limassol,Kauno Zalgiris,4,0
+2019-07-18 17:00:00,EL,FC Milsami,FCSB,1,2
+2019-07-18 17:00:00,EL,FC Vaduz,Breidablik,2,1
+2019-07-18 17:00:00,EL,Haugesund,Cliftonville,5,1
+2019-07-18 17:00:00,EL,Neftchi,Speranta Nisporeni,6,0
+2019-07-18 17:00:00,EL,Petrocub,AEK Larnaca,0,1
+2019-07-18 17:00:00,EL,Torpedo Kutaisi,Ordabasy Shymkent,0,2
+2019-07-18 17:00:00,EL,Zalgiris Vilnius,Honvéd,1,1
+2019-07-18 17:00:00,EL,Zrinjski Mostar,Akademija Pandev,3,0
+2019-07-18 17:30:00,EL,Hapoel Be'er,KF Laci,1,0
+2019-07-18 17:30:00,EL,Progres Niederkorn,Cork,1,2
+2019-07-18 17:30:00,EL,UE Engordany,Dinamo Tbilisi,0,1
+2019-07-18 18:00:00,EL,B36 Torshavn,Crusaders,2,3
+2019-07-18 18:00:00,EL,Fehérvár,FK Zeta,0,0
+2019-07-18 18:00:00,EL,FK Kukesi,Debrecen,1,1
+2019-07-18 18:00:00,EL,Hajduk Split,Gzira United,1,3
+2019-07-18 18:00:00,EL,Hibernians,Shakhter Soligorsk,0,1
+2019-07-18 18:00:00,EL,IFK Norrköping,St Patrick's Athletic,2,1
+2019-07-18 18:00:00,EL,NS Mura,Maccabi Haifa,2,3
+2019-07-18 18:30:00,EL,FC Vitebsk,KuPS Kuopio,1,1
+2019-07-18 18:30:00,EL,Shkupi,Pyunik,1,2
+2019-07-18 18:45:00,EL,Ballymena,Malmö FF,0,4
+2019-07-18 18:45:00,EL,Buducnost Podgorica,JK Narva Trans,4,1
+2019-07-18 18:45:00,EL,Kilmarnock,Connah's Quay,0,2
+2019-07-18 18:45:00,EL,NK Domzale,Balzan FC,1,0
+2019-07-18 18:45:00,EL,Radnicki Nis,Flora,2,2
+2019-07-18 18:45:00,EL,Rangers,St. Joseph's,6,0
+2019-07-18 19:00:00,EL,KR Reykjavik,Molde,0,0
+2019-07-18 19:00:00,EL,Legia Warsaw,Europa FC,3,0
+2019-07-18 19:00:00,EL,Shamrock Rovers,SK Brann,2,1
+2019-07-25 13:30:00,EL,Pyunik,Jablonec,2,1
+2019-07-25 14:45:00,EL,FK Ventspils,Gzira United,4,0
+2019-07-25 15:00:00,EL,FK Qabala,Dinamo Tbilisi,0,2
+2019-07-25 15:30:00,EL,AEK Larnaca,Levski Sofia,3,0
+2019-07-25 15:30:00,EL,Partizani Tirana,Sheriff Tiraspol,0,1
+2019-07-25 16:30:00,EL,FC Utrecht,Zrinjski Mostar,1,1
+2019-07-25 16:45:00,EL,Chikhura Sachkhere,Aberdeen,1,1
+2019-07-25 16:55:00,EL,Honvéd,CSU Craiova,0,0
+2019-07-25 17:00:00,EL,Alashkert FC,FCSB,0,3
+2019-07-25 17:00:00,EL,FC Arsenal Tula,Neftchi,0,1
+2019-07-25 17:00:00,EL,Flora,Eintracht Frankfurt,1,2
+2019-07-25 17:00:00,EL,Haugesund,SK Sturm Graz,2,0
+2019-07-25 17:00:00,EL,Lechia Gdansk,Brøndby IF,2,1
+2019-07-25 17:00:00,EL,Mlada Boleslav,Ordabasy Shymkent,1,1
+2019-07-25 17:00:00,EL,Molde,Cukaricki Belgrade,0,0
+2019-07-25 17:00:00,EL,Shakhter Soligorsk,Esbjerg FB,2,0
+2019-07-25 17:00:00,EL,Yeni Malatyaspor,Olimpija Ljubljana,2,2
+2019-07-25 17:30:00,EL,Connah's Quay,Partizan Belgrade,0,1
+2019-07-25 17:30:00,EL,CSKA Sofia,Osijek,1,0
+2019-07-25 17:30:00,EL,Hapoel Be'er,Kairat Almaty,2,0
+2019-07-25 17:30:00,EL,Lokomotiv Plovdiv,FC Spartak Trnava,2,0
+2019-07-25 18:00:00,EL,Fehérvár,FC Vaduz,1,0
+2019-07-25 18:00:00,EL,IFK Norrköping,FK Liepaja,2,0
+2019-07-25 18:00:00,EL,Piast Gliwice,Riga FC,3,2
+2019-07-25 18:15:00,EL,FC Luzern,KI Klaksvik,1,0
+2019-07-25 18:30:00,EL,Aris,AEL,0,0
+2019-07-25 18:30:00,EL,AZ Alkmaar,BK Häcken,0,0
+2019-07-25 18:30:00,EL,Dunajska Streda,Atromitos,1,2
+2019-07-25 18:30:00,EL,Jeunesse Esch,Vitória de Guimaraes,0,1
+2019-07-25 18:30:00,EL,KAA Gent,Viitorul Constanta,6,3
+2019-07-25 18:45:00,EL,Buducnost Podgorica,FC Zorya Luhansk,1,3
+2019-07-25 18:45:00,EL,NK Domzale,Malmö FF,2,2
+2019-07-25 18:45:00,EL,Rangers,Progres Niederkorn,2,0
+2019-07-25 18:45:00,EL,Strasbourg,Maccabi Haifa,3,1
+2019-07-25 18:45:00,EL,Wolverhampton Wanderers,Crusaders,2,0
+2019-07-25 19:00:00,EL,Espanyol,Stjarnan,4,0
+2019-07-25 19:00:00,EL,Legia Warsaw,KuPS Kuopio,1,0
+2019-07-25 19:00:00,EL,Shamrock Rovers,Apollon Limassol,2,1
+2019-07-25 19:00:00,EL,Torino,Debrecen,3,0
+2019-07-25 19:00:00,EL,Valur Reykjavik,Ludogorets Razgrad,1,1
+2019-08-01 14:00:00,EL,FC Astana,Santa Coloma,4,1
+2019-08-01 14:00:00,EL,Ordabasy Shymkent,Mlada Boleslav,2,3
+2019-08-01 14:30:00,EL,Kairat Almaty,Hapoel Be'er,1,1
+2019-08-01 15:00:00,EL,Viitorul Constanta,KAA Gent,2,1
+2019-08-01 16:00:00,EL,FC Zorya Luhansk,Buducnost Podgorica,1,0
+2019-08-01 16:00:00,EL,KuPS Kuopio,Legia Warsaw,0,0
+2019-08-01 16:30:00,EL,BK Häcken,AZ Alkmaar,0,3
+2019-08-01 16:30:00,EL,Debrecen,Torino,1,4
+2019-08-01 16:30:00,EL,Levski Sofia,AEK Larnaca,0,4
+2019-08-01 16:30:00,EL,Riga FC,Piast Gliwice,2,1
+2019-08-01 17:00:00,EL,AEL,Aris,0,1
+2019-08-01 17:00:00,EL,Atromitos,Dunajska Streda,3,2
+2019-08-01 17:00:00,EL,Dinamo Tbilisi,FK Qabala,3,0
+2019-08-01 17:00:00,EL,FK Liepaja,IFK Norrköping,0,1
+2019-08-01 17:00:00,EL,Jablonec,Pyunik,0,0
+2019-08-01 17:00:00,EL,KI Klaksvik,FC Luzern,0,1
+2019-08-01 17:00:00,EL,Maccabi Haifa,Strasbourg,2,1
+2019-08-01 17:00:00,EL,Malmö FF,NK Domzale,3,2
+2019-08-01 17:00:00,EL,Neftchi,FC Arsenal Tula,3,0
+2019-08-01 17:00:00,EL,Sheriff Tiraspol,Partizani Tirana,1,1
+2019-08-01 17:30:00,EL,Ludogorets Razgrad,Valur Reykjavik,4,0
+2019-08-01 17:30:00,EL,Progres Niederkorn,Rangers,0,0
+2019-08-01 17:45:00,EL,Esbjerg FB,Shakhter Soligorsk,0,0
+2019-08-01 18:00:00,EL,Gzira United,FK Ventspils,2,2
+2019-08-01 18:00:00,EL,Olimpija Ljubljana,Yeni Malatyaspor,0,1
+2019-08-01 18:30:00,EL,Eintracht Frankfurt,Flora,2,1
+2019-08-01 18:30:00,EL,FCSB,Alashkert FC,2,3
+2019-08-01 18:30:00,EL,SK Sturm Graz,Haugesund,2,1
+2019-08-01 18:45:00,EL,Aberdeen,Chikhura Sachkhere,5,0
+2019-08-01 18:45:00,EL,FC Spartak Trnava,Lokomotiv Plovdiv,3,1
+2019-08-01 18:45:00,EL,Linfield,HB Torshavn,1,0
+2019-08-01 19:00:00,EL,Crusaders,Wolverhampton Wanderers,1,4
+2019-08-01 19:00:00,EL,Partizan Belgrade,Connah's Quay,3,0
+2019-08-01 19:00:00,EL,Vitória de Guimaraes,Jeunesse Esch,4,0
+2019-08-01 19:15:00,EL,Stjarnan,Espanyol,1,3
+2019-08-08 14:00:00,EL,FC Astana,Valletta,5,1
+2019-08-08 15:30:00,EL,AEK Larnaca,KAA Gent,1,1
+2019-08-08 16:00:00,EL,Pyunik,Wolverhampton Wanderers,0,4
+2019-08-08 16:00:00,EL,Sparta Prague,Trabzonspor,2,2
+2019-08-08 16:15:00,EL,CSU Craiova,AEK Athens,0,2
+2019-08-08 16:30:00,EL,Brøndby IF,Braga,2,4
+2019-08-08 16:45:00,EL,FK Ventspils,Vitória de Guimaraes,0,3
+2019-08-08 17:00:00,EL,FC Mariupol,AZ Alkmaar,0,0
+2019-08-08 17:00:00,EL,FC Thun,Spartak Moscow,2,3
+2019-08-08 17:00:00,EL,Haugesund,PSV Eindhoven,0,1
+2019-08-08 17:00:00,EL,Malmö FF,Zrinjski Mostar,3,0
+2019-08-08 17:00:00,EL,Molde,Aris,3,0
+2019-08-08 17:00:00,EL,Neftchi,Bnei Yehuda,2,2
+2019-08-08 17:00:00,EL,Sheriff Tiraspol,AIK,1,2
+2019-08-08 17:30:00,EL,Antwerp,Viktoria Plzen,1,0
+2019-08-08 17:30:00,EL,CSKA Sofia,FC Zorya Luhansk,1,1
+2019-08-08 17:30:00,EL,Feyenoord Rotterdam,Dinamo Tbilisi,4,0
+2019-08-08 17:30:00,EL,Lokomotiv Plovdiv,Strasbourg,0,1
+2019-08-08 17:30:00,EL,Ludogorets Razgrad,The New Saints,5,0
+2019-08-08 17:30:00,EL,Maccabi Tel-Aviv,FK Suduva,1,2
+2019-08-08 17:45:00,EL,FK Sarajevo,BATE Borisov,1,2
+2019-08-08 18:00:00,EL,F91 Dudelange,Nomme Kalju,3,1
+2019-08-08 18:00:00,EL,FC Midtjylland,Rangers,2,4
+2019-08-08 18:00:00,EL,IFK Norrköping,Hapoel Be'er,1,1
+2019-08-08 18:00:00,EL,Rijeka,Aberdeen,2,0
+2019-08-08 18:30:00,EL,Austria Vienna,Apollon Limassol,1,2
+2019-08-08 18:30:00,EL,FC Vaduz,Eintracht Frankfurt,0,5
+2019-08-08 18:30:00,EL,FCSB,Mlada Boleslav,0,0
+2019-08-08 19:00:00,EL,FC Luzern,Espanyol,0,3
+2019-08-08 19:00:00,EL,Legia Warsaw,Atromitos,0,0
+2019-08-08 19:00:00,EL,Partizan Belgrade,Yeni Malatyaspor,3,1
+2019-08-08 19:00:00,EL,Torino,Shakhter Soligorsk,5,0
+2019-08-15 16:00:00,EL,HJK Helsinki,Riga FC,2,2
+2019-08-15 16:30:00,EL,Dinamo Tbilisi,Feyenoord Rotterdam,1,1
+2019-08-15 16:45:00,EL,Spartak Moscow,FC Thun,2,1
+2019-08-15 17:00:00,EL,AIK,Sheriff Tiraspol,1,1
+2019-08-15 17:00:00,EL,Apollon Limassol,Austria Vienna,3,1
+2019-08-15 17:00:00,EL,BATE Borisov,FK Sarajevo,0,0
+2019-08-15 17:00:00,EL,Bnei Yehuda,Neftchi,2,1
+2019-08-15 17:00:00,EL,FC Zorya Luhansk,CSKA Sofia,1,0
+2019-08-15 17:00:00,EL,FK Suduva,Maccabi Tel-Aviv,2,1
+2019-08-15 17:00:00,EL,Mlada Boleslav,FCSB,0,1
+2019-08-15 17:00:00,EL,Shakhter Soligorsk,Torino,1,1
+2019-08-15 17:00:00,EL,Yeni Malatyaspor,Partizan Belgrade,1,0
+2019-08-15 17:00:00,EL,Zrinjski Mostar,Malmö FF,1,0
+2019-08-15 17:30:00,EL,Hapoel Be'er,IFK Norrköping,3,1
+2019-08-15 17:30:00,EL,The New Saints,Ludogorets Razgrad,0,4
+2019-08-15 17:30:00,EL,Trabzonspor,Sparta Prague,2,1
+2019-08-15 18:00:00,EL,AEK Athens,CSU Craiova,1,1
+2019-08-15 18:00:00,EL,Valletta,FC Astana,0,4
+2019-08-15 18:30:00,EL,AZ Alkmaar,FC Mariupol,4,0
+2019-08-15 18:30:00,EL,Eintracht Frankfurt,FC Vaduz,1,0
+2019-08-15 18:30:00,EL,KAA Gent,AEK Larnaca,3,0
+2019-08-15 18:30:00,EL,PSV Eindhoven,Haugesund,0,0
+2019-08-15 18:30:00,EL,Strasbourg,Lokomotiv Plovdiv,1,0
+2019-08-15 18:45:00,EL,Aberdeen,Rijeka,0,2
+2019-08-15 18:45:00,EL,Braga,Brøndby IF,3,1
+2019-08-15 18:45:00,EL,Rangers,FC Midtjylland,3,1
+2019-08-15 18:45:00,EL,Wolverhampton Wanderers,Pyunik,4,0
+2019-08-15 19:00:00,EL,Espanyol,FC Luzern,3,0
+2019-08-22 14:00:00,EL,FC Astana,BATE Borisov,3,0
+2019-08-22 15:00:00,EL,Ararat-Armenia,F91 Dudelange,2,1
+2019-08-22 17:00:00,EL,FK Suduva,Ferencvaros,0,0
+2019-08-22 17:00:00,EL,Malmö FF,Bnei Yehuda,3,0
+2019-08-22 17:30:00,EL,Feyenoord Rotterdam,Hapoel Be'er,3,0
+2019-08-22 17:30:00,EL,Ludogorets Razgrad,NK Maribor,0,0
+2019-08-22 17:45:00,EL,F.C. København,Riga FC,3,1
+2019-08-22 18:00:00,EL,AEK Athens,Trabzonspor,1,3
+2019-08-22 18:00:00,EL,Legia Warsaw,Rangers,0,0
+2019-08-22 18:30:00,EL,AZ Alkmaar,Antwerp,1,1
+2019-08-22 18:30:00,EL,FCSB,Vitória de Guimaraes,0,0
+2019-08-22 18:30:00,EL,KAA Gent,Rijeka,2,1
+2019-08-22 18:30:00,EL,PSV Eindhoven,Apollon Limassol,3,0
+2019-08-22 18:30:00,EL,Strasbourg,Eintracht Frankfurt,1,0
+2019-08-22 18:45:00,EL,Braga,Spartak Moscow,1,0
+2019-08-22 18:45:00,EL,Celtic,AIK,2,0
+2019-08-22 18:45:00,EL,Linfield,FK Qarabag,3,2
+2019-08-22 19:00:00,EL,Espanyol,FC Zorya Luhansk,3,1
+2019-08-22 19:00:00,EL,Partizan Belgrade,Molde,2,1
+2019-08-22 19:00:00,EL,Slovan Bratislava,PAOK,1,0
+2019-08-22 19:00:00,EL,Torino,Wolverhampton Wanderers,2,3
+2019-08-29 16:00:00,EL,FK Qarabag,Linfield,2,1
+2019-08-29 16:45:00,EL,Riga FC,F.C. København,1,0
+2019-08-29 17:00:00,EL,AIK,Celtic,1,4
+2019-08-29 17:00:00,EL,Apollon Limassol,PSV Eindhoven,0,4
+2019-08-29 17:00:00,EL,BATE Borisov,FC Astana,2,0
+2019-08-29 17:00:00,EL,Bnei Yehuda,Malmö FF,0,1
+2019-08-29 17:00:00,EL,FC Zorya Luhansk,Espanyol,2,2
+2019-08-29 17:00:00,EL,Molde,Partizan Belgrade,1,1
+2019-08-29 17:00:00,EL,PAOK,Slovan Bratislava,3,2
+2019-08-29 17:15:00,EL,Spartak Moscow,Braga,1,2
+2019-08-29 17:30:00,EL,Hapoel Be'er,Feyenoord Rotterdam,0,3
+2019-08-29 17:30:00,EL,Trabzonspor,AEK Athens,0,2
+2019-08-29 18:00:00,EL,Ferencvaros,FK Suduva,4,2
+2019-08-29 18:00:00,EL,Rijeka,KAA Gent,1,1
+2019-08-29 18:15:00,EL,NK Maribor,Ludogorets Razgrad,2,2
+2019-08-29 18:30:00,EL,Eintracht Frankfurt,Strasbourg,3,0
+2019-08-29 18:45:00,EL,Rangers,Legia Warsaw,1,0
+2019-08-29 18:45:00,EL,Wolverhampton Wanderers,Torino,2,1
+2019-08-29 19:00:00,EL,Vitória de Guimaraes,FCSB,1,0
+2019-09-19 16:55:00,EL,Apoel Nicosia,F91 Dudelange,3,4
+2019-09-19 16:55:00,EL,CFR Cluj-Napoca,Lazio,2,1
+2019-09-19 16:55:00,EL,Dynamo Kyiv,Malmö FF,1,0
+2019-09-19 16:55:00,EL,Eintracht Frankfurt,Arsenal,0,3
+2019-09-19 16:55:00,EL,F.C. København,FC Lugano,1,0
+2019-09-19 16:55:00,EL,FC Basel,Krasnodar,5,0
+2019-09-19 16:55:00,EL,FK Qarabag,Sevilla,0,3
+2019-09-19 16:55:00,EL,Getafe,Trabzonspor,1,0
+2019-09-19 16:55:00,EL,LASK Linz,Rosenborg,1,0
+2019-09-19 16:55:00,EL,PSV Eindhoven,Sporting CP,3,2
+2019-09-19 16:55:00,EL,Stade Rennais,Celtic,1,1
+2019-09-19 16:55:00,EL,Standard Liege,Vitória de Guimaraes,2,0
+2019-09-19 19:00:00,EL,AS Roma,Istanbul Basaksehir,4,0
+2019-09-19 19:00:00,EL,Borussia Mönchengladbach,Wolfsberger,0,4
+2019-09-19 19:00:00,EL,Espanyol,Ferencvaros,1,1
+2019-09-19 19:00:00,EL,FC Porto,Young Boys,2,1
+2019-09-19 19:00:00,EL,KAA Gent,Saint-Étienne,3,2
+2019-09-19 19:00:00,EL,Ludogorets Razgrad,CSKA Moscow,5,1
+2019-09-19 19:00:00,EL,Manchester United,FC Astana,1,0
+2019-09-19 19:00:00,EL,Partizan Belgrade,AZ Alkmaar,2,2
+2019-09-19 19:00:00,EL,Rangers,Feyenoord Rotterdam,1,0
+2019-09-19 19:00:00,EL,Slovan Bratislava,Besiktas,4,2
+2019-09-19 19:00:00,EL,VfL Wolfsburg,FC Olexandriya,3,1
+2019-09-19 19:00:00,EL,Wolverhampton Wanderers,Braga,0,1
+2019-10-03 14:50:00,EL,FC Astana,Partizan Belgrade,1,2
+2019-10-03 16:55:00,EL,AZ Alkmaar,Manchester United,0,0
+2019-10-03 16:55:00,EL,Besiktas,Wolverhampton Wanderers,0,1
+2019-10-03 16:55:00,EL,Braga,Slovan Bratislava,2,2
+2019-10-03 16:55:00,EL,CSKA Moscow,Espanyol,0,2
+2019-10-03 16:55:00,EL,FC Olexandriya,KAA Gent,1,1
+2019-10-03 16:55:00,EL,Ferencvaros,Ludogorets Razgrad,0,3
+2019-10-03 16:55:00,EL,Feyenoord Rotterdam,FC Porto,2,0
+2019-10-03 16:55:00,EL,Istanbul Basaksehir,Borussia Mönchengladbach,1,1
+2019-10-03 16:55:00,EL,Saint-Étienne,VfL Wolfsburg,1,1
+2019-10-03 16:55:00,EL,Wolfsberger,AS Roma,1,1
+2019-10-03 16:55:00,EL,Young Boys,Rangers,2,1
+2019-10-03 19:00:00,EL,Arsenal,Standard Liege,4,0
+2019-10-03 19:00:00,EL,Celtic,CFR Cluj-Napoca,2,0
+2019-10-03 19:00:00,EL,F91 Dudelange,FK Qarabag,1,4
+2019-10-03 19:00:00,EL,FC Lugano,Dynamo Kyiv,0,0
+2019-10-03 19:00:00,EL,Krasnodar,Getafe,1,2
+2019-10-03 19:00:00,EL,Lazio,Stade Rennais,2,1
+2019-10-03 19:00:00,EL,Malmö FF,F.C. København,1,1
+2019-10-03 19:00:00,EL,Rosenborg,PSV Eindhoven,1,4
+2019-10-03 19:00:00,EL,Sevilla,Apoel Nicosia,1,0
+2019-10-03 19:00:00,EL,Sporting CP,LASK Linz,2,1
+2019-10-03 19:00:00,EL,Trabzonspor,FC Basel,2,2
+2019-10-03 19:00:00,EL,Vitória de Guimaraes,Eintracht Frankfurt,0,1
+2019-10-24 16:55:00,EL,AS Roma,Borussia Mönchengladbach,1,1
+2019-10-24 16:55:00,EL,AZ Alkmaar,FC Astana,6,0
+2019-10-24 16:55:00,EL,Besiktas,Braga,1,2
+2019-10-24 16:55:00,EL,CSKA Moscow,Ferencvaros,0,1
+2019-10-24 16:55:00,EL,FC Porto,Rangers,1,1
+2019-10-24 16:55:00,EL,FK Qarabag,Apoel Nicosia,2,2
+2019-10-24 16:55:00,EL,Istanbul Basaksehir,Wolfsberger,1,0
+2019-10-24 16:55:00,EL,KAA Gent,VfL Wolfsburg,2,2
+2019-10-24 16:55:00,EL,Ludogorets Razgrad,Espanyol,0,1
+2019-10-24 16:55:00,EL,Partizan Belgrade,Manchester United,0,1
+2019-10-24 16:55:00,EL,Saint-Étienne,FC Olexandriya,1,1
+2019-10-24 16:55:00,EL,Slovan Bratislava,Wolverhampton Wanderers,1,2
+2019-10-24 16:55:00,EL,Young Boys,Feyenoord Rotterdam,2,0
+2019-10-24 19:00:00,EL,Arsenal,Vitória de Guimaraes,3,2
+2019-10-24 19:00:00,EL,Celtic,Lazio,2,1
+2019-10-24 19:00:00,EL,Dynamo Kyiv,F.C. København,1,1
+2019-10-24 19:00:00,EL,Eintracht Frankfurt,Standard Liege,2,1
+2019-10-24 19:00:00,EL,Getafe,FC Basel,0,1
+2019-10-24 19:00:00,EL,Malmö FF,FC Lugano,2,1
+2019-10-24 19:00:00,EL,PSV Eindhoven,LASK Linz,0,0
+2019-10-24 19:00:00,EL,Sevilla,F91 Dudelange,3,0
+2019-10-24 19:00:00,EL,Sporting CP,Rosenborg,1,0
+2019-10-24 19:00:00,EL,Stade Rennais,CFR Cluj-Napoca,0,1
+2019-10-24 19:00:00,EL,Trabzonspor,Krasnodar,0,2
+2019-11-07 15:50:00,EL,FC Astana,AZ Alkmaar,0,5
+2019-11-07 17:55:00,EL,Apoel Nicosia,FK Qarabag,2,1
+2019-11-07 17:55:00,EL,CFR Cluj-Napoca,Stade Rennais,1,0
+2019-11-07 17:55:00,EL,F.C. København,Dynamo Kyiv,1,1
+2019-11-07 17:55:00,EL,F91 Dudelange,Sevilla,2,5
+2019-11-07 17:55:00,EL,FC Basel,Getafe,2,1
+2019-11-07 17:55:00,EL,FC Lugano,Malmö FF,0,0
+2019-11-07 17:55:00,EL,Krasnodar,Trabzonspor,3,1
+2019-11-07 17:55:00,EL,LASK Linz,PSV Eindhoven,4,1
+2019-11-07 17:55:00,EL,Lazio,Celtic,1,2
+2019-11-07 17:55:00,EL,Rosenborg,Sporting CP,0,2
+2019-11-07 17:55:00,EL,Standard Liege,Eintracht Frankfurt,2,1
+2019-11-07 20:00:00,EL,Borussia Mönchengladbach,AS Roma,2,1
+2019-11-07 20:00:00,EL,Braga,Besiktas,3,1
+2019-11-07 20:00:00,EL,Espanyol,Ludogorets Razgrad,6,0
+2019-11-07 20:00:00,EL,FC Olexandriya,Saint-Étienne,2,2
+2019-11-07 20:00:00,EL,Ferencvaros,CSKA Moscow,0,0
+2019-11-07 20:00:00,EL,Feyenoord Rotterdam,Young Boys,1,1
+2019-11-07 20:00:00,EL,Manchester United,Partizan Belgrade,3,0
+2019-11-07 20:00:00,EL,Rangers,FC Porto,2,0
+2019-11-07 20:00:00,EL,VfL Wolfsburg,KAA Gent,1,3
+2019-11-07 20:00:00,EL,Wolfsberger,Istanbul Basaksehir,0,3
+2019-11-07 20:00:00,EL,Wolverhampton Wanderers,Slovan Bratislava,1,0
+2019-11-28 15:50:00,EL,FC Astana,Manchester United,2,1
+2019-11-28 15:50:00,EL,Krasnodar,FC Basel,1,0
+2019-11-28 15:50:00,EL,Trabzonspor,Getafe,0,1
+2019-11-28 17:55:00,EL,AZ Alkmaar,Partizan Belgrade,2,2
+2019-11-28 17:55:00,EL,Besiktas,Slovan Bratislava,2,1
+2019-11-28 17:55:00,EL,Braga,Wolverhampton Wanderers,3,3
+2019-11-28 17:55:00,EL,CSKA Moscow,Ludogorets Razgrad,1,1
+2019-11-28 17:55:00,EL,FC Olexandriya,VfL Wolfsburg,0,1
+2019-11-28 17:55:00,EL,Ferencvaros,Espanyol,2,2
+2019-11-28 17:55:00,EL,Feyenoord Rotterdam,Rangers,2,2
+2019-11-28 17:55:00,EL,Istanbul Basaksehir,AS Roma,0,3
+2019-11-28 17:55:00,EL,Saint-Étienne,KAA Gent,0,0
+2019-11-28 17:55:00,EL,Wolfsberger,Borussia Mönchengladbach,0,1
+2019-11-28 17:55:00,EL,Young Boys,FC Porto,1,2
+2019-11-28 20:00:00,EL,Arsenal,Eintracht Frankfurt,1,2
+2019-11-28 20:00:00,EL,Celtic,Stade Rennais,3,1
+2019-11-28 20:00:00,EL,F91 Dudelange,Apoel Nicosia,0,2
+2019-11-28 20:00:00,EL,FC Lugano,F.C. København,0,1
+2019-11-28 20:00:00,EL,Lazio,CFR Cluj-Napoca,1,0
+2019-11-28 20:00:00,EL,Malmö FF,Dynamo Kyiv,4,3
+2019-11-28 20:00:00,EL,Rosenborg,LASK Linz,1,2
+2019-11-28 20:00:00,EL,Sevilla,FK Qarabag,2,0
+2019-11-28 20:00:00,EL,Sporting CP,PSV Eindhoven,4,0
+2019-11-28 20:00:00,EL,Vitória de Guimaraes,Standard Liege,1,1
+2019-12-12 17:55:00,EL,Apoel Nicosia,Sevilla,1,0
+2019-12-12 17:55:00,EL,CFR Cluj-Napoca,Celtic,2,0
+2019-12-12 17:55:00,EL,Dynamo Kyiv,FC Lugano,1,1
+2019-12-12 17:55:00,EL,Eintracht Frankfurt,Vitória de Guimaraes,2,3
+2019-12-12 17:55:00,EL,F.C. København,Malmö FF,0,1
+2019-12-12 17:55:00,EL,FC Basel,Trabzonspor,2,0
+2019-12-12 17:55:00,EL,FK Qarabag,F91 Dudelange,1,1
+2019-12-12 17:55:00,EL,Getafe,Krasnodar,3,0
+2019-12-12 17:55:00,EL,LASK Linz,Sporting CP,3,0
+2019-12-12 17:55:00,EL,PSV Eindhoven,Rosenborg,1,1
+2019-12-12 17:55:00,EL,Stade Rennais,Lazio,2,0
+2019-12-12 17:55:00,EL,Standard Liege,Arsenal,2,2
+2019-12-12 20:00:00,EL,AS Roma,Wolfsberger,2,2
+2019-12-12 20:00:00,EL,Borussia Mönchengladbach,Istanbul Basaksehir,1,2
+2019-12-12 20:00:00,EL,Espanyol,CSKA Moscow,0,1
+2019-12-12 20:00:00,EL,FC Porto,Feyenoord Rotterdam,3,2
+2019-12-12 20:00:00,EL,KAA Gent,FC Olexandriya,2,1
+2019-12-12 20:00:00,EL,Ludogorets Razgrad,Ferencvaros,1,1
+2019-12-12 20:00:00,EL,Manchester United,AZ Alkmaar,4,0
+2019-12-12 20:00:00,EL,Partizan Belgrade,FC Astana,4,1
+2019-12-12 20:00:00,EL,Rangers,Young Boys,1,1
+2019-12-12 20:00:00,EL,Slovan Bratislava,Braga,2,4
+2019-12-12 20:00:00,EL,VfL Wolfsburg,Saint-Étienne,1,0
+2019-12-12 20:00:00,EL,Wolverhampton Wanderers,Besiktas,4,0
+2020-02-20 17:55:00,EL,CFR Cluj-Napoca,Sevilla,1,1
+2020-02-20 17:55:00,EL,Club Brugge,Manchester United,1,1
+2020-02-20 17:55:00,EL,Eintracht Frankfurt,RB Salzburg,4,1
+2020-02-20 17:55:00,EL,F.C. København,Celtic,1,1
+2020-02-20 17:55:00,EL,Getafe,Ajax Amsterdam,2,0
+2020-02-20 17:55:00,EL,Ludogorets Razgrad,Internazionale,0,2
+2020-02-20 17:55:00,EL,Shakhtar Donetsk,Benfica,2,1
+2020-02-20 17:55:00,EL,Sporting CP,Istanbul Basaksehir,3,1
+2020-02-20 20:00:00,EL,Apoel Nicosia,FC Basel,0,3
+2020-02-20 20:00:00,EL,AS Roma,KAA Gent,1,0
+2020-02-20 20:00:00,EL,AZ Alkmaar,LASK Linz,1,1
+2020-02-20 20:00:00,EL,Bayer Leverkusen,FC Porto,2,1
+2020-02-20 20:00:00,EL,Olympiacos,Arsenal,0,1
+2020-02-20 20:00:00,EL,Rangers,Braga,3,2
+2020-02-20 20:00:00,EL,VfL Wolfsburg,Malmö FF,2,1
+2020-02-20 20:00:00,EL,Wolverhampton Wanderers,Espanyol,4,0
+2020-02-27 17:55:00,EL,Espanyol,Wolverhampton Wanderers,3,2
+2020-02-27 17:55:00,EL,FC Basel,Apoel Nicosia,1,0
+2020-02-27 17:55:00,EL,FC Porto,Bayer Leverkusen,1,3
+2020-02-27 17:55:00,EL,KAA Gent,AS Roma,1,1
+2020-02-27 17:55:00,EL,LASK Linz,AZ Alkmaar,2,0
+2020-02-27 17:55:00,EL,Malmö FF,VfL Wolfsburg,0,3
+2020-02-27 20:00:00,EL,Ajax Amsterdam,Getafe,2,1
+2020-02-27 20:00:00,EL,Benfica,Shakhtar Donetsk,3,3
+2020-02-27 20:00:00,EL,Celtic,F.C. København,1,3
+2020-02-27 20:00:00,EL,Internazionale,Ludogorets Razgrad,2,1
+2020-02-27 20:00:00,EL,Manchester United,Club Brugge,5,0
+2020-02-27 20:00:00,EL,Sevilla,CFR Cluj-Napoca,0,0
+2020-03-12 17:55:00,EL,Eintracht Frankfurt,FC Basel,0,3
+2020-03-12 17:55:00,EL,Istanbul Basaksehir,F.C. København,1,0
+2020-03-12 17:55:00,EL,LASK Linz,Manchester United,0,5
+2020-03-12 20:00:00,EL,Olympiacos,Wolverhampton Wanderers,1,1
+2020-03-12 20:00:00,EL,Rangers,Bayer Leverkusen,1,3
+2020-03-12 20:00:00,EL,VfL Wolfsburg,Shakhtar Donetsk,1,2
+2020-08-06 16:55:00,EL,Bayer Leverkusen,Rangers,1,0
+2020-08-06 16:55:00,EL,Sevilla,AS Roma,2,0
+2020-08-06 19:00:00,EL,FC Basel,Eintracht Frankfurt,1,0
+2020-08-06 19:00:00,EL,Wolverhampton Wanderers,Olympiacos,1,0
+2020-10-22 16:55:00,EL,Bayer Leverkusen,Nice,6,2
+2020-10-22 16:55:00,EL,CSKA Sofia,CFR Cluj-Napoca,0,2
+2020-10-22 16:55:00,EL,Dundalk,Molde,1,2
+2020-10-22 16:55:00,EL,Hapoel Be'er,Slavia Prague,3,1
+2020-10-22 16:55:00,EL,Lech Poznan,Benfica,2,4
+2020-10-22 16:55:00,EL,Napoli,AZ Alkmaar,0,1
+2020-10-22 16:55:00,EL,PAOK,Omonia Nicosia,1,1
+2020-10-22 16:55:00,EL,PSV Eindhoven,Granada,1,2
+2020-10-22 16:55:00,EL,Rapid Vienna,Arsenal,1,2
+2020-10-22 16:55:00,EL,Rijeka,Real Sociedad,0,1
+2020-10-22 16:55:00,EL,Standard Liege,Rangers,0,2
+2020-10-22 16:55:00,EL,Young Boys,AS Roma,1,2
+2020-10-22 19:00:00,EL,Braga,AEK Athens,3,0
+2020-10-22 19:00:00,EL,Celtic,AC Milan,1,3
+2020-10-22 19:00:00,EL,Dinamo Zagreb,Feyenoord Rotterdam,0,0
+2020-10-22 19:00:00,EL,Leicester City,FC Zorya Luhansk,3,0
+2020-10-22 19:00:00,EL,Liberec,KAA Gent,1,0
+2020-10-22 19:00:00,EL,Ludogorets Razgrad,Antwerp,1,2
+2020-10-22 19:00:00,EL,Maccabi Tel-Aviv,FK Qarabag,1,0
+2020-10-22 19:00:00,EL,Sparta Prague,Lille,1,4
+2020-10-22 19:00:00,EL,Tottenham Hotspur,LASK Linz,3,0
+2020-10-22 19:00:00,EL,TSG Hoffenheim,Red Star Belgrade,2,0
+2020-10-22 19:00:00,EL,Villarreal,Sivasspor,5,3
+2020-10-22 19:00:00,EL,Wolfsberger,CSKA Moscow,1,1
+2020-10-29 17:55:00,EL,AC Milan,Sparta Prague,3,0
+2020-10-29 17:55:00,EL,AEK Athens,Leicester City,1,2
+2020-10-29 17:55:00,EL,Antwerp,Tottenham Hotspur,1,0
+2020-10-29 17:55:00,EL,CSKA Moscow,Dinamo Zagreb,0,0
+2020-10-29 17:55:00,EL,FC Zorya Luhansk,Braga,1,2
+2020-10-29 17:55:00,EL,Feyenoord Rotterdam,Wolfsberger,1,4
+2020-10-29 17:55:00,EL,FK Qarabag,Villarreal,1,3
+2020-10-29 17:55:00,EL,KAA Gent,TSG Hoffenheim,1,4
+2020-10-29 17:55:00,EL,LASK Linz,Ludogorets Razgrad,4,3
+2020-10-29 17:55:00,EL,Lille,Celtic,2,2
+2020-10-29 17:55:00,EL,Red Star Belgrade,Liberec,5,1
+2020-10-29 17:55:00,EL,Sivasspor,Maccabi Tel-Aviv,1,2
+2020-10-29 20:00:00,EL,Arsenal,Dundalk,3,0
+2020-10-29 20:00:00,EL,AS Roma,CSKA Sofia,0,0
+2020-10-29 20:00:00,EL,AZ Alkmaar,Rijeka,4,1
+2020-10-29 20:00:00,EL,Benfica,Standard Liege,3,0
+2020-10-29 20:00:00,EL,CFR Cluj-Napoca,Young Boys,1,1
+2020-10-29 20:00:00,EL,Granada,PAOK,0,0
+2020-10-29 20:00:00,EL,Molde,Rapid Vienna,1,0
+2020-10-29 20:00:00,EL,Nice,Hapoel Be'er,1,0
+2020-10-29 20:00:00,EL,Omonia Nicosia,PSV Eindhoven,1,2
+2020-10-29 20:00:00,EL,Rangers,Lech Poznan,1,0
+2020-10-29 20:00:00,EL,Real Sociedad,Napoli,0,1
+2020-10-29 20:00:00,EL,Slavia Prague,Bayer Leverkusen,1,0
+2020-11-05 17:55:00,EL,AS Roma,CFR Cluj-Napoca,5,0
+2020-11-05 17:55:00,EL,Benfica,Rangers,3,3
+2020-11-05 17:55:00,EL,Hapoel Be'er,Bayer Leverkusen,2,4
+2020-11-05 17:55:00,EL,Lech Poznan,Standard Liege,3,1
+2020-11-05 17:55:00,EL,Ludogorets Razgrad,Tottenham Hotspur,1,3
+2020-11-05 17:55:00,EL,Omonia Nicosia,Granada,0,2
+2020-11-05 17:55:00,EL,PAOK,PSV Eindhoven,4,1
+2020-11-05 17:55:00,EL,Rapid Vienna,Dundalk,4,3
+2020-11-05 17:55:00,EL,Real Sociedad,AZ Alkmaar,1,0
+2020-11-05 17:55:00,EL,Rijeka,Napoli,1,2
+2020-11-05 17:55:00,EL,Sivasspor,FK Qarabag,2,0
+2020-11-05 17:55:00,EL,Slavia Prague,Nice,3,2
+2020-11-05 20:00:00,EL,AC Milan,Lille,0,3
+2020-11-05 20:00:00,EL,Antwerp,LASK Linz,0,1
+2020-11-05 20:00:00,EL,Arsenal,Molde,4,1
+2020-11-05 20:00:00,EL,Celtic,Sparta Prague,1,4
+2020-11-05 20:00:00,EL,Dinamo Zagreb,Wolfsberger,1,0
+2020-11-05 20:00:00,EL,FC Zorya Luhansk,AEK Athens,1,4
+2020-11-05 20:00:00,EL,Feyenoord Rotterdam,CSKA Moscow,3,1
+2020-11-05 20:00:00,EL,Leicester City,Braga,4,0
+2020-11-05 20:00:00,EL,Red Star Belgrade,KAA Gent,2,1
+2020-11-05 20:00:00,EL,TSG Hoffenheim,Liberec,5,0
+2020-11-05 20:00:00,EL,Young Boys,CSKA Sofia,3,0
+2020-11-05 21:10:00,EL,Villarreal,Maccabi Tel-Aviv,4,0
+2020-11-26 17:55:00,EL,AEK Athens,FC Zorya Luhansk,0,3
+2020-11-26 17:55:00,EL,Braga,Leicester City,3,3
+2020-11-26 17:55:00,EL,CSKA Moscow,Feyenoord Rotterdam,0,0
+2020-11-26 17:55:00,EL,CSKA Sofia,Young Boys,0,1
+2020-11-26 17:55:00,EL,FK Qarabag,Sivasspor,2,3
+2020-11-26 17:55:00,EL,KAA Gent,Red Star Belgrade,0,2
+2020-11-26 17:55:00,EL,LASK Linz,Antwerp,0,2
+2020-11-26 17:55:00,EL,Liberec,TSG Hoffenheim,0,2
+2020-11-26 17:55:00,EL,Lille,AC Milan,1,1
+2020-11-26 17:55:00,EL,Maccabi Tel-Aviv,Villarreal,1,1
+2020-11-26 17:55:00,EL,Molde,Arsenal,0,3
+2020-11-26 17:55:00,EL,Sparta Prague,Celtic,4,1
+2020-11-26 17:55:00,EL,Wolfsberger,Dinamo Zagreb,0,3
+2020-11-26 20:00:00,EL,AZ Alkmaar,Real Sociedad,0,0
+2020-11-26 20:00:00,EL,Bayer Leverkusen,Hapoel Be'er,4,1
+2020-11-26 20:00:00,EL,CFR Cluj-Napoca,AS Roma,0,2
+2020-11-26 20:00:00,EL,Dundalk,Rapid Vienna,1,3
+2020-11-26 20:00:00,EL,Granada,Omonia Nicosia,2,1
+2020-11-26 20:00:00,EL,Napoli,Rijeka,2,0
+2020-11-26 20:00:00,EL,Nice,Slavia Prague,1,3
+2020-11-26 20:00:00,EL,PSV Eindhoven,PAOK,3,2
+2020-11-26 20:00:00,EL,Rangers,Benfica,2,2
+2020-11-26 20:00:00,EL,Standard Liege,Lech Poznan,2,1
+2020-11-26 20:00:00,EL,Tottenham Hotspur,Ludogorets Razgrad,4,0
+2020-12-03 17:55:00,EL,AC Milan,Celtic,4,2
+2020-12-03 17:55:00,EL,AEK Athens,Braga,2,4
+2020-12-03 17:55:00,EL,Antwerp,Ludogorets Razgrad,3,1
+2020-12-03 17:55:00,EL,CSKA Moscow,Wolfsberger,0,1
+2020-12-03 17:55:00,EL,FC Zorya Luhansk,Leicester City,1,0
+2020-12-03 17:55:00,EL,Feyenoord Rotterdam,Dinamo Zagreb,0,2
+2020-12-03 17:55:00,EL,FK Qarabag,Maccabi Tel-Aviv,1,1
+2020-12-03 17:55:00,EL,KAA Gent,Liberec,1,2
+2020-12-03 17:55:00,EL,LASK Linz,Tottenham Hotspur,3,3
+2020-12-03 17:55:00,EL,Lille,Sparta Prague,2,1
+2020-12-03 17:55:00,EL,Red Star Belgrade,TSG Hoffenheim,0,0
+2020-12-03 17:55:00,EL,Sivasspor,Villarreal,0,1
+2020-12-03 20:00:00,EL,Arsenal,Rapid Vienna,4,1
+2020-12-03 20:00:00,EL,AS Roma,Young Boys,3,1
+2020-12-03 20:00:00,EL,AZ Alkmaar,Napoli,1,1
+2020-12-03 20:00:00,EL,Benfica,Lech Poznan,4,0
+2020-12-03 20:00:00,EL,CFR Cluj-Napoca,CSKA Sofia,0,0
+2020-12-03 20:00:00,EL,Granada,PSV Eindhoven,0,1
+2020-12-03 20:00:00,EL,Molde,Dundalk,3,1
+2020-12-03 20:00:00,EL,Nice,Bayer Leverkusen,2,3
+2020-12-03 20:00:00,EL,Omonia Nicosia,PAOK,2,1
+2020-12-03 20:00:00,EL,Rangers,Standard Liege,3,2
+2020-12-03 20:00:00,EL,Real Sociedad,Rijeka,2,2
+2020-12-03 20:00:00,EL,Slavia Prague,Hapoel Be'er,3,0
+2020-12-10 17:55:00,EL,Bayer Leverkusen,Slavia Prague,4,0
+2020-12-10 17:55:00,EL,CSKA Sofia,AS Roma,3,1
+2020-12-10 17:55:00,EL,Dundalk,Arsenal,2,4
+2020-12-10 17:55:00,EL,Hapoel Be'er,Nice,1,0
+2020-12-10 17:55:00,EL,Lech Poznan,Rangers,0,2
+2020-12-10 17:55:00,EL,Napoli,Real Sociedad,1,1
+2020-12-10 17:55:00,EL,PAOK,Granada,0,0
+2020-12-10 17:55:00,EL,PSV Eindhoven,Omonia Nicosia,4,0
+2020-12-10 17:55:00,EL,Rapid Vienna,Molde,2,2
+2020-12-10 17:55:00,EL,Rijeka,AZ Alkmaar,2,1
+2020-12-10 17:55:00,EL,Standard Liege,Benfica,2,2
+2020-12-10 17:55:00,EL,Young Boys,CFR Cluj-Napoca,2,1
+2020-12-10 20:00:00,EL,Braga,FC Zorya Luhansk,2,0
+2020-12-10 20:00:00,EL,Celtic,Lille,3,2
+2020-12-10 20:00:00,EL,Dinamo Zagreb,CSKA Moscow,3,1
+2020-12-10 20:00:00,EL,Leicester City,AEK Athens,2,0
+2020-12-10 20:00:00,EL,Liberec,Red Star Belgrade,0,0
+2020-12-10 20:00:00,EL,Ludogorets Razgrad,LASK Linz,1,3
+2020-12-10 20:00:00,EL,Maccabi Tel-Aviv,Sivasspor,1,0
+2020-12-10 20:00:00,EL,Sparta Prague,AC Milan,0,1
+2020-12-10 20:00:00,EL,Tottenham Hotspur,Antwerp,2,0
+2020-12-10 20:00:00,EL,TSG Hoffenheim,KAA Gent,4,1
+2020-12-10 20:00:00,EL,Villarreal,FK Qarabag,0,0
+2020-12-10 20:00:00,EL,Wolfsberger,Feyenoord Rotterdam,1,0
+2021-02-18 15:00:00,EL,Dynamo Kyiv,Club Brugge,1,1
+2021-02-18 17:55:00,EL,Braga,AS Roma,0,2
+2021-02-18 17:55:00,EL,Krasnodar,Dinamo Zagreb,2,3
+2021-02-18 17:55:00,EL,Olympiacos,PSV Eindhoven,4,2
+2021-02-18 17:55:00,EL,Real Sociedad,Manchester United,0,4
+2021-02-18 17:55:00,EL,Red Star Belgrade,AC Milan,2,2
+2021-02-18 17:55:00,EL,Slavia Prague,Leicester City,0,0
+2021-02-18 17:55:00,EL,Wolfsberger,Tottenham Hotspur,1,4
+2021-02-18 17:55:00,EL,Young Boys,Bayer Leverkusen,4,3
+2021-02-18 20:00:00,EL,Antwerp,Rangers,3,4
+2021-02-18 20:00:00,EL,Benfica,Arsenal,1,1
+2021-02-18 20:00:00,EL,Granada,Napoli,2,0
+2021-02-18 20:00:00,EL,Lille,Ajax Amsterdam,1,2
+2021-02-18 20:00:00,EL,Maccabi Tel-Aviv,Shakhtar Donetsk,0,2
+2021-02-18 20:00:00,EL,Molde,TSG Hoffenheim,3,3
+2021-02-18 20:00:00,EL,RB Salzburg,Villarreal,0,2
+2021-02-25 17:55:00,EL,Ajax Amsterdam,Lille,2,1
+2021-02-25 17:55:00,EL,Arsenal,Benfica,3,2
+2021-02-25 17:55:00,EL,Napoli,Granada,2,1
+2021-02-25 17:55:00,EL,Rangers,Antwerp,5,2
+2021-02-25 17:55:00,EL,Shakhtar Donetsk,Maccabi Tel-Aviv,1,0
+2021-02-25 17:55:00,EL,TSG Hoffenheim,Molde,0,2
+2021-02-25 17:55:00,EL,Villarreal,RB Salzburg,2,1
+2021-02-25 20:00:00,EL,AC Milan,Red Star Belgrade,1,1
+2021-02-25 20:00:00,EL,AS Roma,Braga,3,1
+2021-02-25 20:00:00,EL,Bayer Leverkusen,Young Boys,0,2
+2021-02-25 20:00:00,EL,Club Brugge,Dynamo Kyiv,0,1
+2021-02-25 20:00:00,EL,Dinamo Zagreb,Krasnodar,1,0
+2021-02-25 20:00:00,EL,Leicester City,Slavia Prague,0,2
+2021-02-25 20:00:00,EL,Manchester United,Real Sociedad,0,0
+2021-02-25 20:00:00,EL,PSV Eindhoven,Olympiacos,2,1
+2021-03-11 17:55:00,EL,Ajax Amsterdam,Young Boys,3,0
+2021-03-11 17:55:00,EL,Dynamo Kyiv,Villarreal,0,2
+2021-03-11 17:55:00,EL,Manchester United,AC Milan,1,1
+2021-03-11 17:55:00,EL,Slavia Prague,Rangers,1,1
+2021-03-11 20:00:00,EL,AS Roma,Shakhtar Donetsk,3,0
+2021-03-11 20:00:00,EL,Granada,Molde,2,0
+2021-03-11 20:00:00,EL,Olympiacos,Arsenal,1,3
+2021-03-11 20:00:00,EL,Tottenham Hotspur,Dinamo Zagreb,2,0
+2021-03-18 17:55:00,EL,Arsenal,Olympiacos,0,1
+2021-03-18 17:55:00,EL,Molde,Granada,2,1
+2021-03-18 17:55:00,EL,Shakhtar Donetsk,AS Roma,1,2
+2021-03-18 20:00:00,EL,AC Milan,Manchester United,0,1
+2021-03-18 20:00:00,EL,Rangers,Slavia Prague,0,2
+2021-03-18 20:00:00,EL,Villarreal,Dynamo Kyiv,2,0
+2021-03-18 20:00:00,EL,Young Boys,Ajax Amsterdam,0,2
+2021-04-08 19:00:00,EL,Ajax Amsterdam,AS Roma,1,2
+2021-04-08 19:00:00,EL,Arsenal,Slavia Prague,1,1
+2021-04-08 19:00:00,EL,Dinamo Zagreb,Villarreal,0,1
+2021-04-08 19:00:00,EL,Granada,Manchester United,0,2
+2021-04-15 19:00:00,EL,AS Roma,Ajax Amsterdam,1,1
+2021-04-15 19:00:00,EL,Manchester United,Granada,2,0
+2021-04-15 19:00:00,EL,Slavia Prague,Arsenal,0,4
+2021-04-15 19:00:00,EL,Villarreal,Dinamo Zagreb,2,1
+2021-04-29 19:00:00,EL,Manchester United,AS Roma,6,2
+2021-04-29 19:00:00,EL,Villarreal,Arsenal,2,1
+2021-05-06 19:00:00,EL,Arsenal,Villarreal,0,0
+2021-05-06 19:00:00,EL,AS Roma,Manchester United,3,2
+2021-09-16 16:45:00,EL,Bayer Leverkusen,Ferencvaros,2,1
+2021-09-16 16:45:00,EL,Dinamo Zagreb,West Ham United,0,2
+2021-09-16 16:45:00,EL,FC Midtjylland,Ludogorets Razgrad,1,1
+2021-09-16 16:45:00,EL,Galatasaray,Lazio,1,0
+2021-09-16 16:45:00,EL,Lokomotiv Moscow,Marseille,1,1
+2021-09-16 16:45:00,EL,Rapid Vienna,Racing Genk,0,1
+2021-09-16 16:45:00,EL,Real Betis,Celtic,4,3
+2021-09-16 16:45:00,EL,Red Star Belgrade,Braga,2,1
+2021-09-16 19:00:00,EL,AS Monaco,SK Sturm Graz,1,0
+2021-09-16 19:00:00,EL,Brøndby IF,Sparta Prague,0,0
+2021-09-16 19:00:00,EL,Eintracht Frankfurt,Fenerbahce,1,1
+2021-09-16 19:00:00,EL,Leicester City,Napoli,2,2
+2021-09-16 19:00:00,EL,Olympiacos,Antwerp,2,1
+2021-09-16 19:00:00,EL,PSV Eindhoven,Real Sociedad,2,2
+2021-09-16 19:00:00,EL,Rangers,Lyon,0,2
+2021-09-30 16:45:00,EL,Antwerp,Eintracht Frankfurt,0,1
+2021-09-30 16:45:00,EL,Fenerbahce,Olympiacos,0,3
+2021-09-30 16:45:00,EL,Legia Warsaw,Leicester City,1,0
+2021-09-30 16:45:00,EL,Lyon,Brøndby IF,3,0
+2021-09-30 16:45:00,EL,Napoli,Spartak Moscow,2,3
+2021-09-30 16:45:00,EL,Real Sociedad,AS Monaco,1,1
+2021-09-30 16:45:00,EL,SK Sturm Graz,PSV Eindhoven,1,4
+2021-09-30 16:45:00,EL,Sparta Prague,Rangers,1,0
+2021-09-30 19:00:00,EL,Braga,FC Midtjylland,3,1
+2021-09-30 19:00:00,EL,Celtic,Bayer Leverkusen,0,4
+2021-09-30 19:00:00,EL,Ferencvaros,Real Betis,1,3
+2021-09-30 19:00:00,EL,Lazio,Lokomotiv Moscow,2,0
+2021-09-30 19:00:00,EL,Ludogorets Razgrad,Red Star Belgrade,0,1
+2021-09-30 19:00:00,EL,Marseille,Galatasaray,0,0
+2021-09-30 19:00:00,EL,Racing Genk,Dinamo Zagreb,0,3
+2021-09-30 19:00:00,EL,West Ham United,Rapid Vienna,2,0
+2021-10-21 16:45:00,EL,FC Midtjylland,Red Star Belgrade,1,1
+2021-10-21 16:45:00,EL,Fenerbahce,Antwerp,2,2
+2021-10-21 16:45:00,EL,Lazio,Marseille,0,0
+2021-10-21 16:45:00,EL,Ludogorets Razgrad,Braga,0,1
+2021-10-21 16:45:00,EL,Rapid Vienna,Dinamo Zagreb,2,1
+2021-10-21 16:45:00,EL,Real Betis,Bayer Leverkusen,1,1
+2021-10-21 19:00:00,EL,Eintracht Frankfurt,Olympiacos,3,1
+2021-10-21 19:00:00,EL,Lokomotiv Moscow,Galatasaray,0,1
+2021-10-21 19:00:00,EL,Napoli,Legia Warsaw,3,0
+2021-10-21 19:00:00,EL,PSV Eindhoven,AS Monaco,1,2
+2021-10-21 19:00:00,EL,Rangers,Brøndby IF,2,0
+2021-10-21 19:00:00,EL,SK Sturm Graz,Real Sociedad,0,1
+2021-10-21 19:00:00,EL,Sparta Prague,Lyon,3,4
+2021-10-21 19:00:00,EL,West Ham United,Racing Genk,3,0
+2021-11-04 17:45:00,EL,AS Monaco,PSV Eindhoven,0,0
+2021-11-04 17:45:00,EL,Brøndby IF,Rangers,1,1
+2021-11-04 17:45:00,EL,Galatasaray,Lokomotiv Moscow,1,1
+2021-11-04 17:45:00,EL,Legia Warsaw,Napoli,1,4
+2021-11-04 17:45:00,EL,Lyon,Sparta Prague,3,0
+2021-11-04 17:45:00,EL,Olympiacos,Eintracht Frankfurt,1,2
+2021-11-04 17:45:00,EL,Racing Genk,West Ham United,2,2
+2021-11-04 17:45:00,EL,Real Sociedad,SK Sturm Graz,1,1
+2021-11-04 20:00:00,EL,Antwerp,Fenerbahce,0,3
+2021-11-04 20:00:00,EL,Bayer Leverkusen,Real Betis,4,0
+2021-11-04 20:00:00,EL,Braga,Ludogorets Razgrad,4,2
+2021-11-04 20:00:00,EL,Dinamo Zagreb,Rapid Vienna,3,1
+2021-11-04 20:00:00,EL,Ferencvaros,Celtic,2,3
+2021-11-04 20:00:00,EL,Leicester City,Spartak Moscow,1,1
+2021-11-04 20:00:00,EL,Marseille,Lazio,2,2
+2021-11-04 20:00:00,EL,Red Star Belgrade,FC Midtjylland,0,1
+2021-11-25 17:45:00,EL,Bayer Leverkusen,Celtic,3,2
+2021-11-25 17:45:00,EL,Dinamo Zagreb,Racing Genk,1,1
+2021-11-25 17:45:00,EL,FC Midtjylland,Braga,3,2
+2021-11-25 17:45:00,EL,Galatasaray,Marseille,4,2
+2021-11-25 17:45:00,EL,Lokomotiv Moscow,Lazio,0,3
+2021-11-25 17:45:00,EL,Rapid Vienna,West Ham United,0,2
+2021-11-25 17:45:00,EL,Real Betis,Ferencvaros,2,0
+2021-11-25 17:45:00,EL,Red Star Belgrade,Ludogorets Razgrad,1,0
+2021-11-25 20:00:00,EL,AS Monaco,Real Sociedad,2,1
+2021-11-25 20:00:00,EL,Brøndby IF,Lyon,1,3
+2021-11-25 20:00:00,EL,Eintracht Frankfurt,Antwerp,2,2
+2021-11-25 20:00:00,EL,Leicester City,Legia Warsaw,3,1
+2021-11-25 20:00:00,EL,Olympiacos,Fenerbahce,1,0
+2021-11-25 20:00:00,EL,PSV Eindhoven,SK Sturm Graz,2,0
+2021-11-25 20:00:00,EL,Rangers,Sparta Prague,2,0
+2021-12-09 17:45:00,EL,Antwerp,Olympiacos,1,0
+2021-12-09 17:45:00,EL,Fenerbahce,Eintracht Frankfurt,1,1
+2021-12-09 17:45:00,EL,Legia Warsaw,Spartak Moscow,0,1
+2021-12-09 17:45:00,EL,Lyon,Rangers,1,1
+2021-12-09 17:45:00,EL,Napoli,Leicester City,3,2
+2021-12-09 17:45:00,EL,Real Sociedad,PSV Eindhoven,3,0
+2021-12-09 17:45:00,EL,SK Sturm Graz,AS Monaco,1,1
+2021-12-09 17:45:00,EL,Sparta Prague,Brøndby IF,2,0
+2021-12-09 20:00:00,EL,Braga,Red Star Belgrade,1,1
+2021-12-09 20:00:00,EL,Celtic,Real Betis,3,2
+2021-12-09 20:00:00,EL,Ferencvaros,Bayer Leverkusen,1,0
+2021-12-09 20:00:00,EL,Lazio,Galatasaray,0,0
+2021-12-09 20:00:00,EL,Ludogorets Razgrad,FC Midtjylland,0,0
+2021-12-09 20:00:00,EL,Marseille,Lokomotiv Moscow,1,0
+2021-12-09 20:00:00,EL,Racing Genk,Rapid Vienna,0,1
+2021-12-09 20:00:00,EL,West Ham United,Dinamo Zagreb,0,1
+2022-02-17 17:45:00,EL,Barcelona,Napoli,1,1
+2022-02-17 17:45:00,EL,Borussia Dortmund,Rangers,2,4
+2022-02-17 17:45:00,EL,Sheriff Tiraspol,Braga,2,0
+2022-02-17 17:45:00,EL,Zenit St Petersburg,Real Betis,2,3
+2022-02-17 20:00:00,EL,Atalanta,Olympiacos,2,1
+2022-02-17 20:00:00,EL,FC Porto,Lazio,2,1
+2022-02-17 20:00:00,EL,RB Leipzig,Real Sociedad,2,2
+2022-02-17 20:00:00,EL,Sevilla,Dinamo Zagreb,3,1
+2022-02-24 17:45:00,EL,Dinamo Zagreb,Sevilla,1,0
+2022-02-24 17:45:00,EL,Lazio,FC Porto,2,2
+2022-02-24 17:45:00,EL,Olympiacos,Atalanta,0,3
+2022-02-24 17:45:00,EL,Real Sociedad,RB Leipzig,1,3
+2022-02-24 20:00:00,EL,Napoli,Barcelona,2,4
+2022-02-24 20:00:00,EL,Rangers,Borussia Dortmund,2,2
+2022-02-24 20:00:00,EL,Real Betis,Zenit St Petersburg,0,0
+2022-03-10 17:45:00,EL,Sevilla,West Ham United,1,0
+2022-03-10 20:00:00,EL,Atalanta,Bayer Leverkusen,3,2
+2022-03-10 20:00:00,EL,Barcelona,Galatasaray,0,0
+2022-03-10 20:00:00,EL,Braga,AS Monaco,2,0
+2022-03-10 20:00:00,EL,Rangers,Red Star Belgrade,3,0
+2022-03-17 17:45:00,EL,AS Monaco,Braga,1,1
+2022-03-17 17:45:00,EL,Bayer Leverkusen,Atalanta,0,1
+2022-03-17 17:45:00,EL,Galatasaray,Barcelona,1,2
+2022-03-17 17:45:00,EL,Red Star Belgrade,Rangers,2,1
+2022-03-17 20:00:00,EL,Lyon,FC Porto,1,1
+2022-04-07 16:45:00,EL,RB Leipzig,Atalanta,1,1
+2022-04-07 19:00:00,EL,Braga,Rangers,1,0
+2022-04-07 19:00:00,EL,Eintracht Frankfurt,Barcelona,1,1
+2022-04-07 19:00:00,EL,West Ham United,Lyon,1,1
+2022-04-14 16:45:00,EL,Atalanta,RB Leipzig,0,2
+2022-04-14 19:00:00,EL,Barcelona,Eintracht Frankfurt,2,3
+2022-04-14 19:00:00,EL,Lyon,West Ham United,0,3
+2022-04-28 19:00:00,EL,RB Leipzig,Rangers,1,0
+2022-04-28 19:00:00,EL,West Ham United,Eintracht Frankfurt,1,2
+2022-05-05 19:00:00,EL,Eintracht Frankfurt,West Ham United,1,0
+2022-05-05 19:00:00,EL,Rangers,RB Leipzig,3,1
+2021-09-16 14:30:00,ECL,Kairat Almaty,Omonia Nicosia,0,0
+2021-09-16 16:45:00,ECL,FK Qarabag,FC Basel,0,0
+2021-09-16 16:45:00,ECL,Flora,KAA Gent,0,1
+2021-09-16 16:45:00,ECL,HJK Helsinki,LASK Linz,0,2
+2021-09-16 16:45:00,ECL,Lincoln Red Imps,PAOK,0,2
+2021-09-16 16:45:00,ECL,NS Mura,Vitesse,0,2
+2021-09-16 16:45:00,ECL,Slavia Prague,1. FC Union Berlin,3,1
+2021-09-16 16:45:00,ECL,Slovan Bratislava,F.C. København,1,3
+2021-09-16 16:45:00,ECL,Stade Rennais,Tottenham Hotspur,2,2
+2021-09-16 19:00:00,ECL,Anorthosis,Partizan Belgrade,0,2
+2021-09-16 19:00:00,ECL,AS Roma,CSKA Sofia,5,1
+2021-09-16 19:00:00,ECL,Bodo/Glimt,FC Zorya Luhansk,3,1
+2021-09-16 19:00:00,ECL,Jablonec,CFR Cluj-Napoca,1,0
+2021-09-16 19:00:00,ECL,Randers FC,AZ Alkmaar,2,2
+2021-09-30 16:45:00,ECL,Alashkert FC,HJK Helsinki,2,4
+2021-09-30 16:45:00,ECL,AZ Alkmaar,Jablonec,1,0
+2021-09-30 16:45:00,ECL,CFR Cluj-Napoca,Randers FC,1,1
+2021-09-30 16:45:00,ECL,CSKA Sofia,Bodo/Glimt,0,0
+2021-09-30 16:45:00,ECL,FC Zorya Luhansk,AS Roma,0,3
+2021-09-30 16:45:00,ECL,KAA Gent,Anorthosis,2,0
+2021-09-30 16:45:00,ECL,LASK Linz,Maccabi Tel-Aviv,1,1
+2021-09-30 16:45:00,ECL,Partizan Belgrade,Flora,2,0
+2021-09-30 19:00:00,ECL,1. FC Union Berlin,Maccabi Haifa,3,0
+2021-09-30 19:00:00,ECL,F.C. København,Lincoln Red Imps,3,1
+2021-09-30 19:00:00,ECL,FC Basel,Kairat Almaty,4,2
+2021-09-30 19:00:00,ECL,Feyenoord Rotterdam,Slavia Prague,2,1
+2021-09-30 19:00:00,ECL,Omonia Nicosia,FK Qarabag,1,4
+2021-09-30 19:00:00,ECL,PAOK,Slovan Bratislava,1,1
+2021-09-30 19:00:00,ECL,Tottenham Hotspur,NS Mura,5,1
+2021-09-30 19:00:00,ECL,Vitesse,Stade Rennais,1,2
+2021-10-21 14:30:00,ECL,HJK Helsinki,Maccabi Tel-Aviv,0,5
+2021-10-21 16:45:00,ECL,Alashkert FC,LASK Linz,0,3
+2021-10-21 16:45:00,ECL,Anorthosis,Flora,2,2
+2021-10-21 16:45:00,ECL,Bodo/Glimt,AS Roma,6,1
+2021-10-21 16:45:00,ECL,F.C. København,PAOK,1,2
+2021-10-21 16:45:00,ECL,Feyenoord Rotterdam,1. FC Union Berlin,3,1
+2021-10-21 16:45:00,ECL,FK Qarabag,Kairat Almaty,2,1
+2021-10-21 16:45:00,ECL,Maccabi Haifa,Slavia Prague,1,0
+2021-10-21 16:45:00,ECL,NS Mura,Stade Rennais,1,2
+2021-10-21 16:45:00,ECL,Vitesse,Tottenham Hotspur,1,0
+2021-10-21 19:00:00,ECL,CFR Cluj-Napoca,AZ Alkmaar,0,1
+2021-10-21 19:00:00,ECL,CSKA Sofia,FC Zorya Luhansk,0,1
+2021-10-21 19:00:00,ECL,FC Basel,Omonia Nicosia,3,1
+2021-10-21 19:00:00,ECL,Jablonec,Randers FC,2,2
+2021-10-21 19:00:00,ECL,Partizan Belgrade,KAA Gent,0,1
+2021-10-21 19:00:00,ECL,Slovan Bratislava,Lincoln Red Imps,2,0
+2021-11-04 15:30:00,ECL,Flora,Anorthosis,2,2
+2021-11-04 15:30:00,ECL,Kairat Almaty,FK Qarabag,1,2
+2021-11-04 17:45:00,ECL,AZ Alkmaar,CFR Cluj-Napoca,2,0
+2021-11-04 17:45:00,ECL,FC Zorya Luhansk,CSKA Sofia,2,0
+2021-11-04 17:45:00,ECL,KAA Gent,Partizan Belgrade,1,1
+2021-11-04 17:45:00,ECL,LASK Linz,Alashkert FC,2,0
+2021-11-04 17:45:00,ECL,Lincoln Red Imps,Slovan Bratislava,1,4
+2021-11-04 17:45:00,ECL,Maccabi Tel-Aviv,HJK Helsinki,3,0
+2021-11-04 17:45:00,ECL,Omonia Nicosia,FC Basel,1,1
+2021-11-04 17:45:00,ECL,Randers FC,Jablonec,2,2
+2021-11-04 20:00:00,ECL,1. FC Union Berlin,Feyenoord Rotterdam,1,2
+2021-11-04 20:00:00,ECL,AS Roma,Bodo/Glimt,2,2
+2021-11-04 20:00:00,ECL,PAOK,F.C. København,1,2
+2021-11-04 20:00:00,ECL,Slavia Prague,Maccabi Haifa,1,0
+2021-11-04 20:00:00,ECL,Stade Rennais,NS Mura,1,0
+2021-11-04 20:00:00,ECL,Tottenham Hotspur,Vitesse,3,2
+2021-11-25 15:30:00,ECL,Flora,Partizan Belgrade,1,0
+2021-11-25 15:30:00,ECL,Kairat Almaty,FC Basel,2,3
+2021-11-25 17:45:00,ECL,FK Qarabag,Omonia Nicosia,2,2
+2021-11-25 17:45:00,ECL,HJK Helsinki,Alashkert FC,1,0
+2021-11-25 17:45:00,ECL,Lincoln Red Imps,F.C. København,0,4
+2021-11-25 17:45:00,ECL,Maccabi Haifa,1. FC Union Berlin,0,1
+2021-11-25 17:45:00,ECL,NS Mura,Tottenham Hotspur,2,1
+2021-11-25 17:45:00,ECL,Slavia Prague,Feyenoord Rotterdam,2,2
+2021-11-25 17:45:00,ECL,Slovan Bratislava,PAOK,0,0
+2021-11-25 17:45:00,ECL,Stade Rennais,Vitesse,3,3
+2021-11-25 20:00:00,ECL,Anorthosis,KAA Gent,1,0
+2021-11-25 20:00:00,ECL,AS Roma,FC Zorya Luhansk,4,0
+2021-11-25 20:00:00,ECL,Bodo/Glimt,CSKA Sofia,2,0
+2021-11-25 20:00:00,ECL,Jablonec,AZ Alkmaar,1,1
+2021-11-25 20:00:00,ECL,Maccabi Tel-Aviv,LASK Linz,0,1
+2021-11-25 20:00:00,ECL,Randers FC,CFR Cluj-Napoca,2,1
+2021-12-09 17:45:00,ECL,Alashkert FC,Maccabi Tel-Aviv,1,1
+2021-12-09 17:45:00,ECL,AZ Alkmaar,Randers FC,1,0
+2021-12-09 17:45:00,ECL,CFR Cluj-Napoca,Jablonec,2,0
+2021-12-09 17:45:00,ECL,CSKA Sofia,AS Roma,2,3
+2021-12-09 17:45:00,ECL,FC Zorya Luhansk,Bodo/Glimt,1,1
+2021-12-09 17:45:00,ECL,KAA Gent,Flora,1,0
+2021-12-09 17:45:00,ECL,LASK Linz,HJK Helsinki,3,0
+2021-12-09 17:45:00,ECL,Partizan Belgrade,Anorthosis,1,1
+2021-12-09 20:00:00,ECL,1. FC Union Berlin,Slavia Prague,1,1
+2021-12-09 20:00:00,ECL,F.C. København,Slovan Bratislava,2,0
+2021-12-09 20:00:00,ECL,FC Basel,FK Qarabag,3,0
+2021-12-09 20:00:00,ECL,Feyenoord Rotterdam,Maccabi Haifa,2,1
+2021-12-09 20:00:00,ECL,Omonia Nicosia,Kairat Almaty,0,0
+2021-12-09 20:00:00,ECL,PAOK,Lincoln Red Imps,2,0
+2021-12-09 20:00:00,ECL,Tottenham Hotspur,Stade Rennais,0,3
+2021-12-09 20:00:00,ECL,Vitesse,NS Mura,3,1
+2022-02-17 17:45:00,ECL,FC Midtjylland,PAOK,1,0
+2022-02-17 17:45:00,ECL,Fenerbahce,Slavia Prague,2,3
+2022-02-17 17:45:00,ECL,PSV Eindhoven,Maccabi Tel-Aviv,1,0
+2022-02-17 17:45:00,ECL,Rapid Vienna,Vitesse,2,1
+2022-02-17 20:00:00,ECL,Celtic,Bodo/Glimt,1,3
+2022-02-17 20:00:00,ECL,Leicester City,Randers FC,4,1
+2022-02-17 20:00:00,ECL,Marseille,FK Qarabag,3,1
+2022-02-17 20:00:00,ECL,Sparta Prague,Partizan Belgrade,0,1
+2022-02-24 17:45:00,ECL,Bodo/Glimt,Celtic,2,0
+2022-02-24 17:45:00,ECL,FK Qarabag,Marseille,0,3
+2022-02-24 17:45:00,ECL,Maccabi Tel-Aviv,PSV Eindhoven,1,1
+2022-02-24 17:45:00,ECL,Partizan Belgrade,Sparta Prague,2,1
+2022-02-24 17:45:00,ECL,Randers FC,Leicester City,1,3
+2022-02-24 20:00:00,ECL,Slavia Prague,Fenerbahce,3,2
+2022-02-24 20:00:00,ECL,Vitesse,Rapid Vienna,2,0
+2022-03-10 17:45:00,ECL,PAOK,KAA Gent,1,0
+2022-03-10 17:45:00,ECL,Partizan Belgrade,Feyenoord Rotterdam,2,5
+2022-03-10 17:45:00,ECL,Slavia Prague,LASK Linz,4,1
+2022-03-10 17:45:00,ECL,Vitesse,AS Roma,0,1
+2022-03-10 20:00:00,ECL,Bodo/Glimt,AZ Alkmaar,2,1
+2022-03-10 20:00:00,ECL,Leicester City,Stade Rennais,2,0
+2022-03-10 20:00:00,ECL,Marseille,FC Basel,2,1
+2022-03-10 20:00:00,ECL,PSV Eindhoven,F.C. København,4,4
+2022-03-17 17:45:00,ECL,F.C. København,PSV Eindhoven,0,4
+2022-03-17 17:45:00,ECL,FC Basel,Marseille,1,2
+2022-03-17 17:45:00,ECL,Stade Rennais,Leicester City,2,1
+2022-03-17 20:00:00,ECL,AS Roma,Vitesse,1,1
+2022-03-17 20:00:00,ECL,Feyenoord Rotterdam,Partizan Belgrade,3,1
+2022-03-17 20:00:00,ECL,KAA Gent,PAOK,1,2
+2022-03-17 20:00:00,ECL,LASK Linz,Slavia Prague,4,3
+2022-04-07 16:45:00,ECL,Feyenoord Rotterdam,Slavia Prague,3,3
+2022-04-07 19:00:00,ECL,Bodo/Glimt,AS Roma,2,1
+2022-04-07 19:00:00,ECL,Leicester City,PSV Eindhoven,0,0
+2022-04-07 19:00:00,ECL,Marseille,PAOK,2,1
+2022-04-14 16:45:00,ECL,PSV Eindhoven,Leicester City,1,2
+2022-04-14 19:00:00,ECL,AS Roma,Bodo/Glimt,4,0
+2022-04-14 19:00:00,ECL,PAOK,Marseille,0,1
+2022-04-14 19:00:00,ECL,Slavia Prague,Feyenoord Rotterdam,1,3
+2022-04-28 19:00:00,ECL,Feyenoord Rotterdam,Marseille,3,2
+2022-04-28 19:00:00,ECL,Leicester City,AS Roma,1,1
+2022-05-05 19:00:00,ECL,AS Roma,Leicester City,1,0
+2022-05-05 19:00:00,ECL,Marseille,Feyenoord Rotterdam,0,0
+2023-07-14 21:00:00,COL,Envigado FC,Atlético Bucaramanga,1,3
+2023-07-15 00:40:00,COL,Atlético Huila,Unión Magdalena,2,1
+2023-07-15 21:00:00,COL,Independiente Medellín,Internacional de Bogotá,2,2
+2023-07-15 23:10:00,COL,Atlético Junior,Águilas Doradas,0,1
+2023-07-16 01:20:00,COL,Deportivo Pasto,Millonarios,0,0
+2023-07-16 22:15:00,COL,América de Cali,Deportes Tolima,1,0
+2023-07-17 00:30:00,COL,Once Caldas,Atlético Nacional,1,1
+2023-07-18 01:00:00,COL,Deportivo Pereira,Deportivo Cali,0,2
+2023-07-20 01:00:00,COL,Independiente Santa Fe,Jaguares de Córdoba,1,0
+2023-07-21 21:00:00,COL,Deportes Tolima,Once Caldas,3,1
+2023-07-21 23:15:00,COL,Internacional de Bogotá,Envigado FC,1,1
+2023-07-22 01:30:00,COL,Deportivo Pasto,Alianza FC,1,1
+2023-07-23 01:30:00,COL,Millonarios,Deportivo Pereira,0,0
+2023-07-23 20:45:00,COL,Atlético Bucaramanga,Atlético Huila,1,0
+2023-07-24 01:10:00,COL,Independiente Medellín,Atlético Junior,1,0
+2023-07-25 00:00:00,COL,Jaguares de Córdoba,Boyacá Chicó FC,2,1
+2023-07-29 21:00:00,COL,Deportes Tolima,Águilas Doradas,1,1
+2023-07-29 23:10:00,COL,Alianza FC,Millonarios,1,0
+2023-07-30 01:20:00,COL,Atlético Nacional,Jaguares de Córdoba,2,1
+2023-07-30 20:30:00,COL,Once Caldas,Deportivo Cali,4,0
+2023-07-30 22:45:00,COL,América de Cali,Deportivo Pasto,1,1
+2023-07-31 01:00:00,COL,Atlético Huila,Deportivo Pereira,2,0
+2023-07-31 21:00:00,COL,Envigado FC,Unión Magdalena,0,0
+2023-07-31 23:10:00,COL,Boyacá Chicó FC,Internacional de Bogotá,0,2
+2023-08-01 01:20:00,COL,Atlético Junior,Atlético Bucaramanga,1,1
+2023-08-03 00:30:00,COL,Independiente Santa Fe,Independiente Medellín,1,0
+2023-08-04 23:15:00,COL,Atlético Huila,Alianza FC,0,0
+2023-08-05 01:30:00,COL,Águilas Doradas,Once Caldas,2,1
+2023-08-05 21:00:00,COL,Unión Magdalena,Atlético Junior,0,0
+2023-08-05 23:10:00,COL,Deportivo Pereira,Boyacá Chicó FC,1,1
+2023-08-06 01:20:00,COL,Independiente Medellín,Envigado FC,1,0
+2023-08-06 21:00:00,COL,Internacional de Bogotá,América de Cali,1,1
+2023-08-06 23:10:00,COL,Deportivo Cali,Atlético Nacional,1,1
+2023-08-07 01:20:00,COL,Deportivo Pasto,Independiente Santa Fe,2,0
+2023-08-07 22:15:00,COL,Atlético Bucaramanga,Jaguares de Córdoba,3,0
+2023-08-08 00:30:00,COL,Millonarios,Deportes Tolima,1,0
+2023-08-10 23:00:00,COL,Alianza FC,Envigado FC,3,1
+2023-08-11 23:20:00,COL,Águilas Doradas,Deportivo Cali,1,0
+2023-08-12 01:30:00,COL,Deportes Tolima,Atlético Huila,1,0
+2023-08-12 21:10:00,COL,Independiente Santa Fe,Internacional de Bogotá,1,1
+2023-08-12 23:20:00,COL,Atlético Junior,Deportivo Pasto,0,0
+2023-08-13 01:30:00,COL,Once Caldas,Deportivo Pereira,1,0
+2023-08-13 21:00:00,COL,América de Cali,Independiente Medellín,1,3
+2023-08-13 23:10:00,COL,Jaguares de Córdoba,Millonarios,2,0
+2023-08-14 01:20:00,COL,Atlético Nacional,Atlético Bucaramanga,2,1
+2023-08-15 00:40:00,COL,Boyacá Chicó FC,Unión Magdalena,0,0
+2023-08-19 21:00:00,COL,Deportivo Pereira,Jaguares de Córdoba,3,0
+2023-08-19 23:10:00,COL,Unión Magdalena,Independiente Santa Fe,2,2
+2023-08-20 01:20:00,COL,Internacional de Bogotá,Atlético Junior,0,0
+2023-08-20 21:00:00,COL,Deportivo Pasto,Boyacá Chicó FC,1,1
+2023-08-20 23:10:00,COL,Independiente Medellín,Alianza FC,2,1
+2023-08-21 01:20:00,COL,Atlético Huila,Atlético Nacional,0,1
+2023-08-21 21:00:00,COL,Atlético Bucaramanga,Águilas Doradas,1,1
+2023-08-22 00:00:00,COL,Millonarios,Once Caldas,2,1
+2023-08-22 23:15:00,COL,Jaguares de Córdoba,Unión Magdalena,0,1
+2023-08-23 21:45:00,COL,Alianza FC,Internacional de Bogotá,1,0
+2023-08-23 23:15:00,COL,Independiente Santa Fe,Envigado FC,2,0
+2023-08-24 01:30:00,COL,Atlético Junior,América de Cali,4,3
+2023-08-24 21:00:00,COL,Boyacá Chicó FC,Atlético Huila,1,1
+2023-08-24 23:20:00,COL,Atlético Nacional,Deportivo Pasto,2,0
+2023-08-25 01:30:00,COL,Deportivo Cali,Millonarios,0,0
+2023-08-25 23:15:00,COL,Once Caldas,Atlético Bucaramanga,1,0
+2023-08-26 01:30:00,COL,Águilas Doradas,Independiente Medellín,1,1
+2023-08-26 21:00:00,COL,Envigado FC,Atlético Junior,1,2
+2023-08-26 23:10:00,COL,Unión Magdalena,Alianza FC,2,0
+2023-08-27 01:20:00,COL,Internacional de Bogotá,Deportes Tolima,0,0
+2023-08-27 21:00:00,COL,Millonarios,Atlético Nacional,1,0
+2023-08-27 23:10:00,COL,América de Cali,Independiente Santa Fe,2,0
+2023-08-28 01:20:00,COL,Atlético Huila,Jaguares de Córdoba,0,0
+2023-08-28 23:15:00,COL,Independiente Medellín,Boyacá Chicó FC,1,1
+2023-08-29 01:30:00,COL,Atlético Bucaramanga,Deportivo Cali,1,0
+2023-08-30 01:10:00,COL,Deportivo Pasto,Once Caldas,1,0
+2023-08-30 23:15:00,COL,Unión Magdalena,América de Cali,0,0
+2023-08-31 01:30:00,COL,Águilas Doradas,Atlético Nacional,2,0
+2023-09-01 23:05:00,COL,Boyacá Chicó FC,Envigado FC,1,0
+2023-09-02 01:10:00,COL,Deportes Tolima,Atlético Bucaramanga,0,0
+2023-09-02 21:45:00,COL,Jaguares de Córdoba,Independiente Medellín,1,1
+2023-09-02 23:10:00,COL,Independiente Santa Fe,Atlético Junior,1,0
+2023-09-03 01:20:00,COL,Alianza FC,América de Cali,2,3
+2023-09-03 21:00:00,COL,Atlético Nacional,Deportivo Pereira,2,0
+2023-09-03 23:10:00,COL,Águilas Doradas,Millonarios,2,0
+2023-09-04 01:20:00,COL,Deportivo Cali,Deportivo Pasto,4,0
+2023-09-04 23:10:00,COL,Unión Magdalena,Internacional de Bogotá,1,0
+2023-09-05 01:20:00,COL,Once Caldas,Atlético Huila,1,2
+2023-09-06 01:10:00,COL,Alianza FC,Boyacá Chicó FC,1,1
+2023-09-06 21:05:00,COL,Envigado FC,América de Cali,0,0
+2023-09-06 23:10:00,COL,Deportes Tolima,Deportivo Pereira,2,3
+2023-09-07 01:20:00,COL,Deportivo Cali,Independiente Santa Fe,2,2
+2023-09-09 00:40:00,COL,Deportivo Pasto,Jaguares de Córdoba,1,0
+2023-09-09 21:00:00,COL,Internacional de Bogotá,Boyacá Chicó FC,0,0
+2023-09-09 23:10:00,COL,Atlético Junior,Unión Magdalena,7,1
+2023-09-10 01:20:00,COL,Independiente Medellín,Atlético Nacional,1,0
+2023-09-10 21:00:00,COL,Deportivo Pereira,Once Caldas,1,2
+2023-09-10 23:10:00,COL,América de Cali,Deportivo Cali,3,0
+2023-09-11 01:20:00,COL,Millonarios,Independiente Santa Fe,2,4
+2023-09-11 21:00:00,COL,Envigado FC,Águilas Doradas,2,2
+2023-09-11 23:15:00,COL,Atlético Huila,Deportes Tolima,3,0
+2023-09-12 01:30:00,COL,Atlético Bucaramanga,Alianza FC,0,1
+2023-09-13 21:00:00,COL,Deportivo Pereira,Deportivo Pasto,2,1
+2023-09-13 22:45:00,COL,Boyacá Chicó FC,Independiente Santa Fe,1,1
+2023-09-13 23:10:00,COL,Jaguares de Córdoba,América de Cali,0,1
+2023-09-14 01:20:00,COL,Atlético Nacional,Internacional de Bogotá,5,0
+2023-09-14 21:30:00,COL,Deportes Tolima,Independiente Medellín,1,1
+2023-09-14 22:45:00,COL,Águilas Doradas,Unión Magdalena,2,1
+2023-09-14 23:40:00,COL,Deportivo Cali,Atlético Huila,1,0
+2023-09-15 01:50:00,COL,Alianza FC,Atlético Junior,1,5
+2023-09-15 23:15:00,COL,Once Caldas,Envigado FC,0,0
+2023-09-16 01:30:00,COL,Millonarios,Atlético Bucaramanga,3,0
+2023-09-17 01:15:00,COL,América de Cali,Boyacá Chicó FC,5,0
+2023-09-17 21:00:00,COL,Independiente Santa Fe,Alianza FC,0,1
+2023-09-17 23:10:00,COL,Atlético Junior,Atlético Nacional,1,1
+2023-09-18 00:00:00,COL,Atlético Huila,Águilas Doradas,1,1
+2023-09-18 01:20:00,COL,Deportivo Pasto,Deportes Tolima,1,2
+2023-09-18 21:00:00,COL,Envigado FC,Jaguares de Córdoba,1,0
+2023-09-18 21:30:00,COL,Unión Magdalena,Once Caldas,1,1
+2023-09-18 23:40:00,COL,Atlético Bucaramanga,Deportivo Pereira,1,1
+2023-09-19 01:50:00,COL,Independiente Medellín,Millonarios,1,1
+2023-09-20 01:20:00,COL,Internacional de Bogotá,Deportivo Cali,1,1
+2023-09-20 21:00:00,COL,Boyacá Chicó FC,Atlético Junior,2,1
+2023-09-20 23:10:00,COL,Águilas Doradas,América de Cali,2,2
+2023-09-21 01:20:00,COL,Atlético Nacional,Independiente Santa Fe,3,0
+2023-09-21 21:00:00,COL,Deportivo Pereira,Unión Magdalena,1,2
+2023-09-21 22:45:00,COL,Deportes Tolima,Envigado FC,2,0
+2023-09-21 23:10:00,COL,Atlético Bucaramanga,Deportivo Pasto,0,2
+2023-09-22 01:20:00,COL,Millonarios,Atlético Huila,2,1
+2023-09-22 21:30:00,COL,Jaguares de Córdoba,Alianza FC,0,0
+2023-09-22 23:40:00,COL,Once Caldas,Internacional de Bogotá,1,1
+2023-09-23 01:50:00,COL,Deportivo Cali,Independiente Medellín,2,2
+2023-09-23 21:00:00,COL,Boyacá Chicó FC,Águilas Doradas,0,1
+2023-09-24 01:20:00,COL,América de Cali,Atlético Nacional,4,1
+2023-09-24 23:10:00,COL,Independiente Santa Fe,Deportivo Pereira,1,0
+2023-09-25 01:20:00,COL,Atlético Junior,Deportes Tolima,0,1
+2023-09-25 15:00:00,COL,Envigado FC,Millonarios,1,2
+2023-09-25 21:15:00,COL,Internacional de Bogotá,Jaguares de Córdoba,2,0
+2023-09-25 23:25:00,COL,Alianza FC,Once Caldas,2,1
+2023-09-26 01:35:00,COL,Independiente Medellín,Atlético Bucaramanga,2,0
+2023-09-26 23:15:00,COL,Unión Magdalena,Deportivo Cali,3,4
+2023-09-27 01:30:00,COL,Deportivo Pasto,Atlético Huila,1,0
+2023-09-29 23:00:00,COL,Jaguares de Córdoba,Atlético Junior,0,0
+2023-09-30 01:10:00,COL,Deportes Tolima,Boyacá Chicó FC,2,0
+2023-09-30 21:00:00,COL,Atlético Bucaramanga,Independiente Santa Fe,1,1
+2023-09-30 23:10:00,COL,Atlético Nacional,Envigado FC,3,0
+2023-10-01 00:00:00,COL,Águilas Doradas,Deportivo Pasto,3,0
+2023-10-01 01:20:00,COL,Deportivo Pereira,América de Cali,2,4
+2023-10-01 21:00:00,COL,Once Caldas,Independiente Medellín,2,2
+2023-10-02 00:30:00,COL,Deportivo Cali,Alianza FC,1,0
+2023-10-03 01:10:00,COL,Atlético Huila,Internacional de Bogotá,1,1
+2023-10-06 23:00:00,COL,Jaguares de Córdoba,Deportes Tolima,0,1
+2023-10-07 01:10:00,COL,Atlético Junior,Deportivo Cali,3,2
+2023-10-07 21:00:00,COL,Envigado FC,Deportivo Pereira,2,3
+2023-10-07 23:10:00,COL,Unión Magdalena,Atlético Nacional,2,1
+2023-10-08 01:20:00,COL,Independiente Santa Fe,Águilas Doradas,0,5
+2023-10-08 21:00:00,COL,Internacional de Bogotá,Deportivo Pasto,1,0
+2023-10-08 23:10:00,COL,Independiente Medellín,Atlético Huila,2,0
+2023-10-09 01:20:00,COL,Boyacá Chicó FC,Once Caldas,2,1
+2023-10-11 01:00:00,COL,Alianza FC,Atlético Bucaramanga,1,0
+2023-10-11 23:15:00,COL,Deportivo Cali,Deportes Tolima,2,0
+2023-10-12 01:30:00,COL,Deportivo Pereira,Águilas Doradas,0,0
+2023-10-13 23:00:00,COL,Deportivo Pasto,Unión Magdalena,3,1
+2023-10-14 01:10:00,COL,Once Caldas,Jaguares de Córdoba,0,0
+2023-10-14 21:00:00,COL,Deportivo Pereira,Internacional de Bogotá,1,0
+2023-10-14 23:10:00,COL,Atlético Nacional,Independiente Medellín,1,2
+2023-10-15 01:20:00,COL,Millonarios,Atlético Junior,1,0
+2023-10-15 21:00:00,COL,Águilas Doradas,Alianza FC,3,0
+2023-10-15 23:10:00,COL,Deportivo Cali,América de Cali,0,0
+2023-10-16 01:20:00,COL,Deportes Tolima,Independiente Santa Fe,1,0
+2023-10-16 23:05:00,COL,Atlético Huila,Envigado FC,3,3
+2023-10-17 01:15:00,COL,Atlético Bucaramanga,Boyacá Chicó FC,1,0
+2023-10-19 01:00:00,COL,Millonarios,Unión Magdalena,1,1
+2023-10-20 21:00:00,COL,Envigado FC,Deportivo Cali,3,0
+2023-10-20 23:10:00,COL,Jaguares de Córdoba,Deportivo Pasto,1,0
+2023-10-21 01:20:00,COL,Internacional de Bogotá,Águilas Doradas,1,1
+2023-10-21 21:00:00,COL,Independiente Santa Fe,Millonarios,2,3
+2023-10-21 23:10:00,COL,Unión Magdalena,Atlético Bucaramanga,1,2
+2023-10-22 01:20:00,COL,Atlético Junior,Once Caldas,1,0
+2023-10-22 21:00:00,COL,Boyacá Chicó FC,Atlético Nacional,1,3
+2023-10-22 23:10:00,COL,Independiente Medellín,Deportivo Pereira,1,0
+2023-10-23 01:20:00,COL,Alianza FC,Deportes Tolima,0,1
+2023-10-24 01:00:00,COL,América de Cali,Atlético Huila,1,0
+2023-10-24 23:00:00,COL,Águilas Doradas,Envigado FC,3,1
+2023-10-25 01:10:00,COL,Deportivo Cali,Jaguares de Córdoba,2,0
+2023-10-25 21:00:00,COL,Atlético Bucaramanga,Internacional de Bogotá,2,3
+2023-10-25 23:10:00,COL,Deportivo Pereira,Atlético Junior,0,2
+2023-10-26 01:20:00,COL,Millonarios,Boyacá Chicó FC,1,1
+2023-10-26 21:00:00,COL,Deportivo Pasto,Independiente Medellín,0,0
+2023-10-26 23:10:00,COL,Once Caldas,América de Cali,1,1
+2023-10-27 01:20:00,COL,Atlético Nacional,Alianza FC,2,0
+2023-10-27 23:00:00,COL,Atlético Huila,Independiente Santa Fe,2,2
+2023-10-28 01:10:00,COL,Deportes Tolima,Unión Magdalena,2,1
+2023-10-31 01:00:00,COL,América de Cali,Millonarios,1,0
+2023-11-08 00:30:00,COL,Alianza FC,Deportivo Pereira,2,1
+2023-11-08 00:30:00,COL,Atlético Junior,Atlético Huila,2,0
+2023-11-08 00:30:00,COL,Boyacá Chicó FC,Deportivo Cali,1,1
+2023-11-08 00:30:00,COL,Envigado FC,Deportivo Pasto,1,1
+2023-11-08 00:30:00,COL,Independiente Santa Fe,Once Caldas,0,1
+2023-11-09 00:30:00,COL,América de Cali,Atlético Bucaramanga,1,2
+2023-11-09 00:30:00,COL,Atlético Nacional,Deportes Tolima,2,3
+2023-11-09 00:30:00,COL,Internacional de Bogotá,Millonarios,2,1
+2023-11-09 00:30:00,COL,Jaguares de Córdoba,Águilas Doradas,0,1
+2023-11-09 00:30:00,COL,Unión Magdalena,Independiente Medellín,0,4
+2023-11-12 22:00:00,COL,Atlético Nacional,Millonarios,0,1
+2023-11-13 00:30:00,COL,América de Cali,Independiente Medellín,1,2
+2023-11-13 22:30:00,COL,Deportivo Cali,Águilas Doradas,1,1
+2023-11-14 01:00:00,COL,Deportes Tolima,Atlético Junior,3,1
+2023-11-18 22:00:00,COL,Águilas Doradas,Deportes Tolima,0,4
+2023-11-19 00:30:00,COL,Atlético Junior,Deportivo Cali,3,0
+2023-11-19 21:00:00,COL,Millonarios,América de Cali,2,1
+2023-11-19 23:30:00,COL,Independiente Medellín,Atlético Nacional,2,1
+2023-11-25 22:00:00,COL,Deportes Tolima,Deportivo Cali,4,2
+2023-11-26 00:30:00,COL,Atlético Junior,Águilas Doradas,3,1
+2023-11-26 21:00:00,COL,Millonarios,Independiente Medellín,1,0
+2023-11-26 23:30:00,COL,Atlético Nacional,América de Cali,1,0
+2023-11-29 23:15:00,COL,Águilas Doradas,Atlético Junior,1,1
+2023-11-30 01:30:00,COL,Deportivo Cali,Deportes Tolima,0,2
+2023-11-30 23:15:00,COL,América de Cali,Atlético Nacional,0,1
+2023-12-01 01:30:00,COL,Independiente Medellín,Millonarios,2,1
+2023-12-02 23:00:00,COL,Deportes Tolima,Águilas Doradas,0,1
+2023-12-03 01:15:00,COL,Deportivo Cali,Atlético Junior,0,2
+2023-12-03 20:30:00,COL,Atlético Nacional,Independiente Medellín,0,5
+2023-12-04 00:00:00,COL,América de Cali,Millonarios,1,0
+2023-12-06 23:00:00,COL,Águilas Doradas,Deportivo Cali,3,1
+2023-12-06 23:00:00,COL,Millonarios,Atlético Nacional,0,1
+2023-12-07 01:15:00,COL,Atlético Junior,Deportes Tolima,4,2
+2023-12-07 01:15:00,COL,Independiente Medellín,América de Cali,2,1
+2023-12-10 21:00:00,COL,Atlético Junior,Independiente Medellín,3,2
+2024-01-19 23:00:00,COL,Patriotas,Jaguares de Córdoba,0,1
+2024-01-20 01:15:00,COL,Deportivo Pereira,Deportivo Cali,2,2
+2024-01-20 21:00:00,COL,Once Caldas,Boyacá Chicó FC,2,1
+2024-01-20 23:10:00,COL,Deportes Tolima,Fortaleza CEIF,1,2
+2024-01-21 01:20:00,COL,América de Cali,Águilas Doradas,0,1
+2024-01-21 21:00:00,COL,Millonarios,Independiente Medellín,5,0
+2024-01-21 23:10:00,COL,Atlético Junior,Atlético Bucaramanga,2,0
+2024-01-22 01:20:00,COL,Atlético Nacional,Alianza FC,3,1
+2024-01-22 23:10:00,COL,Internacional de Bogotá,Envigado FC,0,0
+2024-01-23 01:20:00,COL,Deportivo Pasto,Independiente Santa Fe,0,1
+2024-01-25 23:10:00,COL,Fortaleza CEIF,Patriotas,2,0
+2024-01-26 01:20:00,COL,Águilas Doradas,Once Caldas,1,0
+2024-01-26 23:10:00,COL,Deportivo Pasto,Deportes Tolima,1,4
+2024-01-27 01:20:00,COL,Alianza FC,Deportivo Cali,3,3
+2024-01-27 21:00:00,COL,Independiente Santa Fe,Envigado FC,3,1
+2024-01-27 23:10:00,COL,Jaguares de Córdoba,Internacional de Bogotá,0,0
+2024-01-28 01:20:00,COL,Independiente Medellín,Deportivo Pereira,1,0
+2024-01-28 21:00:00,COL,Boyacá Chicó FC,Atlético Junior,2,2
+2024-01-28 23:10:00,COL,América de Cali,Atlético Nacional,4,1
+2024-01-29 01:20:00,COL,Atlético Bucaramanga,Millonarios,0,0
+2024-01-30 21:00:00,COL,Patriotas,Águilas Doradas,0,0
+2024-01-30 23:15:00,COL,Deportivo Cali,Fortaleza CEIF,2,0
+2024-01-31 01:30:00,COL,Internacional de Bogotá,Independiente Santa Fe,1,0
+2024-01-31 21:00:00,COL,Deportivo Pereira,Deportivo Pasto,0,1
+2024-01-31 23:10:00,COL,Millonarios,Alianza FC,1,1
+2024-02-01 01:20:00,COL,Deportes Tolima,América de Cali,2,1
+2024-02-01 21:00:00,COL,Envigado FC,Boyacá Chicó FC,2,0
+2024-02-01 23:10:00,COL,Atlético Nacional,Once Caldas,1,1
+2024-02-02 01:20:00,COL,Atlético Junior,Independiente Medellín,3,0
+2024-02-02 23:10:00,COL,Jaguares de Córdoba,Atlético Bucaramanga,0,1
+2024-02-03 23:00:00,COL,Deportes Tolima,Millonarios,2,0
+2024-02-04 01:10:00,COL,América de Cali,Patriotas,1,0
+2024-02-04 21:00:00,COL,Fortaleza CEIF,Envigado FC,1,1
+2024-02-04 23:10:00,COL,Águilas Doradas,Atlético Nacional,0,3
+2024-02-05 01:20:00,COL,Alianza FC,Atlético Junior,0,1
+2024-02-05 21:00:00,COL,Boyacá Chicó FC,Deportivo Pereira,1,2
+2024-02-05 23:10:00,COL,Deportivo Pasto,Jaguares de Córdoba,1,1
+2024-02-06 01:20:00,COL,Independiente Medellín,Deportivo Cali,1,0
+2024-02-06 23:10:00,COL,Once Caldas,Internacional de Bogotá,0,0
+2024-02-07 01:20:00,COL,Independiente Santa Fe,Atlético Bucaramanga,0,1
+2024-02-07 21:00:00,COL,Envigado FC,Alianza FC,1,2
+2024-02-08 01:00:00,COL,Millonarios,América de Cali,1,0
+2024-02-08 21:00:00,COL,Deportivo Pereira,Fortaleza CEIF,2,0
+2024-02-08 23:10:00,COL,Atlético Junior,Deportivo Pasto,2,0
+2024-02-09 01:20:00,COL,Patriotas,Atlético Nacional,0,0
+2024-02-09 23:10:00,COL,Jaguares de Córdoba,Águilas Doradas,1,0
+2024-02-10 01:20:00,COL,Deportivo Cali,Boyacá Chicó FC,4,0
+2024-02-10 21:00:00,COL,Internacional de Bogotá,Deportes Tolima,1,1
+2024-02-10 23:10:00,COL,Atlético Bucaramanga,Once Caldas,1,1
+2024-02-11 01:20:00,COL,Independiente Medellín,Independiente Santa Fe,1,1
+2024-02-11 21:00:00,COL,Fortaleza CEIF,Atlético Junior,2,0
+2024-02-11 23:10:00,COL,Atlético Nacional,Millonarios,0,1
+2024-02-12 01:20:00,COL,Alianza FC,Deportivo Pereira,1,2
+2024-02-13 01:10:00,COL,Deportivo Pasto,Envigado FC,0,1
+2024-02-13 23:10:00,COL,Águilas Doradas,Internacional de Bogotá,1,1
+2024-02-14 01:20:00,COL,Independiente Santa Fe,Deportivo Cali,1,0
+2024-02-14 23:10:00,COL,Once Caldas,Patriotas,1,0
+2024-02-15 01:20:00,COL,Boyacá Chicó FC,Independiente Medellín,3,0
+2024-02-15 23:10:00,COL,Deportes Tolima,Jaguares de Córdoba,2,0
+2024-02-16 01:20:00,COL,América de Cali,Atlético Bucaramanga,0,0
+2024-02-16 23:10:00,COL,Millonarios,Águilas Doradas,0,1
+2024-02-17 01:20:00,COL,Deportivo Cali,Atlético Nacional,3,2
+2024-02-17 23:05:00,COL,Independiente Medellín,Fortaleza CEIF,2,2
+2024-02-18 01:15:00,COL,Deportivo Pereira,Independiente Santa Fe,1,0
+2024-02-18 19:00:00,COL,Internacional de Bogotá,Patriotas,1,0
+2024-02-18 21:00:00,COL,Envigado FC,América de Cali,1,1
+2024-02-18 23:10:00,COL,Jaguares de Córdoba,Once Caldas,3,0
+2024-02-19 01:20:00,COL,Atlético Junior,Deportes Tolima,0,1
+2024-02-19 21:00:00,COL,Boyacá Chicó FC,Alianza FC,1,0
+2024-02-20 01:20:00,COL,Atlético Bucaramanga,Deportivo Pasto,1,0
+2024-02-22 00:45:00,COL,Independiente Santa Fe,Atlético Junior,3,0
+2024-02-22 21:00:00,COL,Deportes Tolima,Atlético Bucaramanga,0,0
+2024-02-22 23:10:00,COL,América de Cali,Internacional de Bogotá,0,1
+2024-02-23 01:20:00,COL,Once Caldas,Deportivo Pereira,1,2
+2024-02-23 21:00:00,COL,Fortaleza CEIF,Boyacá Chicó FC,1,1
+2024-02-23 23:10:00,COL,Águilas Doradas,Envigado FC,2,0
+2024-02-24 01:20:00,COL,Deportivo Pasto,Deportivo Cali,0,1
+2024-02-24 23:10:00,COL,Alianza FC,Independiente Medellín,2,0
+2024-02-25 01:20:00,COL,Patriotas,Millonarios,1,0
+2024-02-25 21:30:00,COL,Jaguares de Córdoba,América de Cali,1,1
+2024-02-25 23:30:00,COL,Internacional de Bogotá,Atlético Nacional,2,0
+2024-02-26 01:30:00,COL,Deportivo Pereira,Atlético Junior,3,3
+2024-02-26 23:10:00,COL,Boyacá Chicó FC,Independiente Santa Fe,1,2
+2024-02-27 01:20:00,COL,Deportivo Cali,Deportes Tolima,1,2
+2024-02-27 21:00:00,COL,Envigado FC,Patriotas,1,0
+2024-02-28 01:15:00,COL,Millonarios,Once Caldas,0,2
+2024-02-28 20:15:00,COL,Fortaleza CEIF,Alianza FC,1,2
+2024-03-01 00:45:00,COL,Independiente Medellín,Deportivo Pasto,1,0
+2024-03-01 21:00:00,COL,Envigado FC,Jaguares de Córdoba,2,2
+2024-03-01 23:10:00,COL,Boyacá Chicó FC,Deportes Tolima,1,1
+2024-03-02 01:20:00,COL,Deportivo Cali,Once Caldas,0,1
+2024-03-02 21:00:00,COL,Millonarios,Internacional de Bogotá,1,2
+2024-03-02 23:10:00,COL,Deportivo Pereira,América de Cali,2,0
+2024-03-03 01:20:00,COL,Atlético Junior,Atlético Nacional,0,0
+2024-03-03 21:00:00,COL,Atlético Bucaramanga,Patriotas,3,0
+2024-03-03 23:10:00,COL,Independiente Medellín,Águilas Doradas,1,0
+2024-03-04 01:20:00,COL,Alianza FC,Independiente Santa Fe,0,1
+2024-03-05 01:10:00,COL,Deportivo Pasto,Fortaleza CEIF,1,0
+2024-03-08 23:10:00,COL,Águilas Doradas,Atlético Junior,0,2
+2024-03-09 01:20:00,COL,Internacional de Bogotá,Deportivo Cali,2,0
+2024-03-09 19:00:00,COL,Deportivo Pasto,Boyacá Chicó FC,2,1
+2024-03-09 21:10:00,COL,Independiente Santa Fe,Fortaleza CEIF,2,0
+2024-03-09 23:20:00,COL,América de Cali,Alianza FC,2,0
+2024-03-10 01:30:00,COL,Deportes Tolima,Independiente Medellín,2,2
+2024-03-10 19:00:00,COL,Once Caldas,Envigado FC,2,1
+2024-03-10 21:10:00,COL,Atlético Nacional,Atlético Bucaramanga,0,0
+2024-03-10 23:20:00,COL,Jaguares de Córdoba,Millonarios,2,1
+2024-03-11 01:30:00,COL,Patriotas,Deportivo Pereira,0,3
+2024-03-15 23:00:00,COL,Alianza FC,Deportivo Pasto,1,1
+2024-03-16 01:10:00,COL,Atlético Junior,Jaguares de Córdoba,3,1
+2024-03-16 19:00:00,COL,Independiente Santa Fe,Deportes Tolima,1,1
+2024-03-16 21:10:00,COL,Atlético Bucaramanga,Internacional de Bogotá,4,0
+2024-03-16 23:20:00,COL,Boyacá Chicó FC,Atlético Nacional,2,1
+2024-03-17 01:30:00,COL,Independiente Medellín,Once Caldas,1,2
+2024-03-17 19:00:00,COL,Envigado FC,Millonarios,1,1
+2024-03-17 21:10:00,COL,Deportivo Cali,Patriotas,0,1
+2024-03-17 23:20:00,COL,Fortaleza CEIF,América de Cali,0,0
+2024-03-18 01:30:00,COL,Deportivo Pereira,Águilas Doradas,2,1
+2024-03-22 23:10:00,COL,Patriotas,Atlético Junior,1,0
+2024-03-23 01:20:00,COL,Internacional de Bogotá,Independiente Medellín,1,2
+2024-03-23 19:00:00,COL,Millonarios,Deportivo Cali,1,1
+2024-03-23 21:10:00,COL,Deportes Tolima,Deportivo Pereira,2,1
+2024-03-23 23:20:00,COL,Jaguares de Córdoba,Fortaleza CEIF,0,1
+2024-03-24 01:30:00,COL,América de Cali,Boyacá Chicó FC,3,2
+2024-03-24 21:00:00,COL,Atlético Bucaramanga,Envigado FC,3,1
+2024-03-24 23:10:00,COL,Atlético Nacional,Deportivo Pasto,1,0
+2024-03-25 01:20:00,COL,Águilas Doradas,Independiente Santa Fe,1,1
+2024-03-25 21:00:00,COL,Once Caldas,Alianza FC,1,0
+2024-03-27 21:00:00,COL,Atlético Bucaramanga,Águilas Doradas,1,0
+2024-03-27 23:10:00,COL,Atlético Nacional,Jaguares de Córdoba,2,0
+2024-03-28 01:20:00,COL,Millonarios,Independiente Santa Fe,3,1
+2024-03-29 22:00:00,COL,Alianza FC,Deportes Tolima,0,2
+2024-03-30 00:30:00,COL,Atlético Junior,Internacional de Bogotá,1,0
+2024-03-30 19:00:00,COL,Envigado FC,Atlético Nacional,0,1
+2024-03-30 21:10:00,COL,Deportivo Pasto,Once Caldas,0,0
+2024-03-30 23:20:00,COL,Boyacá Chicó FC,Jaguares de Córdoba,1,0
+2024-03-31 01:30:00,COL,Fortaleza CEIF,Millonarios,1,2
+2024-03-31 19:00:00,COL,Independiente Santa Fe,Patriotas,3,0
+2024-03-31 21:10:00,COL,Deportivo Pereira,Atlético Bucaramanga,1,2
+2024-03-31 23:20:00,COL,Independiente Medellín,América de Cali,1,4
+2024-04-01 01:30:00,COL,Deportivo Cali,Águilas Doradas,2,4
+2024-04-05 21:00:00,COL,Envigado FC,Deportivo Pereira,1,1
+2024-04-05 23:10:00,COL,Atlético Nacional,Fortaleza CEIF,1,2
+2024-04-06 01:20:00,COL,Once Caldas,Deportes Tolima,2,1
+2024-04-06 21:00:00,COL,Águilas Doradas,Deportivo Pasto,0,1
+2024-04-06 23:10:00,COL,Atlético Bucaramanga,Deportivo Cali,2,1
+2024-04-07 01:20:00,COL,América de Cali,Atlético Junior,4,1
+2024-04-07 21:00:00,COL,Patriotas,Alianza FC,0,0
+2024-04-07 23:10:00,COL,Jaguares de Córdoba,Independiente Medellín,2,2
+2024-04-08 01:20:00,COL,Internacional de Bogotá,Boyacá Chicó FC,4,0
+2024-04-12 23:05:00,COL,Deportes Tolima,Águilas Doradas,2,1
+2024-04-13 01:15:00,COL,Deportivo Cali,América de Cali,1,1
+2024-04-13 19:00:00,COL,Fortaleza CEIF,Once Caldas,2,0
+2024-04-13 21:10:00,COL,Independiente Santa Fe,Atlético Nacional,0,0
+2024-04-13 23:20:00,COL,Atlético Junior,Envigado FC,1,1
+2024-04-14 01:30:00,COL,Deportivo Pereira,Jaguares de Córdoba,0,0
+2024-04-14 19:00:00,COL,Boyacá Chicó FC,Patriotas,1,2
+2024-04-14 21:10:00,COL,Independiente Medellín,Atlético Bucaramanga,1,0
+2024-04-14 23:20:00,COL,Deportivo Pasto,Millonarios,2,3
+2024-04-15 01:30:00,COL,Alianza FC,Internacional de Bogotá,0,3
+2024-04-16 21:00:00,COL,Envigado FC,Deportes Tolima,0,2
+2024-04-16 23:10:00,COL,Jaguares de Córdoba,Deportivo Cali,1,1
+2024-04-17 01:20:00,COL,Once Caldas,Independiente Santa Fe,0,1
+2024-04-17 21:00:00,COL,Águilas Doradas,Alianza FC,4,0
+2024-04-17 23:10:00,COL,Millonarios,Atlético Junior,3,2
+2024-04-18 01:20:00,COL,Atlético Nacional,Deportivo Pereira,0,1
+2024-04-18 21:00:00,COL,Internacional de Bogotá,Fortaleza CEIF,0,0
+2024-04-18 23:10:00,COL,Patriotas,Independiente Medellín,2,3
+2024-04-19 01:20:00,COL,América de Cali,Deportivo Pasto,0,0
+2024-04-20 01:10:00,COL,Atlético Bucaramanga,Boyacá Chicó FC,2,3
+2024-04-20 21:00:00,COL,Deportivo Pereira,Millonarios,1,2
+2024-04-20 23:10:00,COL,Atlético Junior,Once Caldas,1,0
+2024-04-21 01:30:00,COL,Alianza FC,Jaguares de Córdoba,2,1
+2024-04-21 19:00:00,COL,Independiente Santa Fe,América de Cali,1,0
+2024-04-21 21:10:00,COL,Deportivo Cali,Envigado FC,2,0
+2024-04-21 23:20:00,COL,Independiente Medellín,Atlético Nacional,2,2
+2024-04-22 01:30:00,COL,Deportes Tolima,Patriotas,2,1
+2024-04-22 21:00:00,COL,Fortaleza CEIF,Atlético Bucaramanga,0,2
+2024-04-22 23:10:00,COL,Boyacá Chicó FC,Águilas Doradas,1,2
+2024-04-23 01:20:00,COL,Deportivo Pasto,Internacional de Bogotá,2,3
+2024-04-28 00:00:00,COL,Atlético Nacional,Deportes Tolima,3,1
+2024-04-28 20:00:00,COL,Patriotas,Deportivo Pasto,0,3
+2024-04-28 22:00:00,COL,Águilas Doradas,Fortaleza CEIF,1,1
+2024-04-28 22:00:00,COL,Atlético Bucaramanga,Alianza FC,1,0
+2024-04-28 22:00:00,COL,Deportivo Cali,Atlético Junior,0,0
+2024-04-28 22:00:00,COL,Envigado FC,Independiente Medellín,0,1
+2024-04-28 22:00:00,COL,Internacional de Bogotá,Deportivo Pereira,0,2
+2024-04-28 22:00:00,COL,Jaguares de Córdoba,Independiente Santa Fe,1,0
+2024-04-28 22:00:00,COL,Millonarios,Boyacá Chicó FC,3,0
+2024-04-28 22:00:00,COL,Once Caldas,América de Cali,0,0
+2024-05-04 22:00:00,COL,Deportivo Pereira,Atlético Bucaramanga,1,0
+2024-05-05 00:15:00,COL,Atlético Junior,Millonarios,2,1
+2024-05-05 22:15:00,COL,Independiente Santa Fe,Deportes Tolima,1,0
+2024-05-06 00:30:00,COL,Once Caldas,Internacional de Bogotá,2,0
+2024-05-11 22:15:00,COL,Atlético Bucaramanga,Atlético Junior,0,0
+2024-05-12 00:30:00,COL,Millonarios,Deportivo Pereira,1,0
+2024-05-12 22:15:00,COL,Internacional de Bogotá,Independiente Santa Fe,0,2
+2024-05-13 00:30:00,COL,Deportes Tolima,Once Caldas,1,1
+2024-05-18 22:15:00,COL,Internacional de Bogotá,Deportes Tolima,2,3
+2024-05-19 00:30:00,COL,Once Caldas,Independiente Santa Fe,0,0
+2024-05-19 22:30:00,COL,Atlético Junior,Deportivo Pereira,2,3
+2024-05-20 01:00:00,COL,Millonarios,Atlético Bucaramanga,0,1
+2024-05-22 23:15:00,COL,Atlético Bucaramanga,Millonarios,0,0
+2024-05-23 01:30:00,COL,Deportivo Pereira,Atlético Junior,0,0
+2024-05-23 23:15:00,COL,Deportes Tolima,Internacional de Bogotá,3,0
+2024-05-24 01:30:00,COL,Independiente Santa Fe,Once Caldas,1,0
+2024-05-25 22:00:00,COL,Deportivo Pereira,Millonarios,2,2
+2024-05-26 00:30:00,COL,Atlético Junior,Atlético Bucaramanga,1,0
+2024-05-26 23:00:00,COL,Independiente Santa Fe,Internacional de Bogotá,2,0
+2024-05-26 23:00:00,COL,Once Caldas,Deportes Tolima,0,1
+2024-05-31 22:00:00,COL,Internacional de Bogotá,Once Caldas,1,2
+2024-06-02 22:00:00,COL,Atlético Bucaramanga,Deportivo Pereira,3,1
+2024-06-02 22:00:00,COL,Millonarios,Atlético Junior,2,0
+2024-06-03 00:30:00,COL,Deportes Tolima,Independiente Santa Fe,1,2
+2024-06-09 00:30:00,COL,Atlético Bucaramanga,Independiente Santa Fe,1,0
+2024-07-16 01:15:00,COL,Boyacá Chicó FC,Once Caldas,0,1
+2024-07-16 21:00:00,COL,Envigado FC,Internacional de Bogotá,2,1
+2024-07-16 23:10:00,COL,Águilas Doradas,América de Cali,1,2
+2024-07-17 01:20:00,COL,Deportivo Cali,Deportivo Pereira,0,2
+2024-07-17 23:00:00,COL,Independiente Santa Fe,Deportivo Pasto,2,1
+2024-07-18 01:10:00,COL,Alianza FC,Atlético Nacional,0,2
+2024-07-18 23:00:00,COL,Atlético Bucaramanga,Atlético Junior,1,0
+2024-07-19 01:10:00,COL,Independiente Medellín,Millonarios,1,1
+2024-07-19 22:00:00,COL,Jaguares de Córdoba,Patriotas,0,0
+2024-07-20 00:30:00,COL,Fortaleza CEIF,Deportes Tolima,1,1
+2024-07-20 21:00:00,COL,Envigado FC,Independiente Santa Fe,0,1
+2024-07-20 23:30:00,COL,Once Caldas,Águilas Doradas,1,0
+2024-07-21 20:30:00,COL,Millonarios,Atlético Bucaramanga,1,0
+2024-07-21 22:45:00,COL,Atlético Nacional,América de Cali,2,1
+2024-07-22 01:00:00,COL,Atlético Junior,Boyacá Chicó FC,2,1
+2024-07-22 23:00:00,COL,Deportivo Cali,Alianza FC,1,0
+2024-07-23 01:00:00,COL,Deportivo Pereira,Independiente Medellín,1,1
+2024-07-23 21:00:00,COL,Patriotas,Fortaleza CEIF,0,2
+2024-07-23 23:10:00,COL,Internacional de Bogotá,Jaguares de Córdoba,1,0
+2024-07-24 01:20:00,COL,Deportes Tolima,Deportivo Pasto,2,1
+2024-07-25 01:00:00,COL,Millonarios,Atlético Nacional,1,2
+2024-07-25 21:00:00,COL,América de Cali,Envigado FC,4,0
+2024-07-27 21:00:00,COL,Once Caldas,Atlético Nacional,2,0
+2024-07-27 23:10:00,COL,Independiente Santa Fe,Internacional de Bogotá,0,1
+2024-07-28 01:20:00,COL,Independiente Medellín,Atlético Junior,0,0
+2024-07-28 20:00:00,COL,Atlético Bucaramanga,Jaguares de Córdoba,0,0
+2024-07-28 22:30:00,COL,Alianza FC,Millonarios,2,1
+2024-07-29 23:00:00,COL,Deportivo Pasto,Deportivo Pereira,2,0
+2024-07-30 01:10:00,COL,Fortaleza CEIF,Deportivo Cali,2,1
+2024-07-30 23:00:00,COL,Águilas Doradas,Patriotas,3,2
+2024-07-31 01:10:00,COL,Atlético Nacional,Internacional de Bogotá,0,1
+2024-08-01 01:10:00,COL,Independiente Medellín,Boyacá Chicó FC,1,0
+2024-08-03 01:00:00,COL,Millonarios,Deportes Tolima,1,0
+2024-08-03 20:00:00,COL,Envigado FC,Fortaleza CEIF,0,1
+2024-08-03 22:00:00,COL,Jaguares de Córdoba,Deportivo Pasto,0,0
+2024-08-04 00:20:00,COL,Internacional de Bogotá,Once Caldas,1,1
+2024-08-04 20:30:00,COL,Patriotas,América de Cali,1,1
+2024-08-04 22:45:00,COL,Atlético Junior,Alianza FC,2,2
+2024-08-05 00:50:00,COL,Deportivo Cali,Independiente Medellín,2,0
+2024-08-06 01:00:00,COL,Atlético Nacional,Águilas Doradas,1,1
+2024-08-07 01:00:00,COL,Deportivo Pereira,Boyacá Chicó FC,1,0
+2024-08-08 00:00:00,COL,Atlético Bucaramanga,Independiente Santa Fe,0,1
+2024-08-10 20:30:00,COL,Atlético Nacional,Patriotas,3,1
+2024-08-10 22:45:00,COL,Deportes Tolima,Internacional de Bogotá,5,1
+2024-08-11 01:00:00,COL,Boyacá Chicó FC,Deportivo Cali,1,0
+2024-08-11 22:45:00,COL,Once Caldas,Atlético Bucaramanga,2,1
+2024-08-12 01:00:00,COL,Alianza FC,Envigado FC,1,1
+2024-08-13 01:00:00,COL,Fortaleza CEIF,Deportivo Pereira,1,0
+2024-08-14 00:30:00,COL,Águilas Doradas,Jaguares de Córdoba,1,0
+2024-08-17 23:05:00,COL,Atlético Junior,Fortaleza CEIF,2,1
+2024-08-18 01:10:00,COL,Internacional de Bogotá,Águilas Doradas,0,0
+2024-08-18 22:45:00,COL,Atlético Bucaramanga,América de Cali,1,2
+2024-08-19 01:00:00,COL,Boyacá Chicó FC,Envigado FC,0,0
+2024-08-19 21:00:00,COL,Patriotas,Once Caldas,3,1
+2024-08-19 23:15:00,COL,Jaguares de Córdoba,Deportes Tolima,0,2
+2024-08-21 00:00:00,COL,Deportivo Cali,Independiente Santa Fe,1,3
+2024-08-24 00:30:00,COL,Deportivo Pasto,Atlético Bucaramanga,1,2
+2024-08-24 20:00:00,COL,Patriotas,Internacional de Bogotá,0,0
+2024-08-24 22:15:00,COL,Alianza FC,Boyacá Chicó FC,4,0
+2024-08-25 00:30:00,COL,Deportes Tolima,Atlético Junior,0,1
+2024-08-25 22:30:00,COL,Águilas Doradas,Millonarios,2,1
+2024-08-26 00:40:00,COL,Once Caldas,Jaguares de Córdoba,2,0
+2024-08-27 01:00:00,COL,Fortaleza CEIF,Independiente Medellín,2,2
+2024-08-29 01:30:00,COL,Deportivo Pasto,Atlético Junior,1,0
+2024-08-31 21:15:00,COL,Jaguares de Córdoba,Atlético Nacional,0,2
+2024-09-01 01:00:00,COL,Boyacá Chicó FC,Fortaleza CEIF,2,2
+2024-09-01 20:00:00,COL,Atlético Bucaramanga,Deportes Tolima,0,2
+2024-09-01 22:10:00,COL,Millonarios,Patriotas,3,0
+2024-09-02 00:20:00,COL,Atlético Junior,Independiente Santa Fe,1,1
+2024-09-03 00:30:00,COL,Deportivo Cali,Deportivo Pasto,0,3
+2024-09-03 23:00:00,COL,Deportivo Pereira,Once Caldas,0,1
+2024-09-07 19:00:00,COL,Patriotas,Envigado FC,2,0
+2024-09-07 21:10:00,COL,América de Cali,Jaguares de Córdoba,1,0
+2024-09-07 23:20:00,COL,Deportes Tolima,Deportivo Cali,1,1
+2024-09-08 20:00:00,COL,Once Caldas,Millonarios,1,1
+2024-09-08 22:10:00,COL,Alianza FC,Fortaleza CEIF,1,1
+2024-09-09 00:20:00,COL,Deportivo Pasto,Independiente Medellín,1,0
+2024-09-11 23:00:00,COL,América de Cali,Deportes Tolima,1,0
+2024-09-13 00:30:00,COL,Deportivo Pereira,Alianza FC,1,0
+2024-09-13 21:00:00,COL,Patriotas,Atlético Bucaramanga,1,2
+2024-09-13 23:30:00,COL,Jaguares de Córdoba,Envigado FC,2,1
+2024-09-14 21:10:00,COL,Once Caldas,Deportivo Cali,4,1
+2024-09-14 23:20:00,COL,Deportes Tolima,Boyacá Chicó FC,2,1
+2024-09-15 01:30:00,COL,Águilas Doradas,Independiente Medellín,1,1
+2024-09-15 01:30:00,COL,Fortaleza CEIF,Deportivo Pasto,0,0
+2024-09-15 23:30:00,COL,América de Cali,Deportivo Pereira,1,0
+2024-09-16 01:30:00,COL,Internacional de Bogotá,Millonarios,1,3
+2024-09-21 01:00:00,COL,Deportivo Pereira,Patriotas,0,1
+2024-09-21 20:15:00,COL,Envigado FC,Once Caldas,0,1
+2024-09-21 22:45:00,COL,Deportivo Cali,Internacional de Bogotá,1,1
+2024-09-22 01:00:00,COL,Fortaleza CEIF,Independiente Santa Fe,1,3
+2024-09-22 19:00:00,COL,Independiente Medellín,Deportes Tolima,0,1
+2024-09-22 21:10:00,COL,Boyacá Chicó FC,Deportivo Pasto,1,0
+2024-09-22 23:20:00,COL,Alianza FC,América de Cali,0,1
+2024-09-23 01:30:00,COL,Atlético Junior,Águilas Doradas,3,4
+2024-09-24 01:10:00,COL,Atlético Bucaramanga,Atlético Nacional,1,0
+2024-09-26 01:30:00,COL,Millonarios,Jaguares de Córdoba,0,0
+2024-09-26 23:30:00,COL,Independiente Santa Fe,Alianza FC,2,0
+2024-09-27 01:30:00,COL,Atlético Nacional,Atlético Junior,0,3
+2024-09-27 22:15:00,COL,Águilas Doradas,Deportivo Pereira,1,1
+2024-09-28 19:00:00,COL,Internacional de Bogotá,Atlético Bucaramanga,0,1
+2024-09-28 21:10:00,COL,Once Caldas,Independiente Medellín,0,2
+2024-09-28 23:20:00,COL,América de Cali,Fortaleza CEIF,1,1
+2024-09-29 01:30:00,COL,Millonarios,Envigado FC,3,0
+2024-09-29 19:00:00,COL,Atlético Nacional,Boyacá Chicó FC,6,2
+2024-09-29 21:10:00,COL,Jaguares de Córdoba,Atlético Junior,1,1
+2024-09-29 23:20:00,COL,Deportes Tolima,Independiente Santa Fe,0,0
+2024-09-30 01:30:00,COL,Deportivo Pasto,Alianza FC,1,0
+2024-09-30 21:00:00,COL,Patriotas,Deportivo Cali,2,2
+2024-10-04 01:10:00,COL,Independiente Santa Fe,Deportivo Pereira,1,1
+2024-10-05 00:40:00,COL,Deportivo Cali,Millonarios,0,1
+2024-10-05 19:00:00,COL,Envigado FC,Atlético Bucaramanga,0,0
+2024-10-05 21:10:00,COL,Boyacá Chicó FC,América de Cali,0,2
+2024-10-05 23:20:00,COL,Deportivo Pasto,Atlético Nacional,1,2
+2024-10-06 01:30:00,COL,Alianza FC,Once Caldas,1,0
+2024-10-06 20:00:00,COL,Independiente Medellín,Internacional de Bogotá,0,0
+2024-10-06 22:10:00,COL,Independiente Santa Fe,Águilas Doradas,0,0
+2024-10-07 00:20:00,COL,Atlético Junior,Patriotas,2,1
+2024-10-07 23:00:00,COL,Fortaleza CEIF,Jaguares de Córdoba,3,1
+2024-10-08 01:00:00,COL,Deportivo Pereira,Deportes Tolima,1,0
+2024-10-09 21:00:00,COL,Envigado FC,Deportivo Pasto,0,1
+2024-10-10 00:30:00,COL,Atlético Nacional,Deportivo Cali,1,1
+2024-10-10 23:30:00,COL,Independiente Medellín,Alianza FC,2,0
+2024-10-11 01:30:00,COL,Independiente Santa Fe,Boyacá Chicó FC,3,1
+2024-10-12 00:30:00,COL,América de Cali,Millonarios,2,1
+2024-10-12 22:45:00,COL,Internacional de Bogotá,Atlético Junior,1,0
+2024-10-13 01:00:00,COL,Atlético Bucaramanga,Deportivo Pereira,1,1
+2024-10-14 00:30:00,COL,Águilas Doradas,Deportivo Cali,1,1
+2024-10-14 19:00:00,COL,Patriotas,Independiente Santa Fe,1,2
+2024-10-14 21:10:00,COL,Once Caldas,Deportivo Pasto,2,1
+2024-10-14 23:20:00,COL,América de Cali,Independiente Medellín,1,0
+2024-10-15 01:30:00,COL,Atlético Nacional,Envigado FC,2,1
+2024-10-15 22:30:00,COL,Jaguares de Córdoba,Boyacá Chicó FC,1,0
+2024-10-17 01:05:00,COL,Millonarios,Fortaleza CEIF,2,1
+2024-10-19 00:00:00,COL,Independiente Santa Fe,Independiente Medellín,1,1
+2024-10-20 00:10:00,COL,Deportes Tolima,Alianza FC,2,0
+2024-10-20 20:45:00,COL,Internacional de Bogotá,América de Cali,2,2
+2024-10-20 22:45:00,COL,Atlético Junior,Deportivo Pereira,3,1
+2024-10-21 01:00:00,COL,Águilas Doradas,Atlético Bucaramanga,1,3
+2024-10-24 21:00:00,COL,Envigado FC,Águilas Doradas,3,0
+2024-10-25 23:30:00,COL,Deportes Tolima,Once Caldas,1,1
+2024-10-26 22:15:00,COL,Alianza FC,Patriotas,1,1
+2024-10-27 00:30:00,COL,Independiente Santa Fe,Millonarios,0,1
+2024-10-27 19:00:00,COL,Fortaleza CEIF,Atlético Nacional,0,1
+2024-10-27 21:10:00,COL,Deportivo Cali,Atlético Bucaramanga,1,0
+2024-10-27 23:20:00,COL,Atlético Junior,América de Cali,3,1
+2024-10-29 01:15:00,COL,Independiente Medellín,Jaguares de Córdoba,4,1
+2024-10-29 21:00:00,COL,Boyacá Chicó FC,Internacional de Bogotá,1,0
+2024-10-29 23:05:00,COL,Deportivo Pasto,Águilas Doradas,3,1
+2024-10-30 01:10:00,COL,Deportivo Pereira,Envigado FC,2,0
+2024-11-01 22:00:00,COL,Jaguares de Córdoba,Deportivo Pereira,1,2
+2024-11-02 01:00:00,COL,Once Caldas,Fortaleza CEIF,0,2
+2024-11-02 19:00:00,COL,Internacional de Bogotá,Alianza FC,3,2
+2024-11-02 21:00:00,COL,Envigado FC,Atlético Junior,0,0
+2024-11-02 23:30:00,COL,Águilas Doradas,Deportes Tolima,0,1
+2024-11-03 19:00:00,COL,Patriotas,Boyacá Chicó FC,3,0
+2024-11-03 21:10:00,COL,América de Cali,Deportivo Cali,0,1
+2024-11-03 23:20:00,COL,Millonarios,Deportivo Pasto,1,0
+2024-11-04 01:30:00,COL,Atlético Bucaramanga,Independiente Medellín,2,3
+2024-11-05 01:15:00,COL,Atlético Nacional,Independiente Santa Fe,1,1
+2024-11-06 00:30:00,COL,Fortaleza CEIF,Internacional de Bogotá,2,1
+2024-11-06 19:30:00,COL,Boyacá Chicó FC,Atlético Bucaramanga,1,1
+2024-11-06 21:30:00,COL,Alianza FC,Águilas Doradas,3,0
+2024-11-06 23:30:00,COL,Deportes Tolima,Envigado FC,3,0
+2024-11-07 01:30:00,COL,Deportivo Cali,Jaguares de Córdoba,1,2
+2024-11-07 01:30:00,COL,Independiente Medellín,Patriotas,3,0
+2024-11-07 21:50:00,COL,Atlético Junior,Millonarios,0,0
+2024-11-07 23:45:00,COL,Deportivo Pasto,América de Cali,3,1
+2024-11-08 01:45:00,COL,Deportivo Pereira,Atlético Nacional,1,1
+2024-11-09 01:20:00,COL,Independiente Santa Fe,Once Caldas,2,1
+2024-11-10 01:20:00,COL,Atlético Bucaramanga,Fortaleza CEIF,1,0
+2024-11-10 19:00:00,COL,Patriotas,Deportes Tolima,2,1
+2024-11-10 21:10:00,COL,Envigado FC,Deportivo Cali,1,0
+2024-11-10 21:10:00,COL,Jaguares de Córdoba,Alianza FC,0,0
+2024-11-10 23:20:00,COL,Águilas Doradas,Boyacá Chicó FC,0,1
+2024-11-11 01:30:00,COL,Millonarios,Deportivo Pereira,0,0
+2024-11-11 19:00:00,COL,Internacional de Bogotá,Deportivo Pasto,2,2
+2024-11-11 21:10:00,COL,Atlético Nacional,Independiente Medellín,1,1
+2024-11-11 23:20:00,COL,Once Caldas,Atlético Junior,0,0
+2024-11-12 01:30:00,COL,América de Cali,Independiente Santa Fe,0,0
+2024-11-15 00:00:00,COL,Alianza FC,Atlético Bucaramanga,0,4
+2024-11-15 00:00:00,COL,América de Cali,Once Caldas,3,0
+2024-11-15 00:00:00,COL,Atlético Junior,Deportivo Cali,3,0
+2024-11-15 00:00:00,COL,Boyacá Chicó FC,Millonarios,1,5
+2024-11-15 00:00:00,COL,Deportes Tolima,Atlético Nacional,1,0
+2024-11-15 00:00:00,COL,Deportivo Pasto,Patriotas,3,2
+2024-11-15 00:00:00,COL,Deportivo Pereira,Internacional de Bogotá,4,3
+2024-11-15 00:00:00,COL,Fortaleza CEIF,Águilas Doradas,0,1
+2024-11-15 00:00:00,COL,Independiente Medellín,Envigado FC,1,0
+2024-11-15 00:00:00,COL,Independiente Santa Fe,Jaguares de Córdoba,3,0
+2024-11-20 23:30:00,COL,Millonarios,Deportivo Pasto,2,1
+2024-11-21 01:30:00,COL,Atlético Nacional,Independiente Santa Fe,5,0
+2024-11-21 23:30:00,COL,Once Caldas,Deportes Tolima,0,0
+2024-11-22 01:30:00,COL,Atlético Junior,América de Cali,1,0
+2024-11-24 20:00:00,COL,Deportivo Pasto,Atlético Nacional,0,1
+2024-11-24 22:10:00,COL,América de Cali,Once Caldas,1,1
+2024-11-25 00:20:00,COL,Deportes Tolima,Atlético Junior,1,0
+2024-11-27 01:00:00,COL,Independiente Santa Fe,Millonarios,0,1
+2024-11-27 23:30:00,COL,Deportes Tolima,América de Cali,1,0
+2024-11-28 01:30:00,COL,Once Caldas,Atlético Junior,2,2
+2024-11-29 23:30:00,COL,Deportivo Pasto,Independiente Santa Fe,1,0
+2024-11-30 01:30:00,COL,Millonarios,Atlético Nacional,2,1
+2024-12-01 21:00:00,COL,América de Cali,Deportes Tolima,4,2
+2024-12-01 23:30:00,COL,Atlético Junior,Once Caldas,1,2
+2024-12-02 23:30:00,COL,Independiente Santa Fe,Deportivo Pasto,1,2
+2024-12-03 01:30:00,COL,Atlético Nacional,Millonarios,1,1
+2024-12-04 23:30:00,COL,Once Caldas,América de Cali,3,0
+2024-12-05 01:30:00,COL,Atlético Junior,Deportes Tolima,3,2
+2024-12-05 23:30:00,COL,Atlético Nacional,Deportivo Pasto,2,1
+2024-12-06 01:30:00,COL,Millonarios,Independiente Santa Fe,1,1
+2024-12-08 21:30:00,COL,América de Cali,Atlético Junior,1,0
+2024-12-08 21:30:00,COL,Deportes Tolima,Once Caldas,1,0
+2024-12-09 00:00:00,COL,Deportivo Pasto,Millonarios,0,0
+2024-12-09 00:00:00,COL,Independiente Santa Fe,Atlético Nacional,0,3
+2024-12-19 00:30:00,COL,Deportes Tolima,Atlético Nacional,1,1
+2024-12-22 23:00:00,COL,Atlético Nacional,Deportes Tolima,2,0
+2025-01-24 23:00:00,COL,Boyacá Chicó FC,Atlético Bucaramanga,1,0
+2025-01-25 22:00:00,COL,América de Cali,Llaneros FC,4,3
+2025-01-26 00:30:00,COL,Atlético Nacional,Once Caldas,4,0
+2025-01-26 20:00:00,COL,Independiente Santa Fe,Deportivo Pereira,2,1
+2025-01-26 22:10:00,COL,Atlético Junior,Deportivo Cali,0,0
+2025-01-27 00:20:00,COL,Alianza FC,Independiente Medellín,1,1
+2025-01-27 23:00:00,COL,Águilas Doradas,Internacional de Bogotá,1,1
+2025-01-28 01:10:00,COL,Deportes Tolima,Deportivo Pasto,2,0
+2025-01-29 01:00:00,COL,Fortaleza CEIF,Envigado FC,0,0
+2025-02-01 00:30:00,COL,Independiente Santa Fe,Deportes Tolima,0,0
+2025-02-01 20:00:00,COL,Once Caldas,Fortaleza CEIF,2,1
+2025-02-01 22:10:00,COL,Deportivo Pasto,Millonarios,0,1
+2025-02-02 00:20:00,COL,Atlético Junior,Águilas Doradas,2,2
+2025-02-02 19:00:00,COL,Internacional de Bogotá,Atlético Nacional,0,1
+2025-02-02 21:10:00,COL,Deportivo Cali,Envigado FC,1,0
+2025-02-02 23:20:00,COL,Independiente Medellín,Boyacá Chicó FC,3,0
+2025-02-03 01:30:00,COL,Atlético Bucaramanga,América de Cali,0,4
+2025-02-03 23:30:00,COL,Deportivo Pereira,Alianza FC,0,0
+2025-02-04 01:30:00,COL,Llaneros FC,Unión Magdalena,2,0
+2025-02-07 23:00:00,COL,Águilas Doradas,Independiente Santa Fe,0,0
+2025-02-08 01:10:00,COL,Deportes Tolima,Alianza FC,3,1
+2025-02-08 19:00:00,COL,Boyacá Chicó FC,Llaneros FC,2,2
+2025-02-08 21:10:00,COL,América de Cali,Deportivo Pasto,1,1
+2025-02-08 23:20:00,COL,Unión Magdalena,Atlético Junior,0,0
+2025-02-09 01:30:00,COL,Millonarios,Internacional de Bogotá,2,1
+2025-02-09 19:00:00,COL,Envigado FC,Independiente Medellín,0,1
+2025-02-09 21:10:00,COL,Once Caldas,Atlético Bucaramanga,2,1
+2025-02-09 23:20:00,COL,Fortaleza CEIF,Deportivo Cali,1,0
+2025-02-10 01:30:00,COL,Atlético Nacional,Deportivo Pereira,3,0
+2025-02-12 00:30:00,COL,Llaneros FC,Millonarios,2,2
+2025-02-12 21:30:00,COL,Deportivo Pasto,Boyacá Chicó FC,3,0
+2025-02-12 23:30:00,COL,Independiente Medellín,Unión Magdalena,1,1
+2025-02-13 01:30:00,COL,Independiente Santa Fe,Atlético Nacional,2,2
+2025-02-13 21:30:00,COL,Internacional de Bogotá,Envigado FC,2,3
+2025-02-13 23:30:00,COL,Atlético Junior,Once Caldas,2,0
+2025-02-14 15:00:00,COL,Deportivo Pereira,Deportes Tolima,0,0
+2025-02-15 00:30:00,COL,Deportivo Cali,Atlético Bucaramanga,0,0
+2025-02-15 21:00:00,COL,América de Cali,Independiente Santa Fe,2,0
+2025-02-16 01:10:00,COL,Millonarios,Independiente Medellín,0,1
+2025-02-16 22:10:00,COL,Unión Magdalena,Internacional de Bogotá,0,0
+2025-02-17 21:00:00,COL,Envigado FC,Deportivo Pasto,0,1
+2025-02-18 01:10:00,COL,Fortaleza CEIF,Águilas Doradas,2,1
+2025-02-18 21:00:00,COL,Atlético Bucaramanga,Alianza FC,0,0
+2025-02-18 23:10:00,COL,Llaneros FC,Deportivo Cali,0,1
+2025-02-19 01:20:00,COL,Boyacá Chicó FC,Atlético Junior,0,2
+2025-02-20 01:10:00,COL,Once Caldas,Deportivo Pereira,3,1
+2025-02-20 23:30:00,COL,Unión Magdalena,Millonarios,1,3
+2025-02-22 00:30:00,COL,Internacional de Bogotá,Boyacá Chicó FC,0,1
+2025-02-22 23:20:00,COL,Águilas Doradas,Once Caldas,0,1
+2025-02-23 01:30:00,COL,Deportivo Pereira,Fortaleza CEIF,2,0
+2025-02-23 21:00:00,COL,Alianza FC,Atlético Nacional,3,2
+2025-02-23 23:10:00,COL,Deportivo Cali,Millonarios,3,1
+2025-02-24 01:20:00,COL,Deportes Tolima,América de Cali,0,0
+2025-02-25 00:30:00,COL,Atlético Junior,Envigado FC,1,2
+2025-02-26 00:30:00,COL,Deportivo Pasto,Unión Magdalena,2,1
+2025-02-28 01:00:00,COL,Independiente Medellín,Llaneros FC,3,0
+2025-02-28 21:10:00,COL,Envigado FC,Independiente Santa Fe,1,7
+2025-03-01 01:10:00,COL,Boyacá Chicó FC,Águilas Doradas,1,1
+2025-03-01 20:00:00,COL,Atlético Bucaramanga,Atlético Junior,1,1
+2025-03-02 01:00:00,COL,América de Cali,Deportivo Pereira,2,0
+2025-03-02 20:00:00,COL,Once Caldas,Alianza FC,1,2
+2025-03-02 22:30:00,COL,Millonarios,Deportes Tolima,2,0
+2025-03-03 22:00:00,COL,Unión Magdalena,Deportivo Cali,2,2
+2025-03-04 00:30:00,COL,Independiente Medellín,Deportivo Pasto,1,0
+2025-03-04 23:30:00,COL,Llaneros FC,Internacional de Bogotá,1,0
+2025-03-05 01:30:00,COL,Fortaleza CEIF,Atlético Nacional,1,5
+2025-03-08 00:30:00,COL,Águilas Doradas,Atlético Bucaramanga,0,1
+2025-03-08 19:00:00,COL,Deportivo Pereira,Envigado FC,2,0
+2025-03-08 21:10:00,COL,Alianza FC,Unión Magdalena,1,0
+2025-03-08 23:20:00,COL,Deportivo Pasto,Llaneros FC,1,0
+2025-03-09 01:30:00,COL,Internacional de Bogotá,Independiente Medellín,0,0
+2025-03-09 20:00:00,COL,Independiente Santa Fe,Fortaleza CEIF,2,0
+2025-03-09 22:30:00,COL,Atlético Junior,Millonarios,2,1
+2025-03-10 00:45:00,COL,Atlético Nacional,América de Cali,1,0
+2025-03-10 23:20:00,COL,Deportivo Cali,Boyacá Chicó FC,0,0
+2025-03-11 01:30:00,COL,Deportes Tolima,Once Caldas,2,0
+2025-03-14 23:30:00,COL,Atlético Bucaramanga,Deportivo Pereira,0,1
+2025-03-15 01:30:00,COL,Deportivo Pasto,Internacional de Bogotá,2,1
+2025-03-15 19:00:00,COL,Envigado FC,Atlético Nacional,0,0
+2025-03-15 21:10:00,COL,Fortaleza CEIF,Deportes Tolima,1,1
+2025-03-15 23:20:00,COL,América de Cali,Alianza FC,3,0
+2025-03-16 01:30:00,COL,Once Caldas,Independiente Santa Fe,0,1
+2025-03-16 19:00:00,COL,Millonarios,Águilas Doradas,1,0
+2025-03-16 21:10:00,COL,Unión Magdalena,Boyacá Chicó FC,1,1
+2025-03-16 23:20:00,COL,Independiente Medellín,Deportivo Cali,0,0
+2025-03-17 01:30:00,COL,Llaneros FC,Atlético Junior,0,1
+2025-03-19 23:30:00,COL,Independiente Santa Fe,Atlético Bucaramanga,1,1
+2025-03-20 01:30:00,COL,Atlético Nacional,Deportes Tolima,4,3
+2025-03-22 19:00:00,COL,Boyacá Chicó FC,Deportivo Pasto,0,0
+2025-03-22 21:10:00,COL,Internacional de Bogotá,Fortaleza CEIF,1,1
+2025-03-22 23:20:00,COL,Deportivo Pereira,Once Caldas,1,1
+2025-03-23 01:30:00,COL,Independiente Santa Fe,Millonarios,3,2
+2025-03-23 20:30:00,COL,Alianza FC,Atlético Bucaramanga,1,2
+2025-03-23 22:45:00,COL,Atlético Nacional,Independiente Medellín,1,1
+2025-03-24 01:00:00,COL,Águilas Doradas,Envigado FC,1,0
+2025-03-24 21:00:00,COL,Deportes Tolima,Llaneros FC,1,0
+2025-03-24 23:10:00,COL,Deportivo Cali,América de Cali,1,1
+2025-03-26 21:00:00,COL,Alianza FC,Fortaleza CEIF,0,0
+2025-03-26 23:30:00,COL,Atlético Junior,Unión Magdalena,2,1
+2025-03-27 01:30:00,COL,Millonarios,Independiente Santa Fe,2,0
+2025-03-27 23:00:00,COL,Once Caldas,Llaneros FC,1,0
+2025-03-28 01:10:00,COL,América de Cali,Boyacá Chicó FC,3,0
+2025-03-29 00:30:00,COL,Atlético Bucaramanga,Atlético Nacional,2,0
+2025-03-29 23:05:00,COL,Deportivo Pasto,Deportivo Cali,1,1
+2025-03-30 01:10:00,COL,Independiente Medellín,Águilas Doradas,0,0
+2025-03-30 20:30:00,COL,Millonarios,Alianza FC,2,0
+2025-03-30 22:45:00,COL,Unión Magdalena,Independiente Santa Fe,0,1
+2025-03-31 01:00:00,COL,América de Cali,Fortaleza CEIF,1,0
+2025-04-01 00:30:00,COL,Internacional de Bogotá,Atlético Junior,0,1
+2025-04-01 23:00:00,COL,Llaneros FC,Deportivo Pereira,2,1
+2025-04-02 01:10:00,COL,Boyacá Chicó FC,Deportes Tolima,1,4
+2025-04-04 21:00:00,COL,Alianza FC,Envigado FC,1,2
+2025-04-05 00:00:00,COL,Independiente Santa Fe,Deportivo Pasto,1,1
+2025-04-05 19:00:00,COL,Atlético Nacional,Unión Magdalena,1,0
+2025-04-05 21:10:00,COL,Deportivo Cali,Internacional de Bogotá,3,1
+2025-04-05 23:20:00,COL,Once Caldas,América de Cali,3,0
+2025-04-06 01:30:00,COL,Deportes Tolima,Atlético Bucaramanga,2,1
+2025-04-06 19:00:00,COL,Deportivo Pereira,Boyacá Chicó FC,1,1
+2025-04-06 21:10:00,COL,Fortaleza CEIF,Millonarios,0,2
+2025-04-06 23:20:00,COL,Atlético Junior,Independiente Medellín,1,0
+2025-04-07 01:30:00,COL,Águilas Doradas,Llaneros FC,1,2
+2025-04-11 00:00:00,COL,Internacional de Bogotá,Independiente Santa Fe,2,1
+2025-04-11 23:00:00,COL,Llaneros FC,Alianza FC,0,1
+2025-04-12 01:10:00,COL,Deportivo Cali,Águilas Doradas,0,0
+2025-04-12 19:00:00,COL,Envigado FC,América de Cali,1,1
+2025-04-12 21:10:00,COL,Unión Magdalena,Deportivo Pereira,2,2
+2025-04-12 23:20:00,COL,Deportivo Pasto,Atlético Junior,3,3
+2025-04-13 01:30:00,COL,Boyacá Chicó FC,Once Caldas,0,0
+2025-04-13 23:00:00,COL,Millonarios,Atlético Nacional,0,0
+2025-04-14 01:10:00,COL,Atlético Bucaramanga,Fortaleza CEIF,4,0
+2025-04-15 00:00:00,COL,Independiente Santa Fe,Independiente Medellín,1,2
+2025-04-15 21:00:00,COL,Alianza FC,Deportivo Pasto,1,0
+2025-04-15 23:15:00,COL,Deportivo Pereira,Deportivo Cali,2,0
+2025-04-16 01:30:00,COL,Deportes Tolima,Atlético Junior,0,0
+2025-04-16 19:00:00,COL,Águilas Doradas,Unión Magdalena,1,1
+2025-04-16 21:10:00,COL,Once Caldas,Internacional de Bogotá,3,0
+2025-04-16 23:20:00,COL,Atlético Nacional,Boyacá Chicó FC,4,1
+2025-04-17 01:30:00,COL,América de Cali,Millonarios,0,0
+2025-04-17 21:00:00,COL,Atlético Bucaramanga,Envigado FC,1,0
+2025-04-18 00:00:00,COL,Fortaleza CEIF,Llaneros FC,1,0
+2025-04-19 21:00:00,COL,Internacional de Bogotá,América de Cali,2,0
+2025-04-19 23:10:00,COL,Atlético Junior,Alianza FC,2,0
+2025-04-20 01:20:00,COL,Independiente Medellín,Once Caldas,2,0
+2025-04-20 19:00:00,COL,Envigado FC,Deportes Tolima,3,1
+2025-04-20 21:10:00,COL,Unión Magdalena,Atlético Bucaramanga,1,1
+2025-04-20 23:20:00,COL,Deportivo Cali,Atlético Nacional,1,0
+2025-04-21 23:00:00,COL,Boyacá Chicó FC,Fortaleza CEIF,0,2
+2025-04-22 01:10:00,COL,Deportivo Pasto,Águilas Doradas,1,0
+2025-04-26 19:00:00,COL,Envigado FC,Unión Magdalena,2,1
+2025-04-26 21:10:00,COL,Alianza FC,Águilas Doradas,0,0
+2025-04-26 23:20:00,COL,Deportes Tolima,Internacional de Bogotá,2,1
+2025-04-27 01:30:00,COL,Deportivo Pereira,Atlético Junior,1,0
+2025-04-27 19:00:00,COL,Independiente Santa Fe,Boyacá Chicó FC,0,0
+2025-04-27 21:10:00,COL,Fortaleza CEIF,Independiente Medellín,0,0
+2025-04-27 23:20:00,COL,América de Cali,Deportivo Cali,2,0
+2025-04-28 01:30:00,COL,Atlético Bucaramanga,Millonarios,0,2
+2025-04-30 00:30:00,COL,Atlético Nacional,Deportivo Pasto,3,0
+2025-04-30 23:00:00,COL,Águilas Doradas,América de Cali,0,1
+2025-05-01 01:10:00,COL,Llaneros FC,Independiente Santa Fe,0,1
+2025-05-01 19:00:00,COL,Envigado FC,Once Caldas,1,2
+2025-05-03 00:00:00,COL,Internacional de Bogotá,Alianza FC,0,2
+2025-05-03 21:00:00,COL,Llaneros FC,Atlético Bucaramanga,2,1
+2025-05-03 23:10:00,COL,Deportivo Cali,Deportes Tolima,1,1
+2025-05-04 01:20:00,COL,Atlético Junior,América de Cali,0,0
+2025-05-04 19:00:00,COL,Deportivo Pasto,Fortaleza CEIF,1,0
+2025-05-04 21:10:00,COL,Independiente Medellín,Atlético Nacional,1,1
+2025-05-05 01:30:00,COL,Águilas Doradas,Deportivo Pereira,3,3
+2025-05-06 01:00:00,COL,Boyacá Chicó FC,Envigado FC,1,0
+2025-05-09 00:30:00,COL,Millonarios,Deportivo Pereira,0,0
+2025-05-09 23:20:00,COL,Deportes Tolima,Unión Magdalena,3,1
+2025-05-10 01:30:00,COL,Atlético Bucaramanga,Independiente Medellín,2,0
+2025-05-10 20:00:00,COL,Envigado FC,Águilas Doradas,0,2
+2025-05-10 22:10:00,COL,Fortaleza CEIF,Internacional de Bogotá,4,0
+2025-05-11 00:20:00,COL,Independiente Santa Fe,Atlético Junior,2,1
+2025-05-11 21:00:00,COL,Alianza FC,Deportivo Cali,2,0
+2025-05-11 23:00:00,COL,Atlético Nacional,Llaneros FC,2,1
+2025-05-12 01:20:00,COL,Once Caldas,Millonarios,2,2
+2025-05-14 00:30:00,COL,Deportivo Pereira,Deportivo Pasto,1,0
+2025-05-16 00:30:00,COL,Independiente Medellín,Deportes Tolima,0,1
+2025-05-16 23:10:00,COL,Atlético Junior,Fortaleza CEIF,2,1
+2025-05-17 01:15:00,COL,Millonarios,Envigado FC,1,0
+2025-05-17 20:45:00,COL,Internacional de Bogotá,Atlético Bucaramanga,1,4
+2025-05-17 23:00:00,COL,Deportivo Cali,Independiente Santa Fe,0,2
+2025-05-18 01:10:00,COL,Boyacá Chicó FC,Alianza FC,2,1
+2025-05-18 19:00:00,COL,Águilas Doradas,Atlético Nacional,2,1
+2025-05-18 23:10:00,COL,Deportivo Pasto,Once Caldas,2,1
+2025-05-19 01:15:00,COL,Unión Magdalena,América de Cali,0,2
+2025-05-19 23:00:00,COL,Llaneros FC,Deportes Tolima,1,3
+2025-05-20 01:05:00,COL,Independiente Medellín,Deportivo Pereira,2,0
+2025-05-23 23:30:00,COL,Deportivo Pereira,Internacional de Bogotá,3,0
+2025-05-24 19:00:00,COL,Envigado FC,Llaneros FC,1,2
+2025-05-24 21:00:00,COL,Fortaleza CEIF,Unión Magdalena,0,1
+2025-05-25 21:00:00,COL,Alianza FC,Independiente Santa Fe,6,1
+2025-05-25 21:00:00,COL,América de Cali,Independiente Medellín,2,0
+2025-05-25 21:00:00,COL,Atlético Bucaramanga,Deportivo Pasto,2,1
+2025-05-25 21:00:00,COL,Atlético Nacional,Atlético Junior,2,3
+2025-05-25 21:00:00,COL,Deportes Tolima,Águilas Doradas,1,2
+2025-05-25 21:00:00,COL,Millonarios,Boyacá Chicó FC,4,2
+2025-05-25 21:00:00,COL,Once Caldas,Deportivo Cali,1,0
+2025-05-31 22:30:00,COL,Atlético Junior,Deportes Tolima,1,1
+2025-06-01 00:45:00,COL,Independiente Medellín,América de Cali,1,1
+2025-06-01 21:05:00,COL,Independiente Santa Fe,Millonarios,0,1
+2025-06-02 01:15:00,COL,Atlético Nacional,Once Caldas,0,0
+2025-06-04 23:10:00,COL,Deportes Tolima,Independiente Medellín,1,3
+2025-06-05 01:15:00,COL,América de Cali,Atlético Junior,2,1
+2025-06-05 23:10:00,COL,Once Caldas,Independiente Santa Fe,1,2
+2025-06-06 01:15:00,COL,Millonarios,Atlético Nacional,0,0
+2025-06-07 23:15:00,COL,Deportes Tolima,América de Cali,1,1
+2025-06-08 21:05:00,COL,Atlético Nacional,Independiente Santa Fe,1,2
+2025-06-08 23:15:00,COL,Atlético Junior,Independiente Medellín,0,1
+2025-06-09 01:20:00,COL,Once Caldas,Millonarios,0,0
+2025-06-11 23:15:00,COL,Independiente Medellín,Atlético Junior,1,0
+2025-06-12 01:20:00,COL,Millonarios,Once Caldas,2,2
+2025-06-12 23:20:00,COL,América de Cali,Deportes Tolima,1,3
+2025-06-13 01:20:00,COL,Independiente Santa Fe,Atlético Nacional,1,2
+2025-06-15 23:15:00,COL,Independiente Medellín,Deportes Tolima,2,1
+2025-06-16 01:20:00,COL,Atlético Junior,América de Cali,0,1
+2025-06-16 23:15:00,COL,Independiente Santa Fe,Once Caldas,1,0
+2025-06-17 01:20:00,COL,Atlético Nacional,Millonarios,0,1
+2025-06-19 21:00:00,COL,Deportes Tolima,Atlético Junior,2,0
+2025-06-19 23:05:00,COL,Once Caldas,Atlético Nacional,1,2
+2025-06-20 01:15:00,COL,América de Cali,Independiente Medellín,1,1
+2025-06-20 01:15:00,COL,Millonarios,Independiente Santa Fe,1,2
+2025-06-25 00:30:00,COL,Independiente Santa Fe,Independiente Medellín,0,0
+2025-06-29 23:00:00,COL,Independiente Medellín,Independiente Santa Fe,1,2
+2025-07-11 23:00:00,COL,Llaneros FC,América de Cali,0,0
+2025-07-12 01:10:00,COL,Once Caldas,Atlético Nacional,1,3
+2025-07-12 19:00:00,COL,Deportivo Pasto,Deportes Tolima,3,2
+2025-07-12 21:10:00,COL,Envigado FC,Fortaleza CEIF,0,1
+2025-07-12 23:20:00,COL,Atlético Bucaramanga,Boyacá Chicó FC,1,1
+2025-07-13 01:30:00,COL,Deportivo Cali,Atlético Junior,0,2
+2025-07-13 20:00:00,COL,Independiente Medellín,Alianza FC,1,1
+2025-07-13 22:15:00,COL,Deportivo Pereira,Independiente Santa Fe,2,2
+2025-07-14 00:30:00,COL,Internacional de Bogotá,Águilas Doradas,0,0
+2025-07-18 23:00:00,COL,Unión Magdalena,Llaneros FC,0,0
+2025-07-19 01:10:00,COL,Deportes Tolima,Independiente Santa Fe,0,1
+2025-07-19 19:00:00,COL,Águilas Doradas,Atlético Junior,2,3
+2025-07-19 21:10:00,COL,Alianza FC,Deportivo Pereira,1,0
+2025-07-19 23:20:00,COL,Atlético Nacional,Internacional de Bogotá,3,1
+2025-07-20 01:30:00,COL,Boyacá Chicó FC,Independiente Medellín,2,0
+2025-07-20 20:00:00,COL,Envigado FC,Deportivo Cali,0,0
+2025-07-20 22:15:00,COL,Fortaleza CEIF,Once Caldas,2,1
+2025-07-22 21:00:00,COL,Alianza FC,Deportes Tolima,0,1
+2025-07-22 23:10:00,COL,Independiente Santa Fe,Águilas Doradas,0,0
+2025-07-23 01:20:00,COL,Deportivo Pereira,Atlético Nacional,2,1
+2025-07-23 21:00:00,COL,Llaneros FC,Boyacá Chicó FC,2,1
+2025-07-23 23:10:00,COL,Atlético Junior,Unión Magdalena,4,1
+2025-07-24 01:20:00,COL,Internacional de Bogotá,Millonarios,1,0
+2025-07-24 23:00:00,COL,Independiente Medellín,Envigado FC,3,4
+2025-07-25 01:10:00,COL,Deportivo Cali,Fortaleza CEIF,1,1
+2025-07-25 23:20:00,COL,Deportes Tolima,Deportivo Pereira,1,0
+2025-07-26 01:30:00,COL,Atlético Nacional,Independiente Santa Fe,1,1
+2025-07-26 21:00:00,COL,Boyacá Chicó FC,Deportivo Pasto,2,2
+2025-07-26 23:10:00,COL,Once Caldas,Atlético Junior,2,2
+2025-07-27 01:20:00,COL,América de Cali,Águilas Doradas,2,1
+2025-07-27 21:00:00,COL,Envigado FC,Internacional de Bogotá,1,1
+2025-07-27 23:20:00,COL,Unión Magdalena,Independiente Medellín,0,2
+2025-07-28 01:20:00,COL,Fortaleza CEIF,Alianza FC,2,2
+2025-07-28 23:00:00,COL,Atlético Bucaramanga,Deportivo Cali,2,3
+2025-07-29 01:10:00,COL,Millonarios,Llaneros FC,0,1
+2025-08-01 23:00:00,COL,Internacional de Bogotá,Unión Magdalena,0,1
+2025-08-02 19:00:00,COL,Deportivo Cali,Llaneros FC,0,3
+2025-08-02 21:10:00,COL,Atlético Junior,Boyacá Chicó FC,2,0
+2025-08-02 23:20:00,COL,Deportes Tolima,Atlético Nacional,0,0
+2025-08-03 01:30:00,COL,Independiente Santa Fe,América de Cali,2,1
+2025-08-03 19:00:00,COL,Deportivo Pereira,Once Caldas,2,1
+2025-08-03 21:10:00,COL,Alianza FC,Atlético Bucaramanga,1,3
+2025-08-03 23:20:00,COL,Independiente Medellín,Millonarios,1,0
+2025-08-04 01:30:00,COL,Águilas Doradas,Fortaleza CEIF,2,2
+2025-08-07 23:00:00,COL,Unión Magdalena,Deportivo Pasto,1,1
+2025-08-08 20:30:00,COL,Atlético Nacional,Alianza FC,3,0
+2025-08-09 00:30:00,COL,Millonarios,Deportivo Cali,3,3
+2025-08-09 20:00:00,COL,Once Caldas,Águilas Doradas,1,1
+2025-08-09 22:15:00,COL,América de Cali,Deportes Tolima,0,1
+2025-08-10 00:30:00,COL,Atlético Bucaramanga,Independiente Santa Fe,2,1
+2025-08-10 20:00:00,COL,Envigado FC,Atlético Junior,1,1
+2025-08-10 22:15:00,COL,Fortaleza CEIF,Deportivo Pereira,0,0
+2025-08-11 00:30:00,COL,Llaneros FC,Independiente Medellín,0,1
+2025-08-12 01:00:00,COL,Boyacá Chicó FC,Internacional de Bogotá,0,0
+2025-08-14 00:30:00,COL,Deportivo Cali,Unión Magdalena,3,1
+2025-08-14 23:00:00,COL,Deportivo Pereira,América de Cali,2,1
+2025-08-15 01:10:00,COL,Deportivo Pasto,Envigado FC,0,1
+2025-08-15 21:00:00,COL,Alianza FC,Once Caldas,0,0
+2025-08-16 20:00:00,COL,Internacional de Bogotá,Llaneros FC,2,1
+2025-08-16 22:15:00,COL,Águilas Doradas,Boyacá Chicó FC,2,0
+2025-08-17 00:30:00,COL,Atlético Nacional,Fortaleza CEIF,2,2
+2025-08-17 23:10:00,COL,Deportes Tolima,Millonarios,3,1
+2025-08-18 22:15:00,COL,Atlético Junior,Atlético Bucaramanga,2,1
+2025-08-19 00:30:00,COL,Deportivo Pasto,Independiente Medellín,1,2
+2025-08-20 00:30:00,COL,Independiente Santa Fe,Envigado FC,1,0
+2025-08-21 00:30:00,COL,Millonarios,Unión Magdalena,1,2
+2025-08-23 01:10:00,COL,Llaneros FC,Deportivo Pasto,2,1
+2025-08-23 19:00:00,COL,Independiente Medellín,Internacional de Bogotá,3,1
+2025-08-23 21:10:00,COL,Envigado FC,Deportivo Pereira,1,1
+2025-08-23 23:20:00,COL,Fortaleza CEIF,Independiente Santa Fe,2,0
+2025-08-24 01:30:00,COL,Millonarios,Atlético Junior,3,0
+2025-08-24 19:00:00,COL,Once Caldas,Deportes Tolima,0,1
+2025-08-24 21:10:00,COL,Unión Magdalena,Alianza FC,2,3
+2025-08-24 23:20:00,COL,América de Cali,Atlético Nacional,1,1
+2025-08-25 01:30:00,COL,Atlético Bucaramanga,Águilas Doradas,4,0
+2025-08-25 23:00:00,COL,Boyacá Chicó FC,Deportivo Cali,0,0
+2025-08-29 23:00:00,COL,Atlético Junior,Llaneros FC,4,0
+2025-08-30 01:10:00,COL,Águilas Doradas,Millonarios,1,2
+2025-08-30 19:00:00,COL,Boyacá Chicó FC,Unión Magdalena,1,0
+2025-08-30 23:20:00,COL,Deportivo Pereira,Atlético Bucaramanga,0,1
+2025-08-31 01:30:00,COL,Deportivo Cali,Independiente Medellín,1,3
+2025-08-31 19:00:00,COL,Atlético Nacional,Envigado FC,1,0
+2025-08-31 21:10:00,COL,Alianza FC,América de Cali,1,0
+2025-08-31 23:20:00,COL,Deportes Tolima,Fortaleza CEIF,1,1
+2025-08-31 23:20:00,COL,Internacional de Bogotá,Deportivo Pasto,0,0
+2025-09-02 00:30:00,COL,Independiente Santa Fe,Once Caldas,1,2
+2025-09-05 23:00:00,COL,Deportivo Pasto,Boyacá Chicó FC,2,0
+2025-09-06 01:10:00,COL,Once Caldas,Deportivo Pereira,1,0
+2025-09-06 20:30:00,COL,Atlético Bucaramanga,Alianza FC,3,1
+2025-09-06 21:10:00,COL,Llaneros FC,Deportes Tolima,1,0
+2025-09-06 23:20:00,COL,Unión Magdalena,Atlético Junior,3,1
+2025-09-07 01:30:00,COL,Millonarios,Independiente Santa Fe,0,0
+2025-09-07 19:00:00,COL,Envigado FC,Águilas Doradas,1,1
+2025-09-07 21:10:00,COL,América de Cali,Deportivo Cali,0,0
+2025-09-08 00:00:00,COL,Independiente Medellín,Atlético Nacional,3,3
+2025-09-08 01:30:00,COL,Fortaleza CEIF,Internacional de Bogotá,1,0
+2025-09-10 01:30:00,COL,Atlético Bucaramanga,Once Caldas,0,0
+2025-09-11 00:30:00,COL,Millonarios,Deportivo Pasto,1,0
+2025-09-13 00:30:00,COL,Atlético Junior,Internacional de Bogotá,1,1
+2025-09-13 19:00:00,COL,Fortaleza CEIF,América de Cali,1,0
+2025-09-13 21:10:00,COL,Alianza FC,Millonarios,3,0
+2025-09-13 23:20:00,COL,Once Caldas,Envigado FC,1,0
+2025-09-14 01:30:00,COL,Atlético Nacional,Atlético Bucaramanga,0,1
+2025-09-14 19:00:00,COL,Independiente Santa Fe,Unión Magdalena,2,0
+2025-09-14 21:10:00,COL,Deportivo Cali,Deportivo Pasto,2,1
+2025-09-14 23:20:00,COL,Deportivo Pereira,Llaneros FC,0,0
+2025-09-15 01:30:00,COL,Deportes Tolima,Boyacá Chicó FC,4,0
+2025-09-16 23:00:00,COL,América de Cali,Atlético Bucaramanga,0,0
+2025-09-19 23:00:00,COL,Atlético Bucaramanga,Deportes Tolima,2,0
+2025-09-20 01:10:00,COL,América de Cali,Once Caldas,2,1
+2025-09-20 19:00:00,COL,Envigado FC,Alianza FC,0,0
+2025-09-20 21:10:00,COL,Llaneros FC,Águilas Doradas,0,1
+2025-09-20 23:20:00,COL,Deportivo Pasto,Independiente Santa Fe,1,1
+2025-09-21 01:30:00,COL,Internacional de Bogotá,Deportivo Cali,0,4
+2025-09-21 19:00:00,COL,Millonarios,Fortaleza CEIF,3,2
+2025-09-21 21:10:00,COL,Unión Magdalena,Atlético Nacional,1,2
+2025-09-21 23:20:00,COL,Independiente Medellín,Atlético Junior,2,2
+2025-09-22 01:30:00,COL,Boyacá Chicó FC,Deportivo Pereira,1,1
+2025-09-25 01:00:00,COL,Deportivo Pasto,América de Cali,0,2
+2025-09-26 23:00:00,COL,Once Caldas,Boyacá Chicó FC,5,2
+2025-09-27 01:10:00,COL,Fortaleza CEIF,Atlético Bucaramanga,2,1
+2025-09-27 19:00:00,COL,Deportivo Pereira,Unión Magdalena,2,2
+2025-09-27 21:10:00,COL,Alianza FC,Llaneros FC,3,1
+2025-09-27 23:20:00,COL,Deportes Tolima,Independiente Medellín,2,3
+2025-09-28 01:30:00,COL,Atlético Nacional,Millonarios,2,0
+2025-09-28 19:00:00,COL,América de Cali,Envigado FC,1,1
+2025-09-28 21:10:00,COL,Águilas Doradas,Deportivo Cali,3,1
+2025-09-28 23:20:00,COL,Independiente Santa Fe,Internacional de Bogotá,3,0
+2025-09-29 01:30:00,COL,Atlético Junior,Deportivo Pasto,2,0
+2025-10-04 00:30:00,COL,Deportivo Cali,Deportivo Pereira,1,0
+2025-10-04 19:00:00,COL,Envigado FC,Atlético Bucaramanga,1,2
+2025-10-04 21:10:00,COL,Unión Magdalena,Águilas Doradas,3,2
+2025-10-04 23:20:00,COL,Llaneros FC,Fortaleza CEIF,0,0
+2025-10-05 20:00:00,COL,Deportivo Pasto,Alianza FC,3,3
+2025-10-05 22:15:00,COL,Atlético Junior,Deportes Tolima,0,1
+2025-10-06 00:30:00,COL,Boyacá Chicó FC,Atlético Nacional,1,1
+2025-10-07 00:30:00,COL,Internacional de Bogotá,Once Caldas,0,1
+2025-10-08 00:30:00,COL,Millonarios,América de Cali,2,1
+2025-10-08 20:30:00,COL,Águilas Doradas,Independiente Medellín,2,1
+2025-10-11 20:00:00,COL,Deportes Tolima,Envigado FC,1,2
+2025-10-12 00:30:00,COL,América de Cali,Internacional de Bogotá,3,2
+2025-10-12 19:00:00,COL,Independiente Santa Fe,Llaneros FC,1,3
+2025-10-12 21:10:00,COL,Alianza FC,Atlético Junior,0,1
+2025-10-12 23:20:00,COL,Atlético Bucaramanga,Unión Magdalena,1,0
+2025-10-13 01:30:00,COL,Águilas Doradas,Deportivo Pasto,2,2
+2025-10-13 22:15:00,COL,Once Caldas,Independiente Medellín,1,5
+2025-10-14 00:30:00,COL,Fortaleza CEIF,Boyacá Chicó FC,1,0
+2025-10-15 00:30:00,COL,Atlético Nacional,Deportivo Cali,2,1
+2025-10-15 23:20:00,COL,Deportivo Pereira,Millonarios,3,2
+2025-10-17 23:30:00,COL,Independiente Medellín,Fortaleza CEIF,3,1
+2025-10-17 23:30:00,COL,Unión Magdalena,Envigado FC,3,1
+2025-10-18 01:30:00,COL,Boyacá Chicó FC,Independiente Santa Fe,0,0
+2025-10-18 19:00:00,COL,Deportivo Pasto,Atlético Nacional,2,2
+2025-10-18 21:10:00,COL,Águilas Doradas,Alianza FC,1,0
+2025-10-18 23:20:00,COL,Atlético Junior,Deportivo Pereira,3,2
+2025-10-19 01:30:00,COL,Deportivo Cali,América de Cali,0,2
+2025-10-19 21:10:00,COL,Llaneros FC,Once Caldas,2,0
+2025-10-20 23:00:00,COL,Internacional de Bogotá,Deportes Tolima,0,2
+2025-10-21 01:10:00,COL,Independiente Medellín,Independiente Santa Fe,1,1
+2025-10-21 23:00:00,COL,Millonarios,Atlético Bucaramanga,1,1
+2025-10-24 21:00:00,COL,Alianza FC,Internacional de Bogotá,2,0
+2025-10-24 23:00:00,COL,Fortaleza CEIF,Deportivo Pasto,2,0
+2025-10-25 01:10:00,COL,América de Cali,Atlético Junior,2,1
+2025-10-25 01:10:00,COL,Deportivo Pereira,Águilas Doradas,1,5
+2025-10-25 19:00:00,COL,Envigado FC,Boyacá Chicó FC,0,2
+2025-10-25 20:00:00,COL,Deportes Tolima,Deportivo Cali,2,1
+2025-10-25 21:10:00,COL,Atlético Bucaramanga,Llaneros FC,2,0
+2025-10-25 23:20:00,COL,Independiente Santa Fe,Millonarios,0,1
+2025-10-26 01:30:00,COL,Once Caldas,Unión Magdalena,1,0
+2025-10-26 23:30:00,COL,Atlético Nacional,Independiente Medellín,5,2
+2025-10-28 00:45:00,COL,Deportivo Pasto,Deportivo Pereira,4,0
+2025-10-28 21:00:00,COL,Águilas Doradas,Envigado FC,1,0
+2025-10-28 23:10:00,COL,Deportivo Cali,Alianza FC,0,1
+2025-10-29 21:00:00,COL,Internacional de Bogotá,Fortaleza CEIF,0,1
+2025-10-29 23:10:00,COL,Atlético Junior,Independiente Santa Fe,1,2
+2025-10-29 23:10:00,COL,Independiente Medellín,Atlético Bucaramanga,3,0
+2025-10-30 01:20:00,COL,Millonarios,Once Caldas,0,0
+2025-10-30 21:00:00,COL,Unión Magdalena,Deportes Tolima,0,2
+2025-10-31 01:20:00,COL,Llaneros FC,Atlético Nacional,0,3
+2025-11-06 23:10:00,COL,Boyacá Chicó FC,América de Cali,0,2
+2025-11-07 20:30:00,COL,Envigado FC,Millonarios,1,1
+2025-11-07 23:10:00,COL,Deportivo Pereira,Independiente Medellín,1,4
+2025-11-08 01:20:00,COL,Deportes Tolima,Llaneros FC,3,1
+2025-11-08 21:10:00,COL,Fortaleza CEIF,Atlético Junior,1,1
+2025-11-08 23:20:00,COL,Atlético Nacional,Águilas Doradas,2,1
+2025-11-09 01:30:00,COL,Atlético Bucaramanga,Internacional de Bogotá,2,1
+2025-11-09 19:00:00,COL,Once Caldas,Deportivo Pasto,1,0
+2025-11-09 21:10:00,COL,Alianza FC,Boyacá Chicó FC,2,0
+2025-11-09 23:20:00,COL,América de Cali,Unión Magdalena,3,0
+2025-11-10 01:30:00,COL,Independiente Santa Fe,Deportivo Cali,1,0
+2025-11-12 21:00:00,COL,Internacional de Bogotá,Deportivo Pereira,4,0
+2025-11-13 01:20:00,COL,Boyacá Chicó FC,Millonarios,1,2
+2025-11-14 00:00:00,COL,Águilas Doradas,Deportes Tolima,1,2
+2025-11-14 00:00:00,COL,Atlético Junior,Atlético Nacional,2,1
+2025-11-14 00:00:00,COL,Deportivo Cali,Once Caldas,1,1
+2025-11-14 00:00:00,COL,Deportivo Pasto,Atlético Bucaramanga,3,0
+2025-11-14 00:00:00,COL,Independiente Medellín,América de Cali,3,0
+2025-11-14 00:00:00,COL,Independiente Santa Fe,Alianza FC,1,0
+2025-11-14 00:00:00,COL,Llaneros FC,Envigado FC,0,3
+2025-11-14 00:00:00,COL,Unión Magdalena,Fortaleza CEIF,2,0
+2025-11-18 23:30:00,COL,Fortaleza CEIF,Deportes Tolima,0,1
+2025-11-19 23:30:00,COL,Atlético Bucaramanga,Independiente Santa Fe,1,0
+2025-11-20 01:30:00,COL,Atlético Junior,Independiente Medellín,1,0
+2025-11-21 00:30:00,COL,Atlético Nacional,América de Cali,1,0
+2025-11-22 22:00:00,COL,Independiente Santa Fe,Fortaleza CEIF,3,0
+2025-11-23 00:30:00,COL,Deportes Tolima,Atlético Bucaramanga,0,0
+2025-11-23 22:45:00,COL,Independiente Medellín,Atlético Nacional,0,0
+2025-11-24 01:00:00,COL,América de Cali,Atlético Junior,1,1
+2025-11-26 00:30:00,COL,Independiente Santa Fe,Deportes Tolima,1,2
+2025-11-26 23:30:00,COL,Atlético Bucaramanga,Fortaleza CEIF,1,2
+2025-11-27 01:30:00,COL,Atlético Nacional,Atlético Junior,1,1
+2025-11-27 23:30:00,COL,América de Cali,Independiente Medellín,2,1
+2025-11-29 22:30:00,COL,Deportes Tolima,Independiente Santa Fe,1,0
+2025-11-30 01:00:00,COL,Fortaleza CEIF,Atlético Bucaramanga,0,2
+2025-11-30 23:30:00,COL,Atlético Junior,Atlético Nacional,2,1
+2025-12-02 01:00:00,COL,Independiente Medellín,América de Cali,1,1
+2025-12-03 23:20:00,COL,Fortaleza CEIF,Independiente Santa Fe,1,2
+2025-12-04 01:30:00,COL,Atlético Bucaramanga,Deportes Tolima,0,0
+2025-12-04 23:30:00,COL,Atlético Nacional,Independiente Medellín,2,1
+2025-12-05 01:35:00,COL,Atlético Junior,América de Cali,2,1
+2025-12-08 20:00:00,COL,Deportes Tolima,Fortaleza CEIF,1,0
+2025-12-08 22:15:00,COL,América de Cali,Atlético Nacional,3,2
+2025-12-08 22:15:00,COL,Independiente Medellín,Atlético Junior,2,1
+2025-12-09 00:20:00,COL,Independiente Santa Fe,Atlético Bucaramanga,0,0
+2025-12-13 01:00:00,COL,Atlético Junior,Deportes Tolima,3,0
+2025-12-17 00:30:00,COL,Deportes Tolima,Atlético Junior,0,1
+2026-01-16 23:20:00,COL,Deportivo Pereira,Llaneros FC,0,2
+2026-01-17 01:30:00,COL,Fortaleza CEIF,Alianza FC,1,0
+2026-01-17 21:10:00,COL,América de Cali,Internacional de Bogotá,3,0
+2026-01-17 23:20:00,COL,Atlético Nacional,Boyacá Chicó FC,4,0
+2026-01-18 01:30:00,COL,Atlético Bucaramanga,Millonarios,2,1
+2026-01-18 19:00:00,COL,Deportivo Pasto,Independiente Medellín,1,0
+2026-01-18 21:10:00,COL,Jaguares de Córdoba,Deportivo Cali,1,0
+2026-01-18 23:20:00,COL,Atlético Junior,Deportes Tolima,0,2
+2026-01-19 01:30:00,COL,Independiente Santa Fe,Águilas Doradas,1,1
+2026-01-19 21:00:00,COL,Cúcuta Deportivo,Once Caldas,1,2
+2026-01-23 23:20:00,COL,Internacional de Bogotá,Cúcuta Deportivo,2,1
+2026-01-24 01:30:00,COL,Deportes Tolima,Alianza FC,2,0
+2026-01-24 19:00:00,COL,Deportivo Pereira,Fortaleza CEIF,0,0
+2026-01-24 21:10:00,COL,Llaneros FC,Atlético Bucaramanga,1,1
+2026-01-24 23:20:00,COL,Deportivo Cali,Independiente Medellín,3,1
+2026-01-25 01:30:00,COL,Boyacá Chicó FC,América de Cali,0,1
+2026-01-25 21:00:00,COL,Águilas Doradas,Deportivo Pasto,1,2
+2026-01-25 23:10:00,COL,Millonarios,Atlético Junior,1,2
+2026-01-26 01:20:00,COL,Once Caldas,Independiente Santa Fe,1,1
+2026-01-27 21:00:00,COL,Cúcuta Deportivo,Atlético Bucaramanga,2,2
+2026-01-27 23:20:00,COL,Fortaleza CEIF,Llaneros FC,1,1
+2026-01-28 01:30:00,COL,Independiente Medellín,Deportes Tolima,2,2
+2026-01-28 21:10:00,COL,Alianza FC,Boyacá Chicó FC,1,1
+2026-01-28 23:30:00,COL,Independiente Santa Fe,Deportivo Pereira,2,2
+2026-01-29 01:30:00,COL,Deportivo Pasto,Millonarios,2,1
+2026-01-29 21:00:00,COL,Águilas Doradas,Deportivo Cali,2,1
+2026-01-29 23:10:00,COL,Jaguares de Córdoba,Internacional de Bogotá,2,3
+2026-01-30 01:20:00,COL,América de Cali,Once Caldas,1,1
+2026-01-31 21:00:00,COL,Cúcuta Deportivo,Fortaleza CEIF,1,1
+2026-01-31 23:10:00,COL,Boyacá Chicó FC,Independiente Santa Fe,0,1
+2026-02-01 19:00:00,COL,Atlético Bucaramanga,Alianza FC,5,0
+2026-02-01 21:10:00,COL,Deportivo Cali,Deportivo Pasto,3,0
+2026-02-01 23:10:00,COL,Once Caldas,Jaguares de Córdoba,1,1
+2026-02-02 01:30:00,COL,Llaneros FC,Águilas Doradas,1,1
+2026-02-02 20:00:00,COL,Millonarios,Independiente Medellín,0,0
+2026-02-02 23:20:00,COL,Internacional de Bogotá,Deportes Tolima,0,0
+2026-02-03 01:30:00,COL,Deportivo Pereira,Atlético Junior,2,3
+2026-02-05 01:00:00,COL,Atlético Nacional,América de Cali,2,1
+2026-02-06 23:20:00,COL,Deportivo Pasto,Atlético Bucaramanga,0,0
+2026-02-07 01:30:00,COL,Independiente Medellín,Internacional de Bogotá,1,2
+2026-02-07 19:00:00,COL,Águilas Doradas,Cúcuta Deportivo,3,2
+2026-02-07 21:10:00,COL,Deportes Tolima,Llaneros FC,0,1
+2026-02-07 23:20:00,COL,Fortaleza CEIF,Independiente Santa Fe,1,1
+2026-02-08 01:30:00,COL,Atlético Junior,Boyacá Chicó FC,3,0
+2026-02-08 21:10:00,COL,Alianza FC,Once Caldas,1,1
+2026-02-08 23:20:00,COL,Deportivo Cali,Millonarios,0,0
+2026-02-09 01:30:00,COL,Jaguares de Córdoba,Deportivo Pereira,1,0
+2026-02-10 21:00:00,COL,Cúcuta Deportivo,Independiente Medellín,1,3
+2026-02-10 23:20:00,COL,Llaneros FC,Deportivo Pasto,0,1
+2026-02-11 01:30:00,COL,Atlético Bucaramanga,Deportes Tolima,0,0
+2026-02-11 23:30:00,COL,Millonarios,Águilas Doradas,1,0
+2026-02-12 01:30:00,COL,Internacional de Bogotá,Deportivo Cali,3,2
+2026-02-12 21:10:00,COL,Boyacá Chicó FC,Jaguares de Córdoba,5,0
+2026-02-12 23:20:00,COL,Once Caldas,Atlético Junior,2,1
+2026-02-13 01:30:00,COL,Atlético Nacional,Fortaleza CEIF,4,1
+2026-02-14 01:00:00,COL,América de Cali,Independiente Santa Fe,1,0
+2026-02-14 21:30:00,COL,Millonarios,Llaneros FC,2,1
+2026-02-14 23:30:00,COL,Independiente Medellín,Deportivo Pereira,1,1
+2026-02-15 01:30:00,COL,Deportivo Pasto,Internacional de Bogotá,1,1
+2026-02-15 21:20:00,COL,Deportes Tolima,Once Caldas,2,1
+2026-02-15 23:30:00,COL,Deportivo Cali,Atlético Nacional,1,0
+2026-02-16 01:30:00,COL,Fortaleza CEIF,Boyacá Chicó FC,2,1
+2026-02-17 21:00:00,COL,Alianza FC,Cúcuta Deportivo,1,1
+2026-02-17 23:00:00,COL,Jaguares de Córdoba,Independiente Santa Fe,3,1
+2026-02-19 00:30:00,COL,Atlético Junior,América de Cali,2,1
+2026-02-20 23:20:00,COL,Llaneros FC,Independiente Medellín,2,2
+2026-02-21 01:30:00,COL,Deportivo Pereira,Deportivo Pasto,2,2
+2026-02-21 19:00:00,COL,Once Caldas,Fortaleza CEIF,4,2
+2026-02-21 21:10:00,COL,Atlético Bucaramanga,Deportivo Cali,0,0
+2026-02-21 23:20:00,COL,Atlético Nacional,Alianza FC,3,0
+2026-02-22 01:30:00,COL,Internacional de Bogotá,Millonarios,3,2
+2026-02-22 21:00:00,COL,Independiente Santa Fe,Atlético Junior,2,1
+2026-02-22 23:10:00,COL,Boyacá Chicó FC,Águilas Doradas,0,1
+2026-02-23 01:30:00,COL,América de Cali,Jaguares de Córdoba,3,0
+2026-02-23 21:00:00,COL,Cúcuta Deportivo,Deportes Tolima,3,2
+2026-02-26 00:00:00,COL,Independiente Santa Fe,Atlético Nacional,1,2
+2026-02-27 00:30:00,COL,Millonarios,Deportivo Pereira,5,1
+2026-02-28 01:30:00,COL,Once Caldas,Boyacá Chicó FC,3,0
+2026-02-28 21:10:00,COL,Alianza FC,América de Cali,0,3
+2026-02-28 23:20:00,COL,Jaguares de Córdoba,Atlético Junior,0,2
+2026-03-01 01:30:00,COL,Independiente Medellín,Atlético Bucaramanga,1,2
+2026-03-01 19:00:00,COL,Deportivo Pasto,Cúcuta Deportivo,3,2
+2026-03-01 21:00:00,COL,Águilas Doradas,Internacional de Bogotá,0,0
+2026-03-01 23:10:00,COL,Deportivo Cali,Fortaleza CEIF,1,1
+2026-03-02 01:30:00,COL,Deportes Tolima,Atlético Nacional,1,0
+2026-03-05 01:00:00,COL,Fortaleza CEIF,Jaguares de Córdoba,2,1
+2026-03-05 23:10:00,COL,Llaneros FC,Internacional de Bogotá,1,1
+2026-03-06 01:20:00,COL,Atlético Junior,Alianza FC,1,1
+2026-03-07 01:30:00,COL,Deportivo Cali,Once Caldas,0,2
+2026-03-07 21:00:00,COL,Águilas Doradas,Atlético Nacional,1,2
+2026-03-09 21:00:00,COL,Llaneros FC,Jaguares de Córdoba,2,0
+2026-03-09 23:20:00,COL,Millonarios,Cúcuta Deportivo,2,0
+2026-03-10 01:30:00,COL,Deportivo Pasto,América de Cali,2,0
+2026-03-10 23:20:00,COL,Atlético Bucaramanga,Deportivo Pereira,3,0
+2026-03-11 01:30:00,COL,Atlético Junior,Atlético Nacional,0,4
+2026-03-13 23:20:00,COL,Once Caldas,Deportivo Pasto,4,2
+2026-03-14 01:30:00,COL,Atlético Nacional,Llaneros FC,2,0
+2026-03-14 19:00:00,COL,Internacional de Bogotá,Atlético Bucaramanga,0,0
+2026-03-14 21:10:00,COL,Cúcuta Deportivo,Deportivo Cali,0,2
+2026-03-14 23:20:00,COL,Boyacá Chicó FC,Millonarios,2,1
+2026-03-15 01:30:00,COL,Independiente Santa Fe,Alianza FC,1,1
+2026-03-15 20:30:00,COL,Deportivo Pereira,Águilas Doradas,0,1
+2026-03-15 21:10:00,COL,América de Cali,Deportes Tolima,1,1
+2026-03-15 23:20:00,COL,Jaguares de Córdoba,Independiente Medellín,1,2
+2026-03-16 01:30:00,COL,Atlético Junior,Fortaleza CEIF,2,1
+2026-03-17 21:10:00,COL,Llaneros FC,Cúcuta Deportivo,2,2
+2026-03-18 01:30:00,COL,Millonarios,Atlético Nacional,3,0
+2026-03-18 21:10:00,COL,Deportivo Pasto,Boyacá Chicó FC,2,0
+2026-03-18 23:20:00,COL,Internacional de Bogotá,Deportivo Pereira,2,2
+2026-03-19 00:30:00,COL,Atlético Bucaramanga,Once Caldas,1,1
+2026-03-19 01:30:00,COL,Deportivo Cali,Independiente Santa Fe,1,1
+2026-03-19 21:10:00,COL,Alianza FC,Jaguares de Córdoba,1,0
+2026-03-19 23:20:00,COL,Deportes Tolima,Fortaleza CEIF,2,0
+2026-03-20 01:30:00,COL,Independiente Medellín,Atlético Junior,2,0
+2026-03-20 21:00:00,COL,Águilas Doradas,América de Cali,0,1
+2026-03-21 23:20:00,COL,Once Caldas,Millonarios,1,4
+2026-03-22 01:30:00,COL,Atlético Nacional,Internacional de Bogotá,3,0
+2026-03-22 21:00:00,COL,Alianza FC,Deportivo Cali,1,0
+2026-03-23 19:00:00,COL,Boyacá Chicó FC,Deportes Tolima,1,1
+2026-03-23 21:10:00,COL,Independiente Santa Fe,Independiente Medellín,2,1
+2026-03-23 23:20:00,COL,Jaguares de Córdoba,Águilas Doradas,1,1
+2026-03-24 20:30:00,COL,Deportivo Pereira,Cúcuta Deportivo,2,2
+2026-03-24 23:00:00,COL,Atlético Junior,Atlético Bucaramanga,2,0
+2026-03-25 01:00:00,COL,Fortaleza CEIF,Deportivo Pasto,1,2
+2026-03-26 01:00:00,COL,América de Cali,Llaneros FC,0,0
+2026-03-27 21:00:00,COL,Águilas Doradas,Alianza FC,1,0
+2026-03-28 01:10:00,COL,Atlético Bucaramanga,Independiente Santa Fe,1,2
+2026-03-28 21:00:00,COL,Cúcuta Deportivo,Boyacá Chicó FC,1,0
+2026-03-28 23:10:00,COL,Deportes Tolima,Jaguares de Córdoba,3,1
+2026-03-29 01:20:00,COL,Deportivo Cali,Deportivo Pereira,1,0
+2026-03-29 21:10:00,COL,Internacional de Bogotá,Atlético Junior,0,1
+2026-03-29 23:20:00,COL,Deportivo Pasto,Atlético Nacional,1,2
+2026-03-30 15:00:00,COL,Llaneros FC,Once Caldas,1,1
+2026-03-30 23:10:00,COL,Independiente Medellín,América de Cali,2,1
+2026-03-31 01:20:00,COL,Millonarios,Fortaleza CEIF,2,2
+2026-04-01 01:00:00,COL,Deportes Tolima,Águilas Doradas,4,1
+2026-04-01 21:10:00,COL,Alianza FC,Deportivo Pasto,0,0
+2026-04-01 23:30:00,COL,Independiente Santa Fe,Llaneros FC,0,1
+2026-04-02 01:30:00,COL,Atlético Nacional,Cúcuta Deportivo,0,0
+2026-04-02 19:00:00,COL,Boyacá Chicó FC,Deportivo Pereira,1,0
+2026-04-02 21:10:00,COL,América de Cali,Atlético Bucaramanga,2,0
+2026-04-02 23:20:00,COL,Jaguares de Córdoba,Millonarios,1,0
+2026-04-03 01:30:00,COL,Once Caldas,Independiente Medellín,1,1
+2026-04-03 23:20:00,COL,Fortaleza CEIF,Internacional de Bogotá,1,1
+2026-04-04 01:30:00,COL,Atlético Junior,Deportivo Cali,1,2
+2026-04-05 00:30:00,COL,Deportes Tolima,Independiente Santa Fe,2,2
+2026-04-05 21:00:00,COL,Cúcuta Deportivo,América de Cali,2,0
+2026-04-06 20:30:00,COL,Deportivo Pereira,Alianza FC,2,3
+2026-04-07 01:10:00,COL,Atlético Nacional,Jaguares de Córdoba,2,1
+2026-04-07 21:00:00,COL,Águilas Doradas,Atlético Bucaramanga,2,1
+2026-04-10 20:30:00,COL,Deportivo Pereira,Once Caldas,0,0
+2026-04-11 01:05:00,COL,Deportivo Pasto,Deportes Tolima,1,0
+2026-04-11 21:00:00,COL,Águilas Doradas,Atlético Junior,0,3
+2026-04-12 01:20:00,COL,Independiente Medellín,Atlético Nacional,2,3
+2026-04-12 19:00:00,COL,Millonarios,Independiente Santa Fe,1,1
+2026-04-12 21:10:00,COL,Deportivo Cali,Llaneros FC,1,1
+2026-04-12 23:20:00,COL,Atlético Bucaramanga,Boyacá Chicó FC,5,0
+2026-04-13 01:30:00,COL,Internacional de Bogotá,Alianza FC,2,1
+2026-04-17 21:00:00,COL,Boyacá Chicó FC,Deportivo Cali,1,0
+2026-04-17 21:00:00,COL,Jaguares de Córdoba,Deportivo Pasto,2,3
+2026-04-18 23:10:00,COL,Deportes Tolima,Deportivo Pereira,2,0
+2026-04-19 01:30:00,COL,Fortaleza CEIF,Águilas Doradas,2,0
+2026-04-19 19:00:00,COL,Independiente Santa Fe,Cúcuta Deportivo,5,0
+2026-04-19 21:10:00,COL,Alianza FC,Independiente Medellín,0,1
+2026-04-19 23:20:00,COL,Atlético Junior,Llaneros FC,2,0
+2026-04-20 01:30:00,COL,América de Cali,Millonarios,3,1
+2026-04-20 23:20:00,COL,Once Caldas,Internacional de Bogotá,2,1
+2026-04-21 01:30:00,COL,Atlético Nacional,Atlético Bucaramanga,2,0
+2026-04-22 23:20:00,COL,Independiente Medellín,Boyacá Chicó FC,2,0
+2026-04-23 01:30:00,COL,Fortaleza CEIF,América de Cali,1,2
+2026-04-23 23:00:00,COL,Deportivo Pasto,Independiente Santa Fe,1,2
+2026-04-24 01:00:00,COL,Millonarios,Deportes Tolima,2,0
+2026-04-24 21:00:00,COL,Cúcuta Deportivo,Atlético Junior,1,1
+2026-04-25 19:00:00,COL,Atlético Bucaramanga,Jaguares de Córdoba,2,2
+2026-04-25 21:00:00,COL,Deportivo Pereira,Atlético Nacional,1,0
+2026-04-25 23:10:00,COL,Deportivo Cali,América de Cali,1,0
+2026-04-26 01:30:00,COL,Independiente Medellín,Fortaleza CEIF,1,0
+2026-04-26 21:00:00,COL,Águilas Doradas,Once Caldas,2,2
+2026-04-26 23:10:00,COL,Llaneros FC,Alianza FC,0,0
+2026-04-27 01:20:00,COL,Internacional de Bogotá,Boyacá Chicó FC,4,0
+2026-05-01 23:00:00,COL,Once Caldas,Atlético Nacional,1,0
+2026-05-02 19:00:00,COL,Boyacá Chicó FC,Llaneros FC,3,0
+2026-05-02 21:00:00,COL,Jaguares de Córdoba,Cúcuta Deportivo,2,0
+2026-05-03 20:30:00,COL,Alianza FC,Millonarios,2,2
+2026-05-03 20:30:00,COL,Deportes Tolima,Deportivo Cali,1,1
+2026-05-03 20:30:00,COL,Fortaleza CEIF,Atlético Bucaramanga,2,1
+2026-05-03 20:30:00,COL,Independiente Medellín,Águilas Doradas,1,2
+2026-05-03 20:30:00,COL,Independiente Santa Fe,Internacional de Bogotá,3,1
+2026-05-03 22:45:00,COL,América de Cali,Deportivo Pereira,1,0
+2026-05-03 22:45:00,COL,Atlético Junior,Deportivo Pasto,4,3
+2026-05-09 21:00:00,COL,Internacional de Bogotá,Atlético Nacional,1,2
+2026-05-09 23:10:00,COL,Deportes Tolima,Deportivo Pasto,1,0
+2026-05-10 01:20:00,COL,América de Cali,Independiente Santa Fe,1,1
+2026-05-10 23:10:00,COL,Once Caldas,Atlético Junior,0,1
+2026-05-12 23:20:00,COL,Atlético Nacional,Internacional de Bogotá,7,1
+2026-05-13 01:30:00,COL,Independiente Santa Fe,América de Cali,4,0
+2026-05-13 23:00:00,COL,Deportivo Pasto,Deportes Tolima,0,2
+2026-05-14 01:15:00,COL,Atlético Junior,Once Caldas,2,2
+2026-05-16 23:00:00,COL,Deportes Tolima,Atlético Nacional,0,1
+2026-05-17 01:30:00,COL,Independiente Santa Fe,Atlético Junior,1,1
+2026-05-23 23:00:00,COL,Atlético Nacional,Deportes Tolima,3,1
+2026-06-03 00:30:00,COL,Atlético Junior,Atlético Nacional,3,0
+2026-06-08 22:00:00,COL,Atlético Nacional,Atlético Junior,1,0
+2026-07-24 23:10:00,COL,Llaneros FC,Deportivo Pereira,1,0
+2026-07-25 01:15:00,COL,Deportivo Cali,Jaguares de Córdoba,2,0
+2026-07-25 21:05:00,COL,Independiente Medellín,Deportivo Pasto,3,2
+2026-07-25 23:10:00,COL,Millonarios,Atlético Bucaramanga,0,1
+2026-07-26 01:15:00,COL,Deportes Tolima,Atlético Junior,2,1
+2026-07-26 19:00:00,COL,Internacional de Bogotá,América de Cali,0,2
+2026-07-26 21:05:00,COL,Águilas Doradas,Independiente Santa Fe,2,1
+2026-07-26 23:10:00,COL,Alianza FC,Fortaleza CEIF,1,1
+2026-07-27 01:15:00,COL,Once Caldas,Cúcuta Deportivo,5,1
+2026-07-31 01:00:00,COL,Atlético Bucaramanga,Llaneros FC,1,1
+2026-08-01 01:00:00,COL,Fortaleza CEIF,Deportivo Pereira,0,0
+2026-08-01 19:00:00,COL,Deportivo Pasto,Águilas Doradas,1,2
+2026-08-01 21:05:00,COL,Alianza FC,Deportes Tolima,1,2
+2026-08-01 23:10:00,COL,Independiente Medellín,Deportivo Cali,1,0
+2026-08-02 01:15:00,COL,Atlético Junior,Millonarios,0,1
+2026-08-02 20:45:00,COL,Jaguares de Córdoba,Atlético Nacional,0,3
+2026-08-02 22:45:00,COL,América de Cali,Boyacá Chicó FC,7,0
+2026-08-03 01:00:00,COL,Independiente Santa Fe,Once Caldas,2,2
+2026-08-04 01:00:00,COL,Atlético Bucaramanga,Cúcuta Deportivo,1,1
+2026-08-04 21:10:00,COL,Llaneros FC,Fortaleza CEIF,3,1
+2026-08-04 23:15:00,COL,Deportes Tolima,Independiente Medellín,2,3
+2026-08-05 01:20:00,COL,Millonarios,Deportivo Pasto,2,0
+2026-08-05 23:15:00,COL,Internacional de Bogotá,Jaguares de Córdoba,1,0
+2026-08-06 01:30:00,COL,Once Caldas,América de Cali,0,1
+2026-08-08 19:00:00,COL,Independiente Santa Fe,Boyacá Chicó FC,2,0
+2026-08-08 21:20:00,COL,Fortaleza CEIF,Cúcuta Deportivo,2,0
+2026-08-08 23:25:00,COL,Deportes Tolima,Internacional de Bogotá,2,1
+2026-08-09 01:30:00,COL,Deportivo Pasto,Deportivo Cali,0,2
+2026-08-09 21:05:00,COL,Alianza FC,Atlético Bucaramanga,2,3
+2026-08-09 23:10:00,COL,Jaguares de Córdoba,Once Caldas,1,1
+2026-08-10 01:15:00,COL,América de Cali,Atlético Nacional,1,0
+2026-08-19 21:00:00,COL,Águilas Doradas,Llaneros FC,1,1
+2026-08-19 23:00:00,COL,Cúcuta Deportivo,Internacional de Bogotá,1,1
+2026-08-21 21:05:00,COL,Jaguares de Córdoba,Boyacá Chicó FC,1,0
+2026-08-22 00:30:00,COL,Alianza FC,Deportivo Pereira,0,0
+2026-08-22 20:30:00,COL,Águilas Doradas,Millonarios,1,1
+2026-08-22 21:05:00,COL,Deportes Tolima,Atlético Bucaramanga,0,0
+2026-08-22 23:10:00,COL,Independiente Santa Fe,América de Cali,0,0
+2026-08-23 01:15:00,COL,Independiente Medellín,Cúcuta Deportivo,0,1
+2026-08-23 19:00:00,COL,Fortaleza CEIF,Atlético Nacional,1,2
+2026-08-23 21:05:00,COL,Deportivo Pasto,Llaneros FC,0,1
+2026-08-23 23:10:00,COL,Deportivo Cali,Internacional de Bogotá,2,2
+2026-08-24 01:15:00,COL,Atlético Junior,Once Caldas,1,1
+2026-08-26 01:00:00,COL,Cúcuta Deportivo,Alianza FC,1,0
+2026-08-26 21:00:00,COL,Boyacá Chicó FC,Fortaleza CEIF,0,0
+2026-08-26 23:20:00,COL,América de Cali,Atlético Junior,4,2
+2026-08-27 01:30:00,COL,Atlético Nacional,Deportivo Cali,2,1
+2026-08-27 23:10:00,COL,Llaneros FC,Millonarios,0,2
+2026-08-28 01:15:00,COL,Internacional de Bogotá,Deportivo Pasto,1,1
+2026-08-29 21:25:00,COL,Jaguares de Córdoba,América de Cali,2,2
+2026-08-29 23:30:00,COL,Atlético Junior,Independiente Santa Fe,1,1
+2026-08-30 01:30:00,COL,Alianza FC,Atlético Nacional,1,5
+2026-08-30 19:00:00,COL,Águilas Doradas,Boyacá Chicó FC,2,2
+2026-08-30 21:10:00,COL,Independiente Medellín,Llaneros FC,2,1
+2026-08-30 23:15:00,COL,Millonarios,Internacional de Bogotá,0,0
+2026-08-31 01:20:00,COL,Deportivo Cali,Atlético Bucaramanga,1,1
+2026-08-31 23:00:00,COL,Deportivo Pasto,Deportivo Pereira,1,2
+2026-09-01 01:05:00,COL,Deportes Tolima,Cúcuta Deportivo,2,1
+2026-09-02 01:00:00,COL,Fortaleza CEIF,Once Caldas,1,2
+2026-09-03 01:25:00,COL,Independiente Santa Fe,Millonarios,3,2
+2026-09-03 21:00:00,COL,América de Cali,Alianza FC,3,0
+2026-09-04 01:00:00,COL,Deportivo Pereira,Independiente Medellín,0,3
+2026-09-05 21:00:00,COL,Boyacá Chicó FC,Once Caldas,2,0
+2026-09-05 23:10:00,COL,Cúcuta Deportivo,Deportivo Pasto,2,2
+2026-09-05 23:25:00,COL,Independiente Santa Fe,Fortaleza CEIF,2,2
+2026-09-06 01:30:00,COL,Atlético Junior,Jaguares de Córdoba,3,3
+2026-09-06 21:00:00,COL,Internacional de Bogotá,Águilas Doradas,2,2
+2026-09-06 23:10:00,COL,Deportivo Pereira,Millonarios,1,1
+2026-09-07 23:00:00,COL,Llaneros FC,Deportes Tolima,1,2
+2026-09-11 01:00:00,COL,Millonarios,Deportivo Cali,1,1
+2026-09-11 23:15:00,COL,Jaguares de Córdoba,Fortaleza CEIF,2,2
+2026-09-12 01:30:00,COL,Independiente Santa Fe,Deportes Tolima,1,0
+2026-09-12 21:05:00,COL,Internacional de Bogotá,Llaneros FC,3,2
+2026-09-12 23:10:00,COL,Boyacá Chicó FC,Independiente Medellín,2,1
+2026-09-13 01:20:00,COL,Alianza FC,Atlético Junior,1,0
+2026-09-13 19:00:00,COL,Deportivo Pereira,Atlético Bucaramanga,1,3
+2026-09-13 21:05:00,COL,Atlético Nacional,Águilas Doradas,2,0
+2026-09-13 23:10:00,COL,Once Caldas,Deportivo Cali,1,2
+2026-09-14 01:15:00,COL,Cúcuta Deportivo,Millonarios,1,2
+2026-09-15 01:00:00,COL,América de Cali,Deportivo Pasto,0,1
+2026-09-16 00:30:00,COL,Boyacá Chicó FC,Alianza FC,1,2
+2026-09-16 23:15:00,COL,Once Caldas,Deportes Tolima,1,0
+2026-09-17 01:20:00,COL,Internacional de Bogotá,Atlético Nacional,2,3
+2026-09-18 00:00:00,COL,Atlético Bucaramanga,Independiente Medellín,2,2
+2026-09-18 21:00:00,COL,Águilas Doradas,Deportivo Pereira,2,2
+2026-09-19 19:00:00,COL,Millonarios,Boyacá Chicó FC,3,0
+2026-09-19 21:05:00,COL,Alianza FC,Independiente Santa Fe,1,4
+2026-09-19 23:10:00,COL,Deportivo Cali,Cúcuta Deportivo,3,0
+2026-09-20 01:15:00,COL,Deportivo Pasto,Once Caldas,1,0
+2026-09-20 19:00:00,COL,Fortaleza CEIF,Atlético Junior,1,4
+2026-09-20 21:05:00,COL,Atlético Bucaramanga,Internacional de Bogotá,2,0
+2026-09-20 23:10:00,COL,Deportes Tolima,América de Cali,1,1
+2026-09-21 01:15:00,COL,Llaneros FC,Atlético Nacional,2,0
+2026-09-22 23:00:00,COL,Independiente Medellín,Jaguares de Córdoba,2,1
+2026-09-23 01:00:00,COL,Independiente Santa Fe,Deportivo Cali,0,1
+2026-09-24 00:30:00,COL,América de Cali,Águilas Doradas,1,0
+2026-09-25 00:30:00,COL,Atlético Nacional,Millonarios,1,1
+2026-09-25 23:10:00,COL,Boyacá Chicó FC,Deportivo Pasto,3,0
+2026-09-26 01:15:00,COL,Once Caldas,Atlético Bucaramanga,1,3
+2026-09-26 21:00:00,COL,Deportivo Pereira,Internacional de Bogotá,0,0
+2026-09-26 23:15:00,COL,Cúcuta Deportivo,Llaneros FC,2,1
+2026-09-27 01:20:00,COL,Atlético Junior,Independiente Medellín,2,0
+2026-09-27 21:00:00,COL,Jaguares de Córdoba,Alianza FC,1,2
+2026-09-27 23:05:00,COL,Fortaleza CEIF,Deportes Tolima,2,2
+2026-09-28 01:10:00,COL,Deportivo Cali,Águilas Doradas,2,0
