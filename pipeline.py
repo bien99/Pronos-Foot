@@ -34,10 +34,13 @@ UK_DIVS = {"E0": "Premier League", "F1": "Ligue 1", "SP1": "La Liga", "I1": "Ser
            "P1": "Liga Portugal", "T1": "Süper Lig"}
 FD_COMPS = {"CL": "Champions League", "BSA": "Brasileirão"}
 FD_SEASONS = [2023, 2024, 2025, 2026]
-AM = {"ARG": ("Liga Argentina", "arg.1"), "MEX": ("Liga MX", "mex.1"), "COL": ("Liga Colombia", "col.1")}
+AM = {"ARG": ("Liga Argentina", "arg.1"), "MEX": ("Liga MX", "mex.1")}
 AM_FROM = pd.Timestamp("2018-01-01")
-ESPN_EU = {"EL": ("Europa League", "uefa.europa"), "ECL": ("Conference League", "uefa.europa.conf")}
-EU_FROM = dt.date(2022, 7, 1)
+# nom, identifiant ESPN, groupe de modèle, jour de la semaine (None = tous les jours), début de l'historique
+ESPN_HIST = {"EL": ("Europa League", "uefa.europa", "eu", 3, dt.date(2019, 7, 1)),
+             "ECL": ("Conference League", "uefa.europa.conf", "eu", 3, dt.date(2019, 7, 1)),
+             "COL": ("Liga Colombia", "col.1", "am", None, dt.date(2023, 7, 1))}
+ESPN_MAX_CALLS = 1500
 MIN_HIST_EU = 3
 ALIASES = {}   # corrections manuelles : "nom ESPN": "nom dans l'historique"
 INCONNUS = []
@@ -282,18 +285,21 @@ def load_eu():
     done = json.load(open(dates_p)) if os.path.exists(dates_p) else {}
     today = dt.date.today()
     frames, rows_new = [], []
-    for div, (name, slug) in ESPN_EU.items():
+    calls = [0]
+    for div, (name, slug, src_, wd, start) in ESPN_HIST.items():
         base = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
         checked = set(done.get(div, []))
         if not OFFLINE:
-            d = EU_FROM
-            while d.weekday() != 3:
+            d = start
+            while wd is not None and d.weekday() != wd:
                 d += dt.timedelta(days=1)
+            step = 7 if wd is not None else 1
             appels = 0
-            while d < today:
+            while d < today and calls[0] < ESPN_MAX_CALLS:
                 if d.isoformat() not in checked:
                     data = espn_get(base + f"?dates={d:%Y%m%d}")
                     appels += 1
+                    calls[0] += 1
                     if data is not None:
                         for _, t, h, a, sh, sa in espn_events(data, {"STATUS_FULL_TIME"}):
                             try:
@@ -301,8 +307,8 @@ def load_eu():
                             except (TypeError, ValueError):
                                 pass
                         checked.add(d.isoformat())
-                d += dt.timedelta(days=7)
-            log(f"  {name} : {appels} jeudis interrogés")
+                d += dt.timedelta(days=step)
+            log(f"  {name} : {appels} jours interrogés (reste {max(0, (today - d).days)} jours à rattraper)")
             done[div] = sorted(checked)
         # matchs à venir
         events = {}
@@ -314,7 +320,7 @@ def load_eu():
                 data = espn_get(u)
             for i_, t, h, a, _, _ in espn_events(data, {"STATUS_SCHEDULED"}):
                 events[i_] = (t, h, a)
-        frames.append(pd.DataFrame([{"src": "eu", "div": div, "lg": name, "dt": t, "has_t": True, "home": h, "away": a,
+        frames.append(pd.DataFrame([{"src": src_, "div": div, "lg": name, "dt": t, "has_t": True, "home": h, "away": a,
                                      "hg": np.nan, "ag": np.nan, "fin": False} for t, h, a in events.values()]))
     if rows_new:
         hist = pd.concat([hist, pd.DataFrame(rows_new)], ignore_index=True)
@@ -326,7 +332,7 @@ def load_eu():
         json.dump(done, open(dates_p, "w"))
     if len(hist):
         h = hist.copy()
-        h["src"], h["lg"] = "eu", h["div"].map({k: v[0] for k, v in ESPN_EU.items()})
+        h["src"], h["lg"] = h["div"].map({k: v[2] for k, v in ESPN_HIST.items()}), h["div"].map({k: v[0] for k, v in ESPN_HIST.items()})
         h["has_t"], h["fin"] = True, True
         frames.append(h)
     log("  Coupes ESPN : ", len(hist), "matchs passés en cache")
@@ -438,8 +444,12 @@ def events_truth(T):
     return np.column_stack([T[:, 0], T[:, 1], T[:, 2], T[:, 3], T[:, 4], 1 - T[:, 4], T[:, 5], T[:, 6], 1 - T[:, 6]])
 
 
+def min_train(train):
+    return 150 if len(train) and str(train["src"].iloc[0]) == "eu" else 300
+
+
 def fit_predict(train, test, cols):
-    if len(train) < 300 or len(test) == 0:
+    if len(train) < min_train(train) or len(test) == 0:
         return None
     T = truth(train)
     P = np.zeros((len(test), len(TARGETS)))
@@ -454,7 +464,7 @@ def fit_predict(train, test, cols):
 
 def fit_goals(train, test, cols):
     """Buts attendus (domicile, extérieur) par régression de Poisson."""
-    if len(train) < 300 or len(test) == 0:
+    if len(train) < min_train(train) or len(test) == 0:
         return None
     out = []
     for c in ("hg", "ag"):
