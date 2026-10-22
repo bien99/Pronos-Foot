@@ -233,7 +233,11 @@ def load_am():
         for t, home, away in events.values():
             mh, ma = match_name(home, known), match_name(away, known)
             if mh is None or ma is None:
-                INCONNUS.extend([n for n, m in ((home, mh), (away, ma)) if m is None])
+                for n, m in ((home, mh), (away, ma)):
+                    if m is None:
+                        INCONNUS.append(n)
+                        proches = difflib.get_close_matches(n, sorted(known), n=3, cutoff=0.0)
+                        log(f"    {code} nom non reconnu : {n!r}  plus proches dans l'historique : {proches}")
                 continue
             ok += 1
             rows.append({"src": "am", "div": code, "lg": lname, "dt": t, "has_t": True, "home": mh, "away": ma,
@@ -313,8 +317,11 @@ def load_eu():
         frames.append(pd.DataFrame([{"src": "eu", "div": div, "lg": name, "dt": t, "has_t": True, "home": h, "away": a,
                                      "hg": np.nan, "ag": np.nan, "fin": False} for t, h, a in events.values()]))
     if rows_new:
-        hist = pd.concat([hist, pd.DataFrame(rows_new)], ignore_index=True).drop_duplicates(["dt", "div", "home", "away"])
+        hist = pd.concat([hist, pd.DataFrame(rows_new)], ignore_index=True)
+        hist["dt"] = pd.to_datetime(hist["dt"])
+        hist = hist.drop_duplicates(["dt", "div", "home", "away"])
         hist.to_csv(cache, index=False)
+    hist["dt"] = pd.to_datetime(hist["dt"])
     if not OFFLINE:
         json.dump(done, open(dates_p, "w"))
     if len(hist):
@@ -533,7 +540,7 @@ def cc_section(df, up):
                 if c:
                     kb = row.dt + pd.Timedelta(hours=1)
                     out[name].append({"jour": kb.strftime("%Y-%m-%d"), "heure": kb.strftime("%H:%M") if row.has_t else "",
-                                      "ligue": row.lg, "match": f"{row.home} - {row.away}",
+                                      "ligue": row.lg, "match": f"{row.home} - {row.away}", "home": row.home, "away": row.away,
                                       "pari": f"{c[0]} {c[1]} {name}", "p": round(c[2], 3), "mu": round(float(m_), 1)})
         out[name].sort(key=lambda x: -x["p"])
         out[name] = out[name][:MAX_CC]
@@ -573,6 +580,7 @@ def main():
     if not frames:
         raise SystemExit("Aucune donnée téléchargée.")
     raw = pd.concat(frames, ignore_index=True)
+    raw["dt"] = pd.to_datetime(raw["dt"])
     raw["day"] = raw["dt"].dt.strftime("%Y-%m-%d")
     raw = raw.sort_values("fin", ascending=False).drop_duplicates(["div", "home", "away", "day"], keep="first")
     log("matchs terminés :", int(raw["fin"].sum()), "| à venir :", int((~raw["fin"]).sum()))
@@ -581,6 +589,7 @@ def main():
     # --- test sur le passé (modèle entraîné avant CUT, testé après)
     stats = {}
     sc_hit, sc_n, sc_all_hit, sc_all_n = 0, 0, 0, 0
+    bt = []
     for fam, (label, _, cols, _) in FAMILIES.items():
         m = family_mask(df, fam) & df["fin"]
         tr, te = df[m & (df["dt"] < CUT)], df[m & (df["dt"] >= CUT)]
@@ -601,8 +610,28 @@ def main():
         if has.sum() == 0:
             continue
         win = Et[np.arange(len(te)), idx][has]
+        dts, hs, as_ = te["dt"].dt.normalize().values, te["home"].values, te["away"].values
+        for i_ in np.where(has)[0]:
+            bt.append((dts[i_], hs[i_], as_[i_], float(E[i_, idx[i_]]), bool(Et[i_, idx[i_]])))
         stats[fam] = {"label": label, "matchs": int(len(te)), "paris": int(has.sum()), "taux": round(float(win.mean()) * 100, 1)}
         log(f"  test {label} : {has.sum()} paris sur {len(te)} matchs, réussite {win.mean()*100:.1f} %")
+
+    bt = pd.DataFrame(bt, columns=["d", "home", "away", "p", "w"]).drop_duplicates(["d", "home", "away"])
+    stats_all = {"paris": int(len(bt)), "taux": round(100 * float(bt["w"].mean()), 1) if len(bt) else None}
+    tk_res = []
+    for _, g in bt.groupby("d"):
+        cand_ = g.sort_values("p", ascending=False).head(12).to_dict("records")
+        best_, bp_ = None, 0.0
+        for n_ in (2, 3):
+            for combo in itertools.combinations(cand_, n_):
+                pp_ = float(np.prod([c["p"] for c in combo]))
+                if 1.9 <= 1 / pp_ <= 2.4 and pp_ > bp_:
+                    best_, bp_ = combo, pp_
+        if best_:
+            tk_res.append((bp_, all(c["w"] for c in best_)))
+    ticket_stat = {"paris": len(tk_res), "taux": round(100 * float(np.mean([w for _, w in tk_res])), 1) if tk_res else None,
+                   "p_moyen": round(100 * float(np.mean([q for q, _ in tk_res])), 1) if tk_res else None}
+    log("  test tickets cote 2 :", ticket_stat)
 
     # --- prédictions des matchs à venir
     up = df[~df["fin"]].copy()
@@ -622,7 +651,7 @@ def main():
             for row, ts, a, b in zip(um.itertuples(), top_scores(G[0], G[1], 3), G[0], G[1]):
                 kb = row.dt + pd.Timedelta(hours=1)
                 scores.append({"jour": kb.strftime("%Y-%m-%d"), "heure": kb.strftime("%H:%M") if row.has_t else "",
-                               "ligue": row.lg, "match": f"{row.home} - {row.away}", "score": ts[0][0],
+                               "ligue": row.lg, "match": f"{row.home} - {row.away}", "home": row.home, "away": row.away, "score": ts[0][0],
                                "p": round(ts[0][1], 3), "alt": [[s, round(q, 3)] for s, q in ts[1:]],
                                "buts": round(float(a + b), 1)})
         P = fit_predict(df[trm], um, cols)
@@ -669,36 +698,87 @@ def main():
         log("  cartons/corners ignorés :", repr(e))
         cc, cc_stat = {"corners": [], "cartons": []}, {}
 
-    # --- historique des pronostics (enregistrés avant les matchs) et bilan
+    # --- historique des pronostics (enregistrés avant les matchs) et bilans par onglet
     hist_path = os.path.join(OUT, "data", "historique.csv")
     os.makedirs(os.path.dirname(hist_path), exist_ok=True)
-    cols_h = ["cle", "genere", "jour", "ligue", "match", "home", "away", "pari", "k", "p", "resultat"]
+    cols_h = ["cle", "genere", "jour", "ligue", "match", "home", "away", "pari", "k", "p", "resultat", "type", "extra"]
     H = pd.read_csv(hist_path) if os.path.exists(hist_path) else pd.DataFrame(columns=cols_h)
+    H = H.reindex(columns=cols_h)
+    H["type"] = H["type"].fillna("jour")
+    H["extra"] = H["extra"].fillna("")
+    gen = now_b.strftime("%Y-%m-%d %H:%M")
+    have = set(H["cle"])
+
+    def add(typ, cle, jour, ligue, match, home, away, pari, k, pr, extra=""):
+        if cle not in have:
+            H.loc[len(H)] = [cle, gen, jour, ligue, match, home, away, pari, k, pr, np.nan, typ, extra]
+            have.add(cle)
+
     for o in offre:
-        cle = f"{o['jour']}|{o['home']}|{o['away']}|{o['pari']}"
-        if cle not in set(H["cle"]):
-            H.loc[len(H)] = [cle, now_b.strftime("%Y-%m-%d %H:%M"), o["jour"], o["ligue"], o["match"], o["home"], o["away"],
-                             o["pari"], o["k"], o["p"], np.nan]
-    fin = df[df["fin"]]
+        add("jour", f"{o['jour']}|{o['home']}|{o['away']}|{o['pari']}", o["jour"], o["ligue"], o["match"], o["home"], o["away"],
+            o["pari"], o["k"], o["p"])
+    for o in scores:
+        add("score", f"{o['jour']}|{o['home']}|{o['away']}|score", o["jour"], o["ligue"], o["match"], o["home"], o["away"],
+            o["score"], -1, o["p"])
+    for typ in ("cartons", "corners"):
+        for o in cc[typ]:
+            add(typ, f"{o['jour']}|{o['home']}|{o['away']}|{o['pari']}", o["jour"], o["ligue"], o["match"], o["home"], o["away"],
+                o["pari"], -1, o["p"])
+    if ticket:
+        tj = today_b.strftime("%Y-%m-%d")
+        if not ((H["type"] == "cote2") & (H["jour"] == tj)).any():
+            legs = [f"{o['jour']}|{o['home']}|{o['away']}|{o['pari']}" for o in ticket["paris"]]
+            add("cote2", f"{tj}|cote2|" + "+".join(legs), tj, "Ticket", f"Ticket du {today_b:%d/%m}", "", "",
+                f"{len(legs)} paris, cote ~{ticket['cote']}", -1, ticket["p"], ";".join(legs))
+
     res = {}
-    for r in fin.itertuples():
+    for r in df[df["fin"]].itertuples():
+        corn = r.hc + r.ac if pd.notna(r.hc) and pd.notna(r.ac) else np.nan
+        card = r.hy + r.hr + r.ay + r.ar if pd.notna([r.hy, r.hr, r.ay, r.ar]).all() else np.nan
         for dd in (r.dt, r.dt + pd.Timedelta(hours=1)):
-            res[(r.home, r.away, dd.strftime("%Y-%m-%d"))] = (r.hg, r.ag)
+            res[(r.home, r.away, dd.strftime("%Y-%m-%d"))] = (r.hg, r.ag, corn, card)
     for i, r in H.iterrows():
-        if pd.isna(r["resultat"]) and (r["home"], r["away"], r["jour"]) in res:
-            hg, ag = res[(r["home"], r["away"], r["jour"])]
+        if pd.notna(r["resultat"]) or r["type"] == "cote2":
+            continue
+        got = res.get((r["home"], r["away"], r["jour"]))
+        if got is None:
+            continue
+        hg, ag, corn, card = got
+        if r["type"] == "jour":
             t = events_truth(truth(pd.DataFrame({"hg": [hg], "ag": [ag]})))[0]
             H.at[i, "resultat"] = int(t[int(r["k"])])
+        elif r["type"] == "score":
+            H.at[i, "resultat"] = int(f"{int(hg)}-{int(ag)}" == r["pari"])
+        elif r["type"] in ("cartons", "corners"):
+            val = card if r["type"] == "cartons" else corn
+            if pd.notna(val):
+                side, line = r["pari"].split(" ")[0], float(r["pari"].split(" ")[2])
+                H.at[i, "resultat"] = int(val > line) if side == "Plus" else int(val < line)
+    byc = H.set_index("cle")["resultat"]
+    for i, r in H[H["type"] == "cote2"].iterrows():
+        if pd.notna(r["resultat"]):
+            continue
+        vals = [byc.get(c, np.nan) for c in r["extra"].split(";")]
+        if any(v == 0 for v in vals):
+            H.at[i, "resultat"] = 0
+        elif all(pd.notna(v) for v in vals):
+            H.at[i, "resultat"] = 1
     H.to_csv(hist_path, index=False)
-    done = H[H["resultat"].notna()]
-    bilan = {"n": int(len(done)), "gagnes": int(done["resultat"].astype(float).sum()),
-             "recent": [{"jour": r.jour, "match": r.match, "pari": r.pari, "ok": bool(float(r.resultat))}
-                        for r in done.sort_values("jour", ascending=False).head(12).itertuples()],
-             "en_attente": int(H["resultat"].isna().sum())}
+
+    def bilan_de(typ):
+        sub = H[H["type"] == typ]
+        done = sub[sub["resultat"].notna()]
+        return {"n": int(len(done)), "gagnes": int(done["resultat"].astype(float).sum()),
+                "recent": [{"jour": r.jour, "match": r.match, "pari": r.pari, "ok": bool(float(r.resultat))}
+                           for r in done.sort_values("jour", ascending=False).head(8).itertuples()],
+                "en_attente": int(len(sub) - len(done))}
+    bilans = {t: bilan_de(t) for t in ("jour", "cote2", "score", "cartons", "corners")}
+    bilan = bilans["jour"]
 
     data = {"genere": now_b.strftime("%d/%m/%Y à %H:%M"), "seuil": int(SEUIL * 100), "offre": offre,
             "ticket": ticket, "sur": sur_info, "stats": list(stats.values()), "scores": scores, "scores_stat": scores_stat,
-            "corners": cc["corners"], "cartons": cc["cartons"], "cc_stat": cc_stat, "bilan": bilan, "ignores": ignores}
+            "corners": cc["corners"], "cartons": cc["cartons"], "cc_stat": cc_stat, "bilan": bilan, "bilans": bilans,
+            "stats_all": stats_all, "ticket_stat": ticket_stat, "ignores": ignores}
     tpl = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "template.html"), encoding="utf-8").read()
     os.makedirs(os.path.join(OUT, "docs"), exist_ok=True)
     open(os.path.join(OUT, "docs", "index.html"), "w", encoding="utf-8").write(
