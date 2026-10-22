@@ -36,6 +36,9 @@ FD_COMPS = {"CL": "Champions League", "BSA": "Brasileirão"}
 FD_SEASONS = [2023, 2024, 2025, 2026]
 AM = {"ARG": ("Liga Argentina", "arg.1"), "MEX": ("Liga MX", "mex.1"), "COL": ("Liga Colombia", "col.1")}
 AM_FROM = pd.Timestamp("2018-01-01")
+ESPN_EU = {"EL": ("Europa League", "uefa.europa"), "ECL": ("Conference League", "uefa.europa.conf")}
+EU_FROM = dt.date(2022, 7, 1)
+MIN_HIST_EU = 3
 ALIASES = {}   # corrections manuelles : "nom ESPN": "nom dans l'historique"
 INCONNUS = []
 
@@ -241,6 +244,88 @@ def load_am():
     return frames
 
 
+def espn_get(url):
+    r = http_get(url)
+    time.sleep(0.4)
+    try:
+        return r.json() if r is not None else None
+    except Exception:
+        return None
+
+
+def espn_events(data, statuses):
+    out = []
+    for e in (data or {}).get("events", []):
+        try:
+            if e["status"]["type"]["name"] not in statuses:
+                continue
+            c = e["competitions"][0]["competitors"]
+            h = [x for x in c if x["homeAway"] == "home"][0]
+            a = [x for x in c if x["homeAway"] == "away"][0]
+            out.append((e["id"], pd.to_datetime(e["date"], utc=True).tz_localize(None),
+                        h["team"]["displayName"], a["team"]["displayName"], h.get("score"), a.get("score")))
+        except Exception:
+            continue
+    return out
+
+
+def load_eu():
+    """Europa League et Conference League : historique ESPN gardé en cache dans data/ (mis à jour chaque jour)."""
+    ddir = os.path.join(OUT, "data")
+    os.makedirs(ddir, exist_ok=True)
+    cache, dates_p = os.path.join(ddir, "espn_eu.csv"), os.path.join(ddir, "espn_eu_dates.json")
+    hist = pd.read_csv(cache, parse_dates=["dt"]) if os.path.exists(cache) else pd.DataFrame(columns=["dt", "div", "home", "away", "hg", "ag"])
+    done = json.load(open(dates_p)) if os.path.exists(dates_p) else {}
+    today = dt.date.today()
+    frames, rows_new = [], []
+    for div, (name, slug) in ESPN_EU.items():
+        base = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
+        checked = set(done.get(div, []))
+        if not OFFLINE:
+            d = EU_FROM
+            while d.weekday() != 3:
+                d += dt.timedelta(days=1)
+            appels = 0
+            while d < today:
+                if d.isoformat() not in checked:
+                    data = espn_get(base + f"?dates={d:%Y%m%d}")
+                    appels += 1
+                    if data is not None:
+                        for _, t, h, a, sh, sa in espn_events(data, {"STATUS_FULL_TIME"}):
+                            try:
+                                rows_new.append({"dt": t, "div": div, "home": h, "away": a, "hg": int(sh), "ag": int(sa)})
+                            except (TypeError, ValueError):
+                                pass
+                        checked.add(d.isoformat())
+                d += dt.timedelta(days=7)
+            log(f"  {name} : {appels} jeudis interrogés")
+            done[div] = sorted(checked)
+        # matchs à venir
+        events = {}
+        for u in [base] + [f"{base}?dates={today + dt.timedelta(days=i):%Y%m%d}" for i in range(3)]:
+            if OFFLINE:
+                p_ = f"{OFFLINE}/espn_{slug}.json"
+                data = json.load(open(p_)) if os.path.exists(p_) else {}
+            else:
+                data = espn_get(u)
+            for i_, t, h, a, _, _ in espn_events(data, {"STATUS_SCHEDULED"}):
+                events[i_] = (t, h, a)
+        frames.append(pd.DataFrame([{"src": "eu", "div": div, "lg": name, "dt": t, "has_t": True, "home": h, "away": a,
+                                     "hg": np.nan, "ag": np.nan, "fin": False} for t, h, a in events.values()]))
+    if rows_new:
+        hist = pd.concat([hist, pd.DataFrame(rows_new)], ignore_index=True).drop_duplicates(["dt", "div", "home", "away"])
+        hist.to_csv(cache, index=False)
+    if not OFFLINE:
+        json.dump(done, open(dates_p, "w"))
+    if len(hist):
+        h = hist.copy()
+        h["src"], h["lg"] = "eu", h["div"].map({k: v[0] for k, v in ESPN_EU.items()})
+        h["has_t"], h["fin"] = True, True
+        frames.append(h)
+    log("  Coupes ESPN : ", len(hist), "matchs passés en cache")
+    return [f for f in frames if len(f)]
+
+
 def load_fd():
     rows = []
     for code, name in FD_COMPS.items():
@@ -287,11 +372,12 @@ def build(df):
     elo = defaultdict(lambda: 1500.0)
     hist = defaultdict(lambda: deque(maxlen=N_FORME))
     feats, feats_cc = [], []
+    minh = MIN_HIST_EU if len(df) and df["src"].iloc[0] == "eu" else MIN_HIST
     for r in df.itertuples():
         kh, ka = (r.div, r.home), (r.div, r.away)
         hh, ha = hist[kh], hist[ka]
         f = None
-        if len(hh) >= MIN_HIST and len(ha) >= MIN_HIST:
+        if len(hh) >= minh and len(ha) >= minh:
             diff = elo[kh] + ELO_HA - elo[ka]
             pe = 1 / (1 + 10 ** (-diff / 400))
             def stats(h):
@@ -464,6 +550,7 @@ FAMILIES = {
     "uk_odds": ("Championnats avec cotes", ["uk"], BASE + ODDS, True),
     "uk": ("Championnats sans cotes", ["uk"], BASE, False),
     "fd": ("Coupes d'Europe et Brésil", ["fd"], BASE, False),
+    "eu": ("Europa League et Conference League", ["eu"], BASE, False),
     "am": ("Argentine, Mexique, Colombie", ["am"], BASE, False),
 }
 
@@ -482,7 +569,7 @@ def main():
     now_b = now_utc + pd.Timedelta(hours=1)
     today_b, tomorrow_b = now_b.normalize(), now_b.normalize() + pd.Timedelta(days=1)
 
-    frames = load_uk() + load_fd() + load_am()
+    frames = load_uk() + load_fd() + load_am() + load_eu()
     if not frames:
         raise SystemExit("Aucune donnée téléchargée.")
     raw = pd.concat(frames, ignore_index=True)
