@@ -1,5 +1,5 @@
 {
- "genere": "22/10/2026 à 10:18",
+ "genere": "22/10/2026 à 10:51",
  "seuil": 75,
  "offre": [
   {
@@ -63,18 +63,6 @@
    "fam": "eu"
   },
   {
-   "jour": "2026-10-23",
-   "heure": "02:00",
-   "ligue": "Liga Colombia",
-   "match": "Atlético Nacional - Deportivo Pasto",
-   "home": "Atlético Nacional",
-   "away": "Deportivo Pasto",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.794,
-   "fam": "am"
-  },
-  {
    "jour": "2026-10-22",
    "heure": "17:45",
    "ligue": "Europa League",
@@ -123,6 +111,18 @@
    "fam": "am"
   },
   {
+   "jour": "2026-10-23",
+   "heure": "02:00",
+   "ligue": "Liga Colombia",
+   "match": "Atlético Nacional - Deportivo Pasto",
+   "home": "Atlético Nacional",
+   "away": "Deportivo Pasto",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.779,
+   "fam": "am"
+  },
+  {
    "jour": "2026-10-22",
    "heure": "20:00",
    "ligue": "Conference League",
@@ -155,7 +155,7 @@
    "away": "Sarmiento Junin",
    "pari": "Plus de 1.5 buts",
    "k": 6,
-   "p": 0.767,
+   "p": 0.768,
    "fam": "am"
   },
   {
@@ -241,12 +241,33 @@
   },
   {
    "label": "Argentine, Mexique, Colombie",
-   "matchs": 3009,
-   "paris": 1537,
-   "taux": 78.8
+   "matchs": 3046,
+   "paris": 1556,
+   "taux": 78.7
   }
  ],
  "scores": [
+  {
+   "jour": "2026-10-23",
+   "heure": "02:00",
+   "ligue": "Liga Colombia",
+   "match": "Atlético Nacional - Deportivo Pasto",
+   "home": "Atlético Nacional",
+   "away": "Deportivo Pasto",
+   "score": "1-0",
+   "p": 0.137,
+   "alt": [
+    [
+     "2-0",
+     0.125
+    ],
+    [
+     "1-1",
+     0.105
+    ]
+   ],
+   "buts": 2.6
+  },
   {
    "jour": "2026-10-23",
    "heure": "22:30",
@@ -267,27 +288,6 @@
     ]
    ],
    "buts": 2.4
-  },
-  {
-   "jour": "2026-10-23",
-   "heure": "02:00",
-   "ligue": "Liga Colombia",
-   "match": "Atlético Nacional - Deportivo Pasto",
-   "home": "Atlético Nacional",
-   "away": "Deportivo Pasto",
-   "score": "1-0",
-   "p": 0.128,
-   "alt": [
-    [
-     "2-0",
-     0.123
-    ],
-    [
-     "1-1",
-     0.101
-    ]
-   ],
-   "buts": 2.7
   },
   {
    "jour": "2026-10-22",
@@ -354,8 +354,8 @@
   }
  ],
  "scores_stat": {
-  "paris": 7106,
-  "taux": 14.5,
+  "paris": 7124,
+  "taux": 14.4,
   "base": 12.9
  },
  "corners": [],
@@ -507,12 +507,12 @@
   }
  },
  "stats_all": {
-  "paris": 8944,
+  "paris": 8963,
   "taux": 77.7
  },
  "ticket_stat": {
-  "paris": 401,
-  "taux": 45.9,
+  "paris": 404,
+  "taux": 45.8,
   "p_moyen": 51.6
  },
  "ignores": 23
