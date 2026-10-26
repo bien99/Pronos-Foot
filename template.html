@@ -55,34 +55,51 @@ function byDay(list,fn){var jours=[],h="";list.forEach(function(o){if(jours.inde
   jours.forEach(function(j){h+='<h3>'+jourLong(j)+'</h3>';list.filter(function(o){return o.jour==j}).sort(function(a,b){var x=a.heure||"",y=b.heure||"";return x<y?-1:x>y?1:b.p-a.p}).forEach(function(o){h+=fn(o)})});return h}
 var WARN='<div class="warn">Aucun pronostic n\'est garanti. À 80 % de réussite, environ 1 pari sur 5 est perdu. Les cotes affichées sont des cotes équitables calculées par le modèle, celles du bookmaker seront plus basses. Jeu réservé aux 18 ans et plus : joue seulement ce que tu peux perdre.</div>';
 
+function tile(v,s){return '<div class="stat"><b>'+v+'</b><span>'+s+'</span></div>'}
+function liveTile(b,label){if(b&&b.n>0)return tile(b.gagnes+' / '+b.n,label+' publiés ici et déjà vérifiés ('+fr(Math.round(b.gagnes/b.n*1000)/10)+' %)'+(b.en_attente?', '+b.en_attente+' en attente':''));
+  return tile('—','Pas encore de résultat vérifié'+(b&&b.en_attente?' ('+b.en_attente+' en attente)':'')+'. Les résultats arrivent 1 à 2 jours après les matchs.')}
+function recent(b){if(!b||!b.recent||!b.recent.length)return'';var h='<section class="day"><h2>Résultats des matchs</h2>',cur='';
+  b.recent.forEach(function(r){if(r.jour!=cur){cur=r.jour;h+='<h3>'+jourLong(r.jour)+'</h3>'}
+    var st=r.ok===null?'<span class="meta">En attente du score</span>':'<span class="'+(r.ok?'ok':'ko')+'">'+(r.ok?'Gagné':'Perdu')+'</span>';
+    h+='<div class="row"><div class="match">'+esc(r.match)+'</div><div class="p">'+(r.ok===null?'':esc(r.reel))+'</div><div class="pari">'+esc(r.pari)+' ('+Math.round(r.p*100)+' %)</div><div class="meta">'+st+'</div></div>'});
+  return h+'<small>Les pronostics sont enregistrés avant les matchs, puis vérifiés avec les vrais scores. Les scores arrivent 1 à 2 jours après les matchs.</small></section>'}
+
 var t1='<div class="stats">';
+if(D.stats_all&&D.stats_all.paris)t1+=tile(fr(D.stats_all.taux)+' %','réussite réelle sur le passé, toutes ligues ('+D.stats_all.paris+' paris à '+D.seuil+' % et plus)');
 D.stats.forEach(function(s){t1+='<div class="stat"><b>'+fr(s.taux)+' %</b><span>réussite réelle sur le passé, '+esc(s.label.toLowerCase())+' ('+s.paris+' paris à '+D.seuil+' % et plus)</span></div>'});
 t1+='<div class="stat"><b>'+D.offre.length+'</b><span>pronostics aujourd\'hui et demain</span></div>';
-if(D.bilan.n>0)t1+='<div class="stat"><b>'+D.bilan.gagnes+' / '+D.bilan.n+'</b><span>pronostics publiés ici et déjà vérifiés ('+fr(Math.round(D.bilan.gagnes/D.bilan.n*1000)/10)+' %)</span></div>';
+t1+=liveTile(D.bilans.jour,'pronostics');
 t1+='</div>'+WARN;
 if(!D.offre.length)t1+='<div class="warn">Aucun match avec une probabilité d\'au moins '+D.seuil+' % pour le moment. Reviens demain.</div>';
 t1+='<section class="day">'+byDay(D.offre,function(o){return '<div class="row"><div class="match">'+esc(o.match)+'</div><div class="p">'+Math.round(o.p*100)+' %</div><div class="pari">'+esc(o.pari)+' · '+esc(o.ligue)+'</div><div class="meta">'+(o.heure?o.heure+' · ':'')+'cote '+fr((1/o.p).toFixed(2))+'</div><div class="bar"><i style="width:'+Math.round(o.p*100)+'%"></i></div></div>'})+'</section>';
 if(D.sur){t1+='<section class="slip"><h2>Pari le plus sûr</h2><ul>'+D.sur.paris.map(function(o){return'<li>'+line(o)+'</li>'}).join('')+'</ul><div class="tot"><span>Probabilité estimée</span><span>'+fr((D.sur.p*100).toFixed(1))+' %</span></div><small>Cote équitable '+fr(D.sur.cote.toFixed(2))+'. Même à ce niveau, le gain est minime et rien n\'est garanti.</small></section>'}
-if(D.bilan.recent.length){t1+='<section class="slip"><h2>Derniers résultats</h2>';D.bilan.recent.forEach(function(r){t1+='<div><span class="'+(r.ok?'ok':'ko')+'">'+(r.ok?'Gagné':'Perdu')+'</span> · '+esc(r.match)+' · '+esc(r.pari)+'</div>'});t1+='<small>Les pronostics sont enregistrés avant les matchs, puis vérifiés avec les vrais scores.</small></section>'}
+t1+=recent(D.bilans.jour);
 t1+='<button id="copy" type="button">Copier le message WhatsApp</button><small id="msg" aria-live="polite"></small><small>Pour les coupes d\'Europe (dont Europa et Conference League), le Brésil, l\'Argentine, le Mexique et la Colombie, le modèle n\'a pas les cotes des bookmakers et reste moins précis.</small>';
 
-var t2='';
+var t2='<div class="stats">';
+if(D.ticket_stat&&D.ticket_stat.paris)t2+=tile(fr(D.ticket_stat.taux)+' %','des tickets de cote 2 sont passés sur le passé ('+D.ticket_stat.paris+' tickets simulés, le modèle en attendait '+fr(D.ticket_stat.p_moyen)+' %)');
+t2+=liveTile(D.bilans.cote2,'tickets')+'</div>';
 if(D.ticket){t2+='<section class="slip"><h2>Ticket cote environ 2</h2><ul>'+D.ticket.paris.map(function(o){return'<li>'+line(o)+'</li>'}).join('')+'</ul><div class="tot"><span>Probabilité que le ticket passe</span><span>'+Math.round(D.ticket.p*100)+' %</span></div><div class="tot"><span>Cote équitable</span><span>'+fr(D.ticket.cote.toFixed(2))+'</span></div></section><div class="warn">Ce ticket est risqué : il perd environ '+(100-Math.round(D.ticket.p*100))+' fois sur 100. Un ticket de cote 2 sans risque n\'existe pas. La probabilité suppose que les matchs sont indépendants. La vraie cote du bookmaker sera plus basse que la cote équitable.</div>'}
 else t2+='<div class="warn">Aucune combinaison de cote proche de 2 pour le moment. Reviens demain.</div>';
 
+t2+=recent(D.bilans.cote2);
+
 var t3='<div class="warn">Prédire le score exact est très difficile : même le meilleur score possible a rarement plus de 10 à 15 % de chances. C\'est une idée, pas un pronostic fiable.';
-if(D.scores_stat&&D.scores_stat.paris)t3+=' Sur le passé, avec 5 matchs choisis par jour, le bon score est tombé '+fr(D.scores_stat.taux)+' % du temps.';
-t3+='</div>';
+t3+='</div><div class="stats">';
+if(D.scores_stat&&D.scores_stat.paris){t3+=tile(fr(D.scores_stat.taux)+' %','le bon score est tombé sur le passé (5 matchs par jour, '+D.scores_stat.paris+' paris)');if(D.scores_stat.base!=null)t3+=tile(fr(D.scores_stat.base)+' %','sur tous les matchs sans choisir, le score le plus probable tombe')}
+t3+=liveTile(D.bilans.score,'scores')+'</div>';
 if(!D.scores.length)t3+='<div class="warn">Pas de score à proposer pour le moment.</div>';
 t3+='<section class="day">'+byDay(D.scores,function(o){return '<div class="row"><div class="match">'+esc(o.match)+'</div><div class="sc">'+esc(o.score.replace("-"," - "))+'</div><div class="pari">'+esc(o.ligue)+' · autres : '+o.alt.map(function(a){return esc(a[0])+' ('+Math.round(a[1]*100)+' %)'}).join(', ')+'</div><div class="meta">'+(o.heure?o.heure+' · ':'')+Math.round(o.p*100)+' % · ~'+fr(o.buts)+' buts</div></div>'})+'</section>';
 
-function ccTab(list,stat,nom,note){var h='<div class="warn">'+note;
-  if(stat&&stat.paris)h+=' Sur le passé, avec au plus 10 matchs par jour, le pari est passé '+fr(stat.taux)+' % du temps.';
-  h+=' Aucun résultat n\'est garanti.</div>';
+t3+=recent(D.bilans.score);
+
+function ccTab(list,stat,nom,note,bil){var h='<div class="warn">'+note+' Aucun résultat n\'est garanti.</div><div class="stats">';
+  if(stat&&stat.paris)h+=tile(fr(stat.taux)+' %','des paris sont passés sur le passé (au plus 10 matchs par jour, '+stat.paris+' paris)');
+  h+=liveTile(bil,'paris')+'</div>';
   if(!list.length)h+='<div class="warn">Pas de pari '+nom+' à proposer pour le moment.</div>';
-  return h+'<section class="day">'+byDay(list,function(o){return '<div class="row"><div class="match">'+esc(o.match)+'</div><div class="p">'+Math.round(o.p*100)+' %</div><div class="pari">'+esc(o.pari)+' · '+esc(o.ligue)+'</div><div class="meta">'+(o.heure?o.heure+' · ':'')+'~'+fr(o.mu)+' attendus</div><div class="bar"><i style="width:'+Math.round(o.p*100)+'%"></i></div></div>'})+'</section>'+'<small>Seulement les championnats nationaux : les données de corners et cartons n\'existent pas pour les coupes d\'Europe ni le Brésil.</small>'}
-var t4=ccTab(D.cartons||[],(D.cc_stat||{}).cartons,"cartons","Total de cartons du match (jaunes et rouges ensemble).");
-var t5=ccTab(D.corners||[],(D.cc_stat||{}).corners,"corners","Total de corners du match (les deux équipes ensemble).");
+  return h+'<section class="day">'+byDay(list,function(o){return '<div class="row"><div class="match">'+esc(o.match)+'</div><div class="p">'+Math.round(o.p*100)+' %</div><div class="pari">'+esc(o.pari)+' · '+esc(o.ligue)+'</div><div class="meta">'+(o.heure?o.heure+' · ':'')+'~'+fr(o.mu)+' attendus</div><div class="bar"><i style="width:'+Math.round(o.p*100)+'%"></i></div></div>'})+'</section>'+recent(bil)+'<small>Seulement les championnats nationaux : les données de corners et cartons n\'existent pas pour les coupes d\'Europe ni le Brésil.</small>'}
+var t4=ccTab(D.cartons||[],(D.cc_stat||{}).cartons,"cartons","Total de cartons du match (jaunes et rouges ensemble).",D.bilans.cartons);
+var t5=ccTab(D.corners||[],(D.cc_stat||{}).corners,"corners","Total de corners du match (les deux équipes ensemble).",D.bilans.corners);
 var tabs=[["jour","Pronostics du jour","Les 15 meilleurs pronostics",t1],["cote2","Cote 2","Ticket de cote environ 2",t2],["score","Score exact","Jusqu'à 5 matchs, juste une idée",t3],["cartons","Cartons","Jusqu'à 10 matchs",t4],["corners","Corners","Jusqu'à 10 matchs",t5]];
 var h='<header><h1>Pronos Foot</h1><p class="sub">Mis à jour le '+D.genere+' (heure du Bénin)</p></header>';
 h+='<div id="menu" style="display:flex;flex-direction:column;gap:10px">'+tabs.map(function(x){return'<a class="big" href="#'+x[0]+'"><b>'+x[1]+'</b><span>'+x[2]+'</span></a>'}).join('')+WARN+'</div>';
