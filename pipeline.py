@@ -711,17 +711,18 @@ def main():
     # --- historique des pronostics (enregistrés avant les matchs) et bilans par onglet
     hist_path = os.path.join(OUT, "data", "historique.csv")
     os.makedirs(os.path.dirname(hist_path), exist_ok=True)
-    cols_h = ["cle", "genere", "jour", "ligue", "match", "home", "away", "pari", "k", "p", "resultat", "type", "extra"]
+    cols_h = ["cle", "genere", "jour", "ligue", "match", "home", "away", "pari", "k", "p", "resultat", "type", "extra", "reel"]
     H = pd.read_csv(hist_path) if os.path.exists(hist_path) else pd.DataFrame(columns=cols_h)
     H = H.reindex(columns=cols_h)
     H["type"] = H["type"].fillna("jour")
     H["extra"] = H["extra"].fillna("")
+    H["reel"] = H["reel"].fillna("")
     gen = now_b.strftime("%Y-%m-%d %H:%M")
     have = set(H["cle"])
 
     def add(typ, cle, jour, ligue, match, home, away, pari, k, pr, extra=""):
         if cle not in have:
-            H.loc[len(H)] = [cle, gen, jour, ligue, match, home, away, pari, k, pr, np.nan, typ, extra]
+            H.loc[len(H)] = [cle, gen, jour, ligue, match, home, away, pari, k, pr, np.nan, typ, extra, ""]
             have.add(cle)
 
     for o in offre:
@@ -757,13 +758,16 @@ def main():
         if r["type"] == "jour":
             t = events_truth(truth(pd.DataFrame({"hg": [hg], "ag": [ag]})))[0]
             H.at[i, "resultat"] = int(t[int(r["k"])])
+            H.at[i, "reel"] = f"{int(hg)}-{int(ag)}"
         elif r["type"] == "score":
             H.at[i, "resultat"] = int(f"{int(hg)}-{int(ag)}" == r["pari"])
+            H.at[i, "reel"] = f"{int(hg)}-{int(ag)}"
         elif r["type"] in ("cartons", "corners"):
             val = card if r["type"] == "cartons" else corn
             if pd.notna(val):
                 side, line = r["pari"].split(" ")[0], float(r["pari"].split(" ")[2])
                 H.at[i, "resultat"] = int(val > line) if side == "Plus" else int(val < line)
+                H.at[i, "reel"] = f"{int(val)} {r['type']}"
     byc = H.set_index("cle")["resultat"]
     for i, r in H[H["type"] == "cote2"].iterrows():
         if pd.notna(r["resultat"]):
@@ -773,14 +777,20 @@ def main():
             H.at[i, "resultat"] = 0
         elif all(pd.notna(v) for v in vals):
             H.at[i, "resultat"] = 1
+        if any(v == 0 for v in vals) or all(pd.notna(v) for v in vals):
+            H.at[i, "reel"] = f"{int(sum(1 for v in vals if v == 1))}/{len(vals)} paris gagnés"
     H.to_csv(hist_path, index=False)
+
+    tj_ = today_b.strftime("%Y-%m-%d")
 
     def bilan_de(typ):
         sub = H[H["type"] == typ]
         done = sub[sub["resultat"].notna()]
+        liste = sub[sub["resultat"].notna() | (sub["jour"] < tj_)].sort_values(["jour", "p"], ascending=[False, False]).head(40)
         return {"n": int(len(done)), "gagnes": int(done["resultat"].astype(float).sum()),
-                "recent": [{"jour": r.jour, "match": r.match, "pari": r.pari, "ok": bool(float(r.resultat))}
-                           for r in done.sort_values("jour", ascending=False).head(8).itertuples()],
+                "recent": [{"jour": r.jour, "match": r.match, "pari": r.pari, "p": float(r.p), "reel": r.reel,
+                            "ok": None if pd.isna(r.resultat) else bool(float(r.resultat))}
+                           for r in liste.itertuples()],
                 "en_attente": int(len(sub) - len(done))}
     bilans = {t: bilan_de(t) for t in ("jour", "cote2", "score", "cartons", "corners")}
     bilan = bilans["jour"]
