@@ -1,7 +1,55 @@
 {
- "genere": "27/10/2026 à 08:40",
+ "genere": "28/10/2026 à 08:49",
  "seuil": 75,
  "offre": [
+  {
+   "jour": "2026-10-28",
+   "heure": "20:45",
+   "ligue": "Serie A",
+   "match": "Genoa - Juventus",
+   "home": "Genoa",
+   "away": "Juventus",
+   "pari": "X2 (nul ou extérieur)",
+   "k": 3,
+   "p": 0.858,
+   "fam": "uk_odds"
+  },
+  {
+   "jour": "2026-10-29",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Frosinone - Lecce",
+   "home": "Frosinone",
+   "away": "Lecce",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.829,
+   "fam": "uk_odds"
+  },
+  {
+   "jour": "2026-10-29",
+   "heure": "20:45",
+   "ligue": "Serie A",
+   "match": "Fiorentina - Atalanta",
+   "home": "Fiorentina",
+   "away": "Atalanta",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.822,
+   "fam": "uk_odds"
+  },
+  {
+   "jour": "2026-10-29",
+   "heure": "04:00",
+   "ligue": "Liga MX",
+   "match": "Club America - Club Tijuana",
+   "home": "Club America",
+   "away": "Club Tijuana",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.816,
+   "fam": "am"
+  },
   {
    "jour": "2026-10-28",
    "heure": "23:30",
@@ -15,15 +63,27 @@
    "fam": "fd"
   },
   {
-   "jour": "2026-10-27",
-   "heure": "23:00",
-   "ligue": "Liga Argentina",
-   "match": "Argentinos Jrs - Independiente",
-   "home": "Argentinos Jrs",
-   "away": "Independiente",
+   "jour": "2026-10-29",
+   "heure": "23:30",
+   "ligue": "Brasileirão",
+   "match": "CA Mineiro - Cruzeiro EC",
+   "home": "CA Mineiro",
+   "away": "Cruzeiro EC",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.8,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-10-29",
+   "heure": "00:00",
+   "ligue": "Liga Colombia",
+   "match": "Once Caldas - Alianza FC",
+   "home": "Once Caldas",
+   "away": "Alianza FC",
    "pari": "1X (domicile ou nul)",
    "k": 2,
-   "p": 0.789,
+   "p": 0.785,
    "fam": "am"
   },
   {
@@ -37,49 +97,97 @@
    "k": 6,
    "p": 0.782,
    "fam": "fd"
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Milan - Bologna",
+   "home": "Milan",
+   "away": "Bologna",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.777,
+   "fam": "uk_odds"
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "20:45",
+   "ligue": "Serie A",
+   "match": "Monza - Napoli",
+   "home": "Monza",
+   "away": "Napoli",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.777,
+   "fam": "uk_odds"
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Venezia - Inter",
+   "home": "Venezia",
+   "away": "Inter",
+   "pari": "Victoire extérieur",
+   "k": 1,
+   "p": 0.776,
+   "fam": "uk_odds"
+  },
+  {
+   "jour": "2026-10-29",
+   "heure": "01:30",
+   "ligue": "Brasileirão",
+   "match": "EC Bahia - São Paulo FC",
+   "home": "EC Bahia",
+   "away": "São Paulo FC",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.772,
+   "fam": "fd"
   }
  ],
  "ticket": {
   "paris": [
    {
-    "jour": "2026-10-28",
-    "heure": "23:30",
-    "ligue": "Brasileirão",
-    "match": "Fluminense FC - SC Internacional",
-    "home": "Fluminense FC",
-    "away": "SC Internacional",
-    "pari": "Plus de 1.5 buts",
-    "k": 6,
-    "p": 0.804,
-    "fam": "fd"
-   },
-   {
-    "jour": "2026-10-27",
-    "heure": "23:00",
-    "ligue": "Liga Argentina",
-    "match": "Argentinos Jrs - Independiente",
-    "home": "Argentinos Jrs",
-    "away": "Independiente",
+    "jour": "2026-10-29",
+    "heure": "18:30",
+    "ligue": "Serie A",
+    "match": "Frosinone - Lecce",
+    "home": "Frosinone",
+    "away": "Lecce",
     "pari": "1X (domicile ou nul)",
     "k": 2,
-    "p": 0.789,
-    "fam": "am"
+    "p": 0.829,
+    "fam": "uk_odds"
    },
    {
-    "jour": "2026-10-28",
-    "heure": "23:30",
-    "ligue": "Brasileirão",
-    "match": "RB Bragantino - Chapecoense AF",
-    "home": "RB Bragantino",
-    "away": "Chapecoense AF",
+    "jour": "2026-10-29",
+    "heure": "20:45",
+    "ligue": "Serie A",
+    "match": "Fiorentina - Atalanta",
+    "home": "Fiorentina",
+    "away": "Atalanta",
     "pari": "Plus de 1.5 buts",
     "k": 6,
-    "p": 0.782,
+    "p": 0.822,
+    "fam": "uk_odds"
+   },
+   {
+    "jour": "2026-10-29",
+    "heure": "01:30",
+    "ligue": "Brasileirão",
+    "match": "EC Bahia - São Paulo FC",
+    "home": "EC Bahia",
+    "away": "São Paulo FC",
+    "pari": "1X (domicile ou nul)",
+    "k": 2,
+    "p": 0.772,
     "fam": "fd"
    }
   ],
-  "p": 0.496,
-  "cote": 2.02
+  "p": 0.526,
+  "cote": 1.9
  },
  "sur": null,
  "stats": [
@@ -109,74 +217,95 @@
   },
   {
    "label": "Argentine, Mexique, Colombie",
-   "matchs": 3057,
-   "paris": 1564,
-   "taux": 78.7
+   "matchs": 3082,
+   "paris": 1578,
+   "taux": 78.6
   }
  ],
  "scores": [
   {
-   "jour": "2026-10-27",
-   "heure": "23:00",
-   "ligue": "Liga Argentina",
-   "match": "Argentinos Jrs - Independiente",
-   "home": "Argentinos Jrs",
-   "away": "Independiente",
+   "jour": "2026-10-29",
+   "heure": "01:30",
+   "ligue": "Brasileirão",
+   "match": "Clube do Remo - Botafogo FR",
+   "home": "Clube do Remo",
+   "away": "Botafogo FR",
+   "score": "1-1",
+   "p": 0.131,
+   "alt": [
+    [
+     "1-0",
+     0.111
+    ],
+    [
+     "0-1",
+     0.108
+    ]
+   ],
+   "buts": 2.4
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Parma - Udinese",
+   "home": "Parma",
+   "away": "Udinese",
+   "score": "1-1",
+   "p": 0.128,
+   "alt": [
+    [
+     "1-0",
+     0.103
+    ],
+    [
+     "0-1",
+     0.101
+    ]
+   ],
+   "buts": 2.5
+  },
+  {
+   "jour": "2026-10-29",
+   "heure": "00:00",
+   "ligue": "Liga Colombia",
+   "match": "Once Caldas - Alianza FC",
+   "home": "Once Caldas",
+   "away": "Alianza FC",
    "score": "1-0",
-   "p": 0.141,
+   "p": 0.128,
    "alt": [
     [
      "1-1",
-     0.125
+     0.122
     ],
     [
      "2-0",
-     0.101
+     0.097
     ]
    ],
-   "buts": 2.3
+   "buts": 2.5
   },
   {
-   "jour": "2026-10-28",
+   "jour": "2026-10-29",
    "heure": "02:05",
    "ligue": "Liga Colombia",
-   "match": "Boyacá Chicó FC - Atlético Junior",
-   "home": "Boyacá Chicó FC",
-   "away": "Atlético Junior",
+   "match": "Internacional de Bogotá - Independiente Medellín",
+   "home": "Internacional de Bogotá",
+   "away": "Independiente Medellín",
    "score": "1-1",
-   "p": 0.13,
-   "alt": [
-    [
-     "0-1",
-     0.117
-    ],
-    [
-     "1-0",
-     0.101
-    ]
-   ],
-   "buts": 2.4
-  },
-  {
-   "jour": "2026-10-28",
-   "heure": "00:00",
-   "ligue": "Liga Colombia",
-   "match": "Cúcuta Deportivo - Águilas Doradas",
-   "home": "Cúcuta Deportivo",
-   "away": "Águilas Doradas",
-   "score": "1-1",
-   "p": 0.129,
+   "p": 0.128,
    "alt": [
     [
      "1-0",
-     0.12
+     0.104
     ],
     [
      "0-1",
-     0.096
+     0.102
     ]
    ],
-   "buts": 2.4
+   "buts": 2.5
   },
   {
    "jour": "2026-10-28",
@@ -198,36 +327,138 @@
     ]
    ],
    "buts": 2.5
-  },
-  {
-   "jour": "2026-10-28",
-   "heure": "23:30",
-   "ligue": "Brasileirão",
-   "match": "RB Bragantino - Chapecoense AF",
-   "home": "RB Bragantino",
-   "away": "Chapecoense AF",
-   "score": "1-0",
-   "p": 0.109,
-   "alt": [
-    [
-     "2-0",
-     0.105
-    ],
-    [
-     "1-1",
-     0.102
-    ]
-   ],
-   "buts": 2.9
   }
  ],
  "scores_stat": {
-  "paris": 7189,
-  "taux": 14.4,
+  "paris": 7201,
+  "taux": 14.5,
   "base": 12.9
  },
- "corners": [],
- "cartons": [],
+ "corners": [
+  {
+   "jour": "2026-10-28",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Milan - Bologna",
+   "home": "Milan",
+   "away": "Bologna",
+   "pari": "Moins de 11.5 corners",
+   "p": 0.767,
+   "mu": 9.2
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "20:45",
+   "ligue": "Serie A",
+   "match": "Genoa - Juventus",
+   "home": "Genoa",
+   "away": "Juventus",
+   "pari": "Moins de 11.5 corners",
+   "p": 0.73,
+   "mu": 9.6
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Parma - Udinese",
+   "home": "Parma",
+   "away": "Udinese",
+   "pari": "Moins de 11.5 corners",
+   "p": 0.719,
+   "mu": 9.7
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Venezia - Inter",
+   "home": "Venezia",
+   "away": "Inter",
+   "pari": "Moins de 11.5 corners",
+   "p": 0.706,
+   "mu": 9.8
+  }
+ ],
+ "cartons": [
+  {
+   "jour": "2026-10-28",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Parma - Udinese",
+   "home": "Parma",
+   "away": "Udinese",
+   "pari": "Moins de 5.5 cartons",
+   "p": 0.805,
+   "mu": 3.7
+  },
+  {
+   "jour": "2026-10-29",
+   "heure": "20:45",
+   "ligue": "Serie A",
+   "match": "Fiorentina - Atalanta",
+   "home": "Fiorentina",
+   "away": "Atalanta",
+   "pari": "Moins de 5.5 cartons",
+   "p": 0.804,
+   "mu": 3.8
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Venezia - Inter",
+   "home": "Venezia",
+   "away": "Inter",
+   "pari": "Moins de 5.5 cartons",
+   "p": 0.8,
+   "mu": 3.8
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "20:45",
+   "ligue": "Serie A",
+   "match": "Monza - Napoli",
+   "home": "Monza",
+   "away": "Napoli",
+   "pari": "Moins de 4.5 cartons",
+   "p": 0.765,
+   "mu": 3.2
+  },
+  {
+   "jour": "2026-10-29",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Frosinone - Lecce",
+   "home": "Frosinone",
+   "away": "Lecce",
+   "pari": "Plus de 2.5 cartons",
+   "p": 0.734,
+   "mu": 4.0
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "20:45",
+   "ligue": "Serie A",
+   "match": "Genoa - Juventus",
+   "home": "Genoa",
+   "away": "Juventus",
+   "pari": "Moins de 5.5 cartons",
+   "p": 0.731,
+   "mu": 4.3
+  },
+  {
+   "jour": "2026-10-28",
+   "heure": "18:30",
+   "ligue": "Serie A",
+   "match": "Milan - Bologna",
+   "home": "Milan",
+   "away": "Bologna",
+   "pari": "Plus de 2.5 cartons",
+   "p": 0.729,
+   "mu": 4.0
+  }
+ ],
  "cc_stat": {
   "corners": {
    "paris": 2595,
@@ -239,9 +470,25 @@
   }
  },
  "bilan": {
-  "n": 59,
-  "gagnes": 50,
+  "n": 67,
+  "gagnes": 55,
   "recent": [
+   {
+    "jour": "2026-10-27",
+    "match": "Instituto - Dep. Riestra",
+    "pari": "1X (domicile ou nul)",
+    "p": 0.828,
+    "reel": "1-0",
+    "ok": true
+   },
+   {
+    "jour": "2026-10-27",
+    "match": "Argentinos Jrs - Independiente",
+    "pari": "1X (domicile ou nul)",
+    "p": 0.789,
+    "reel": "",
+    "ok": null
+   },
    {
     "jour": "2026-10-27",
     "match": "CR Flamengo - CA Mineiro",
@@ -295,8 +542,8 @@
     "match": "Barracas Central - Estudiantes Rio Cuarto",
     "pari": "1X (domicile ou nul)",
     "p": 0.835,
-    "reel": "",
-    "ok": null
+    "reel": "2-1",
+    "ok": true
    },
    {
     "jour": "2026-10-26",
@@ -495,16 +742,16 @@
     "match": "Tigre - Atl. Tucuman",
     "pari": "1X (domicile ou nul)",
     "p": 0.766,
-    "reel": "",
-    "ok": null
+    "reel": "0-1",
+    "ok": false
    },
    {
     "jour": "2026-10-24",
     "match": "Necaxa - Juarez",
     "pari": "1X (domicile ou nul)",
     "p": 0.765,
-    "reel": "",
-    "ok": null
+    "reel": "1-1",
+    "ok": true
    },
    {
     "jour": "2026-10-24",
@@ -519,8 +766,8 @@
     "match": "Atlante - Atl. San Luis",
     "pari": "Plus de 1.5 buts",
     "p": 0.76,
-    "reel": "",
-    "ok": null
+    "reel": "0-1",
+    "ok": false
    },
    {
     "jour": "2026-10-24",
@@ -535,8 +782,8 @@
     "match": "San Lorenzo - Newells Old Boys",
     "pari": "1X (domicile ou nul)",
     "p": 0.755,
-    "reel": "",
-    "ok": null
+    "reel": "0-0",
+    "ok": true
    },
    {
     "jour": "2026-10-23",
@@ -545,31 +792,31 @@
     "p": 0.794,
     "reel": "",
     "ok": true
-   },
-   {
-    "jour": "2026-10-23",
-    "match": "Gimnasia L.P. - Sarmiento Junin",
-    "pari": "Plus de 1.5 buts",
-    "p": 0.781,
-    "reel": "",
-    "ok": null
-   },
-   {
-    "jour": "2026-10-23",
-    "match": "Gimnasia Mendoza - Platense",
-    "pari": "1X (domicile ou nul)",
-    "p": 0.767,
-    "reel": "",
-    "ok": null
    }
   ],
-  "en_attente": 11
+  "en_attente": 13
  },
  "bilans": {
   "jour": {
-   "n": 59,
-   "gagnes": 50,
+   "n": 67,
+   "gagnes": 55,
    "recent": [
+    {
+     "jour": "2026-10-27",
+     "match": "Instituto - Dep. Riestra",
+     "pari": "1X (domicile ou nul)",
+     "p": 0.828,
+     "reel": "1-0",
+     "ok": true
+    },
+    {
+     "jour": "2026-10-27",
+     "match": "Argentinos Jrs - Independiente",
+     "pari": "1X (domicile ou nul)",
+     "p": 0.789,
+     "reel": "",
+     "ok": null
+    },
     {
      "jour": "2026-10-27",
      "match": "CR Flamengo - CA Mineiro",
@@ -623,8 +870,8 @@
      "match": "Barracas Central - Estudiantes Rio Cuarto",
      "pari": "1X (domicile ou nul)",
      "p": 0.835,
-     "reel": "",
-     "ok": null
+     "reel": "2-1",
+     "ok": true
     },
     {
      "jour": "2026-10-26",
@@ -823,16 +1070,16 @@
      "match": "Tigre - Atl. Tucuman",
      "pari": "1X (domicile ou nul)",
      "p": 0.766,
-     "reel": "",
-     "ok": null
+     "reel": "0-1",
+     "ok": false
     },
     {
      "jour": "2026-10-24",
      "match": "Necaxa - Juarez",
      "pari": "1X (domicile ou nul)",
      "p": 0.765,
-     "reel": "",
-     "ok": null
+     "reel": "1-1",
+     "ok": true
     },
     {
      "jour": "2026-10-24",
@@ -847,8 +1094,8 @@
      "match": "Atlante - Atl. San Luis",
      "pari": "Plus de 1.5 buts",
      "p": 0.76,
-     "reel": "",
-     "ok": null
+     "reel": "0-1",
+     "ok": false
     },
     {
      "jour": "2026-10-24",
@@ -863,8 +1110,8 @@
      "match": "San Lorenzo - Newells Old Boys",
      "pari": "1X (domicile ou nul)",
      "p": 0.755,
-     "reel": "",
-     "ok": null
+     "reel": "0-0",
+     "ok": true
     },
     {
      "jour": "2026-10-23",
@@ -873,30 +1120,22 @@
      "p": 0.794,
      "reel": "",
      "ok": true
-    },
-    {
-     "jour": "2026-10-23",
-     "match": "Gimnasia L.P. - Sarmiento Junin",
-     "pari": "Plus de 1.5 buts",
-     "p": 0.781,
-     "reel": "",
-     "ok": null
-    },
-    {
-     "jour": "2026-10-23",
-     "match": "Gimnasia Mendoza - Platense",
-     "pari": "1X (domicile ou nul)",
-     "p": 0.767,
-     "reel": "",
-     "ok": null
     }
    ],
-   "en_attente": 11
+   "en_attente": 13
   },
   "cote2": {
    "n": 2,
    "gagnes": 1,
    "recent": [
+    {
+     "jour": "2026-10-27",
+     "match": "Ticket du 27/10",
+     "pari": "3 paris, cote ~2.02",
+     "p": 0.496,
+     "reel": "",
+     "ok": null
+    },
     {
      "jour": "2026-10-26",
      "match": "Ticket du 26/10",
@@ -922,12 +1161,44 @@
      "ok": false
     }
    ],
-   "en_attente": 2
+   "en_attente": 3
   },
   "score": {
-   "n": 13,
-   "gagnes": 2,
+   "n": 23,
+   "gagnes": 5,
    "recent": [
+    {
+     "jour": "2026-10-28",
+     "match": "Boyacá Chicó FC - Atlético Junior",
+     "pari": "1-1",
+     "p": 0.13,
+     "reel": "1-1",
+     "ok": true
+    },
+    {
+     "jour": "2026-10-28",
+     "match": "Cúcuta Deportivo - Águilas Doradas",
+     "pari": "1-1",
+     "p": 0.129,
+     "reel": "0-2",
+     "ok": false
+    },
+    {
+     "jour": "2026-10-27",
+     "match": "Argentinos Jrs - Independiente",
+     "pari": "1-0",
+     "p": 0.141,
+     "reel": "",
+     "ok": null
+    },
+    {
+     "jour": "2026-10-27",
+     "match": "Instituto - Dep. Riestra",
+     "pari": "1-0",
+     "p": 0.14,
+     "reel": "1-0",
+     "ok": true
+    },
     {
      "jour": "2026-10-27",
      "match": "Independiente Santa Fe - Atlético Bucaramanga",
@@ -957,16 +1228,16 @@
      "match": "Barracas Central - Estudiantes Rio Cuarto",
      "pari": "1-0",
      "p": 0.139,
-     "reel": "",
-     "ok": null
+     "reel": "2-1",
+     "ok": false
     },
     {
      "jour": "2026-10-26",
      "match": "Union de Santa Fe - Estudiantes L.P.",
      "pari": "1-1",
      "p": 0.127,
-     "reel": "",
-     "ok": null
+     "reel": "3-1",
+     "ok": false
     },
     {
      "jour": "2026-10-25",
@@ -981,8 +1252,8 @@
      "match": "Independiente - Boca Juniors",
      "pari": "1-1",
      "p": 0.13,
-     "reel": "",
-     "ok": null
+     "reel": "0-1",
+     "ok": false
     },
     {
      "jour": "2026-10-25",
@@ -1005,24 +1276,24 @@
      "match": "San Lorenzo - Newells Old Boys",
      "pari": "1-0",
      "p": 0.146,
-     "reel": "",
-     "ok": null
+     "reel": "0-0",
+     "ok": false
     },
     {
      "jour": "2026-10-24",
      "match": "Talleres Cordoba - Defensa y Justicia",
      "pari": "1-1",
      "p": 0.134,
-     "reel": "",
-     "ok": null
+     "reel": "1-2",
+     "ok": false
     },
     {
      "jour": "2026-10-24",
      "match": "Banfield - Lanus",
      "pari": "1-1",
      "p": 0.132,
-     "reel": "",
-     "ok": null
+     "reel": "1-1",
+     "ok": true
     },
     {
      "jour": "2026-10-24",
@@ -1037,8 +1308,8 @@
      "match": "Gimnasia Mendoza - Platense",
      "pari": "1-0",
      "p": 0.128,
-     "reel": "",
-     "ok": null
+     "reel": "1-2",
+     "ok": false
     },
     {
      "jour": "2026-10-23",
@@ -1089,7 +1360,7 @@
      "ok": false
     }
    ],
-   "en_attente": 13
+   "en_attente": 7
   },
   "cartons": {
    "n": 18,
@@ -1240,7 +1511,7 @@
      "ok": true
     }
    ],
-   "en_attente": 0
+   "en_attente": 7
   },
   "corners": {
    "n": 14,
@@ -1359,11 +1630,11 @@
      "ok": true
     }
    ],
-   "en_attente": 0
+   "en_attente": 4
   }
  },
  "stats_all": {
-  "paris": 9068,
+  "paris": 9082,
   "taux": 77.7
  },
  "ticket_stat": {
