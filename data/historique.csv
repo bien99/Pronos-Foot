@@ -124,27 +124,27 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-10-26|Galatasaray|Fenerbahce|Plus de 2.5 cartons,2026-10-26 08:44,2026-10-26,Süper Lig,Galatasaray - Fenerbahce,Galatasaray,Fenerbahce,Plus de 2.5 cartons,-1,0.718,1.0,cartons,,7 cartons
 2026-10-26|Rizespor|Trabzonspor|Moins de 5.5 cartons,2026-10-26 08:44,2026-10-26,Süper Lig,Rizespor - Trabzonspor,Rizespor,Trabzonspor,Moins de 5.5 cartons,-1,0.71,1.0,cartons,,4 cartons
 2026-10-26|cote2|2026-10-26|Besiktas|Buyuksehyr|Plus de 1.5 buts+2026-10-27|Argentinos Jrs|Independiente|1X (domicile ou nul)+2026-10-26|Rizespor|Trabzonspor|X2 (nul ou extérieur),2026-10-26 08:44,2026-10-26,Ticket,Ticket du 26/10,,,"3 paris, cote ~1.9",-1,0.525,,cote2,2026-10-26|Besiktas|Buyuksehyr|Plus de 1.5 buts;2026-10-27|Argentinos Jrs|Independiente|1X (domicile ou nul);2026-10-26|Rizespor|Trabzonspor|X2 (nul ou extérieur),
-2026-10-28|Fluminense FC|SC Internacional|Plus de 1.5 buts,2026-10-27 08:40,2026-10-28,Brasileirão,Fluminense FC - SC Internacional,Fluminense FC,SC Internacional,Plus de 1.5 buts,6,0.804,,jour,,
-2026-10-28|RB Bragantino|Chapecoense AF|Plus de 1.5 buts,2026-10-27 08:40,2026-10-28,Brasileirão,RB Bragantino - Chapecoense AF,RB Bragantino,Chapecoense AF,Plus de 1.5 buts,6,0.782,,jour,,
+2026-10-28|Fluminense FC|SC Internacional|Plus de 1.5 buts,2026-10-27 08:40,2026-10-28,Brasileirão,Fluminense FC - SC Internacional,Fluminense FC,SC Internacional,Plus de 1.5 buts,6,0.804,1.0,jour,,2-1
+2026-10-28|RB Bragantino|Chapecoense AF|Plus de 1.5 buts,2026-10-27 08:40,2026-10-28,Brasileirão,RB Bragantino - Chapecoense AF,RB Bragantino,Chapecoense AF,Plus de 1.5 buts,6,0.782,1.0,jour,,3-0
 2026-10-28|Boyacá Chicó FC|Atlético Junior|score,2026-10-27 08:40,2026-10-28,Liga Colombia,Boyacá Chicó FC - Atlético Junior,Boyacá Chicó FC,Atlético Junior,1-1,-1,0.13,1.0,score,,1-1
 2026-10-28|Cúcuta Deportivo|Águilas Doradas|score,2026-10-27 08:40,2026-10-28,Liga Colombia,Cúcuta Deportivo - Águilas Doradas,Cúcuta Deportivo,Águilas Doradas,1-1,-1,0.129,0.0,score,,0-2
-2026-10-28|Santos FC|SE Palmeiras|score,2026-10-27 08:40,2026-10-28,Brasileirão,Santos FC - SE Palmeiras,Santos FC,SE Palmeiras,1-1,-1,0.127,,score,,
-2026-10-28|RB Bragantino|Chapecoense AF|score,2026-10-27 08:40,2026-10-28,Brasileirão,RB Bragantino - Chapecoense AF,RB Bragantino,Chapecoense AF,1-0,-1,0.109,,score,,
+2026-10-28|Santos FC|SE Palmeiras|score,2026-10-27 08:40,2026-10-28,Brasileirão,Santos FC - SE Palmeiras,Santos FC,SE Palmeiras,1-1,-1,0.127,0.0,score,,0-0
+2026-10-28|RB Bragantino|Chapecoense AF|score,2026-10-27 08:40,2026-10-28,Brasileirão,RB Bragantino - Chapecoense AF,RB Bragantino,Chapecoense AF,1-0,-1,0.109,0.0,score,,3-0
 2026-10-27|cote2|2026-10-28|Fluminense FC|SC Internacional|Plus de 1.5 buts+2026-10-27|Argentinos Jrs|Independiente|1X (domicile ou nul)+2026-10-28|RB Bragantino|Chapecoense AF|Plus de 1.5 buts,2026-10-27 08:40,2026-10-27,Ticket,Ticket du 27/10,,,"3 paris, cote ~2.02",-1,0.496,,cote2,2026-10-28|Fluminense FC|SC Internacional|Plus de 1.5 buts;2026-10-27|Argentinos Jrs|Independiente|1X (domicile ou nul);2026-10-28|RB Bragantino|Chapecoense AF|Plus de 1.5 buts,
 2026-10-28|Genoa|Juventus|X2 (nul ou extérieur),2026-10-28 08:49,2026-10-28,Serie A,Genoa - Juventus,Genoa,Juventus,X2 (nul ou extérieur),3,0.858,,jour,,
 2026-10-29|Frosinone|Lecce|1X (domicile ou nul),2026-10-28 08:49,2026-10-29,Serie A,Frosinone - Lecce,Frosinone,Lecce,1X (domicile ou nul),2,0.829,,jour,,
 2026-10-29|Fiorentina|Atalanta|Plus de 1.5 buts,2026-10-28 08:49,2026-10-29,Serie A,Fiorentina - Atalanta,Fiorentina,Atalanta,Plus de 1.5 buts,6,0.822,,jour,,
 2026-10-29|Club America|Club Tijuana|1X (domicile ou nul),2026-10-28 08:49,2026-10-29,Liga MX,Club America - Club Tijuana,Club America,Club Tijuana,1X (domicile ou nul),2,0.816,,jour,,
 2026-10-29|CA Mineiro|Cruzeiro EC|Plus de 1.5 buts,2026-10-28 08:49,2026-10-29,Brasileirão,CA Mineiro - Cruzeiro EC,CA Mineiro,Cruzeiro EC,Plus de 1.5 buts,6,0.8,,jour,,
-2026-10-29|Once Caldas|Alianza FC|1X (domicile ou nul),2026-10-28 08:49,2026-10-29,Liga Colombia,Once Caldas - Alianza FC,Once Caldas,Alianza FC,1X (domicile ou nul),2,0.785,,jour,,
+2026-10-29|Once Caldas|Alianza FC|1X (domicile ou nul),2026-10-28 08:49,2026-10-29,Liga Colombia,Once Caldas - Alianza FC,Once Caldas,Alianza FC,1X (domicile ou nul),2,0.785,1.0,jour,,1-0
 2026-10-28|Milan|Bologna|Plus de 1.5 buts,2026-10-28 08:49,2026-10-28,Serie A,Milan - Bologna,Milan,Bologna,Plus de 1.5 buts,6,0.777,,jour,,
 2026-10-28|Monza|Napoli|Plus de 1.5 buts,2026-10-28 08:49,2026-10-28,Serie A,Monza - Napoli,Monza,Napoli,Plus de 1.5 buts,6,0.777,,jour,,
 2026-10-28|Venezia|Inter|Victoire extérieur,2026-10-28 08:49,2026-10-28,Serie A,Venezia - Inter,Venezia,Inter,Victoire extérieur,1,0.776,,jour,,
-2026-10-29|EC Bahia|São Paulo FC|1X (domicile ou nul),2026-10-28 08:49,2026-10-29,Brasileirão,EC Bahia - São Paulo FC,EC Bahia,São Paulo FC,1X (domicile ou nul),2,0.772,,jour,,
-2026-10-29|Clube do Remo|Botafogo FR|score,2026-10-28 08:49,2026-10-29,Brasileirão,Clube do Remo - Botafogo FR,Clube do Remo,Botafogo FR,1-1,-1,0.131,,score,,
+2026-10-29|EC Bahia|São Paulo FC|1X (domicile ou nul),2026-10-28 08:49,2026-10-29,Brasileirão,EC Bahia - São Paulo FC,EC Bahia,São Paulo FC,1X (domicile ou nul),2,0.772,1.0,jour,,3-2
+2026-10-29|Clube do Remo|Botafogo FR|score,2026-10-28 08:49,2026-10-29,Brasileirão,Clube do Remo - Botafogo FR,Clube do Remo,Botafogo FR,1-1,-1,0.131,0.0,score,,2-1
 2026-10-28|Parma|Udinese|score,2026-10-28 08:49,2026-10-28,Serie A,Parma - Udinese,Parma,Udinese,1-1,-1,0.128,,score,,
-2026-10-29|Once Caldas|Alianza FC|score,2026-10-28 08:49,2026-10-29,Liga Colombia,Once Caldas - Alianza FC,Once Caldas,Alianza FC,1-0,-1,0.128,,score,,
-2026-10-29|Internacional de Bogotá|Independiente Medellín|score,2026-10-28 08:49,2026-10-29,Liga Colombia,Internacional de Bogotá - Independiente Medellín,Internacional de Bogotá,Independiente Medellín,1-1,-1,0.128,,score,,
+2026-10-29|Once Caldas|Alianza FC|score,2026-10-28 08:49,2026-10-29,Liga Colombia,Once Caldas - Alianza FC,Once Caldas,Alianza FC,1-0,-1,0.128,1.0,score,,1-0
+2026-10-29|Internacional de Bogotá|Independiente Medellín|score,2026-10-28 08:49,2026-10-29,Liga Colombia,Internacional de Bogotá - Independiente Medellín,Internacional de Bogotá,Independiente Medellín,1-1,-1,0.128,0.0,score,,3-1
 2026-10-28|Parma|Udinese|Moins de 5.5 cartons,2026-10-28 08:49,2026-10-28,Serie A,Parma - Udinese,Parma,Udinese,Moins de 5.5 cartons,-1,0.805,,cartons,,
 2026-10-29|Fiorentina|Atalanta|Moins de 5.5 cartons,2026-10-28 08:49,2026-10-29,Serie A,Fiorentina - Atalanta,Fiorentina,Atalanta,Moins de 5.5 cartons,-1,0.804,,cartons,,
 2026-10-28|Venezia|Inter|Moins de 5.5 cartons,2026-10-28 08:49,2026-10-28,Serie A,Venezia - Inter,Venezia,Inter,Moins de 5.5 cartons,-1,0.8,,cartons,,
@@ -157,3 +157,13 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-10-28|Parma|Udinese|Moins de 11.5 corners,2026-10-28 08:49,2026-10-28,Serie A,Parma - Udinese,Parma,Udinese,Moins de 11.5 corners,-1,0.719,,corners,,
 2026-10-28|Venezia|Inter|Moins de 11.5 corners,2026-10-28 08:49,2026-10-28,Serie A,Venezia - Inter,Venezia,Inter,Moins de 11.5 corners,-1,0.706,,corners,,
 2026-10-28|cote2|2026-10-29|Frosinone|Lecce|1X (domicile ou nul)+2026-10-29|Fiorentina|Atalanta|Plus de 1.5 buts+2026-10-29|EC Bahia|São Paulo FC|1X (domicile ou nul),2026-10-28 08:49,2026-10-28,Ticket,Ticket du 28/10,,,"3 paris, cote ~1.9",-1,0.526,,cote2,2026-10-29|Frosinone|Lecce|1X (domicile ou nul);2026-10-29|Fiorentina|Atalanta|Plus de 1.5 buts;2026-10-29|EC Bahia|São Paulo FC|1X (domicile ou nul),
+2026-10-30|Grêmio FBPA|CA Paranaense|Plus de 1.5 buts,2026-10-29 08:52,2026-10-30,Brasileirão,Grêmio FBPA - CA Paranaense,Grêmio FBPA,CA Paranaense,Plus de 1.5 buts,6,0.784,,jour,,
+2026-10-30|Atlético Nacional|Independiente Santa Fe|1X (domicile ou nul),2026-10-29 08:52,2026-10-30,Liga Colombia,Atlético Nacional - Independiente Santa Fe,Atlético Nacional,Independiente Santa Fe,1X (domicile ou nul),2,0.784,,jour,,
+2026-10-30|América de Cali|Fortaleza CEIF|Plus de 1.5 buts,2026-10-29 08:52,2026-10-30,Liga Colombia,América de Cali - Fortaleza CEIF,América de Cali,Fortaleza CEIF,Plus de 1.5 buts,6,0.776,,jour,,
+2026-10-30|Huracan|Tigre|1X (domicile ou nul),2026-10-29 08:52,2026-10-30,Liga Argentina,Huracan - Tigre,Huracan,Tigre,1X (domicile ou nul),2,0.772,,jour,,
+2026-10-30|Atlético Nacional|Independiente Santa Fe|score,2026-10-29 08:52,2026-10-30,Liga Colombia,Atlético Nacional - Independiente Santa Fe,Atlético Nacional,Independiente Santa Fe,1-0,-1,0.128,,score,,
+2026-10-30|Huracan|Tigre|score,2026-10-29 08:52,2026-10-30,Liga Argentina,Huracan - Tigre,Huracan,Tigre,1-0,-1,0.126,,score,,
+2026-10-30|Estudiantes Rio Cuarto|Gimnasia L.P.|score,2026-10-29 08:52,2026-10-30,Liga Argentina,Estudiantes Rio Cuarto - Gimnasia L.P.,Estudiantes Rio Cuarto,Gimnasia L.P.,1-1,-1,0.125,,score,,
+2026-10-30|Deportivo Pereira|Jaguares de Córdoba|score,2026-10-29 08:52,2026-10-30,Liga Colombia,Deportivo Pereira - Jaguares de Córdoba,Deportivo Pereira,Jaguares de Córdoba,1-1,-1,0.124,,score,,
+2026-10-30|CR Vasco da Gama|CR Flamengo|score,2026-10-29 08:52,2026-10-30,Brasileirão,CR Vasco da Gama - CR Flamengo,CR Vasco da Gama,CR Flamengo,1-1,-1,0.118,,score,,
+2026-10-29|cote2|2026-10-29|Frosinone|Lecce|1X (domicile ou nul)+2026-10-29|Fiorentina|Atalanta|Plus de 1.5 buts+2026-10-30|Huracan|Tigre|1X (domicile ou nul),2026-10-29 08:52,2026-10-29,Ticket,Ticket du 29/10,,,"3 paris, cote ~1.9",-1,0.526,,cote2,2026-10-29|Frosinone|Lecce|1X (domicile ou nul);2026-10-29|Fiorentina|Atalanta|Plus de 1.5 buts;2026-10-30|Huracan|Tigre|1X (domicile ou nul),
