@@ -179,79 +179,79 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-10-31|Juarez|Queretaro|score,2026-10-30 08:52,2026-10-31,Liga MX,Juarez - Queretaro,Juarez,Queretaro,1-1,-1,0.13,,score,,
 2026-10-31|SC Corinthians Paulista|Mirassol FC|score,2026-10-30 08:52,2026-10-31,Brasileirão,SC Corinthians Paulista - Mirassol FC,SC Corinthians Paulista,Mirassol FC,1-1,-1,0.128,0.0,score,,2-0
 2026-10-30|cote2|2026-10-31|Atlético Bucaramanga|Deportivo Pasto|1X (domicile ou nul)+2026-10-31|Velez Sarsfield|San Lorenzo|1X (domicile ou nul)+2026-10-31|Atl. San Luis|Atlas|Plus de 1.5 buts,2026-10-30 08:52,2026-10-30,Ticket,Ticket du 30/10,,,"3 paris, cote ~1.9",-1,0.526,,cote2,2026-10-31|Atlético Bucaramanga|Deportivo Pasto|1X (domicile ou nul);2026-10-31|Velez Sarsfield|San Lorenzo|1X (domicile ou nul);2026-10-31|Atl. San Luis|Atlas|Plus de 1.5 buts,
-2026-10-31|Heerenveen|Nijmegen|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Eredivisie,Heerenveen - Nijmegen,Heerenveen,Nijmegen,Plus de 1.5 buts,6,0.89,,jour,,
-2026-11-01|Trabzonspor|Gaziantep|Plus de 1.5 buts,2026-10-31 08:44,2026-11-01,Süper Lig,Trabzonspor - Gaziantep,Trabzonspor,Gaziantep,Plus de 1.5 buts,6,0.877,,jour,,
-2026-11-01|Frosinone|Torino|Plus de 1.5 buts,2026-10-31 08:44,2026-11-01,Serie A,Frosinone - Torino,Frosinone,Torino,Plus de 1.5 buts,6,0.876,,jour,,
-2026-10-31|Werder Bremen|Hoffenheim|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Bundesliga,Werder Bremen - Hoffenheim,Werder Bremen,Hoffenheim,Plus de 1.5 buts,6,0.873,,jour,,
+2026-10-31|Heerenveen|Nijmegen|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Eredivisie,Heerenveen - Nijmegen,Heerenveen,Nijmegen,Plus de 1.5 buts,6,0.89,0.0,jour,,1-0
+2026-11-01|Trabzonspor|Gaziantep|Plus de 1.5 buts,2026-10-31 08:44,2026-11-01,Süper Lig,Trabzonspor - Gaziantep,Trabzonspor,Gaziantep,Plus de 1.5 buts,6,0.877,1.0,jour,,2-0
+2026-11-01|Frosinone|Torino|Plus de 1.5 buts,2026-10-31 08:44,2026-11-01,Serie A,Frosinone - Torino,Frosinone,Torino,Plus de 1.5 buts,6,0.876,1.0,jour,,2-0
+2026-10-31|Werder Bremen|Hoffenheim|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Bundesliga,Werder Bremen - Hoffenheim,Werder Bremen,Hoffenheim,Plus de 1.5 buts,6,0.873,1.0,jour,,2-0
 2026-11-01|Deportivo Cali|Boyacá Chicó FC|1X (domicile ou nul),2026-10-31 08:44,2026-11-01,Liga Colombia,Deportivo Cali - Boyacá Chicó FC,Deportivo Cali,Boyacá Chicó FC,1X (domicile ou nul),2,0.87,1.0,jour,,2-0
-2026-10-31|PSV Eindhoven|Willem II|Plus de 2.5 buts,2026-10-31 08:44,2026-10-31,Eredivisie,PSV Eindhoven - Willem II,PSV Eindhoven,Willem II,Plus de 2.5 buts,7,0.866,,jour,,
-2026-10-31|Betis|Malaga|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,La Liga,Betis - Malaga,Betis,Malaga,Plus de 1.5 buts,6,0.862,,jour,,
-2026-10-31|Augsburg|Freiburg|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Bundesliga,Augsburg - Freiburg,Augsburg,Freiburg,Plus de 1.5 buts,6,0.859,,jour,,
-2026-11-01|Lyon|Angers|Plus de 1.5 buts,2026-10-31 08:44,2026-11-01,Ligue 1,Lyon - Angers,Lyon,Angers,Plus de 1.5 buts,6,0.856,,jour,,
+2026-10-31|PSV Eindhoven|Willem II|Plus de 2.5 buts,2026-10-31 08:44,2026-10-31,Eredivisie,PSV Eindhoven - Willem II,PSV Eindhoven,Willem II,Plus de 2.5 buts,7,0.866,1.0,jour,,7-0
+2026-10-31|Betis|Malaga|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,La Liga,Betis - Malaga,Betis,Malaga,Plus de 1.5 buts,6,0.862,1.0,jour,,2-1
+2026-10-31|Augsburg|Freiburg|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Bundesliga,Augsburg - Freiburg,Augsburg,Freiburg,Plus de 1.5 buts,6,0.859,1.0,jour,,1-2
+2026-11-01|Lyon|Angers|Plus de 1.5 buts,2026-10-31 08:44,2026-11-01,Ligue 1,Lyon - Angers,Lyon,Angers,Plus de 1.5 buts,6,0.856,1.0,jour,,2-0
 2026-11-01|Guadalajara Chivas|Atlante|1X (domicile ou nul),2026-10-31 08:44,2026-11-01,Liga MX,Guadalajara Chivas - Atlante,Guadalajara Chivas,Atlante,1X (domicile ou nul),2,0.852,,jour,,
-2026-11-01|Ein Frankfurt|Hamburg|1X (domicile ou nul),2026-10-31 08:44,2026-11-01,Bundesliga,Ein Frankfurt - Hamburg,Ein Frankfurt,Hamburg,1X (domicile ou nul),2,0.851,,jour,,
-2026-10-31|Anderlecht|Westerlo|1X (domicile ou nul),2026-10-31 08:44,2026-10-31,Jupiler League,Anderlecht - Westerlo,Anderlecht,Westerlo,1X (domicile ou nul),2,0.85,,jour,,
-2026-10-31|Man City|Brighton|1X (domicile ou nul),2026-10-31 08:44,2026-10-31,Premier League,Man City - Brighton,Man City,Brighton,1X (domicile ou nul),2,0.848,,jour,,
-2026-10-31|Cambuur|Go Ahead Eagles|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Eredivisie,Cambuur - Go Ahead Eagles,Cambuur,Go Ahead Eagles,Plus de 1.5 buts,6,0.848,,jour,,
-2026-10-31|Porto|Estoril|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Liga Portugal,Porto - Estoril,Porto,Estoril,Plus de 1.5 buts,6,0.846,,jour,,
+2026-11-01|Ein Frankfurt|Hamburg|1X (domicile ou nul),2026-10-31 08:44,2026-11-01,Bundesliga,Ein Frankfurt - Hamburg,Ein Frankfurt,Hamburg,1X (domicile ou nul),2,0.851,1.0,jour,,3-1
+2026-10-31|Anderlecht|Westerlo|1X (domicile ou nul),2026-10-31 08:44,2026-10-31,Jupiler League,Anderlecht - Westerlo,Anderlecht,Westerlo,1X (domicile ou nul),2,0.85,1.0,jour,,4-1
+2026-10-31|Man City|Brighton|1X (domicile ou nul),2026-10-31 08:44,2026-10-31,Premier League,Man City - Brighton,Man City,Brighton,1X (domicile ou nul),2,0.848,0.0,jour,,0-1
+2026-10-31|Cambuur|Go Ahead Eagles|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Eredivisie,Cambuur - Go Ahead Eagles,Cambuur,Go Ahead Eagles,Plus de 1.5 buts,6,0.848,1.0,jour,,4-0
+2026-10-31|Porto|Estoril|Plus de 1.5 buts,2026-10-31 08:44,2026-10-31,Liga Portugal,Porto - Estoril,Porto,Estoril,Plus de 1.5 buts,6,0.846,1.0,jour,,4-0
 2026-11-01|Deportivo Cali|Boyacá Chicó FC|score,2026-10-31 08:44,2026-11-01,Liga Colombia,Deportivo Cali - Boyacá Chicó FC,Deportivo Cali,Boyacá Chicó FC,1-0,-1,0.151,0.0,score,,2-0
 2026-11-01|Belgrano|Barracas Central|score,2026-10-31 08:44,2026-11-01,Liga Argentina,Belgrano - Barracas Central,Belgrano,Barracas Central,1-0,-1,0.14,,score,,
 2026-11-01|Guadalajara Chivas|Atlante|score,2026-10-31 08:44,2026-11-01,Liga MX,Guadalajara Chivas - Atlante,Guadalajara Chivas,Atlante,1-0,-1,0.137,,score,,
-2026-11-01|Kasimpasa|Besiktas|Plus de 2.5 cartons,2026-10-31 08:44,2026-11-01,Süper Lig,Kasimpasa - Besiktas,Kasimpasa,Besiktas,Plus de 2.5 cartons,-1,0.842,,cartons,,
-2026-11-01|Elche|Valencia|Plus de 2.5 cartons,2026-10-31 08:44,2026-11-01,La Liga,Elche - Valencia,Elche,Valencia,Plus de 2.5 cartons,-1,0.836,,cartons,,
-2026-11-01|Paris FC|Monaco|Plus de 2.5 cartons,2026-10-31 08:44,2026-11-01,Ligue 1,Paris FC - Monaco,Paris FC,Monaco,Plus de 2.5 cartons,-1,0.821,,cartons,,
-2026-11-01|Como|Venezia|Moins de 5.5 cartons,2026-10-31 08:44,2026-11-01,Serie A,Como - Venezia,Como,Venezia,Moins de 5.5 cartons,-1,0.818,,cartons,,
-2026-10-31|Bayern Munich|Dortmund|Moins de 5.5 cartons,2026-10-31 08:44,2026-10-31,Bundesliga,Bayern Munich - Dortmund,Bayern Munich,Dortmund,Moins de 5.5 cartons,-1,0.815,,cartons,,
-2026-11-01|Maritimo|Santa Clara|Plus de 2.5 cartons,2026-10-31 08:44,2026-11-01,Liga Portugal,Maritimo - Santa Clara,Maritimo,Santa Clara,Plus de 2.5 cartons,-1,0.81,,cartons,,
-2026-11-01|Telstar|Utrecht|Moins de 5.5 cartons,2026-10-31 08:44,2026-11-01,Eredivisie,Telstar - Utrecht,Telstar,Utrecht,Moins de 5.5 cartons,-1,0.809,,cartons,,
-2026-11-01|Zwolle|Den Haag|Moins de 5.5 cartons,2026-10-31 08:44,2026-11-01,Eredivisie,Zwolle - Den Haag,Zwolle,Den Haag,Moins de 5.5 cartons,-1,0.805,,cartons,,
-2026-10-31|Brentford|Nott'm Forest|Plus de 2.5 cartons,2026-10-31 08:44,2026-10-31,Premier League,Brentford - Nott'm Forest,Brentford,Nott'm Forest,Plus de 2.5 cartons,-1,0.804,,cartons,,
-2026-11-01|Ein Frankfurt|Hamburg|Moins de 5.5 cartons,2026-10-31 08:44,2026-11-01,Bundesliga,Ein Frankfurt - Hamburg,Ein Frankfurt,Hamburg,Moins de 5.5 cartons,-1,0.802,,cartons,,
-2026-11-01|Getafe|Sevilla|Moins de 11.5 corners,2026-10-31 08:44,2026-11-01,La Liga,Getafe - Sevilla,Getafe,Sevilla,Moins de 11.5 corners,-1,0.79,,corners,,
-2026-10-31|PSV Eindhoven|Willem II|Plus de 8.5 corners,2026-10-31 08:44,2026-10-31,Eredivisie,PSV Eindhoven - Willem II,PSV Eindhoven,Willem II,Plus de 8.5 corners,-1,0.78,,corners,,
-2026-11-01|Sp Braga|Famalicao|Moins de 11.5 corners,2026-10-31 08:44,2026-11-01,Liga Portugal,Sp Braga - Famalicao,Sp Braga,Famalicao,Moins de 11.5 corners,-1,0.778,,corners,,
-2026-11-01|Liverpool|Arsenal|Moins de 11.5 corners,2026-10-31 08:44,2026-11-01,Premier League,Liverpool - Arsenal,Liverpool,Arsenal,Moins de 11.5 corners,-1,0.771,,corners,,
-2026-10-31|Erzurumspor|Corum|Moins de 11.5 corners,2026-10-31 08:44,2026-10-31,Süper Lig,Erzurumspor - Corum,Erzurumspor,Corum,Moins de 11.5 corners,-1,0.77,,corners,,
-2026-10-31|Coventry|Sunderland|Moins de 11.5 corners,2026-10-31 08:44,2026-10-31,Premier League,Coventry - Sunderland,Coventry,Sunderland,Moins de 11.5 corners,-1,0.763,,corners,,
-2026-11-01|Maritimo|Santa Clara|Moins de 11.5 corners,2026-10-31 08:44,2026-11-01,Liga Portugal,Maritimo - Santa Clara,Maritimo,Santa Clara,Moins de 11.5 corners,-1,0.76,,corners,,
-2026-10-31|Bournemouth|Leeds|Moins de 11.5 corners,2026-10-31 08:44,2026-10-31,Premier League,Bournemouth - Leeds,Bournemouth,Leeds,Moins de 11.5 corners,-1,0.753,,corners,,
-2026-11-01|Groningen|Sparta Rotterdam|Plus de 8.5 corners,2026-10-31 08:44,2026-11-01,Eredivisie,Groningen - Sparta Rotterdam,Groningen,Sparta Rotterdam,Plus de 8.5 corners,-1,0.75,,corners,,
-2026-10-31|Brentford|Nott'm Forest|Moins de 11.5 corners,2026-10-31 08:44,2026-10-31,Premier League,Brentford - Nott'm Forest,Brentford,Nott'm Forest,Moins de 11.5 corners,-1,0.747,,corners,,
+2026-11-01|Kasimpasa|Besiktas|Plus de 2.5 cartons,2026-10-31 08:44,2026-11-01,Süper Lig,Kasimpasa - Besiktas,Kasimpasa,Besiktas,Plus de 2.5 cartons,-1,0.842,0.0,cartons,,2 cartons
+2026-11-01|Elche|Valencia|Plus de 2.5 cartons,2026-10-31 08:44,2026-11-01,La Liga,Elche - Valencia,Elche,Valencia,Plus de 2.5 cartons,-1,0.836,1.0,cartons,,5 cartons
+2026-11-01|Paris FC|Monaco|Plus de 2.5 cartons,2026-10-31 08:44,2026-11-01,Ligue 1,Paris FC - Monaco,Paris FC,Monaco,Plus de 2.5 cartons,-1,0.821,1.0,cartons,,4 cartons
+2026-11-01|Como|Venezia|Moins de 5.5 cartons,2026-10-31 08:44,2026-11-01,Serie A,Como - Venezia,Como,Venezia,Moins de 5.5 cartons,-1,0.818,1.0,cartons,,3 cartons
+2026-10-31|Bayern Munich|Dortmund|Moins de 5.5 cartons,2026-10-31 08:44,2026-10-31,Bundesliga,Bayern Munich - Dortmund,Bayern Munich,Dortmund,Moins de 5.5 cartons,-1,0.815,1.0,cartons,,3 cartons
+2026-11-01|Maritimo|Santa Clara|Plus de 2.5 cartons,2026-10-31 08:44,2026-11-01,Liga Portugal,Maritimo - Santa Clara,Maritimo,Santa Clara,Plus de 2.5 cartons,-1,0.81,1.0,cartons,,6 cartons
+2026-11-01|Telstar|Utrecht|Moins de 5.5 cartons,2026-10-31 08:44,2026-11-01,Eredivisie,Telstar - Utrecht,Telstar,Utrecht,Moins de 5.5 cartons,-1,0.809,1.0,cartons,,2 cartons
+2026-11-01|Zwolle|Den Haag|Moins de 5.5 cartons,2026-10-31 08:44,2026-11-01,Eredivisie,Zwolle - Den Haag,Zwolle,Den Haag,Moins de 5.5 cartons,-1,0.805,0.0,cartons,,6 cartons
+2026-10-31|Brentford|Nott'm Forest|Plus de 2.5 cartons,2026-10-31 08:44,2026-10-31,Premier League,Brentford - Nott'm Forest,Brentford,Nott'm Forest,Plus de 2.5 cartons,-1,0.804,1.0,cartons,,4 cartons
+2026-11-01|Ein Frankfurt|Hamburg|Moins de 5.5 cartons,2026-10-31 08:44,2026-11-01,Bundesliga,Ein Frankfurt - Hamburg,Ein Frankfurt,Hamburg,Moins de 5.5 cartons,-1,0.802,0.0,cartons,,6 cartons
+2026-11-01|Getafe|Sevilla|Moins de 11.5 corners,2026-10-31 08:44,2026-11-01,La Liga,Getafe - Sevilla,Getafe,Sevilla,Moins de 11.5 corners,-1,0.79,1.0,corners,,4 corners
+2026-10-31|PSV Eindhoven|Willem II|Plus de 8.5 corners,2026-10-31 08:44,2026-10-31,Eredivisie,PSV Eindhoven - Willem II,PSV Eindhoven,Willem II,Plus de 8.5 corners,-1,0.78,1.0,corners,,12 corners
+2026-11-01|Sp Braga|Famalicao|Moins de 11.5 corners,2026-10-31 08:44,2026-11-01,Liga Portugal,Sp Braga - Famalicao,Sp Braga,Famalicao,Moins de 11.5 corners,-1,0.778,1.0,corners,,8 corners
+2026-11-01|Liverpool|Arsenal|Moins de 11.5 corners,2026-10-31 08:44,2026-11-01,Premier League,Liverpool - Arsenal,Liverpool,Arsenal,Moins de 11.5 corners,-1,0.771,1.0,corners,,11 corners
+2026-10-31|Erzurumspor|Corum|Moins de 11.5 corners,2026-10-31 08:44,2026-10-31,Süper Lig,Erzurumspor - Corum,Erzurumspor,Corum,Moins de 11.5 corners,-1,0.77,1.0,corners,,8 corners
+2026-10-31|Coventry|Sunderland|Moins de 11.5 corners,2026-10-31 08:44,2026-10-31,Premier League,Coventry - Sunderland,Coventry,Sunderland,Moins de 11.5 corners,-1,0.763,1.0,corners,,8 corners
+2026-11-01|Maritimo|Santa Clara|Moins de 11.5 corners,2026-10-31 08:44,2026-11-01,Liga Portugal,Maritimo - Santa Clara,Maritimo,Santa Clara,Moins de 11.5 corners,-1,0.76,1.0,corners,,7 corners
+2026-10-31|Bournemouth|Leeds|Moins de 11.5 corners,2026-10-31 08:44,2026-10-31,Premier League,Bournemouth - Leeds,Bournemouth,Leeds,Moins de 11.5 corners,-1,0.753,1.0,corners,,8 corners
+2026-11-01|Groningen|Sparta Rotterdam|Plus de 8.5 corners,2026-10-31 08:44,2026-11-01,Eredivisie,Groningen - Sparta Rotterdam,Groningen,Sparta Rotterdam,Plus de 8.5 corners,-1,0.75,1.0,corners,,9 corners
+2026-10-31|Brentford|Nott'm Forest|Moins de 11.5 corners,2026-10-31 08:44,2026-10-31,Premier League,Brentford - Nott'm Forest,Brentford,Nott'm Forest,Moins de 11.5 corners,-1,0.747,1.0,corners,,7 corners
 2026-11-02|Benfica|Alverca|Victoire domicile,2026-11-01 08:50,2026-11-02,Liga Portugal,Benfica - Alverca,Benfica,Alverca,Victoire domicile,0,0.865,,jour,,
 2026-11-02|Cruz Azul|Club Leon|Plus de 1.5 buts,2026-11-01 08:50,2026-11-02,Liga MX,Cruz Azul - Club Leon,Cruz Azul,Club Leon,Plus de 1.5 buts,6,0.859,,jour,,
-2026-11-01|Excelsior|Twente|X2 (nul ou extérieur),2026-11-01 08:50,2026-11-01,Eredivisie,Excelsior - Twente,Excelsior,Twente,X2 (nul ou extérieur),3,0.845,,jour,,
-2026-11-01|Sp Braga|Famalicao|1X (domicile ou nul),2026-11-01 08:50,2026-11-01,Liga Portugal,Sp Braga - Famalicao,Sp Braga,Famalicao,1X (domicile ou nul),2,0.83,,jour,,
-2026-11-01|Telstar|Utrecht|Plus de 1.5 buts,2026-11-01 08:50,2026-11-01,Eredivisie,Telstar - Utrecht,Telstar,Utrecht,Plus de 1.5 buts,6,0.828,,jour,,
-2026-11-01|St Truiden|Oud-Heverlee Leuven|Plus de 1.5 buts,2026-11-01 08:50,2026-11-01,Jupiler League,St Truiden - Oud-Heverlee Leuven,St Truiden,Oud-Heverlee Leuven,Plus de 1.5 buts,6,0.825,,jour,,
+2026-11-01|Excelsior|Twente|X2 (nul ou extérieur),2026-11-01 08:50,2026-11-01,Eredivisie,Excelsior - Twente,Excelsior,Twente,X2 (nul ou extérieur),3,0.845,1.0,jour,,0-9
+2026-11-01|Sp Braga|Famalicao|1X (domicile ou nul),2026-11-01 08:50,2026-11-01,Liga Portugal,Sp Braga - Famalicao,Sp Braga,Famalicao,1X (domicile ou nul),2,0.83,1.0,jour,,3-0
+2026-11-01|Telstar|Utrecht|Plus de 1.5 buts,2026-11-01 08:50,2026-11-01,Eredivisie,Telstar - Utrecht,Telstar,Utrecht,Plus de 1.5 buts,6,0.828,1.0,jour,,4-2
+2026-11-01|St Truiden|Oud-Heverlee Leuven|Plus de 1.5 buts,2026-11-01 08:50,2026-11-01,Jupiler League,St Truiden - Oud-Heverlee Leuven,St Truiden,Oud-Heverlee Leuven,Plus de 1.5 buts,6,0.825,1.0,jour,,1-2
 2026-11-02|Sassuolo|Fiorentina|Plus de 1.5 buts,2026-11-01 08:50,2026-11-02,Serie A,Sassuolo - Fiorentina,Sassuolo,Fiorentina,Plus de 1.5 buts,6,0.824,,jour,,
-2026-11-01|Zwolle|Den Haag|Plus de 1.5 buts,2026-11-01 08:50,2026-11-01,Eredivisie,Zwolle - Den Haag,Zwolle,Den Haag,Plus de 1.5 buts,6,0.822,,jour,,
+2026-11-01|Zwolle|Den Haag|Plus de 1.5 buts,2026-11-01 08:50,2026-11-01,Eredivisie,Zwolle - Den Haag,Zwolle,Den Haag,Plus de 1.5 buts,6,0.822,0.0,jour,,1-0
 2026-11-02|Atalanta|Parma|Plus de 1.5 buts,2026-11-01 08:50,2026-11-02,Serie A,Atalanta - Parma,Atalanta,Parma,Plus de 1.5 buts,6,0.82,,jour,,
 2026-11-02|Newcastle|Everton|Plus de 1.5 buts,2026-11-01 08:50,2026-11-02,Premier League,Newcastle - Everton,Newcastle,Everton,Plus de 1.5 buts,6,0.819,,jour,,
 2026-11-02|Lanus|Gimnasia Mendoza|score,2026-11-01 08:50,2026-11-02,Liga Argentina,Lanus - Gimnasia Mendoza,Lanus,Gimnasia Mendoza,1-0,-1,0.15,,score,,
 2026-11-02|Defensa y Justicia|Independiente|score,2026-11-01 08:50,2026-11-02,Liga Argentina,Defensa y Justicia - Independiente,Defensa y Justicia,Independiente,1-0,-1,0.14,,score,,
-2026-11-01|Getafe|Sevilla|score,2026-11-01 08:50,2026-11-01,La Liga,Getafe - Sevilla,Getafe,Sevilla,1-1,-1,0.131,,score,,
+2026-11-01|Getafe|Sevilla|score,2026-11-01 08:50,2026-11-01,La Liga,Getafe - Sevilla,Getafe,Sevilla,1-1,-1,0.131,0.0,score,,3-1
 2026-11-02|Gil Vicente|Guimaraes|Plus de 2.5 cartons,2026-11-01 08:50,2026-11-02,Liga Portugal,Gil Vicente - Guimaraes,Gil Vicente,Guimaraes,Plus de 2.5 cartons,-1,0.842,,cartons,,
 2026-11-02|Lorient|Brest|Moins de 5.5 cartons,2026-11-01 08:50,2026-11-02,Ligue 1,Lorient - Brest,Lorient,Brest,Moins de 5.5 cartons,-1,0.808,,cartons,,
 2026-11-02|Gil Vicente|Guimaraes|Moins de 11.5 corners,2026-11-01 08:50,2026-11-02,Liga Portugal,Gil Vicente - Guimaraes,Gil Vicente,Guimaraes,Moins de 11.5 corners,-1,0.774,,corners,,
 2026-11-02|Lorient|Brest|Moins de 11.5 corners,2026-11-01 08:50,2026-11-02,Ligue 1,Lorient - Brest,Lorient,Brest,Moins de 11.5 corners,-1,0.771,,corners,,
-2026-11-01|Arouca|Nacional|Moins de 11.5 corners,2026-11-01 08:50,2026-11-01,Liga Portugal,Arouca - Nacional,Arouca,Nacional,Moins de 11.5 corners,-1,0.741,,corners,,
-2026-11-01|Academico Viseu|Rio Ave|Moins de 11.5 corners,2026-11-01 08:50,2026-11-01,Liga Portugal,Academico Viseu - Rio Ave,Academico Viseu,Rio Ave,Moins de 11.5 corners,-1,0.737,,corners,,
-2026-11-01|Marseille|Toulouse|Moins de 11.5 corners,2026-11-01 08:50,2026-11-01,Ligue 1,Marseille - Toulouse,Marseille,Toulouse,Moins de 11.5 corners,-1,0.736,,corners,,
+2026-11-01|Arouca|Nacional|Moins de 11.5 corners,2026-11-01 08:50,2026-11-01,Liga Portugal,Arouca - Nacional,Arouca,Nacional,Moins de 11.5 corners,-1,0.741,1.0,corners,,10 corners
+2026-11-01|Academico Viseu|Rio Ave|Moins de 11.5 corners,2026-11-01 08:50,2026-11-01,Liga Portugal,Academico Viseu - Rio Ave,Academico Viseu,Rio Ave,Moins de 11.5 corners,-1,0.737,1.0,corners,,11 corners
+2026-11-01|Marseille|Toulouse|Moins de 11.5 corners,2026-11-01 08:50,2026-11-01,Ligue 1,Marseille - Toulouse,Marseille,Toulouse,Moins de 11.5 corners,-1,0.736,1.0,corners,,7 corners
 2026-11-03|Club Atlético de Madrid|FC Bayern München|Plus de 1.5 buts,2026-11-02 09:19,2026-11-03,Champions League,Club Atlético de Madrid - FC Bayern München,Club Atlético de Madrid,FC Bayern München,Plus de 1.5 buts,6,0.85,,jour,,
 2026-11-03|FK Bodø/Glimt|Lille OSC|Plus de 1.5 buts,2026-11-02 09:19,2026-11-03,Champions League,FK Bodø/Glimt - Lille OSC,FK Bodø/Glimt,Lille OSC,Plus de 1.5 buts,6,0.845,,jour,,
 2026-11-03|Galatasaray SK|VfB Stuttgart|Plus de 1.5 buts,2026-11-02 09:19,2026-11-03,Champions League,Galatasaray SK - VfB Stuttgart,Galatasaray SK,VfB Stuttgart,Plus de 1.5 buts,6,0.813,,jour,,
 2026-11-03|Villarreal CF|Paris Saint-Germain FC|Plus de 2.5 buts,2026-11-02 09:19,2026-11-03,Champions League,Villarreal CF - Paris Saint-Germain FC,Villarreal CF,Paris Saint-Germain FC,Plus de 2.5 buts,7,0.81,,jour,,
-2026-11-03|RB Bragantino|Santos FC|1X (domicile ou nul),2026-11-02 09:19,2026-11-03,Brasileirão,RB Bragantino - Santos FC,RB Bragantino,Santos FC,1X (domicile ou nul),2,0.803,,jour,,
+2026-11-03|RB Bragantino|Santos FC|1X (domicile ou nul),2026-11-02 09:19,2026-11-03,Brasileirão,RB Bragantino - Santos FC,RB Bragantino,Santos FC,1X (domicile ou nul),2,0.803,1.0,jour,,2-1
 2026-11-03|FK Shakhtar Donetsk|Sporting Clube de Portugal|Plus de 1.5 buts,2026-11-02 09:19,2026-11-03,Champions League,FK Shakhtar Donetsk - Sporting Clube de Portugal,FK Shakhtar Donetsk,Sporting Clube de Portugal,Plus de 1.5 buts,6,0.791,,jour,,
 2026-11-03|Independiente|Banfield|1X (domicile ou nul),2026-11-02 09:19,2026-11-03,Liga Argentina,Independiente - Banfield,Independiente,Banfield,1X (domicile ou nul),2,0.788,,jour,,
-2026-11-02|Águilas Doradas|Fortaleza CEIF|1X (domicile ou nul),2026-11-02 09:19,2026-11-02,Liga Colombia,Águilas Doradas - Fortaleza CEIF,Águilas Doradas,Fortaleza CEIF,1X (domicile ou nul),2,0.778,,jour,,
+2026-11-02|Águilas Doradas|Fortaleza CEIF|1X (domicile ou nul),2026-11-02 09:19,2026-11-02,Liga Colombia,Águilas Doradas - Fortaleza CEIF,Águilas Doradas,Fortaleza CEIF,1X (domicile ou nul),2,0.778,1.0,jour,,1-0
 2026-11-03|FC Barcelona|Aston Villa FC|1X (domicile ou nul),2026-11-02 09:19,2026-11-03,Champions League,FC Barcelona - Aston Villa FC,FC Barcelona,Aston Villa FC,1X (domicile ou nul),2,0.767,,jour,,
 2026-11-02|Platense|Central Cordoba|1X (domicile ou nul),2026-11-02 09:19,2026-11-02,Liga Argentina,Platense - Central Cordoba,Platense,Central Cordoba,1X (domicile ou nul),2,0.762,,jour,,
 2026-11-02|Defensa y Justicia|Independiente|1X (domicile ou nul),2026-11-02 09:19,2026-11-02,Liga Argentina,Defensa y Justicia - Independiente,Defensa y Justicia,Independiente,1X (domicile ou nul),2,0.757,,jour,,
 2026-11-03|Deportivo Pereira|Deportes Tolima|score,2026-11-02 09:19,2026-11-03,Liga Colombia,Deportivo Pereira - Deportes Tolima,Deportivo Pereira,Deportes Tolima,1-1,-1,0.134,,score,,
 2026-11-03|Atl. Tucuman|Argentinos Jrs|score,2026-11-02 09:19,2026-11-03,Liga Argentina,Atl. Tucuman - Argentinos Jrs,Atl. Tucuman,Argentinos Jrs,1-1,-1,0.132,,score,,
 2026-11-02|Gil Vicente|Guimaraes|score,2026-11-02 09:19,2026-11-02,Liga Portugal,Gil Vicente - Guimaraes,Gil Vicente,Guimaraes,1-1,-1,0.13,,score,,
-2026-11-03|Atlético Bucaramanga|Atlético Nacional|score,2026-11-02 09:19,2026-11-03,Liga Colombia,Atlético Bucaramanga - Atlético Nacional,Atlético Bucaramanga,Atlético Nacional,1-1,-1,0.129,,score,,
+2026-11-03|Atlético Bucaramanga|Atlético Nacional|score,2026-11-02 09:19,2026-11-03,Liga Colombia,Atlético Bucaramanga - Atlético Nacional,Atlético Bucaramanga,Atlético Nacional,1-1,-1,0.129,1.0,score,,1-1
 2026-11-02|La Coruna|Osasuna|Plus de 2.5 cartons,2026-11-02 09:19,2026-11-02,La Liga,La Coruna - Osasuna,La Coruna,Osasuna,Plus de 2.5 cartons,-1,0.793,,cartons,,
 2026-11-02|Atalanta|Parma|Moins de 4.5 cartons,2026-11-02 09:19,2026-11-02,Serie A,Atalanta - Parma,Atalanta,Parma,Moins de 4.5 cartons,-1,0.741,,cartons,,
 2026-11-02|Benfica|Alverca|Plus de 2.5 cartons,2026-11-02 09:19,2026-11-02,Liga Portugal,Benfica - Alverca,Benfica,Alverca,Plus de 2.5 cartons,-1,0.732,,cartons,,
@@ -261,3 +261,16 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-11-02|La Coruna|Osasuna|Moins de 11.5 corners,2026-11-02 09:19,2026-11-02,La Liga,La Coruna - Osasuna,La Coruna,Osasuna,Moins de 11.5 corners,-1,0.724,,corners,,
 2026-11-02|Benfica|Alverca|Moins de 11.5 corners,2026-11-02 09:19,2026-11-02,Liga Portugal,Benfica - Alverca,Benfica,Alverca,Moins de 11.5 corners,-1,0.711,,corners,,
 2026-11-02|cote2|2026-11-02|Sassuolo|Fiorentina|Plus de 1.5 buts+2026-11-03|Villarreal CF|Paris Saint-Germain FC|Plus de 2.5 buts+2026-11-03|Independiente|Banfield|1X (domicile ou nul),2026-11-02 09:19,2026-11-02,Ticket,Ticket du 02/11,,,"3 paris, cote ~1.9",-1,0.526,,cote2,2026-11-02|Sassuolo|Fiorentina|Plus de 1.5 buts;2026-11-03|Villarreal CF|Paris Saint-Germain FC|Plus de 2.5 buts;2026-11-03|Independiente|Banfield|1X (domicile ou nul),
+2026-11-04|PSV|Club Brugge KV|Plus de 1.5 buts,2026-11-03 09:04,2026-11-04,Champions League,PSV - Club Brugge KV,PSV,Club Brugge KV,Plus de 1.5 buts,6,0.871,,jour,,
+2026-11-04|CR Flamengo|Grêmio FBPA|Victoire domicile,2026-11-03 09:04,2026-11-04,Brasileirão,CR Flamengo - Grêmio FBPA,CR Flamengo,Grêmio FBPA,Victoire domicile,0,0.798,,jour,,
+2026-11-04|CA Paranaense|CR Vasco da Gama|Plus de 1.5 buts,2026-11-03 09:04,2026-11-04,Brasileirão,CA Paranaense - CR Vasco da Gama,CA Paranaense,CR Vasco da Gama,Plus de 1.5 buts,6,0.79,,jour,,
+2026-11-04|RB Leipzig|Manchester City FC|Plus de 1.5 buts,2026-11-03 09:04,2026-11-04,Champions League,RB Leipzig - Manchester City FC,RB Leipzig,Manchester City FC,Plus de 1.5 buts,6,0.79,,jour,,
+2026-11-04|SK Slavia Praha|Arsenal FC|X2 (nul ou extérieur),2026-11-03 09:04,2026-11-04,Champions League,SK Slavia Praha - Arsenal FC,SK Slavia Praha,Arsenal FC,X2 (nul ou extérieur),3,0.788,,jour,,
+2026-11-04|Deportivo Pasto|Jaguares de Córdoba|1X (domicile ou nul),2026-11-03 09:04,2026-11-04,Liga Colombia,Deportivo Pasto - Jaguares de Córdoba,Deportivo Pasto,Jaguares de Córdoba,1X (domicile ou nul),2,0.778,,jour,,
+2026-11-04|SC Internacional|Coritiba FBC|1X (domicile ou nul),2026-11-03 09:04,2026-11-04,Brasileirão,SC Internacional - Coritiba FBC,SC Internacional,Coritiba FBC,1X (domicile ou nul),2,0.776,,jour,,
+2026-11-04|Stade Rennais|Olympiacos|1X (domicile ou nul),2026-11-03 09:04,2026-11-04,Europa League,Stade Rennais - Olympiacos,Stade Rennais,Olympiacos,1X (domicile ou nul),2,0.758,,jour,,
+2026-11-04|Deportivo Pasto|Jaguares de Córdoba|score,2026-11-03 09:04,2026-11-04,Liga Colombia,Deportivo Pasto - Jaguares de Córdoba,Deportivo Pasto,Jaguares de Córdoba,1-0,-1,0.134,,score,,
+2026-11-03|Chapecoense AF|Mirassol FC|score,2026-11-03 09:04,2026-11-03,Brasileirão,Chapecoense AF - Mirassol FC,Chapecoense AF,Mirassol FC,1-1,-1,0.127,,score,,
+2026-11-04|CR Flamengo|Grêmio FBPA|score,2026-11-03 09:04,2026-11-04,Brasileirão,CR Flamengo - Grêmio FBPA,CR Flamengo,Grêmio FBPA,2-0,-1,0.127,,score,,
+2026-11-03|Feyenoord Rotterdam|FC Internazionale Milano|score,2026-11-03 09:04,2026-11-03,Champions League,Feyenoord Rotterdam - FC Internazionale Milano,Feyenoord Rotterdam,FC Internazionale Milano,1-1,-1,0.12,,score,,
+2026-11-03|cote2|2026-11-03|FK Bodø/Glimt|Lille OSC|Plus de 1.5 buts+2026-11-04|CA Paranaense|CR Vasco da Gama|Plus de 1.5 buts+2026-11-04|SK Slavia Praha|Arsenal FC|X2 (nul ou extérieur),2026-11-03 09:04,2026-11-03,Ticket,Ticket du 03/11,,,"3 paris, cote ~1.9",-1,0.526,,cote2,2026-11-03|FK Bodø/Glimt|Lille OSC|Plus de 1.5 buts;2026-11-04|CA Paranaense|CR Vasco da Gama|Plus de 1.5 buts;2026-11-04|SK Slavia Praha|Arsenal FC|X2 (nul ou extérieur),
