@@ -1,5 +1,5 @@
 {
- "genere": "03/11/2026 à 09:04",
+ "genere": "04/11/2026 à 09:13",
  "seuil": 75,
  "offre": [
   {
@@ -11,56 +11,68 @@
    "away": "Club Brugge KV",
    "pari": "Plus de 1.5 buts",
    "k": 6,
-   "p": 0.871,
+   "p": 0.868,
    "fam": "fd"
   },
   {
-   "jour": "2026-11-03",
-   "heure": "21:00",
-   "ligue": "Champions League",
-   "match": "Club Atlético de Madrid - FC Bayern München",
-   "home": "Club Atlético de Madrid",
-   "away": "FC Bayern München",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.85,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-11-03",
-   "heure": "21:00",
-   "ligue": "Champions League",
-   "match": "FK Bodø/Glimt - Lille OSC",
-   "home": "FK Bodø/Glimt",
-   "away": "Lille OSC",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.845,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-11-03",
+   "jour": "2026-11-05",
    "heure": "18:45",
-   "ligue": "Champions League",
-   "match": "Galatasaray SK - VfB Stuttgart",
-   "home": "Galatasaray SK",
-   "away": "VfB Stuttgart",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.813,
-   "fam": "fd"
+   "ligue": "Conference League",
+   "match": "FC Midtjylland - Ajax Amsterdam",
+   "home": "FC Midtjylland",
+   "away": "Ajax Amsterdam",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.827,
+   "fam": "eu"
   },
   {
-   "jour": "2026-11-03",
+   "jour": "2026-11-05",
+   "heure": "18:45",
+   "ligue": "Europa League",
+   "match": "Real Sociedad - Lyon",
+   "home": "Real Sociedad",
+   "away": "Lyon",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.82,
+   "fam": "eu"
+  },
+  {
+   "jour": "2026-11-05",
+   "heure": "18:45",
+   "ligue": "Europa League",
+   "match": "NEC Nijmegen - Omonia Nicosia",
+   "home": "NEC Nijmegen",
+   "away": "Omonia Nicosia",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.811,
+   "fam": "eu"
+  },
+  {
+   "jour": "2026-11-05",
    "heure": "21:00",
-   "ligue": "Champions League",
-   "match": "Villarreal CF - Paris Saint-Germain FC",
-   "home": "Villarreal CF",
-   "away": "Paris Saint-Germain FC",
-   "pari": "Plus de 2.5 buts",
-   "k": 7,
-   "p": 0.806,
-   "fam": "fd"
+   "ligue": "Europa League",
+   "match": "AZ Alkmaar - Juventus",
+   "home": "AZ Alkmaar",
+   "away": "Juventus",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.81,
+   "fam": "eu"
+  },
+  {
+   "jour": "2026-11-05",
+   "heure": "21:00",
+   "ligue": "Europa League",
+   "match": "Bayer Leverkusen - Marseille",
+   "home": "Bayer Leverkusen",
+   "away": "Marseille",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.801,
+   "fam": "eu"
   },
   {
    "jour": "2026-11-04",
@@ -75,15 +87,63 @@
    "fam": "fd"
   },
   {
-   "jour": "2026-11-03",
-   "heure": "18:45",
+   "jour": "2026-11-04",
+   "heure": "21:00",
    "ligue": "Champions League",
-   "match": "FK Shakhtar Donetsk - Sporting Clube de Portugal",
-   "home": "FK Shakhtar Donetsk",
-   "away": "Sporting Clube de Portugal",
+   "match": "SK Slavia Praha - Arsenal FC",
+   "home": "SK Slavia Praha",
+   "away": "Arsenal FC",
+   "pari": "X2 (nul ou extérieur)",
+   "k": 3,
+   "p": 0.797,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-11-05",
+   "heure": "23:30",
+   "ligue": "Brasileirão",
+   "match": "SE Palmeiras - Clube do Remo",
+   "home": "SE Palmeiras",
+   "away": "Clube do Remo",
+   "pari": "Victoire domicile",
+   "k": 0,
+   "p": 0.794,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-11-05",
+   "heure": "21:00",
+   "ligue": "Conference League",
+   "match": "Panathinaikos - CSKA Sofia",
+   "home": "Panathinaikos",
+   "away": "CSKA Sofia",
+   "pari": "Victoire domicile",
+   "k": 0,
+   "p": 0.792,
+   "fam": "eu"
+  },
+  {
+   "jour": "2026-11-05",
+   "heure": "18:45",
+   "ligue": "Europa League",
+   "match": "AC Milan - Ferencvaros",
+   "home": "AC Milan",
+   "away": "Ferencvaros",
    "pari": "Plus de 1.5 buts",
    "k": 6,
-   "p": 0.791,
+   "p": 0.79,
+   "fam": "eu"
+  },
+  {
+   "jour": "2026-11-04",
+   "heure": "21:00",
+   "ligue": "Champions League",
+   "match": "RB Leipzig - Manchester City FC",
+   "home": "RB Leipzig",
+   "away": "Manchester City FC",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.789,
    "fam": "fd"
   },
   {
@@ -95,119 +155,71 @@
    "away": "CR Vasco da Gama",
    "pari": "Plus de 1.5 buts",
    "k": 6,
-   "p": 0.79,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-11-04",
-   "heure": "21:00",
-   "ligue": "Champions League",
-   "match": "RB Leipzig - Manchester City FC",
-   "home": "RB Leipzig",
-   "away": "Manchester City FC",
-   "pari": "Plus de 1.5 buts",
-   "k": 6,
-   "p": 0.79,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-11-04",
-   "heure": "21:00",
-   "ligue": "Champions League",
-   "match": "SK Slavia Praha - Arsenal FC",
-   "home": "SK Slavia Praha",
-   "away": "Arsenal FC",
-   "pari": "X2 (nul ou extérieur)",
-   "k": 3,
    "p": 0.788,
    "fam": "fd"
   },
   {
-   "jour": "2026-11-04",
-   "heure": "00:20",
-   "ligue": "Liga Colombia",
-   "match": "Deportivo Pasto - Jaguares de Córdoba",
-   "home": "Deportivo Pasto",
-   "away": "Jaguares de Córdoba",
-   "pari": "1X (domicile ou nul)",
-   "k": 2,
-   "p": 0.778,
-   "fam": "am"
+   "jour": "2026-11-05",
+   "heure": "18:45",
+   "ligue": "Europa League",
+   "match": "Sparta Prague - AFC Bournemouth",
+   "home": "Sparta Prague",
+   "away": "AFC Bournemouth",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.783,
+   "fam": "eu"
   },
   {
-   "jour": "2026-11-04",
-   "heure": "01:30",
-   "ligue": "Brasileirão",
-   "match": "SC Internacional - Coritiba FBC",
-   "home": "SC Internacional",
-   "away": "Coritiba FBC",
+   "jour": "2026-11-05",
+   "heure": "18:45",
+   "ligue": "Europa League",
+   "match": "Anderlecht - RB Salzburg",
+   "home": "Anderlecht",
+   "away": "RB Salzburg",
    "pari": "1X (domicile ou nul)",
    "k": 2,
    "p": 0.776,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-11-03",
-   "heure": "21:00",
-   "ligue": "Champions League",
-   "match": "FC Barcelona - Aston Villa FC",
-   "home": "FC Barcelona",
-   "away": "Aston Villa FC",
-   "pari": "1X (domicile ou nul)",
-   "k": 2,
-   "p": 0.768,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-11-04",
-   "heure": "16:30",
-   "ligue": "Europa League",
-   "match": "Stade Rennais - Olympiacos",
-   "home": "Stade Rennais",
-   "away": "Olympiacos",
-   "pari": "1X (domicile ou nul)",
-   "k": 2,
-   "p": 0.758,
    "fam": "eu"
   }
  ],
  "ticket": {
   "paris": [
    {
-    "jour": "2026-11-03",
-    "heure": "21:00",
-    "ligue": "Champions League",
-    "match": "FK Bodø/Glimt - Lille OSC",
-    "home": "FK Bodø/Glimt",
-    "away": "Lille OSC",
+    "jour": "2026-11-05",
+    "heure": "18:45",
+    "ligue": "Europa League",
+    "match": "NEC Nijmegen - Omonia Nicosia",
+    "home": "NEC Nijmegen",
+    "away": "Omonia Nicosia",
     "pari": "Plus de 1.5 buts",
     "k": 6,
-    "p": 0.845,
-    "fam": "fd"
+    "p": 0.811,
+    "fam": "eu"
    },
    {
-    "jour": "2026-11-04",
-    "heure": "23:30",
-    "ligue": "Brasileirão",
-    "match": "CA Paranaense - CR Vasco da Gama",
-    "home": "CA Paranaense",
-    "away": "CR Vasco da Gama",
+    "jour": "2026-11-05",
+    "heure": "21:00",
+    "ligue": "Europa League",
+    "match": "AZ Alkmaar - Juventus",
+    "home": "AZ Alkmaar",
+    "away": "Juventus",
     "pari": "Plus de 1.5 buts",
     "k": 6,
-    "p": 0.79,
-    "fam": "fd"
+    "p": 0.81,
+    "fam": "eu"
    },
    {
-    "jour": "2026-11-04",
+    "jour": "2026-11-05",
     "heure": "21:00",
-    "ligue": "Champions League",
-    "match": "SK Slavia Praha - Arsenal FC",
-    "home": "SK Slavia Praha",
-    "away": "Arsenal FC",
-    "pari": "X2 (nul ou extérieur)",
-    "k": 3,
-    "p": 0.788,
-    "fam": "fd"
+    "ligue": "Europa League",
+    "match": "Bayer Leverkusen - Marseille",
+    "home": "Bayer Leverkusen",
+    "away": "Marseille",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.801,
+    "fam": "eu"
    }
   ],
   "p": 0.526,
@@ -217,21 +229,21 @@
  "stats": [
   {
    "label": "Championnats avec cotes",
-   "matchs": 6593,
-   "paris": 5653,
+   "matchs": 6601,
+   "paris": 5657,
    "taux": 79.1
   },
   {
    "label": "Championnats sans cotes",
-   "matchs": 6598,
-   "paris": 5886,
+   "matchs": 6606,
+   "paris": 5891,
    "taux": 76.6
   },
   {
    "label": "Coupes d'Europe et Brésil",
-   "matchs": 1228,
-   "paris": 860,
-   "taux": 75.2
+   "matchs": 1237,
+   "paris": 866,
+   "taux": 75.1
   },
   {
    "label": "Europa League et Conference League",
@@ -241,74 +253,53 @@
   },
   {
    "label": "Argentine, Mexique, Colombie",
-   "matchs": 3095,
-   "paris": 1587,
-   "taux": 78.6
+   "matchs": 3121,
+   "paris": 1604,
+   "taux": 78.7
   }
  ],
  "scores": [
   {
-   "jour": "2026-11-03",
-   "heure": "21:30",
-   "ligue": "Liga Colombia",
-   "match": "Deportivo Pereira - Deportes Tolima",
-   "home": "Deportivo Pereira",
-   "away": "Deportes Tolima",
-   "score": "1-1",
-   "p": 0.134,
+   "jour": "2026-11-05",
+   "heure": "23:30",
+   "ligue": "Brasileirão",
+   "match": "SE Palmeiras - Clube do Remo",
+   "home": "SE Palmeiras",
+   "away": "Clube do Remo",
+   "score": "2-0",
+   "p": 0.147,
    "alt": [
     [
      "1-0",
-     0.125
+     0.135
     ],
     [
-     "0-1",
-     0.122
+     "3-0",
+     0.107
     ]
    ],
-   "buts": 2.2
+   "buts": 2.8
   },
   {
-   "jour": "2026-11-04",
-   "heure": "00:20",
+   "jour": "2026-11-05",
+   "heure": "00:30",
    "ligue": "Liga Colombia",
-   "match": "Deportivo Pasto - Jaguares de Córdoba",
-   "home": "Deportivo Pasto",
-   "away": "Jaguares de Córdoba",
-   "score": "1-0",
-   "p": 0.134,
+   "match": "Cúcuta Deportivo - Independiente Santa Fe",
+   "home": "Cúcuta Deportivo",
+   "away": "Independiente Santa Fe",
+   "score": "1-1",
+   "p": 0.131,
    "alt": [
     [
-     "1-1",
-     0.125
+     "0-1",
+     0.113
     ],
     [
-     "2-0",
-     0.096
+     "1-0",
+     0.107
     ]
    ],
    "buts": 2.4
-  },
-  {
-   "jour": "2026-11-03",
-   "heure": "23:30",
-   "ligue": "Brasileirão",
-   "match": "Chapecoense AF - Mirassol FC",
-   "home": "Chapecoense AF",
-   "away": "Mirassol FC",
-   "score": "1-1",
-   "p": 0.127,
-   "alt": [
-    [
-     "0-1",
-     0.111
-    ],
-    [
-     "1-0",
-     0.092
-    ]
-   ],
-   "buts": 2.5
   },
   {
    "jour": "2026-11-04",
@@ -326,54 +317,123 @@
     ],
     [
      "3-0",
-     0.1
+     0.101
     ]
    ],
    "buts": 3.1
   },
   {
-   "jour": "2026-11-03",
-   "heure": "21:00",
-   "ligue": "Champions League",
-   "match": "Feyenoord Rotterdam - FC Internazionale Milano",
-   "home": "Feyenoord Rotterdam",
-   "away": "FC Internazionale Milano",
+   "jour": "2026-11-05",
+   "heure": "02:30",
+   "ligue": "Liga Colombia",
+   "match": "Millonarios - América de Cali",
+   "home": "Millonarios",
+   "away": "América de Cali",
    "score": "1-1",
-   "p": 0.12,
+   "p": 0.127,
    "alt": [
     [
      "1-0",
-     0.088
+     0.111
     ],
     [
      "0-1",
-     0.086
+     0.093
     ]
    ],
-   "buts": 2.8
+   "buts": 2.5
+  },
+  {
+   "jour": "2026-11-05",
+   "heure": "01:30",
+   "ligue": "Brasileirão",
+   "match": "Botafogo FR - CA Mineiro",
+   "home": "Botafogo FR",
+   "away": "CA Mineiro",
+   "score": "1-1",
+   "p": 0.126,
+   "alt": [
+    [
+     "1-0",
+     0.106
+    ],
+    [
+     "0-1",
+     0.091
+    ]
+   ],
+   "buts": 2.6
   }
  ],
  "scores_stat": {
-  "paris": 7275,
+  "paris": 7306,
   "taux": 14.4,
-  "base": 12.9
+  "base": 12.8
  },
  "corners": [],
  "cartons": [],
  "cc_stat": {
   "corners": {
-   "paris": 2622,
+   "paris": 2626,
    "taux": 75.9
   },
   "cartons": {
-   "paris": 3109,
-   "taux": 79.3
+   "paris": 3117,
+   "taux": 79.2
   }
  },
  "bilan": {
-  "n": 104,
-  "gagnes": 87,
+  "n": 126,
+  "gagnes": 104,
   "recent": [
+   {
+    "jour": "2026-11-04",
+    "match": "Deportivo Pasto - Jaguares de Córdoba",
+    "pari": "1X (domicile ou nul)",
+    "p": 0.778,
+    "reel": "2-0",
+    "ok": true
+   },
+   {
+    "jour": "2026-11-04",
+    "match": "SC Internacional - Coritiba FBC",
+    "pari": "1X (domicile ou nul)",
+    "p": 0.776,
+    "reel": "1-0",
+    "ok": true
+   },
+   {
+    "jour": "2026-11-03",
+    "match": "Club Atlético de Madrid - FC Bayern München",
+    "pari": "Plus de 1.5 buts",
+    "p": 0.85,
+    "reel": "0-2",
+    "ok": true
+   },
+   {
+    "jour": "2026-11-03",
+    "match": "FK Bodø/Glimt - Lille OSC",
+    "pari": "Plus de 1.5 buts",
+    "p": 0.845,
+    "reel": "0-0",
+    "ok": false
+   },
+   {
+    "jour": "2026-11-03",
+    "match": "Galatasaray SK - VfB Stuttgart",
+    "pari": "Plus de 1.5 buts",
+    "p": 0.813,
+    "reel": "2-0",
+    "ok": true
+   },
+   {
+    "jour": "2026-11-03",
+    "match": "Villarreal CF - Paris Saint-Germain FC",
+    "pari": "Plus de 2.5 buts",
+    "p": 0.81,
+    "reel": "0-6",
+    "ok": true
+   },
    {
     "jour": "2026-11-03",
     "match": "RB Bragantino - Santos FC",
@@ -383,44 +443,68 @@
     "ok": true
    },
    {
+    "jour": "2026-11-03",
+    "match": "FK Shakhtar Donetsk - Sporting Clube de Portugal",
+    "pari": "Plus de 1.5 buts",
+    "p": 0.791,
+    "reel": "0-1",
+    "ok": false
+   },
+   {
+    "jour": "2026-11-03",
+    "match": "Independiente - Banfield",
+    "pari": "1X (domicile ou nul)",
+    "p": 0.788,
+    "reel": "",
+    "ok": null
+   },
+   {
+    "jour": "2026-11-03",
+    "match": "FC Barcelona - Aston Villa FC",
+    "pari": "1X (domicile ou nul)",
+    "p": 0.767,
+    "reel": "3-0",
+    "ok": true
+   },
+   {
     "jour": "2026-11-02",
     "match": "Benfica - Alverca",
     "pari": "Victoire domicile",
     "p": 0.865,
-    "reel": "",
-    "ok": null
+    "reel": "1-0",
+    "ok": true
    },
    {
     "jour": "2026-11-02",
     "match": "Cruz Azul - Club Leon",
     "pari": "Plus de 1.5 buts",
     "p": 0.859,
-    "reel": "",
-    "ok": null
+    "reel": "2-1",
+    "ok": true
    },
    {
     "jour": "2026-11-02",
     "match": "Sassuolo - Fiorentina",
     "pari": "Plus de 1.5 buts",
     "p": 0.824,
-    "reel": "",
-    "ok": null
+    "reel": "2-4",
+    "ok": true
    },
    {
     "jour": "2026-11-02",
     "match": "Atalanta - Parma",
     "pari": "Plus de 1.5 buts",
     "p": 0.82,
-    "reel": "",
-    "ok": null
+    "reel": "0-3",
+    "ok": true
    },
    {
     "jour": "2026-11-02",
     "match": "Newcastle - Everton",
     "pari": "Plus de 1.5 buts",
     "p": 0.819,
-    "reel": "",
-    "ok": null
+    "reel": "0-1",
+    "ok": false
    },
    {
     "jour": "2026-11-02",
@@ -435,16 +519,16 @@
     "match": "Platense - Central Cordoba",
     "pari": "1X (domicile ou nul)",
     "p": 0.762,
-    "reel": "",
-    "ok": null
+    "reel": "2-0",
+    "ok": true
    },
    {
     "jour": "2026-11-02",
     "match": "Defensa y Justicia - Independiente",
     "pari": "1X (domicile ou nul)",
     "p": 0.757,
-    "reel": "",
-    "ok": null
+    "reel": "1-1",
+    "ok": true
    },
    {
     "jour": "2026-11-01",
@@ -483,8 +567,8 @@
     "match": "Guadalajara Chivas - Atlante",
     "pari": "1X (domicile ou nul)",
     "p": 0.852,
-    "reel": "",
-    "ok": null
+    "reel": "4-2",
+    "ok": true
    },
    {
     "jour": "2026-11-01",
@@ -619,89 +703,65 @@
     "match": "Velez Sarsfield - San Lorenzo",
     "pari": "1X (domicile ou nul)",
     "p": 0.819,
-    "reel": "",
-    "ok": null
-   },
-   {
-    "jour": "2026-10-31",
-    "match": "Racing Club - Aldosivi",
-    "pari": "Plus de 1.5 buts",
-    "p": 0.777,
-    "reel": "",
-    "ok": null
-   },
-   {
-    "jour": "2026-10-31",
-    "match": "Puebla - UNAM Pumas",
-    "pari": "Plus de 1.5 buts",
-    "p": 0.772,
-    "reel": "",
-    "ok": null
-   },
-   {
-    "jour": "2026-10-31",
-    "match": "Atl. San Luis - Atlas",
-    "pari": "Plus de 1.5 buts",
-    "p": 0.769,
-    "reel": "",
-    "ok": null
-   },
-   {
-    "jour": "2026-10-31",
-    "match": "Sarmiento Junin - Rosario Central",
-    "pari": "Plus de 1.5 buts",
-    "p": 0.764,
-    "reel": "",
-    "ok": null
-   },
-   {
-    "jour": "2026-10-30",
-    "match": "Grêmio FBPA - CA Paranaense",
-    "pari": "Plus de 1.5 buts",
-    "p": 0.784,
-    "reel": "2-0",
-    "ok": true
-   },
-   {
-    "jour": "2026-10-30",
-    "match": "Atlético Nacional - Independiente Santa Fe",
-    "pari": "1X (domicile ou nul)",
-    "p": 0.784,
-    "reel": "2-0",
-    "ok": true
-   },
-   {
-    "jour": "2026-10-30",
-    "match": "América de Cali - Fortaleza CEIF",
-    "pari": "Plus de 1.5 buts",
-    "p": 0.776,
-    "reel": "2-1",
-    "ok": true
-   },
-   {
-    "jour": "2026-10-30",
-    "match": "Huracan - Tigre",
-    "pari": "1X (domicile ou nul)",
-    "p": 0.772,
-    "reel": "",
-    "ok": null
-   },
-   {
-    "jour": "2026-10-29",
-    "match": "Frosinone - Lecce",
-    "pari": "1X (domicile ou nul)",
-    "p": 0.829,
-    "reel": "5-1",
+    "reel": "2-2",
     "ok": true
    }
   ],
-  "en_attente": 30
+  "en_attente": 18
  },
  "bilans": {
   "jour": {
-   "n": 104,
-   "gagnes": 87,
+   "n": 126,
+   "gagnes": 104,
    "recent": [
+    {
+     "jour": "2026-11-04",
+     "match": "Deportivo Pasto - Jaguares de Córdoba",
+     "pari": "1X (domicile ou nul)",
+     "p": 0.778,
+     "reel": "2-0",
+     "ok": true
+    },
+    {
+     "jour": "2026-11-04",
+     "match": "SC Internacional - Coritiba FBC",
+     "pari": "1X (domicile ou nul)",
+     "p": 0.776,
+     "reel": "1-0",
+     "ok": true
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "Club Atlético de Madrid - FC Bayern München",
+     "pari": "Plus de 1.5 buts",
+     "p": 0.85,
+     "reel": "0-2",
+     "ok": true
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "FK Bodø/Glimt - Lille OSC",
+     "pari": "Plus de 1.5 buts",
+     "p": 0.845,
+     "reel": "0-0",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "Galatasaray SK - VfB Stuttgart",
+     "pari": "Plus de 1.5 buts",
+     "p": 0.813,
+     "reel": "2-0",
+     "ok": true
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "Villarreal CF - Paris Saint-Germain FC",
+     "pari": "Plus de 2.5 buts",
+     "p": 0.81,
+     "reel": "0-6",
+     "ok": true
+    },
     {
      "jour": "2026-11-03",
      "match": "RB Bragantino - Santos FC",
@@ -711,44 +771,68 @@
      "ok": true
     },
     {
+     "jour": "2026-11-03",
+     "match": "FK Shakhtar Donetsk - Sporting Clube de Portugal",
+     "pari": "Plus de 1.5 buts",
+     "p": 0.791,
+     "reel": "0-1",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "Independiente - Banfield",
+     "pari": "1X (domicile ou nul)",
+     "p": 0.788,
+     "reel": "",
+     "ok": null
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "FC Barcelona - Aston Villa FC",
+     "pari": "1X (domicile ou nul)",
+     "p": 0.767,
+     "reel": "3-0",
+     "ok": true
+    },
+    {
      "jour": "2026-11-02",
      "match": "Benfica - Alverca",
      "pari": "Victoire domicile",
      "p": 0.865,
-     "reel": "",
-     "ok": null
+     "reel": "1-0",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Cruz Azul - Club Leon",
      "pari": "Plus de 1.5 buts",
      "p": 0.859,
-     "reel": "",
-     "ok": null
+     "reel": "2-1",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Sassuolo - Fiorentina",
      "pari": "Plus de 1.5 buts",
      "p": 0.824,
-     "reel": "",
-     "ok": null
+     "reel": "2-4",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Atalanta - Parma",
      "pari": "Plus de 1.5 buts",
      "p": 0.82,
-     "reel": "",
-     "ok": null
+     "reel": "0-3",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Newcastle - Everton",
      "pari": "Plus de 1.5 buts",
      "p": 0.819,
-     "reel": "",
-     "ok": null
+     "reel": "0-1",
+     "ok": false
     },
     {
      "jour": "2026-11-02",
@@ -763,16 +847,16 @@
      "match": "Platense - Central Cordoba",
      "pari": "1X (domicile ou nul)",
      "p": 0.762,
-     "reel": "",
-     "ok": null
+     "reel": "2-0",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Defensa y Justicia - Independiente",
      "pari": "1X (domicile ou nul)",
      "p": 0.757,
-     "reel": "",
-     "ok": null
+     "reel": "1-1",
+     "ok": true
     },
     {
      "jour": "2026-11-01",
@@ -811,8 +895,8 @@
      "match": "Guadalajara Chivas - Atlante",
      "pari": "1X (domicile ou nul)",
      "p": 0.852,
-     "reel": "",
-     "ok": null
+     "reel": "4-2",
+     "ok": true
     },
     {
      "jour": "2026-11-01",
@@ -947,88 +1031,24 @@
      "match": "Velez Sarsfield - San Lorenzo",
      "pari": "1X (domicile ou nul)",
      "p": 0.819,
-     "reel": "",
-     "ok": null
-    },
-    {
-     "jour": "2026-10-31",
-     "match": "Racing Club - Aldosivi",
-     "pari": "Plus de 1.5 buts",
-     "p": 0.777,
-     "reel": "",
-     "ok": null
-    },
-    {
-     "jour": "2026-10-31",
-     "match": "Puebla - UNAM Pumas",
-     "pari": "Plus de 1.5 buts",
-     "p": 0.772,
-     "reel": "",
-     "ok": null
-    },
-    {
-     "jour": "2026-10-31",
-     "match": "Atl. San Luis - Atlas",
-     "pari": "Plus de 1.5 buts",
-     "p": 0.769,
-     "reel": "",
-     "ok": null
-    },
-    {
-     "jour": "2026-10-31",
-     "match": "Sarmiento Junin - Rosario Central",
-     "pari": "Plus de 1.5 buts",
-     "p": 0.764,
-     "reel": "",
-     "ok": null
-    },
-    {
-     "jour": "2026-10-30",
-     "match": "Grêmio FBPA - CA Paranaense",
-     "pari": "Plus de 1.5 buts",
-     "p": 0.784,
-     "reel": "2-0",
-     "ok": true
-    },
-    {
-     "jour": "2026-10-30",
-     "match": "Atlético Nacional - Independiente Santa Fe",
-     "pari": "1X (domicile ou nul)",
-     "p": 0.784,
-     "reel": "2-0",
-     "ok": true
-    },
-    {
-     "jour": "2026-10-30",
-     "match": "América de Cali - Fortaleza CEIF",
-     "pari": "Plus de 1.5 buts",
-     "p": 0.776,
-     "reel": "2-1",
-     "ok": true
-    },
-    {
-     "jour": "2026-10-30",
-     "match": "Huracan - Tigre",
-     "pari": "1X (domicile ou nul)",
-     "p": 0.772,
-     "reel": "",
-     "ok": null
-    },
-    {
-     "jour": "2026-10-29",
-     "match": "Frosinone - Lecce",
-     "pari": "1X (domicile ou nul)",
-     "p": 0.829,
-     "reel": "5-1",
+     "reel": "2-2",
      "ok": true
     }
    ],
-   "en_attente": 30
+   "en_attente": 18
   },
   "cote2": {
-   "n": 3,
+   "n": 6,
    "gagnes": 2,
    "recent": [
+    {
+     "jour": "2026-11-03",
+     "match": "Ticket du 03/11",
+     "pari": "3 paris, cote ~1.9",
+     "p": 0.526,
+     "reel": "0/3 paris gagnés",
+     "ok": false
+    },
     {
      "jour": "2026-11-02",
      "match": "Ticket du 02/11",
@@ -1042,16 +1062,16 @@
      "match": "Ticket du 30/10",
      "pari": "3 paris, cote ~1.9",
      "p": 0.526,
-     "reel": "",
-     "ok": null
+     "reel": "2/3 paris gagnés",
+     "ok": false
     },
     {
      "jour": "2026-10-29",
      "match": "Ticket du 29/10",
      "pari": "3 paris, cote ~1.9",
      "p": 0.526,
-     "reel": "",
-     "ok": null
+     "reel": "2/3 paris gagnés",
+     "ok": false
     },
     {
      "jour": "2026-10-28",
@@ -1094,12 +1114,36 @@
      "ok": false
     }
    ],
-   "en_attente": 6
+   "en_attente": 4
   },
   "score": {
-   "n": 37,
+   "n": 51,
    "gagnes": 7,
    "recent": [
+    {
+     "jour": "2026-11-04",
+     "match": "Deportivo Pasto - Jaguares de Córdoba",
+     "pari": "1-0",
+     "p": 0.134,
+     "reel": "2-0",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "Deportivo Pereira - Deportes Tolima",
+     "pari": "1-1",
+     "p": 0.134,
+     "reel": "1-3",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "Atl. Tucuman - Argentinos Jrs",
+     "pari": "1-1",
+     "p": 0.132,
+     "reel": "1-2",
+     "ok": false
+    },
     {
      "jour": "2026-11-03",
      "match": "Atlético Bucaramanga - Atlético Nacional",
@@ -1107,6 +1151,22 @@
      "p": 0.129,
      "reel": "1-1",
      "ok": true
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "Chapecoense AF - Mirassol FC",
+     "pari": "1-1",
+     "p": 0.127,
+     "reel": "1-2",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-03",
+     "match": "Feyenoord Rotterdam - FC Internazionale Milano",
+     "pari": "1-1",
+     "p": 0.12,
+     "reel": "0-3",
+     "ok": false
     },
     {
      "jour": "2026-11-02",
@@ -1121,16 +1181,16 @@
      "match": "Defensa y Justicia - Independiente",
      "pari": "1-0",
      "p": 0.14,
-     "reel": "",
-     "ok": null
+     "reel": "1-1",
+     "ok": false
     },
     {
      "jour": "2026-11-02",
      "match": "Gil Vicente - Guimaraes",
      "pari": "1-1",
      "p": 0.13,
-     "reel": "",
-     "ok": null
+     "reel": "0-0",
+     "ok": false
     },
     {
      "jour": "2026-11-01",
@@ -1145,16 +1205,16 @@
      "match": "Belgrano - Barracas Central",
      "pari": "1-0",
      "p": 0.14,
-     "reel": "",
-     "ok": null
+     "reel": "2-2",
+     "ok": false
     },
     {
      "jour": "2026-11-01",
      "match": "Guadalajara Chivas - Atlante",
      "pari": "1-0",
      "p": 0.137,
-     "reel": "",
-     "ok": null
+     "reel": "4-2",
+     "ok": false
     },
     {
      "jour": "2026-11-01",
@@ -1169,8 +1229,8 @@
      "match": "Velez Sarsfield - San Lorenzo",
      "pari": "1-0",
      "p": 0.143,
-     "reel": "",
-     "ok": null
+     "reel": "2-2",
+     "ok": false
     },
     {
      "jour": "2026-10-31",
@@ -1185,16 +1245,16 @@
      "match": "Dep. Riestra - Talleres Cordoba",
      "pari": "1-0",
      "p": 0.136,
-     "reel": "",
-     "ok": null
+     "reel": "0-3",
+     "ok": false
     },
     {
      "jour": "2026-10-31",
      "match": "Juarez - Queretaro",
      "pari": "1-1",
      "p": 0.13,
-     "reel": "",
-     "ok": null
+     "reel": "3-1",
+     "ok": false
     },
     {
      "jour": "2026-10-31",
@@ -1217,16 +1277,16 @@
      "match": "Huracan - Tigre",
      "pari": "1-0",
      "p": 0.126,
-     "reel": "",
-     "ok": null
+     "reel": "0-2",
+     "ok": false
     },
     {
      "jour": "2026-10-30",
      "match": "Estudiantes Rio Cuarto - Gimnasia L.P.",
      "pari": "1-1",
      "p": 0.125,
-     "reel": "",
-     "ok": null
+     "reel": "1-2",
+     "ok": false
     },
     {
      "jour": "2026-10-30",
@@ -1379,117 +1439,77 @@
      "p": 0.13,
      "reel": "0-1",
      "ok": false
-    },
-    {
-     "jour": "2026-10-25",
-     "match": "Ath Bilbao - Getafe",
-     "pari": "1-0",
-     "p": 0.129,
-     "reel": "4-0",
-     "ok": false
-    },
-    {
-     "jour": "2026-10-25",
-     "match": "Fortaleza CEIF - Deportivo Cali",
-     "pari": "1-1",
-     "p": 0.129,
-     "reel": "",
-     "ok": true
-    },
-    {
-     "jour": "2026-10-24",
-     "match": "San Lorenzo - Newells Old Boys",
-     "pari": "1-0",
-     "p": 0.146,
-     "reel": "0-0",
-     "ok": false
-    },
-    {
-     "jour": "2026-10-24",
-     "match": "Talleres Cordoba - Defensa y Justicia",
-     "pari": "1-1",
-     "p": 0.134,
-     "reel": "1-2",
-     "ok": false
-    },
-    {
-     "jour": "2026-10-24",
-     "match": "Banfield - Lanus",
-     "pari": "1-1",
-     "p": 0.132,
-     "reel": "1-1",
-     "ok": true
     }
    ],
-   "en_attente": 17
+   "en_attente": 7
   },
   "cartons": {
-   "n": 35,
-   "gagnes": 29,
+   "n": 43,
+   "gagnes": 36,
    "recent": [
     {
      "jour": "2026-11-02",
      "match": "Gil Vicente - Guimaraes",
      "pari": "Plus de 2.5 cartons",
      "p": 0.842,
-     "reel": "",
-     "ok": null
+     "reel": "3 cartons",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Lorient - Brest",
      "pari": "Moins de 5.5 cartons",
      "p": 0.808,
-     "reel": "",
-     "ok": null
+     "reel": "2 cartons",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "La Coruna - Osasuna",
      "pari": "Plus de 2.5 cartons",
      "p": 0.793,
-     "reel": "",
-     "ok": null
+     "reel": "4 cartons",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Atalanta - Parma",
      "pari": "Moins de 4.5 cartons",
      "p": 0.741,
-     "reel": "",
-     "ok": null
+     "reel": "0 cartons",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Benfica - Alverca",
      "pari": "Plus de 2.5 cartons",
      "p": 0.732,
-     "reel": "",
-     "ok": null
+     "reel": "4 cartons",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Genclerbirligi - Alanyaspor",
      "pari": "Plus de 2.5 cartons",
      "p": 0.73,
-     "reel": "",
-     "ok": null
+     "reel": "4 cartons",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Sassuolo - Fiorentina",
      "pari": "Plus de 2.5 cartons",
      "p": 0.729,
-     "reel": "",
-     "ok": null
+     "reel": "5 cartons",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Newcastle - Everton",
      "pari": "Moins de 5.5 cartons",
      "p": 0.719,
-     "reel": "",
-     "ok": null
+     "reel": "7 cartons",
+     "ok": false
     },
     {
      "jour": "2026-11-01",
@@ -1748,43 +1768,43 @@
      "ok": true
     }
    ],
-   "en_attente": 8
+   "en_attente": 0
   },
   "corners": {
-   "n": 31,
-   "gagnes": 29,
+   "n": 35,
+   "gagnes": 32,
    "recent": [
     {
      "jour": "2026-11-02",
      "match": "Gil Vicente - Guimaraes",
      "pari": "Moins de 11.5 corners",
      "p": 0.774,
-     "reel": "",
-     "ok": null
+     "reel": "5 corners",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Lorient - Brest",
      "pari": "Moins de 11.5 corners",
      "p": 0.771,
-     "reel": "",
-     "ok": null
+     "reel": "10 corners",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "La Coruna - Osasuna",
      "pari": "Moins de 11.5 corners",
      "p": 0.724,
-     "reel": "",
-     "ok": null
+     "reel": "10 corners",
+     "ok": true
     },
     {
      "jour": "2026-11-02",
      "match": "Benfica - Alverca",
      "pari": "Moins de 11.5 corners",
      "p": 0.711,
-     "reel": "",
-     "ok": null
+     "reel": "13 corners",
+     "ok": false
     },
     {
      "jour": "2026-11-01",
@@ -2035,17 +2055,17 @@
      "ok": true
     }
    ],
-   "en_attente": 4
+   "en_attente": 0
   }
  },
  "stats_all": {
-  "paris": 9184,
+  "paris": 9212,
   "taux": 77.7
  },
  "ticket_stat": {
-  "paris": 411,
-  "taux": 45.5,
+  "paris": 413,
+  "taux": 45.8,
   "p_moyen": 51.6
  },
- "ignores": 7
+ "ignores": 24
 }
