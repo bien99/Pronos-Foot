@@ -325,7 +325,7 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-11-08|Twente|Ajax|Plus de 1.5 buts,2026-11-07 08:51,2026-11-08,Eredivisie,Twente - Ajax,Twente,Ajax,Plus de 1.5 buts,6,0.849,,jour,,
 2026-11-07|Arsenal|Hull|Victoire domicile,2026-11-07 08:51,2026-11-07,Premier League,Arsenal - Hull,Arsenal,Hull,Victoire domicile,0,0.847,,jour,,
 2026-11-08|Hoffenheim|Schalke 04|1X (domicile ou nul),2026-11-07 08:51,2026-11-08,Bundesliga,Hoffenheim - Schalke 04,Hoffenheim,Schalke 04,1X (domicile ou nul),2,0.845,,jour,,
-2026-11-08|Independiente Santa Fe|Deportivo Pasto|score,2026-11-07 08:51,2026-11-08,Liga Colombia,Independiente Santa Fe - Deportivo Pasto,Independiente Santa Fe,Deportivo Pasto,1-0,-1,0.152,,score,,
+2026-11-08|Independiente Santa Fe|Deportivo Pasto|score,2026-11-07 08:51,2026-11-08,Liga Colombia,Independiente Santa Fe - Deportivo Pasto,Independiente Santa Fe,Deportivo Pasto,1-0,-1,0.152,0.0,score,,5-0
 2026-11-08|Atlético Nacional|Once Caldas|score,2026-11-07 08:51,2026-11-08,Liga Colombia,Atlético Nacional - Once Caldas,Atlético Nacional,Once Caldas,1-0,-1,0.141,,score,,
 2026-11-08|Llaneros FC|Boyacá Chicó FC|score,2026-11-07 08:51,2026-11-08,Liga Colombia,Llaneros FC - Boyacá Chicó FC,Llaneros FC,Boyacá Chicó FC,1-0,-1,0.14,,score,,
 2026-11-07|Fulham|Newcastle|Plus de 2.5 cartons,2026-11-07 08:51,2026-11-07,Premier League,Fulham - Newcastle,Fulham,Newcastle,Plus de 2.5 cartons,-1,0.825,,cartons,,
@@ -348,7 +348,7 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-11-08|Genoa|Milan|Moins de 11.5 corners,2026-11-07 08:51,2026-11-08,Serie A,Genoa - Milan,Genoa,Milan,Moins de 11.5 corners,-1,0.749,,corners,,
 2026-11-08|Guimaraes|Porto|Moins de 11.5 corners,2026-11-07 08:51,2026-11-08,Liga Portugal,Guimaraes - Porto,Guimaraes,Porto,Moins de 11.5 corners,-1,0.748,,corners,,
 2026-11-08|Brest|Lyon|Moins de 11.5 corners,2026-11-07 08:51,2026-11-08,Ligue 1,Brest - Lyon,Brest,Lyon,Moins de 11.5 corners,-1,0.747,,corners,,
-2026-11-08|Independiente Santa Fe|Deportivo Pasto|1X (domicile ou nul),2026-11-08 08:53,2026-11-08,Liga Colombia,Independiente Santa Fe - Deportivo Pasto,Independiente Santa Fe,Deportivo Pasto,1X (domicile ou nul),2,0.841,,jour,,
+2026-11-08|Independiente Santa Fe|Deportivo Pasto|1X (domicile ou nul),2026-11-08 08:53,2026-11-08,Liga Colombia,Independiente Santa Fe - Deportivo Pasto,Independiente Santa Fe,Deportivo Pasto,1X (domicile ou nul),2,0.841,1.0,jour,,5-0
 2026-11-08|Utrecht|Nijmegen|Plus de 1.5 buts,2026-11-08 08:53,2026-11-08,Eredivisie,Utrecht - Nijmegen,Utrecht,Nijmegen,Plus de 1.5 buts,6,0.84,,jour,,
 2026-11-08|Crystal Palace|Liverpool|Plus de 1.5 buts,2026-11-08 08:53,2026-11-08,Premier League,Crystal Palace - Liverpool,Crystal Palace,Liverpool,Plus de 1.5 buts,6,0.833,,jour,,
 2026-11-08|Cúcuta Deportivo|Jaguares de Córdoba|1X (domicile ou nul),2026-11-08 08:53,2026-11-08,Liga Colombia,Cúcuta Deportivo - Jaguares de Córdoba,Cúcuta Deportivo,Jaguares de Córdoba,1X (domicile ou nul),2,0.829,,jour,,
@@ -362,3 +362,5 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-11-08|Ath Madrid|Barcelona|Plus de 2.5 cartons,2026-11-08 08:53,2026-11-08,La Liga,Ath Madrid - Barcelona,Ath Madrid,Barcelona,Plus de 2.5 cartons,-1,0.805,,cartons,,
 2026-11-08|Villarreal|Getafe|Plus de 2.5 cartons,2026-11-08 08:53,2026-11-08,La Liga,Villarreal - Getafe,Villarreal,Getafe,Plus de 2.5 cartons,-1,0.802,,cartons,,
 2026-11-08|Estoril|Maritimo|Moins de 11.5 corners,2026-11-08 08:53,2026-11-08,Liga Portugal,Estoril - Maritimo,Estoril,Maritimo,Moins de 11.5 corners,-1,0.738,,corners,,
+2026-11-10|Atlético Junior|Cúcuta Deportivo|1X (domicile ou nul),2026-11-09 09:17,2026-11-10,Liga Colombia,Atlético Junior - Cúcuta Deportivo,Atlético Junior,Cúcuta Deportivo,1X (domicile ou nul),2,0.787,,jour,,
+2026-11-10|Atlético Junior|Cúcuta Deportivo|score,2026-11-09 09:17,2026-11-10,Liga Colombia,Atlético Junior - Cúcuta Deportivo,Atlético Junior,Cúcuta Deportivo,1-1,-1,0.123,,score,,
