@@ -1,5 +1,5 @@
 {
- "genere": "10/11/2026 à 09:04",
+ "genere": "11/11/2026 à 09:12",
  "seuil": 75,
  "offre": [],
  "ticket": null,
@@ -31,14 +31,36 @@
   },
   {
    "label": "Argentine, Mexique, Colombie",
-   "matchs": 3135,
-   "paris": 1610,
-   "taux": 78.8
+   "matchs": 3157,
+   "paris": 1626,
+   "taux": 78.7
   }
  ],
- "scores": [],
+ "scores": [
+  {
+   "jour": "2026-11-12",
+   "heure": "23:00",
+   "ligue": "Liga Colombia",
+   "match": "Deportivo Pasto - Atlético Junior",
+   "home": "Deportivo Pasto",
+   "away": "Atlético Junior",
+   "score": "1-1",
+   "p": 0.132,
+   "alt": [
+    [
+     "0-1",
+     0.121
+    ],
+    [
+     "1-0",
+     0.11
+    ]
+   ],
+   "buts": 2.3
+  }
+ ],
  "scores_stat": {
-  "paris": 7366,
+  "paris": 7376,
   "taux": 14.3,
   "base": 12.8
  },
@@ -55,8 +77,8 @@
   }
  },
  "bilan": {
-  "n": 165,
-  "gagnes": 139,
+  "n": 173,
+  "gagnes": 143,
   "recent": [
    {
     "jour": "2026-11-10",
@@ -207,8 +229,8 @@
     "match": "Boca Juniors - Defensa y Justicia",
     "pari": "1X (domicile ou nul)",
     "p": 0.854,
-    "reel": "",
-    "ok": null
+    "reel": "1-0",
+    "ok": true
    },
    {
     "jour": "2026-11-07",
@@ -239,32 +261,32 @@
     "match": "Argentinos Jrs - Huracan",
     "pari": "1X (domicile ou nul)",
     "p": 0.827,
-    "reel": "",
-    "ok": null
+    "reel": "0-2",
+    "ok": false
    },
    {
     "jour": "2026-11-07",
     "match": "Atl. San Luis - Juarez",
     "pari": "1X (domicile ou nul)",
     "p": 0.788,
-    "reel": "",
-    "ok": null
+    "reel": "0-1",
+    "ok": false
    },
    {
     "jour": "2026-11-07",
     "match": "Necaxa - Club Tijuana",
     "pari": "Plus de 1.5 buts",
     "p": 0.784,
-    "reel": "",
-    "ok": null
+    "reel": "1-0",
+    "ok": false
    },
    {
     "jour": "2026-11-07",
     "match": "Rosario Central - Estudiantes Rio Cuarto",
     "pari": "Victoire domicile",
     "p": 0.778,
-    "reel": "",
-    "ok": null
+    "reel": "2-0",
+    "ok": true
    },
    {
     "jour": "2026-11-07",
@@ -279,8 +301,8 @@
     "match": "Atlante - Santos Laguna",
     "pari": "Plus de 1.5 buts",
     "p": 0.761,
-    "reel": "",
-    "ok": null
+    "reel": "0-2",
+    "ok": true
    },
    {
     "jour": "2026-11-07",
@@ -295,8 +317,8 @@
     "match": "Independiente - Dep. Riestra",
     "pari": "1X (domicile ou nul)",
     "p": 0.82,
-    "reel": "",
-    "ok": null
+    "reel": "2-1",
+    "ok": true
    },
    {
     "jour": "2026-11-06",
@@ -311,8 +333,8 @@
     "match": "San Lorenzo - Platense",
     "pari": "1X (domicile ou nul)",
     "p": 0.77,
-    "reel": "",
-    "ok": null
+    "reel": "0-2",
+    "ok": false
    },
    {
     "jour": "2026-11-05",
@@ -379,12 +401,12 @@
     "ok": true
    }
   ],
-  "en_attente": 13
+  "en_attente": 5
  },
  "bilans": {
   "jour": {
-   "n": 165,
-   "gagnes": 139,
+   "n": 173,
+   "gagnes": 143,
    "recent": [
     {
      "jour": "2026-11-10",
@@ -535,8 +557,8 @@
      "match": "Boca Juniors - Defensa y Justicia",
      "pari": "1X (domicile ou nul)",
      "p": 0.854,
-     "reel": "",
-     "ok": null
+     "reel": "1-0",
+     "ok": true
     },
     {
      "jour": "2026-11-07",
@@ -567,32 +589,32 @@
      "match": "Argentinos Jrs - Huracan",
      "pari": "1X (domicile ou nul)",
      "p": 0.827,
-     "reel": "",
-     "ok": null
+     "reel": "0-2",
+     "ok": false
     },
     {
      "jour": "2026-11-07",
      "match": "Atl. San Luis - Juarez",
      "pari": "1X (domicile ou nul)",
      "p": 0.788,
-     "reel": "",
-     "ok": null
+     "reel": "0-1",
+     "ok": false
     },
     {
      "jour": "2026-11-07",
      "match": "Necaxa - Club Tijuana",
      "pari": "Plus de 1.5 buts",
      "p": 0.784,
-     "reel": "",
-     "ok": null
+     "reel": "1-0",
+     "ok": false
     },
     {
      "jour": "2026-11-07",
      "match": "Rosario Central - Estudiantes Rio Cuarto",
      "pari": "Victoire domicile",
      "p": 0.778,
-     "reel": "",
-     "ok": null
+     "reel": "2-0",
+     "ok": true
     },
     {
      "jour": "2026-11-07",
@@ -607,8 +629,8 @@
      "match": "Atlante - Santos Laguna",
      "pari": "Plus de 1.5 buts",
      "p": 0.761,
-     "reel": "",
-     "ok": null
+     "reel": "0-2",
+     "ok": true
     },
     {
      "jour": "2026-11-07",
@@ -623,8 +645,8 @@
      "match": "Independiente - Dep. Riestra",
      "pari": "1X (domicile ou nul)",
      "p": 0.82,
-     "reel": "",
-     "ok": null
+     "reel": "2-1",
+     "ok": true
     },
     {
      "jour": "2026-11-06",
@@ -639,8 +661,8 @@
      "match": "San Lorenzo - Platense",
      "pari": "1X (domicile ou nul)",
      "p": 0.77,
-     "reel": "",
-     "ok": null
+     "reel": "0-2",
+     "ok": false
     },
     {
      "jour": "2026-11-05",
@@ -707,19 +729,19 @@
      "ok": true
     }
    ],
-   "en_attente": 13
+   "en_attente": 5
   },
   "cote2": {
-   "n": 8,
-   "gagnes": 2,
+   "n": 9,
+   "gagnes": 3,
    "recent": [
     {
      "jour": "2026-11-06",
      "match": "Ticket du 06/11",
      "pari": "3 paris, cote ~1.9",
      "p": 0.526,
-     "reel": "",
-     "ok": null
+     "reel": "3/3 paris gagnés",
+     "ok": true
     },
     {
      "jour": "2026-11-05",
@@ -810,10 +832,10 @@
      "ok": false
     }
    ],
-   "en_attente": 4
+   "en_attente": 3
   },
   "score": {
-   "n": 60,
+   "n": 64,
    "gagnes": 8,
    "recent": [
     {
@@ -869,8 +891,8 @@
      "match": "Argentinos Jrs - Huracan",
      "pari": "1-0",
      "p": 0.144,
-     "reel": "",
-     "ok": null
+     "reel": "0-2",
+     "ok": false
     },
     {
      "jour": "2026-11-07",
@@ -893,24 +915,24 @@
      "match": "Independiente - Dep. Riestra",
      "pari": "1-0",
      "p": 0.147,
-     "reel": "",
-     "ok": null
+     "reel": "2-1",
+     "ok": false
     },
     {
      "jour": "2026-11-06",
      "match": "San Lorenzo - Platense",
      "pari": "1-0",
      "p": 0.134,
-     "reel": "",
-     "ok": null
+     "reel": "0-2",
+     "ok": false
     },
     {
      "jour": "2026-11-06",
      "match": "Barracas Central - Racing Club",
      "pari": "1-1",
      "p": 0.126,
-     "reel": "",
-     "ok": null
+     "reel": "2-0",
+     "ok": false
     },
     {
      "jour": "2026-11-05",
@@ -1137,7 +1159,7 @@
      "ok": false
     }
    ],
-   "en_attente": 11
+   "en_attente": 8
   },
   "cartons": {
    "n": 58,
@@ -1795,13 +1817,13 @@
   }
  },
  "stats_all": {
-  "paris": 9328,
+  "paris": 9344,
   "taux": 77.8
  },
  "ticket_stat": {
-  "paris": 416,
-  "taux": 45.7,
-  "p_moyen": 51.7
+  "paris": 417,
+  "taux": 45.8,
+  "p_moyen": 51.6
  },
  "ignores": 0
 }
