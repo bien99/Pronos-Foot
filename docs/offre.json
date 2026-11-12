@@ -1,7 +1,20 @@
 {
- "genere": "11/11/2026 à 09:12",
+ "genere": "12/11/2026 à 09:14",
  "seuil": 75,
- "offre": [],
+ "offre": [
+  {
+   "jour": "2026-11-13",
+   "heure": "01:00",
+   "ligue": "Liga Colombia",
+   "match": "Llaneros FC - Boyacá Chicó FC",
+   "home": "Llaneros FC",
+   "away": "Boyacá Chicó FC",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.801,
+   "fam": "am"
+  }
+ ],
  "ticket": null,
  "sur": null,
  "stats": [
@@ -37,6 +50,27 @@
   }
  ],
  "scores": [
+  {
+   "jour": "2026-11-13",
+   "heure": "01:00",
+   "ligue": "Liga Colombia",
+   "match": "Llaneros FC - Boyacá Chicó FC",
+   "home": "Llaneros FC",
+   "away": "Boyacá Chicó FC",
+   "score": "1-0",
+   "p": 0.137,
+   "alt": [
+    [
+     "1-1",
+     0.124
+    ],
+    [
+     "2-0",
+     0.1
+    ]
+   ],
+   "buts": 2.4
+  },
   {
    "jour": "2026-11-12",
    "heure": "23:00",
@@ -401,7 +435,7 @@
     "ok": true
    }
   ],
-  "en_attente": 5
+  "en_attente": 6
  },
  "bilans": {
   "jour": {
@@ -729,7 +763,7 @@
      "ok": true
     }
    ],
-   "en_attente": 5
+   "en_attente": 6
   },
   "cote2": {
    "n": 9,
@@ -1159,7 +1193,7 @@
      "ok": false
     }
    ],
-   "en_attente": 8
+   "en_attente": 9
   },
   "cartons": {
    "n": 58,
