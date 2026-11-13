@@ -364,6 +364,17 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-11-08|Estoril|Maritimo|Moins de 11.5 corners,2026-11-08 08:53,2026-11-08,Liga Portugal,Estoril - Maritimo,Estoril,Maritimo,Moins de 11.5 corners,-1,0.738,,corners,,
 2026-11-10|Atlético Junior|Cúcuta Deportivo|1X (domicile ou nul),2026-11-09 09:17,2026-11-10,Liga Colombia,Atlético Junior - Cúcuta Deportivo,Atlético Junior,Cúcuta Deportivo,1X (domicile ou nul),2,0.787,1.0,jour,,2-0
 2026-11-10|Atlético Junior|Cúcuta Deportivo|score,2026-11-09 09:17,2026-11-10,Liga Colombia,Atlético Junior - Cúcuta Deportivo,Atlético Junior,Cúcuta Deportivo,1-1,-1,0.123,0.0,score,,2-0
-2026-11-12|Deportivo Pasto|Atlético Junior|score,2026-11-11 09:12,2026-11-12,Liga Colombia,Deportivo Pasto - Atlético Junior,Deportivo Pasto,Atlético Junior,1-1,-1,0.132,,score,,
-2026-11-13|Llaneros FC|Boyacá Chicó FC|1X (domicile ou nul),2026-11-12 09:14,2026-11-13,Liga Colombia,Llaneros FC - Boyacá Chicó FC,Llaneros FC,Boyacá Chicó FC,1X (domicile ou nul),2,0.801,,jour,,
-2026-11-13|Llaneros FC|Boyacá Chicó FC|score,2026-11-12 09:14,2026-11-13,Liga Colombia,Llaneros FC - Boyacá Chicó FC,Llaneros FC,Boyacá Chicó FC,1-0,-1,0.137,,score,,
+2026-11-12|Deportivo Pasto|Atlético Junior|score,2026-11-11 09:12,2026-11-12,Liga Colombia,Deportivo Pasto - Atlético Junior,Deportivo Pasto,Atlético Junior,1-1,-1,0.132,0.0,score,,0-1
+2026-11-13|Llaneros FC|Boyacá Chicó FC|1X (domicile ou nul),2026-11-12 09:14,2026-11-13,Liga Colombia,Llaneros FC - Boyacá Chicó FC,Llaneros FC,Boyacá Chicó FC,1X (domicile ou nul),2,0.801,1.0,jour,,0-0
+2026-11-13|Llaneros FC|Boyacá Chicó FC|score,2026-11-12 09:14,2026-11-13,Liga Colombia,Llaneros FC - Boyacá Chicó FC,Llaneros FC,Boyacá Chicó FC,1-0,-1,0.137,0.0,score,,0-0
+2026-11-14|Atlético Nacional|Once Caldas|1X (domicile ou nul),2026-11-13 09:13,2026-11-14,Liga Colombia,Atlético Nacional - Once Caldas,Atlético Nacional,Once Caldas,1X (domicile ou nul),2,0.847,,jour,,
+2026-11-14|Cúcuta Deportivo|Jaguares de Córdoba|1X (domicile ou nul),2026-11-13 09:13,2026-11-14,Liga Colombia,Cúcuta Deportivo - Jaguares de Córdoba,Cúcuta Deportivo,Jaguares de Córdoba,1X (domicile ou nul),2,0.838,,jour,,
+2026-11-14|Mirassol FC|CA Mineiro|1X (domicile ou nul),2026-11-13 09:13,2026-11-14,Brasileirão,Mirassol FC - CA Mineiro,Mirassol FC,CA Mineiro,1X (domicile ou nul),2,0.771,,jour,,
+2026-11-14|Millonarios|Alianza FC|Plus de 1.5 buts,2026-11-13 09:13,2026-11-14,Liga Colombia,Millonarios - Alianza FC,Millonarios,Alianza FC,Plus de 1.5 buts,6,0.758,,jour,,
+2026-11-14|Atlético Bucaramanga|Fortaleza CEIF|Plus de 1.5 buts,2026-11-13 09:13,2026-11-14,Liga Colombia,Atlético Bucaramanga - Fortaleza CEIF,Atlético Bucaramanga,Fortaleza CEIF,Plus de 1.5 buts,6,0.756,,jour,,
+2026-11-14|Cúcuta Deportivo|Jaguares de Córdoba|score,2026-11-13 09:13,2026-11-14,Liga Colombia,Cúcuta Deportivo - Jaguares de Córdoba,Cúcuta Deportivo,Jaguares de Córdoba,1-0,-1,0.136,,score,,
+2026-11-14|Atlético Nacional|Once Caldas|score,2026-11-13 09:13,2026-11-14,Liga Colombia,Atlético Nacional - Once Caldas,Atlético Nacional,Once Caldas,1-0,-1,0.136,,score,,
+2026-11-14|Deportivo Cali|Deportes Tolima|score,2026-11-13 09:13,2026-11-14,Liga Colombia,Deportivo Cali - Deportes Tolima,Deportivo Cali,Deportes Tolima,1-0,-1,0.134,,score,,
+2026-11-14|Internacional de Bogotá|Independiente Santa Fe|score,2026-11-13 09:13,2026-11-14,Liga Colombia,Internacional de Bogotá - Independiente Santa Fe,Internacional de Bogotá,Independiente Santa Fe,1-1,-1,0.131,,score,,
+2026-11-14|Águilas Doradas|Independiente Medellín|score,2026-11-13 09:13,2026-11-14,Liga Colombia,Águilas Doradas - Independiente Medellín,Águilas Doradas,Independiente Medellín,1-1,-1,0.13,,score,,
+2026-11-13|cote2|2026-11-14|Atlético Nacional|Once Caldas|1X (domicile ou nul)+2026-11-14|Mirassol FC|CA Mineiro|1X (domicile ou nul)+2026-11-14|Millonarios|Alianza FC|Plus de 1.5 buts,2026-11-13 09:13,2026-11-13,Ticket,Ticket du 13/11,,,"3 paris, cote ~2.02",-1,0.495,,cote2,2026-11-14|Atlético Nacional|Once Caldas|1X (domicile ou nul);2026-11-14|Mirassol FC|CA Mineiro|1X (domicile ou nul);2026-11-14|Millonarios|Alianza FC|Plus de 1.5 buts,

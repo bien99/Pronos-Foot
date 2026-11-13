@@ -1,21 +1,110 @@
 {
- "genere": "12/11/2026 à 09:14",
+ "genere": "13/11/2026 à 09:13",
  "seuil": 75,
  "offre": [
   {
-   "jour": "2026-11-13",
-   "heure": "01:00",
+   "jour": "2026-11-14",
+   "heure": "21:30",
    "ligue": "Liga Colombia",
-   "match": "Llaneros FC - Boyacá Chicó FC",
-   "home": "Llaneros FC",
-   "away": "Boyacá Chicó FC",
+   "match": "Atlético Nacional - Once Caldas",
+   "home": "Atlético Nacional",
+   "away": "Once Caldas",
    "pari": "1X (domicile ou nul)",
    "k": 2,
-   "p": 0.801,
+   "p": 0.847,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-11-14",
+   "heure": "21:30",
+   "ligue": "Liga Colombia",
+   "match": "Cúcuta Deportivo - Jaguares de Córdoba",
+   "home": "Cúcuta Deportivo",
+   "away": "Jaguares de Córdoba",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.838,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-11-14",
+   "heure": "22:30",
+   "ligue": "Brasileirão",
+   "match": "Mirassol FC - CA Mineiro",
+   "home": "Mirassol FC",
+   "away": "CA Mineiro",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.771,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-11-14",
+   "heure": "21:30",
+   "ligue": "Liga Colombia",
+   "match": "Millonarios - Alianza FC",
+   "home": "Millonarios",
+   "away": "Alianza FC",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.758,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-11-14",
+   "heure": "21:30",
+   "ligue": "Liga Colombia",
+   "match": "Atlético Bucaramanga - Fortaleza CEIF",
+   "home": "Atlético Bucaramanga",
+   "away": "Fortaleza CEIF",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.756,
    "fam": "am"
   }
  ],
- "ticket": null,
+ "ticket": {
+  "paris": [
+   {
+    "jour": "2026-11-14",
+    "heure": "21:30",
+    "ligue": "Liga Colombia",
+    "match": "Atlético Nacional - Once Caldas",
+    "home": "Atlético Nacional",
+    "away": "Once Caldas",
+    "pari": "1X (domicile ou nul)",
+    "k": 2,
+    "p": 0.847,
+    "fam": "am"
+   },
+   {
+    "jour": "2026-11-14",
+    "heure": "22:30",
+    "ligue": "Brasileirão",
+    "match": "Mirassol FC - CA Mineiro",
+    "home": "Mirassol FC",
+    "away": "CA Mineiro",
+    "pari": "1X (domicile ou nul)",
+    "k": 2,
+    "p": 0.771,
+    "fam": "fd"
+   },
+   {
+    "jour": "2026-11-14",
+    "heure": "21:30",
+    "ligue": "Liga Colombia",
+    "match": "Millonarios - Alianza FC",
+    "home": "Millonarios",
+    "away": "Alianza FC",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.758,
+    "fam": "am"
+   }
+  ],
+  "p": 0.495,
+  "cote": 2.02
+ },
  "sur": null,
  "stats": [
   {
@@ -44,57 +133,120 @@
   },
   {
    "label": "Argentine, Mexique, Colombie",
-   "matchs": 3157,
-   "paris": 1626,
+   "matchs": 3159,
+   "paris": 1627,
    "taux": 78.7
   }
  ],
  "scores": [
   {
-   "jour": "2026-11-13",
-   "heure": "01:00",
+   "jour": "2026-11-14",
+   "heure": "21:30",
    "ligue": "Liga Colombia",
-   "match": "Llaneros FC - Boyacá Chicó FC",
-   "home": "Llaneros FC",
-   "away": "Boyacá Chicó FC",
+   "match": "Cúcuta Deportivo - Jaguares de Córdoba",
+   "home": "Cúcuta Deportivo",
+   "away": "Jaguares de Córdoba",
    "score": "1-0",
-   "p": 0.137,
+   "p": 0.136,
    "alt": [
     [
      "1-1",
-     0.124
+     0.116
     ],
     [
      "2-0",
-     0.1
+     0.112
+    ]
+   ],
+   "buts": 2.5
+  },
+  {
+   "jour": "2026-11-14",
+   "heure": "21:30",
+   "ligue": "Liga Colombia",
+   "match": "Atlético Nacional - Once Caldas",
+   "home": "Atlético Nacional",
+   "away": "Once Caldas",
+   "score": "1-0",
+   "p": 0.136,
+   "alt": [
+    [
+     "1-1",
+     0.116
+    ],
+    [
+     "2-0",
+     0.111
+    ]
+   ],
+   "buts": 2.5
+  },
+  {
+   "jour": "2026-11-14",
+   "heure": "21:30",
+   "ligue": "Liga Colombia",
+   "match": "Deportivo Cali - Deportes Tolima",
+   "home": "Deportivo Cali",
+   "away": "Deportes Tolima",
+   "score": "1-0",
+   "p": 0.134,
+   "alt": [
+    [
+     "1-1",
+     0.13
+    ],
+    [
+     "0-0",
+     0.103
+    ]
+   ],
+   "buts": 2.3
+  },
+  {
+   "jour": "2026-11-14",
+   "heure": "02:30",
+   "ligue": "Liga Colombia",
+   "match": "Internacional de Bogotá - Independiente Santa Fe",
+   "home": "Internacional de Bogotá",
+   "away": "Independiente Santa Fe",
+   "score": "1-1",
+   "p": 0.131,
+   "alt": [
+    [
+     "0-1",
+     0.115
+    ],
+    [
+     "1-0",
+     0.105
     ]
    ],
    "buts": 2.4
   },
   {
-   "jour": "2026-11-12",
-   "heure": "23:00",
+   "jour": "2026-11-14",
+   "heure": "21:30",
    "ligue": "Liga Colombia",
-   "match": "Deportivo Pasto - Atlético Junior",
-   "home": "Deportivo Pasto",
-   "away": "Atlético Junior",
+   "match": "Águilas Doradas - Independiente Medellín",
+   "home": "Águilas Doradas",
+   "away": "Independiente Medellín",
    "score": "1-1",
-   "p": 0.132,
+   "p": 0.13,
    "alt": [
     [
-     "0-1",
-     0.121
+     "1-0",
+     0.119
     ],
     [
-     "1-0",
-     0.11
+     "0-1",
+     0.102
     ]
    ],
-   "buts": 2.3
+   "buts": 2.4
   }
  ],
  "scores_stat": {
-  "paris": 7376,
+  "paris": 7378,
   "taux": 14.3,
   "base": 12.8
  },
@@ -111,9 +263,17 @@
   }
  },
  "bilan": {
-  "n": 173,
-  "gagnes": 143,
+  "n": 174,
+  "gagnes": 144,
   "recent": [
+   {
+    "jour": "2026-11-13",
+    "match": "Llaneros FC - Boyacá Chicó FC",
+    "pari": "1X (domicile ou nul)",
+    "p": 0.801,
+    "reel": "0-0",
+    "ok": true
+   },
    {
     "jour": "2026-11-10",
     "match": "Atlético Junior - Cúcuta Deportivo",
@@ -425,23 +585,23 @@
     "p": 0.792,
     "reel": "2-1",
     "ok": true
-   },
-   {
-    "jour": "2026-11-05",
-    "match": "AC Milan - Ferencvaros",
-    "pari": "Plus de 1.5 buts",
-    "p": 0.79,
-    "reel": "0-2",
-    "ok": true
    }
   ],
-  "en_attente": 6
+  "en_attente": 10
  },
  "bilans": {
   "jour": {
-   "n": 173,
-   "gagnes": 143,
+   "n": 174,
+   "gagnes": 144,
    "recent": [
+    {
+     "jour": "2026-11-13",
+     "match": "Llaneros FC - Boyacá Chicó FC",
+     "pari": "1X (domicile ou nul)",
+     "p": 0.801,
+     "reel": "0-0",
+     "ok": true
+    },
     {
      "jour": "2026-11-10",
      "match": "Atlético Junior - Cúcuta Deportivo",
@@ -753,17 +913,9 @@
      "p": 0.792,
      "reel": "2-1",
      "ok": true
-    },
-    {
-     "jour": "2026-11-05",
-     "match": "AC Milan - Ferencvaros",
-     "pari": "Plus de 1.5 buts",
-     "p": 0.79,
-     "reel": "0-2",
-     "ok": true
     }
    ],
-   "en_attente": 6
+   "en_attente": 10
   },
   "cote2": {
    "n": 9,
@@ -866,12 +1018,28 @@
      "ok": false
     }
    ],
-   "en_attente": 3
+   "en_attente": 4
   },
   "score": {
-   "n": 64,
+   "n": 66,
    "gagnes": 8,
    "recent": [
+    {
+     "jour": "2026-11-13",
+     "match": "Llaneros FC - Boyacá Chicó FC",
+     "pari": "1-0",
+     "p": 0.137,
+     "reel": "0-0",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-12",
+     "match": "Deportivo Pasto - Atlético Junior",
+     "pari": "1-1",
+     "p": 0.132,
+     "reel": "0-1",
+     "ok": false
+    },
     {
      "jour": "2026-11-10",
      "match": "Atlético Junior - Cúcuta Deportivo",
@@ -1175,25 +1343,9 @@
      "p": 0.126,
      "reel": "0-2",
      "ok": false
-    },
-    {
-     "jour": "2026-10-30",
-     "match": "Estudiantes Rio Cuarto - Gimnasia L.P.",
-     "pari": "1-1",
-     "p": 0.125,
-     "reel": "1-2",
-     "ok": false
-    },
-    {
-     "jour": "2026-10-30",
-     "match": "Deportivo Pereira - Jaguares de Córdoba",
-     "pari": "1-1",
-     "p": 0.124,
-     "reel": "1-0",
-     "ok": false
     }
    ],
-   "en_attente": 9
+   "en_attente": 12
   },
   "cartons": {
    "n": 58,
@@ -1851,7 +2003,7 @@
   }
  },
  "stats_all": {
-  "paris": 9344,
+  "paris": 9345,
   "taux": 77.8
  },
  "ticket_stat": {
