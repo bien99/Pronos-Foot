@@ -1,5 +1,5 @@
 {
- "genere": "13/11/2026 à 09:13",
+ "genere": "14/11/2026 à 08:53",
  "seuil": 75,
  "offre": [
   {
@@ -36,6 +36,18 @@
    "pari": "1X (domicile ou nul)",
    "k": 2,
    "p": 0.771,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-11-15",
+   "heure": "00:30",
+   "ligue": "Brasileirão",
+   "match": "Chapecoense AF - CR Vasco da Gama",
+   "home": "Chapecoense AF",
+   "away": "CR Vasco da Gama",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.768,
    "fam": "fd"
   },
   {
@@ -90,20 +102,20 @@
     "fam": "fd"
    },
    {
-    "jour": "2026-11-14",
-    "heure": "21:30",
-    "ligue": "Liga Colombia",
-    "match": "Millonarios - Alianza FC",
-    "home": "Millonarios",
-    "away": "Alianza FC",
+    "jour": "2026-11-15",
+    "heure": "00:30",
+    "ligue": "Brasileirão",
+    "match": "Chapecoense AF - CR Vasco da Gama",
+    "home": "Chapecoense AF",
+    "away": "CR Vasco da Gama",
     "pari": "Plus de 1.5 buts",
     "k": 6,
-    "p": 0.758,
-    "fam": "am"
+    "p": 0.768,
+    "fam": "fd"
    }
   ],
-  "p": 0.495,
-  "cote": 2.02
+  "p": 0.502,
+  "cote": 1.99
  },
  "sur": null,
  "stats": [
@@ -133,33 +145,12 @@
   },
   {
    "label": "Argentine, Mexique, Colombie",
-   "matchs": 3159,
+   "matchs": 3160,
    "paris": 1627,
    "taux": 78.7
   }
  ],
  "scores": [
-  {
-   "jour": "2026-11-14",
-   "heure": "21:30",
-   "ligue": "Liga Colombia",
-   "match": "Cúcuta Deportivo - Jaguares de Córdoba",
-   "home": "Cúcuta Deportivo",
-   "away": "Jaguares de Córdoba",
-   "score": "1-0",
-   "p": 0.136,
-   "alt": [
-    [
-     "1-1",
-     0.116
-    ],
-    [
-     "2-0",
-     0.112
-    ]
-   ],
-   "buts": 2.5
-  },
   {
    "jour": "2026-11-14",
    "heure": "21:30",
@@ -177,6 +168,27 @@
     [
      "2-0",
      0.111
+    ]
+   ],
+   "buts": 2.5
+  },
+  {
+   "jour": "2026-11-14",
+   "heure": "21:30",
+   "ligue": "Liga Colombia",
+   "match": "Cúcuta Deportivo - Jaguares de Córdoba",
+   "home": "Cúcuta Deportivo",
+   "away": "Jaguares de Córdoba",
+   "score": "1-0",
+   "p": 0.136,
+   "alt": [
+    [
+     "1-1",
+     0.116
+    ],
+    [
+     "2-0",
+     0.112
     ]
    ],
    "buts": 2.5
@@ -204,27 +216,6 @@
   },
   {
    "jour": "2026-11-14",
-   "heure": "02:30",
-   "ligue": "Liga Colombia",
-   "match": "Internacional de Bogotá - Independiente Santa Fe",
-   "home": "Internacional de Bogotá",
-   "away": "Independiente Santa Fe",
-   "score": "1-1",
-   "p": 0.131,
-   "alt": [
-    [
-     "0-1",
-     0.115
-    ],
-    [
-     "1-0",
-     0.105
-    ]
-   ],
-   "buts": 2.4
-  },
-  {
-   "jour": "2026-11-14",
    "heure": "21:30",
    "ligue": "Liga Colombia",
    "match": "Águilas Doradas - Independiente Medellín",
@@ -243,10 +234,31 @@
     ]
    ],
    "buts": 2.4
+  },
+  {
+   "jour": "2026-11-14",
+   "heure": "21:30",
+   "ligue": "Liga Colombia",
+   "match": "Deportivo Pereira - América de Cali",
+   "home": "Deportivo Pereira",
+   "away": "América de Cali",
+   "score": "1-1",
+   "p": 0.129,
+   "alt": [
+    [
+     "0-1",
+     0.118
+    ],
+    [
+     "1-0",
+     0.097
+    ]
+   ],
+   "buts": 2.4
   }
  ],
  "scores_stat": {
-  "paris": 7378,
+  "paris": 7379,
   "taux": 14.3,
   "base": 12.8
  },
@@ -587,7 +599,7 @@
     "ok": true
    }
   ],
-  "en_attente": 10
+  "en_attente": 11
  },
  "bilans": {
   "jour": {
@@ -915,12 +927,20 @@
      "ok": true
     }
    ],
-   "en_attente": 10
+   "en_attente": 11
   },
   "cote2": {
    "n": 9,
    "gagnes": 3,
    "recent": [
+    {
+     "jour": "2026-11-13",
+     "match": "Ticket du 13/11",
+     "pari": "3 paris, cote ~2.02",
+     "p": 0.495,
+     "reel": "",
+     "ok": null
+    },
     {
      "jour": "2026-11-06",
      "match": "Ticket du 06/11",
@@ -1018,12 +1038,20 @@
      "ok": false
     }
    ],
-   "en_attente": 4
+   "en_attente": 5
   },
   "score": {
-   "n": 66,
+   "n": 67,
    "gagnes": 8,
    "recent": [
+    {
+     "jour": "2026-11-14",
+     "match": "Internacional de Bogotá - Independiente Santa Fe",
+     "pari": "1-1",
+     "p": 0.131,
+     "reel": "0-2",
+     "ok": false
+    },
     {
      "jour": "2026-11-13",
      "match": "Llaneros FC - Boyacá Chicó FC",
@@ -1334,14 +1362,6 @@
      "pari": "1-0",
      "p": 0.128,
      "reel": "2-0",
-     "ok": false
-    },
-    {
-     "jour": "2026-10-30",
-     "match": "Huracan - Tigre",
-     "pari": "1-0",
-     "p": 0.126,
-     "reel": "0-2",
      "ok": false
     }
    ],
