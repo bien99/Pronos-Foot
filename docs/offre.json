@@ -1,5 +1,5 @@
 {
- "genere": "16/11/2026 à 10:32",
+ "genere": "17/11/2026 à 09:14",
  "seuil": 75,
  "offre": [],
  "ticket": null,
@@ -31,12 +31,34 @@
   },
   {
    "label": "Argentine, Mexique, Colombie",
-   "matchs": 3167,
+   "matchs": 3168,
    "paris": 1631,
    "taux": 78.7
   }
  ],
- "scores": [],
+ "scores": [
+  {
+   "jour": "2026-11-18",
+   "heure": "23:30",
+   "ligue": "Brasileirão",
+   "match": "Coritiba FBC - Santos FC",
+   "home": "Coritiba FBC",
+   "away": "Santos FC",
+   "score": "1-1",
+   "p": 0.124,
+   "alt": [
+    [
+     "0-1",
+     0.095
+    ],
+    [
+     "1-0",
+     0.091
+    ]
+   ],
+   "buts": 2.7
+  }
+ ],
  "scores_stat": {
   "paris": 7385,
   "taux": 14.3,
@@ -1153,7 +1175,7 @@
      "ok": false
     }
    ],
-   "en_attente": 7
+   "en_attente": 8
   },
   "cartons": {
    "n": 58,
