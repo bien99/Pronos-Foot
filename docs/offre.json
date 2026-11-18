@@ -1,8 +1,86 @@
 {
- "genere": "17/11/2026 à 09:14",
+ "genere": "18/11/2026 à 09:12",
  "seuil": 75,
- "offre": [],
- "ticket": null,
+ "offre": [
+  {
+   "jour": "2026-11-19",
+   "heure": "23:30",
+   "ligue": "Brasileirão",
+   "match": "CR Vasco da Gama - SC Internacional",
+   "home": "CR Vasco da Gama",
+   "away": "SC Internacional",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.82,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-11-19",
+   "heure": "00:30",
+   "ligue": "Brasileirão",
+   "match": "CR Flamengo - CA Paranaense",
+   "home": "CR Flamengo",
+   "away": "CA Paranaense",
+   "pari": "Victoire domicile",
+   "k": 0,
+   "p": 0.803,
+   "fam": "fd"
+  },
+  {
+   "jour": "2026-11-19",
+   "heure": "00:00",
+   "ligue": "Brasileirão",
+   "match": "Clube do Remo - Chapecoense AF",
+   "home": "Clube do Remo",
+   "away": "Chapecoense AF",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.782,
+   "fam": "fd"
+  }
+ ],
+ "ticket": {
+  "paris": [
+   {
+    "jour": "2026-11-19",
+    "heure": "23:30",
+    "ligue": "Brasileirão",
+    "match": "CR Vasco da Gama - SC Internacional",
+    "home": "CR Vasco da Gama",
+    "away": "SC Internacional",
+    "pari": "1X (domicile ou nul)",
+    "k": 2,
+    "p": 0.82,
+    "fam": "fd"
+   },
+   {
+    "jour": "2026-11-19",
+    "heure": "00:30",
+    "ligue": "Brasileirão",
+    "match": "CR Flamengo - CA Paranaense",
+    "home": "CR Flamengo",
+    "away": "CA Paranaense",
+    "pari": "Victoire domicile",
+    "k": 0,
+    "p": 0.803,
+    "fam": "fd"
+   },
+   {
+    "jour": "2026-11-19",
+    "heure": "00:00",
+    "ligue": "Brasileirão",
+    "match": "Clube do Remo - Chapecoense AF",
+    "home": "Clube do Remo",
+    "away": "Chapecoense AF",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.782,
+    "fam": "fd"
+   }
+  ],
+  "p": 0.515,
+  "cote": 1.94
+ },
  "sur": null,
  "stats": [
   {
@@ -38,6 +116,27 @@
  ],
  "scores": [
   {
+   "jour": "2026-11-19",
+   "heure": "01:30",
+   "ligue": "Brasileirão",
+   "match": "SC Corinthians Paulista - Botafogo FR",
+   "home": "SC Corinthians Paulista",
+   "away": "Botafogo FR",
+   "score": "1-1",
+   "p": 0.127,
+   "alt": [
+    [
+     "1-0",
+     0.103
+    ],
+    [
+     "0-1",
+     0.097
+    ]
+   ],
+   "buts": 2.5
+  },
+  {
    "jour": "2026-11-18",
    "heure": "23:30",
    "ligue": "Brasileirão",
@@ -54,6 +153,69 @@
     [
      "1-0",
      0.091
+    ]
+   ],
+   "buts": 2.7
+  },
+  {
+   "jour": "2026-11-19",
+   "heure": "01:30",
+   "ligue": "Brasileirão",
+   "match": "Grêmio FBPA - EC Bahia",
+   "home": "Grêmio FBPA",
+   "away": "EC Bahia",
+   "score": "1-1",
+   "p": 0.124,
+   "alt": [
+    [
+     "1-0",
+     0.1
+    ],
+    [
+     "0-1",
+     0.089
+    ]
+   ],
+   "buts": 2.6
+  },
+  {
+   "jour": "2026-11-19",
+   "heure": "23:30",
+   "ligue": "Brasileirão",
+   "match": "EC Vitória - RB Bragantino",
+   "home": "EC Vitória",
+   "away": "RB Bragantino",
+   "score": "1-1",
+   "p": 0.124,
+   "alt": [
+    [
+     "1-0",
+     0.099
+    ],
+    [
+     "0-1",
+     0.09
+    ]
+   ],
+   "buts": 2.6
+  },
+  {
+   "jour": "2026-11-19",
+   "heure": "00:30",
+   "ligue": "Brasileirão",
+   "match": "Cruzeiro EC - SE Palmeiras",
+   "home": "Cruzeiro EC",
+   "away": "SE Palmeiras",
+   "score": "1-1",
+   "p": 0.123,
+   "alt": [
+    [
+     "0-1",
+     0.097
+    ],
+    [
+     "1-0",
+     0.088
     ]
    ],
    "buts": 2.7
@@ -401,7 +563,7 @@
     "ok": false
    }
   ],
-  "en_attente": 5
+  "en_attente": 8
  },
  "bilans": {
   "jour": {
@@ -729,7 +891,7 @@
      "ok": false
     }
    ],
-   "en_attente": 5
+   "en_attente": 8
   },
   "cote2": {
    "n": 11,
@@ -848,7 +1010,7 @@
      "ok": false
     }
    ],
-   "en_attente": 3
+   "en_attente": 4
   },
   "score": {
    "n": 72,
@@ -1175,7 +1337,7 @@
      "ok": false
     }
    ],
-   "en_attente": 8
+   "en_attente": 12
   },
   "cartons": {
    "n": 58,
