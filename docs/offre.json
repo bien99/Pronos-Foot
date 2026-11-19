@@ -1,5 +1,5 @@
 {
- "genere": "18/11/2026 à 09:12",
+ "genere": "19/11/2026 à 09:18",
  "seuil": 75,
  "offre": [
   {
@@ -15,72 +15,19 @@
    "fam": "fd"
   },
   {
-   "jour": "2026-11-19",
-   "heure": "00:30",
+   "jour": "2026-11-20",
+   "heure": "01:30",
    "ligue": "Brasileirão",
-   "match": "CR Flamengo - CA Paranaense",
-   "home": "CR Flamengo",
-   "away": "CA Paranaense",
-   "pari": "Victoire domicile",
-   "k": 0,
-   "p": 0.803,
-   "fam": "fd"
-  },
-  {
-   "jour": "2026-11-19",
-   "heure": "00:00",
-   "ligue": "Brasileirão",
-   "match": "Clube do Remo - Chapecoense AF",
-   "home": "Clube do Remo",
-   "away": "Chapecoense AF",
+   "match": "São Paulo FC - Fluminense FC",
+   "home": "São Paulo FC",
+   "away": "Fluminense FC",
    "pari": "Plus de 1.5 buts",
    "k": 6,
-   "p": 0.782,
+   "p": 0.766,
    "fam": "fd"
   }
  ],
- "ticket": {
-  "paris": [
-   {
-    "jour": "2026-11-19",
-    "heure": "23:30",
-    "ligue": "Brasileirão",
-    "match": "CR Vasco da Gama - SC Internacional",
-    "home": "CR Vasco da Gama",
-    "away": "SC Internacional",
-    "pari": "1X (domicile ou nul)",
-    "k": 2,
-    "p": 0.82,
-    "fam": "fd"
-   },
-   {
-    "jour": "2026-11-19",
-    "heure": "00:30",
-    "ligue": "Brasileirão",
-    "match": "CR Flamengo - CA Paranaense",
-    "home": "CR Flamengo",
-    "away": "CA Paranaense",
-    "pari": "Victoire domicile",
-    "k": 0,
-    "p": 0.803,
-    "fam": "fd"
-   },
-   {
-    "jour": "2026-11-19",
-    "heure": "00:00",
-    "ligue": "Brasileirão",
-    "match": "Clube do Remo - Chapecoense AF",
-    "home": "Clube do Remo",
-    "away": "Chapecoense AF",
-    "pari": "Plus de 1.5 buts",
-    "k": 6,
-    "p": 0.782,
-    "fam": "fd"
-   }
-  ],
-  "p": 0.515,
-  "cote": 1.94
- },
+ "ticket": null,
  "sur": null,
  "stats": [
   {
@@ -97,8 +44,8 @@
   },
   {
    "label": "Coupes d'Europe et Brésil",
-   "matchs": 1250,
-   "paris": 878,
+   "matchs": 1256,
+   "paris": 881,
    "taux": 75.3
   },
   {
@@ -116,67 +63,25 @@
  ],
  "scores": [
   {
-   "jour": "2026-11-19",
-   "heure": "01:30",
-   "ligue": "Brasileirão",
-   "match": "SC Corinthians Paulista - Botafogo FR",
-   "home": "SC Corinthians Paulista",
-   "away": "Botafogo FR",
+   "jour": "2026-11-20",
+   "heure": "22:30",
+   "ligue": "Liga Colombia",
+   "match": "Independiente Medellín - Independiente Santa Fe",
+   "home": "Independiente Medellín",
+   "away": "Independiente Santa Fe",
    "score": "1-1",
-   "p": 0.127,
+   "p": 0.132,
    "alt": [
     [
      "1-0",
-     0.103
+     0.122
     ],
     [
      "0-1",
-     0.097
+     0.107
     ]
    ],
-   "buts": 2.5
-  },
-  {
-   "jour": "2026-11-18",
-   "heure": "23:30",
-   "ligue": "Brasileirão",
-   "match": "Coritiba FBC - Santos FC",
-   "home": "Coritiba FBC",
-   "away": "Santos FC",
-   "score": "1-1",
-   "p": 0.124,
-   "alt": [
-    [
-     "0-1",
-     0.095
-    ],
-    [
-     "1-0",
-     0.091
-    ]
-   ],
-   "buts": 2.7
-  },
-  {
-   "jour": "2026-11-19",
-   "heure": "01:30",
-   "ligue": "Brasileirão",
-   "match": "Grêmio FBPA - EC Bahia",
-   "home": "Grêmio FBPA",
-   "away": "EC Bahia",
-   "score": "1-1",
-   "p": 0.124,
-   "alt": [
-    [
-     "1-0",
-     0.1
-    ],
-    [
-     "0-1",
-     0.089
-    ]
-   ],
-   "buts": 2.6
+   "buts": 2.3
   },
   {
    "jour": "2026-11-19",
@@ -200,29 +105,50 @@
    "buts": 2.6
   },
   {
-   "jour": "2026-11-19",
-   "heure": "00:30",
+   "jour": "2026-11-20",
+   "heure": "01:30",
    "ligue": "Brasileirão",
-   "match": "Cruzeiro EC - SE Palmeiras",
-   "home": "Cruzeiro EC",
-   "away": "SE Palmeiras",
+   "match": "São Paulo FC - Fluminense FC",
+   "home": "São Paulo FC",
+   "away": "Fluminense FC",
    "score": "1-1",
-   "p": 0.123,
+   "p": 0.121,
    "alt": [
     [
-     "0-1",
-     0.097
+     "1-0",
+     0.09
     ],
     [
+     "0-1",
+     0.086
+    ]
+   ],
+   "buts": 2.7
+  },
+  {
+   "jour": "2026-11-19",
+   "heure": "23:30",
+   "ligue": "Brasileirão",
+   "match": "CR Vasco da Gama - SC Internacional",
+   "home": "CR Vasco da Gama",
+   "away": "SC Internacional",
+   "score": "1-1",
+   "p": 0.117,
+   "alt": [
+    [
      "1-0",
-     0.088
+     0.113
+    ],
+    [
+     "2-1",
+     0.096
     ]
    ],
    "buts": 2.7
   }
  ],
  "scores_stat": {
-  "paris": 7385,
+  "paris": 7391,
   "taux": 14.3,
   "base": 12.8
  },
@@ -239,9 +165,25 @@
   }
  },
  "bilan": {
-  "n": 180,
-  "gagnes": 149,
+  "n": 182,
+  "gagnes": 151,
   "recent": [
+   {
+    "jour": "2026-11-19",
+    "match": "CR Flamengo - CA Paranaense",
+    "pari": "Victoire domicile",
+    "p": 0.803,
+    "reel": "2-1",
+    "ok": true
+   },
+   {
+    "jour": "2026-11-19",
+    "match": "Clube do Remo - Chapecoense AF",
+    "pari": "Plus de 1.5 buts",
+    "p": 0.782,
+    "reel": "2-0",
+    "ok": true
+   },
    {
     "jour": "2026-11-15",
     "match": "Chapecoense AF - CR Vasco da Gama",
@@ -545,31 +487,31 @@
     "p": 0.787,
     "reel": "3-2",
     "ok": true
-   },
-   {
-    "jour": "2026-11-06",
-    "match": "San Lorenzo - Platense",
-    "pari": "1X (domicile ou nul)",
-    "p": 0.77,
-    "reel": "0-2",
-    "ok": false
-   },
-   {
-    "jour": "2026-11-05",
-    "match": "FC Midtjylland - Ajax Amsterdam",
-    "pari": "1X (domicile ou nul)",
-    "p": 0.827,
-    "reel": "1-6",
-    "ok": false
    }
   ],
-  "en_attente": 8
+  "en_attente": 7
  },
  "bilans": {
   "jour": {
-   "n": 180,
-   "gagnes": 149,
+   "n": 182,
+   "gagnes": 151,
    "recent": [
+    {
+     "jour": "2026-11-19",
+     "match": "CR Flamengo - CA Paranaense",
+     "pari": "Victoire domicile",
+     "p": 0.803,
+     "reel": "2-1",
+     "ok": true
+    },
+    {
+     "jour": "2026-11-19",
+     "match": "Clube do Remo - Chapecoense AF",
+     "pari": "Plus de 1.5 buts",
+     "p": 0.782,
+     "reel": "2-0",
+     "ok": true
+    },
     {
      "jour": "2026-11-15",
      "match": "Chapecoense AF - CR Vasco da Gama",
@@ -873,30 +815,22 @@
      "p": 0.787,
      "reel": "3-2",
      "ok": true
-    },
-    {
-     "jour": "2026-11-06",
-     "match": "San Lorenzo - Platense",
-     "pari": "1X (domicile ou nul)",
-     "p": 0.77,
-     "reel": "0-2",
-     "ok": false
-    },
-    {
-     "jour": "2026-11-05",
-     "match": "FC Midtjylland - Ajax Amsterdam",
-     "pari": "1X (domicile ou nul)",
-     "p": 0.827,
-     "reel": "1-6",
-     "ok": false
     }
    ],
-   "en_attente": 8
+   "en_attente": 7
   },
   "cote2": {
    "n": 11,
    "gagnes": 5,
    "recent": [
+    {
+     "jour": "2026-11-18",
+     "match": "Ticket du 18/11",
+     "pari": "3 paris, cote ~1.94",
+     "p": 0.515,
+     "reel": "",
+     "ok": null
+    },
     {
      "jour": "2026-11-14",
      "match": "Ticket du 14/11",
@@ -1013,9 +947,41 @@
    "en_attente": 4
   },
   "score": {
-   "n": 72,
+   "n": 76,
    "gagnes": 8,
    "recent": [
+    {
+     "jour": "2026-11-19",
+     "match": "SC Corinthians Paulista - Botafogo FR",
+     "pari": "1-1",
+     "p": 0.127,
+     "reel": "4-0",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-19",
+     "match": "Grêmio FBPA - EC Bahia",
+     "pari": "1-1",
+     "p": 0.124,
+     "reel": "0-0",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-19",
+     "match": "Cruzeiro EC - SE Palmeiras",
+     "pari": "1-1",
+     "p": 0.123,
+     "reel": "2-1",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-18",
+     "match": "Coritiba FBC - Santos FC",
+     "pari": "1-1",
+     "p": 0.124,
+     "reel": "0-1",
+     "ok": false
+    },
     {
      "jour": "2026-11-14",
      "match": "Cúcuta Deportivo - Jaguares de Córdoba",
@@ -1303,41 +1269,9 @@
      "p": 0.151,
      "reel": "2-0",
      "ok": false
-    },
-    {
-     "jour": "2026-11-01",
-     "match": "Belgrano - Barracas Central",
-     "pari": "1-0",
-     "p": 0.14,
-     "reel": "2-2",
-     "ok": false
-    },
-    {
-     "jour": "2026-11-01",
-     "match": "Guadalajara Chivas - Atlante",
-     "pari": "1-0",
-     "p": 0.137,
-     "reel": "4-2",
-     "ok": false
-    },
-    {
-     "jour": "2026-11-01",
-     "match": "Getafe - Sevilla",
-     "pari": "1-1",
-     "p": 0.131,
-     "reel": "3-1",
-     "ok": false
-    },
-    {
-     "jour": "2026-10-31",
-     "match": "Velez Sarsfield - San Lorenzo",
-     "pari": "1-0",
-     "p": 0.143,
-     "reel": "2-2",
-     "ok": false
     }
    ],
-   "en_attente": 12
+   "en_attente": 11
   },
   "cartons": {
    "n": 58,
@@ -1995,12 +1929,12 @@
   }
  },
  "stats_all": {
-  "paris": 9351,
+  "paris": 9354,
   "taux": 77.8
  },
  "ticket_stat": {
-  "paris": 418,
-  "taux": 45.9,
+  "paris": 419,
+  "taux": 45.8,
   "p_moyen": 51.6
  },
  "ignores": 0
