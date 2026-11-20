@@ -1,33 +1,134 @@
 {
- "genere": "19/11/2026 à 09:18",
+ "genere": "20/11/2026 à 09:14",
  "seuil": 75,
  "offre": [
   {
-   "jour": "2026-11-19",
-   "heure": "23:30",
-   "ligue": "Brasileirão",
-   "match": "CR Vasco da Gama - SC Internacional",
-   "home": "CR Vasco da Gama",
-   "away": "SC Internacional",
+   "jour": "2026-11-21",
+   "heure": "21:00",
+   "ligue": "Liga Argentina",
+   "match": "Argentinos Jrs - Independiente",
+   "home": "Argentinos Jrs",
+   "away": "Independiente",
    "pari": "1X (domicile ou nul)",
    "k": 2,
-   "p": 0.82,
+   "p": 0.777,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-11-21",
+   "heure": "21:30",
+   "ligue": "Brasileirão",
+   "match": "EC Bahia - Coritiba FBC",
+   "home": "EC Bahia",
+   "away": "Coritiba FBC",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.776,
    "fam": "fd"
   },
   {
-   "jour": "2026-11-20",
-   "heure": "01:30",
-   "ligue": "Brasileirão",
-   "match": "São Paulo FC - Fluminense FC",
-   "home": "São Paulo FC",
-   "away": "Fluminense FC",
+   "jour": "2026-11-21",
+   "heure": "23:50",
+   "ligue": "Liga MX",
+   "match": "Pachuca - Toluca",
+   "home": "Pachuca",
+   "away": "Toluca",
    "pari": "Plus de 1.5 buts",
    "k": 6,
-   "p": 0.766,
+   "p": 0.774,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-11-21",
+   "heure": "00:00",
+   "ligue": "Liga Argentina",
+   "match": "Velez Sarsfield - Belgrano",
+   "home": "Velez Sarsfield",
+   "away": "Belgrano",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.77,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-11-21",
+   "heure": "04:10",
+   "ligue": "Liga MX",
+   "match": "Club Tijuana - Atlante",
+   "home": "Club Tijuana",
+   "away": "Atlante",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.77,
+   "fam": "am"
+  },
+  {
+   "jour": "2026-11-21",
+   "heure": "20:30",
+   "ligue": "Brasileirão",
+   "match": "SE Palmeiras - CR Flamengo",
+   "home": "SE Palmeiras",
+   "away": "CR Flamengo",
+   "pari": "1X (domicile ou nul)",
+   "k": 2,
+   "p": 0.759,
    "fam": "fd"
+  },
+  {
+   "jour": "2026-11-21",
+   "heure": "04:00",
+   "ligue": "Liga MX",
+   "match": "Juarez - Atlas",
+   "home": "Juarez",
+   "away": "Atlas",
+   "pari": "Plus de 1.5 buts",
+   "k": 6,
+   "p": 0.758,
+   "fam": "am"
   }
  ],
- "ticket": null,
+ "ticket": {
+  "paris": [
+   {
+    "jour": "2026-11-21",
+    "heure": "21:00",
+    "ligue": "Liga Argentina",
+    "match": "Argentinos Jrs - Independiente",
+    "home": "Argentinos Jrs",
+    "away": "Independiente",
+    "pari": "1X (domicile ou nul)",
+    "k": 2,
+    "p": 0.777,
+    "fam": "am"
+   },
+   {
+    "jour": "2026-11-21",
+    "heure": "21:30",
+    "ligue": "Brasileirão",
+    "match": "EC Bahia - Coritiba FBC",
+    "home": "EC Bahia",
+    "away": "Coritiba FBC",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.776,
+    "fam": "fd"
+   },
+   {
+    "jour": "2026-11-21",
+    "heure": "23:50",
+    "ligue": "Liga MX",
+    "match": "Pachuca - Toluca",
+    "home": "Pachuca",
+    "away": "Toluca",
+    "pari": "Plus de 1.5 buts",
+    "k": 6,
+    "p": 0.774,
+    "fam": "am"
+   }
+  ],
+  "p": 0.467,
+  "cote": 2.14
+ },
  "sur": null,
  "stats": [
   {
@@ -44,9 +145,9 @@
   },
   {
    "label": "Coupes d'Europe et Brésil",
-   "matchs": 1256,
-   "paris": 881,
-   "taux": 75.3
+   "matchs": 1259,
+   "paris": 883,
+   "taux": 75.2
   },
   {
    "label": "Europa League et Conference League",
@@ -62,6 +163,48 @@
   }
  ],
  "scores": [
+  {
+   "jour": "2026-11-21",
+   "heure": "21:00",
+   "ligue": "Liga Argentina",
+   "match": "Argentinos Jrs - Independiente",
+   "home": "Argentinos Jrs",
+   "away": "Independiente",
+   "score": "1-0",
+   "p": 0.135,
+   "alt": [
+    [
+     "1-1",
+     0.125
+    ],
+    [
+     "2-0",
+     0.097
+    ]
+   ],
+   "buts": 2.4
+  },
+  {
+   "jour": "2026-11-21",
+   "heure": "21:30",
+   "ligue": "Brasileirão",
+   "match": "EC Bahia - Coritiba FBC",
+   "home": "EC Bahia",
+   "away": "Coritiba FBC",
+   "score": "1-0",
+   "p": 0.132,
+   "alt": [
+    [
+     "2-0",
+     0.117
+    ],
+    [
+     "1-1",
+     0.109
+    ]
+   ],
+   "buts": 2.6
+  },
   {
    "jour": "2026-11-20",
    "heure": "22:30",
@@ -84,71 +227,50 @@
    "buts": 2.3
   },
   {
-   "jour": "2026-11-19",
-   "heure": "23:30",
-   "ligue": "Brasileirão",
-   "match": "EC Vitória - RB Bragantino",
-   "home": "EC Vitória",
-   "away": "RB Bragantino",
+   "jour": "2026-11-21",
+   "heure": "00:35",
+   "ligue": "Liga Colombia",
+   "match": "Atlético Bucaramanga - América de Cali",
+   "home": "Atlético Bucaramanga",
+   "away": "América de Cali",
    "score": "1-1",
-   "p": 0.124,
+   "p": 0.131,
    "alt": [
     [
      "1-0",
-     0.099
+     0.12
     ],
     [
      "0-1",
-     0.09
+     0.105
     ]
    ],
-   "buts": 2.6
+   "buts": 2.3
   },
   {
-   "jour": "2026-11-20",
-   "heure": "01:30",
-   "ligue": "Brasileirão",
-   "match": "São Paulo FC - Fluminense FC",
-   "home": "São Paulo FC",
-   "away": "Fluminense FC",
+   "jour": "2026-11-21",
+   "heure": "02:40",
+   "ligue": "Liga Colombia",
+   "match": "Deportivo Cali - Millonarios",
+   "home": "Deportivo Cali",
+   "away": "Millonarios",
    "score": "1-1",
-   "p": 0.121,
+   "p": 0.131,
    "alt": [
     [
      "1-0",
-     0.09
+     0.127
     ],
     [
      "0-1",
-     0.086
+     0.101
     ]
    ],
-   "buts": 2.7
-  },
-  {
-   "jour": "2026-11-19",
-   "heure": "23:30",
-   "ligue": "Brasileirão",
-   "match": "CR Vasco da Gama - SC Internacional",
-   "home": "CR Vasco da Gama",
-   "away": "SC Internacional",
-   "score": "1-1",
-   "p": 0.117,
-   "alt": [
-    [
-     "1-0",
-     0.113
-    ],
-    [
-     "2-1",
-     0.096
-    ]
-   ],
-   "buts": 2.7
+   "buts": 2.3
   }
  ],
  "scores_stat": {
-  "paris": 7391,
+  "paris": 7394,
   "taux": 14.3,
   "base": 12.8
  },
@@ -165,9 +287,25 @@
   }
  },
  "bilan": {
-  "n": 182,
-  "gagnes": 151,
+  "n": 184,
+  "gagnes": 152,
   "recent": [
+   {
+    "jour": "2026-11-20",
+    "match": "São Paulo FC - Fluminense FC",
+    "pari": "Plus de 1.5 buts",
+    "p": 0.766,
+    "reel": "0-1",
+    "ok": false
+   },
+   {
+    "jour": "2026-11-19",
+    "match": "CR Vasco da Gama - SC Internacional",
+    "pari": "1X (domicile ou nul)",
+    "p": 0.82,
+    "reel": "2-1",
+    "ok": true
+   },
    {
     "jour": "2026-11-19",
     "match": "CR Flamengo - CA Paranaense",
@@ -471,31 +609,31 @@
     "p": 0.751,
     "reel": "0-3",
     "ok": true
-   },
-   {
-    "jour": "2026-11-06",
-    "match": "Independiente - Dep. Riestra",
-    "pari": "1X (domicile ou nul)",
-    "p": 0.82,
-    "reel": "2-1",
-    "ok": true
-   },
-   {
-    "jour": "2026-11-06",
-    "match": "Cruzeiro EC - EC Bahia",
-    "pari": "Plus de 1.5 buts",
-    "p": 0.787,
-    "reel": "3-2",
-    "ok": true
    }
   ],
-  "en_attente": 7
+  "en_attente": 12
  },
  "bilans": {
   "jour": {
-   "n": 182,
-   "gagnes": 151,
+   "n": 184,
+   "gagnes": 152,
    "recent": [
+    {
+     "jour": "2026-11-20",
+     "match": "São Paulo FC - Fluminense FC",
+     "pari": "Plus de 1.5 buts",
+     "p": 0.766,
+     "reel": "0-1",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-19",
+     "match": "CR Vasco da Gama - SC Internacional",
+     "pari": "1X (domicile ou nul)",
+     "p": 0.82,
+     "reel": "2-1",
+     "ok": true
+    },
     {
      "jour": "2026-11-19",
      "match": "CR Flamengo - CA Paranaense",
@@ -799,37 +937,21 @@
      "p": 0.751,
      "reel": "0-3",
      "ok": true
-    },
-    {
-     "jour": "2026-11-06",
-     "match": "Independiente - Dep. Riestra",
-     "pari": "1X (domicile ou nul)",
-     "p": 0.82,
-     "reel": "2-1",
-     "ok": true
-    },
-    {
-     "jour": "2026-11-06",
-     "match": "Cruzeiro EC - EC Bahia",
-     "pari": "Plus de 1.5 buts",
-     "p": 0.787,
-     "reel": "3-2",
-     "ok": true
     }
    ],
-   "en_attente": 7
+   "en_attente": 12
   },
   "cote2": {
-   "n": 11,
-   "gagnes": 5,
+   "n": 12,
+   "gagnes": 6,
    "recent": [
     {
      "jour": "2026-11-18",
      "match": "Ticket du 18/11",
      "pari": "3 paris, cote ~1.94",
      "p": 0.515,
-     "reel": "",
-     "ok": null
+     "reel": "3/3 paris gagnés",
+     "ok": true
     },
     {
      "jour": "2026-11-14",
@@ -947,9 +1069,17 @@
    "en_attente": 4
   },
   "score": {
-   "n": 76,
+   "n": 79,
    "gagnes": 8,
    "recent": [
+    {
+     "jour": "2026-11-20",
+     "match": "São Paulo FC - Fluminense FC",
+     "pari": "1-1",
+     "p": 0.121,
+     "reel": "0-1",
+     "ok": false
+    },
     {
      "jour": "2026-11-19",
      "match": "SC Corinthians Paulista - Botafogo FR",
@@ -968,9 +1098,25 @@
     },
     {
      "jour": "2026-11-19",
+     "match": "EC Vitória - RB Bragantino",
+     "pari": "1-1",
+     "p": 0.124,
+     "reel": "2-1",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-19",
      "match": "Cruzeiro EC - SE Palmeiras",
      "pari": "1-1",
      "p": 0.123,
+     "reel": "2-1",
+     "ok": false
+    },
+    {
+     "jour": "2026-11-19",
+     "match": "CR Vasco da Gama - SC Internacional",
+     "pari": "1-1",
+     "p": 0.117,
      "reel": "2-1",
      "ok": false
     },
@@ -1245,33 +1391,9 @@
      "p": 0.15,
      "reel": "",
      "ok": null
-    },
-    {
-     "jour": "2026-11-02",
-     "match": "Defensa y Justicia - Independiente",
-     "pari": "1-0",
-     "p": 0.14,
-     "reel": "1-1",
-     "ok": false
-    },
-    {
-     "jour": "2026-11-02",
-     "match": "Gil Vicente - Guimaraes",
-     "pari": "1-1",
-     "p": 0.13,
-     "reel": "0-0",
-     "ok": false
-    },
-    {
-     "jour": "2026-11-01",
-     "match": "Deportivo Cali - Boyacá Chicó FC",
-     "pari": "1-0",
-     "p": 0.151,
-     "reel": "2-0",
-     "ok": false
     }
    ],
-   "en_attente": 11
+   "en_attente": 12
   },
   "cartons": {
    "n": 58,
@@ -1929,7 +2051,7 @@
   }
  },
  "stats_all": {
-  "paris": 9354,
+  "paris": 9356,
   "taux": 77.8
  },
  "ticket_stat": {
