@@ -395,17 +395,17 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-11-20|São Paulo FC|Fluminense FC|score,2026-11-19 09:18,2026-11-20,Brasileirão,São Paulo FC - Fluminense FC,São Paulo FC,Fluminense FC,1-1,-1,0.121,0.0,score,,0-1
 2026-11-19|CR Vasco da Gama|SC Internacional|score,2026-11-19 09:18,2026-11-19,Brasileirão,CR Vasco da Gama - SC Internacional,CR Vasco da Gama,SC Internacional,1-1,-1,0.117,0.0,score,,2-1
 2026-11-21|Argentinos Jrs|Independiente|1X (domicile ou nul),2026-11-20 09:14,2026-11-21,Liga Argentina,Argentinos Jrs - Independiente,Argentinos Jrs,Independiente,1X (domicile ou nul),2,0.777,,jour,,
-2026-11-21|EC Bahia|Coritiba FBC|Plus de 1.5 buts,2026-11-20 09:14,2026-11-21,Brasileirão,EC Bahia - Coritiba FBC,EC Bahia,Coritiba FBC,Plus de 1.5 buts,6,0.776,,jour,,
+2026-11-21|EC Bahia|Coritiba FBC|Plus de 1.5 buts,2026-11-20 09:14,2026-11-21,Brasileirão,EC Bahia - Coritiba FBC,EC Bahia,Coritiba FBC,Plus de 1.5 buts,6,0.776,0.0,jour,,0-1
 2026-11-21|Pachuca|Toluca|Plus de 1.5 buts,2026-11-20 09:14,2026-11-21,Liga MX,Pachuca - Toluca,Pachuca,Toluca,Plus de 1.5 buts,6,0.774,,jour,,
 2026-11-21|Velez Sarsfield|Belgrano|1X (domicile ou nul),2026-11-20 09:14,2026-11-21,Liga Argentina,Velez Sarsfield - Belgrano,Velez Sarsfield,Belgrano,1X (domicile ou nul),2,0.77,,jour,,
 2026-11-21|Club Tijuana|Atlante|Plus de 1.5 buts,2026-11-20 09:14,2026-11-21,Liga MX,Club Tijuana - Atlante,Club Tijuana,Atlante,Plus de 1.5 buts,6,0.77,,jour,,
-2026-11-21|SE Palmeiras|CR Flamengo|1X (domicile ou nul),2026-11-20 09:14,2026-11-21,Brasileirão,SE Palmeiras - CR Flamengo,SE Palmeiras,CR Flamengo,1X (domicile ou nul),2,0.759,,jour,,
+2026-11-21|SE Palmeiras|CR Flamengo|1X (domicile ou nul),2026-11-20 09:14,2026-11-21,Brasileirão,SE Palmeiras - CR Flamengo,SE Palmeiras,CR Flamengo,1X (domicile ou nul),2,0.759,1.0,jour,,1-1
 2026-11-21|Juarez|Atlas|Plus de 1.5 buts,2026-11-20 09:14,2026-11-21,Liga MX,Juarez - Atlas,Juarez,Atlas,Plus de 1.5 buts,6,0.758,,jour,,
 2026-11-21|Argentinos Jrs|Independiente|score,2026-11-20 09:14,2026-11-21,Liga Argentina,Argentinos Jrs - Independiente,Argentinos Jrs,Independiente,1-0,-1,0.135,,score,,
-2026-11-21|EC Bahia|Coritiba FBC|score,2026-11-20 09:14,2026-11-21,Brasileirão,EC Bahia - Coritiba FBC,EC Bahia,Coritiba FBC,1-0,-1,0.132,,score,,
+2026-11-21|EC Bahia|Coritiba FBC|score,2026-11-20 09:14,2026-11-21,Brasileirão,EC Bahia - Coritiba FBC,EC Bahia,Coritiba FBC,1-0,-1,0.132,0.0,score,,0-1
 2026-11-21|Atlético Bucaramanga|América de Cali|score,2026-11-20 09:14,2026-11-21,Liga Colombia,Atlético Bucaramanga - América de Cali,Atlético Bucaramanga,América de Cali,1-1,-1,0.131,0.0,score,,2-2
 2026-11-21|Deportivo Cali|Millonarios|score,2026-11-20 09:14,2026-11-21,Liga Colombia,Deportivo Cali - Millonarios,Deportivo Cali,Millonarios,1-1,-1,0.131,0.0,score,,0-0
-2026-11-20|cote2|2026-11-21|Argentinos Jrs|Independiente|1X (domicile ou nul)+2026-11-21|EC Bahia|Coritiba FBC|Plus de 1.5 buts+2026-11-21|Pachuca|Toluca|Plus de 1.5 buts,2026-11-20 09:14,2026-11-20,Ticket,Ticket du 20/11,,,"3 paris, cote ~2.14",-1,0.467,,cote2,2026-11-21|Argentinos Jrs|Independiente|1X (domicile ou nul);2026-11-21|EC Bahia|Coritiba FBC|Plus de 1.5 buts;2026-11-21|Pachuca|Toluca|Plus de 1.5 buts,
+2026-11-20|cote2|2026-11-21|Argentinos Jrs|Independiente|1X (domicile ou nul)+2026-11-21|EC Bahia|Coritiba FBC|Plus de 1.5 buts+2026-11-21|Pachuca|Toluca|Plus de 1.5 buts,2026-11-20 09:14,2026-11-20,Ticket,Ticket du 20/11,,,"3 paris, cote ~2.14",-1,0.467,0.0,cote2,2026-11-21|Argentinos Jrs|Independiente|1X (domicile ou nul);2026-11-21|EC Bahia|Coritiba FBC|Plus de 1.5 buts;2026-11-21|Pachuca|Toluca|Plus de 1.5 buts,0/3 paris gagnés
 2026-11-22|Santander|Sociedad|Plus de 1.5 buts,2026-11-21 16:06,2026-11-22,La Liga,Santander - Sociedad,Santander,Sociedad,Plus de 1.5 buts,6,0.893,,jour,,
 2026-11-22|Getafe|Ath Madrid|X2 (nul ou extérieur),2026-11-21 16:06,2026-11-22,La Liga,Getafe - Ath Madrid,Getafe,Ath Madrid,X2 (nul ou extérieur),3,0.875,,jour,,
 2026-11-22|Rosario Central|Gimnasia Mendoza|1X (domicile ou nul),2026-11-21 16:06,2026-11-22,Liga Argentina,Rosario Central - Gimnasia Mendoza,Rosario Central,Gimnasia Mendoza,1X (domicile ou nul),2,0.871,,jour,,
@@ -444,3 +444,26 @@ cle,genere,jour,ligue,match,home,away,pari,k,p,resultat,type,extra,reel
 2026-11-22|Getafe|Ath Madrid|Moins de 11.5 corners,2026-11-21 16:06,2026-11-22,La Liga,Getafe - Ath Madrid,Getafe,Ath Madrid,Moins de 11.5 corners,-1,0.751,,corners,,
 2026-11-21|Strasbourg|Brest|Moins de 11.5 corners,2026-11-21 16:06,2026-11-21,Ligue 1,Strasbourg - Brest,Strasbourg,Brest,Moins de 11.5 corners,-1,0.751,,corners,,
 2026-11-21|Lens|Toulouse|Moins de 11.5 corners,2026-11-21 16:06,2026-11-21,Ligue 1,Lens - Toulouse,Lens,Toulouse,Moins de 11.5 corners,-1,0.739,,corners,,
+2026-11-22|Atalanta|Inter|X2 (nul ou extérieur),2026-11-22 16:03,2026-11-22,Serie A,Atalanta - Inter,Atalanta,Inter,X2 (nul ou extérieur),3,0.835,,jour,,
+2026-11-22|Osasuna|Malaga|1X (domicile ou nul),2026-11-22 16:03,2026-11-22,La Liga,Osasuna - Malaga,Osasuna,Malaga,1X (domicile ou nul),2,0.832,,jour,,
+2026-11-22|Werder Bremen|Hamburg|1X (domicile ou nul),2026-11-22 16:03,2026-11-22,Bundesliga,Werder Bremen - Hamburg,Werder Bremen,Hamburg,1X (domicile ou nul),2,0.83,,jour,,
+2026-11-22|Fluminense FC|Mirassol FC|1X (domicile ou nul),2026-11-22 16:03,2026-11-22,Brasileirão,Fluminense FC - Mirassol FC,Fluminense FC,Mirassol FC,1X (domicile ou nul),2,0.821,,jour,,
+2026-11-23|Levante|Elche|Plus de 1.5 buts,2026-11-22 16:03,2026-11-23,La Liga,Levante - Elche,Levante,Elche,Plus de 1.5 buts,6,0.82,,jour,,
+2026-11-22|CA Paranaense|Clube do Remo|1X (domicile ou nul),2026-11-22 16:03,2026-11-22,Brasileirão,CA Paranaense - Clube do Remo,CA Paranaense,Clube do Remo,1X (domicile ou nul),2,0.818,,jour,,
+2026-11-23|Gimnasia L.P.|Newells Old Boys|1X (domicile ou nul),2026-11-22 16:03,2026-11-23,Liga Argentina,Gimnasia L.P. - Newells Old Boys,Gimnasia L.P.,Newells Old Boys,1X (domicile ou nul),2,0.811,,jour,,
+2026-11-23|Gimnasia L.P.|Newells Old Boys|score,2026-11-22 16:03,2026-11-23,Liga Argentina,Gimnasia L.P. - Newells Old Boys,Gimnasia L.P.,Newells Old Boys,1-0,-1,0.134,,score,,
+2026-11-23|Queretaro|Necaxa|score,2026-11-22 16:03,2026-11-23,Liga MX,Queretaro - Necaxa,Queretaro,Necaxa,1-1,-1,0.125,,score,,
+2026-11-23|Brentford|Everton|Plus de 2.5 cartons,2026-11-22 16:03,2026-11-23,Premier League,Brentford - Everton,Brentford,Everton,Plus de 2.5 cartons,-1,0.799,,cartons,,
+2026-11-22|Werder Bremen|Hamburg|Moins de 5.5 cartons,2026-11-22 16:03,2026-11-22,Bundesliga,Werder Bremen - Hamburg,Werder Bremen,Hamburg,Moins de 5.5 cartons,-1,0.798,,cartons,,
+2026-11-22|Osasuna|Malaga|Plus de 2.5 cartons,2026-11-22 16:03,2026-11-22,La Liga,Osasuna - Malaga,Osasuna,Malaga,Plus de 2.5 cartons,-1,0.791,,cartons,,
+2026-11-22|Go Ahead Eagles|For Sittard|Moins de 4.5 cartons,2026-11-22 16:03,2026-11-22,Eredivisie,Go Ahead Eagles - For Sittard,Go Ahead Eagles,For Sittard,Moins de 4.5 cartons,-1,0.74,,cartons,,
+2026-11-23|Monza|Fiorentina|Plus de 2.5 cartons,2026-11-22 16:03,2026-11-23,Serie A,Monza - Fiorentina,Monza,Fiorentina,Plus de 2.5 cartons,-1,0.739,,cartons,,
+2026-11-22|Trabzonspor|Eyupspor|Moins de 4.5 cartons,2026-11-22 16:03,2026-11-22,Süper Lig,Trabzonspor - Eyupspor,Trabzonspor,Eyupspor,Moins de 4.5 cartons,-1,0.723,,cartons,,
+2026-11-22|Marseille|Le Mans|Plus de 2.5 cartons,2026-11-22 16:03,2026-11-22,Ligue 1,Marseille - Le Mans,Marseille,Le Mans,Plus de 2.5 cartons,-1,0.719,,cartons,,
+2026-11-23|Levante|Elche|Moins de 11.5 corners,2026-11-22 16:03,2026-11-23,La Liga,Levante - Elche,Levante,Elche,Moins de 11.5 corners,-1,0.752,,corners,,
+2026-11-23|Brentford|Everton|Moins de 11.5 corners,2026-11-22 16:03,2026-11-23,Premier League,Brentford - Everton,Brentford,Everton,Moins de 11.5 corners,-1,0.749,,corners,,
+2026-11-22|Marseille|Le Mans|Moins de 11.5 corners,2026-11-22 16:03,2026-11-22,Ligue 1,Marseille - Le Mans,Marseille,Le Mans,Moins de 11.5 corners,-1,0.73,,corners,,
+2026-11-22|Santander|Sociedad|Plus de 8.5 corners,2026-11-22 16:03,2026-11-22,La Liga,Santander - Sociedad,Santander,Sociedad,Plus de 8.5 corners,-1,0.724,,corners,,
+2026-11-22|Atalanta|Inter|Moins de 11.5 corners,2026-11-22 16:03,2026-11-22,Serie A,Atalanta - Inter,Atalanta,Inter,Moins de 11.5 corners,-1,0.723,,corners,,
+2026-11-22|Liverpool|Man United|Moins de 11.5 corners,2026-11-22 16:03,2026-11-22,Premier League,Liverpool - Man United,Liverpool,Man United,Moins de 11.5 corners,-1,0.72,,corners,,
+2026-11-22|Anderlecht|Oud-Heverlee Leuven|Plus de 8.5 corners,2026-11-22 16:03,2026-11-22,Jupiler League,Anderlecht - Oud-Heverlee Leuven,Anderlecht,Oud-Heverlee Leuven,Plus de 8.5 corners,-1,0.72,,corners,,
