@@ -16,9 +16,14 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 # ----------------------------------------------------------------- réglages
-SEUIL = 0.75                 # probabilité minimale d'un pronostic (0.70 à 0.80)
+SEUIL = 0.50                 # probabilité minimale d'un pronostic (0.50 = risque assumé ; 0.75 = plus sûr)
 MAX_OFFRE = 15
 SEUIL_SUR = 0.95
+# Mode "cotes plus élevées" : seulement Victoire domicile/extérieur, Les deux équipes marquent, Plus de 2.5 buts.
+# Pour l'activer, remplace False par True (et ajuste SEUIL_COTES, par exemple 0.60 à 0.70).
+MODE_COTES = False
+EV_COTES = [0, 1, 4, 7]
+SEUIL_COTES = 0.62
 CUT = pd.Timestamp("2024-07-01")   # test = matchs après cette date
 N_FORME = 8
 MIN_HIST = 5
@@ -53,7 +58,7 @@ BASE = ["d", "pe", "pdraw", "h_gf", "h_ga", "h_bt", "h_o25", "a_gf", "a_ga", "a_
 ODDS = ["qH", "qD", "qA", "qO"]
 CC = ["h_cf", "h_ca", "a_cf", "a_ca", "h_cd", "a_cd", "xc", "xk"]
 LINES = {"corners": [8.5, 9.5, 10.5, 11.5], "cartons": [2.5, 3.5, 4.5, 5.5]}
-SEUIL_CC = 0.70
+SEUIL_CC = 0.50
 MAX_CC = 10
 
 
@@ -557,8 +562,16 @@ def cc_section(df, up):
     return out, stat
 
 
-def choisir(E, seuil=SEUIL):
+def regle():
+    return (SEUIL_COTES, EV_COTES) if MODE_COTES else (SEUIL, None)
+
+
+def choisir(E, seuil=SEUIL, allowed=None):
     mask = E >= seuil
+    if allowed is not None:
+        ok_cols = np.zeros(E.shape[1], dtype=bool)
+        ok_cols[allowed] = True
+        mask = mask & ok_cols
     idx = np.where(mask, E, 9).argmin(axis=1)
     return idx, mask.any(axis=1)
 
@@ -600,6 +613,7 @@ def main():
     stats = {}
     sc_hit, sc_n, sc_all_hit, sc_all_n = 0, 0, 0, 0
     bt = []
+    mc = {}
     for fam, (label, _, cols, _) in FAMILIES.items():
         m = family_mask(df, fam) & df["fin"]
         tr, te = df[m & (df["dt"] < CUT)], df[m & (df["dt"] >= CUT)]
@@ -616,7 +630,12 @@ def main():
         if P is None:
             continue
         E, Et = events(P), events_truth(truth(te))
-        idx, has = choisir(E)
+        for s_ in (0.55, 0.60, 0.65, 0.70, 0.75):
+            ix_, hs_ = choisir(E, s_, EV_COTES)
+            dd_, h2_, a2_ = te["dt"].dt.normalize().values, te["home"].values, te["away"].values
+            for i_ in np.where(hs_)[0]:
+                mc.setdefault(s_, []).append((dd_[i_], h2_[i_], a2_[i_], bool(Et[i_, ix_[i_]])))
+        idx, has = choisir(E, *regle())
         if has.sum() == 0:
             continue
         win = Et[np.arange(len(te)), idx][has]
@@ -626,6 +645,14 @@ def main():
         stats[fam] = {"label": label, "matchs": int(len(te)), "paris": int(has.sum()), "taux": round(float(win.mean()) * 100, 1)}
         log(f"  test {label} : {has.sum()} paris sur {len(te)} matchs, réussite {win.mean()*100:.1f} %")
 
+    mode_cotes = []
+    for s_ in sorted(mc):
+        t_ = pd.DataFrame(mc[s_], columns=["d", "home", "away", "w"]).drop_duplicates(["d", "home", "away"])
+        jours_ = max(1, t_["d"].nunique())
+        mode_cotes.append({"seuil": int(s_ * 100), "paris": int(len(t_)), "par_jour": round(len(t_) / jours_, 1),
+                           "taux": round(100 * float(t_["w"].mean()), 1)})
+        log(f"  mode cotes (victoire / les deux marquent / +2.5), seuil {int(s_ * 100)} % : {len(t_)} paris, "
+            f"{len(t_) / jours_:.1f} par jour de match, réussite {100 * t_['w'].mean():.1f} %")
     bt = pd.DataFrame(bt, columns=["d", "home", "away", "p", "w"]).drop_duplicates(["d", "home", "away"])
     stats_all = {"paris": int(len(bt)), "taux": round(100 * float(bt["w"].mean()), 1) if len(bt) else None}
     tk_res = []
@@ -668,7 +695,7 @@ def main():
         if P is None:
             continue
         E = events(P)
-        idx, has = choisir(E)
+        idx, has = choisir(E, *regle())
         for i, (row, e) in enumerate(zip(um.itertuples(), E)):
             if not has[i]:
                 continue
@@ -795,7 +822,7 @@ def main():
     bilans = {t: bilan_de(t) for t in ("jour", "cote2", "score", "cartons", "corners")}
     bilan = bilans["jour"]
 
-    data = {"genere": now_b.strftime("%d/%m/%Y à %H:%M"), "seuil": int(SEUIL * 100), "offre": offre,
+    data = {"genere": now_b.strftime("%d/%m/%Y à %H:%M"), "seuil": int(regle()[0] * 100), "mode_cotes": MODE_COTES, "mode_cotes_stats": mode_cotes, "offre": offre,
             "ticket": ticket, "sur": sur_info, "stats": list(stats.values()), "scores": scores, "scores_stat": scores_stat,
             "corners": cc["corners"], "cartons": cc["cartons"], "cc_stat": cc_stat, "bilan": bilan, "bilans": bilans,
             "stats_all": stats_all, "ticket_stat": ticket_stat, "ignores": ignores}
