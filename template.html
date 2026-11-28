@@ -53,7 +53,7 @@ function jourLong(s){var d=new Date(s+"T12:00:00");return JOURS[d.getDay()]+" "+
 function line(o){return esc(o.match)+" : "+esc(o.pari)+" ("+Math.round(o.p*100)+" %)"}
 function byDay(list,fn){var jours=[],h="";list.forEach(function(o){if(jours.indexOf(o.jour)<0)jours.push(o.jour)});jours.sort();
   jours.forEach(function(j){h+='<h3>'+jourLong(j)+'</h3>';list.filter(function(o){return o.jour==j}).sort(function(a,b){var x=a.heure||"",y=b.heure||"";return x<y?-1:x>y?1:b.p-a.p}).forEach(function(o){h+=fn(o)})});return h}
-var WARN='<div class="warn">Aucun pronostic n\'est garanti. À 80 % de réussite, environ 1 pari sur 5 est perdu. Les cotes affichées sont des cotes équitables calculées par le modèle, celles du bookmaker seront plus basses. Jeu réservé aux 18 ans et plus : joue seulement ce que tu peux perdre.</div>';
+var WARN='<div class="warn">Aucun pronostic n\'est garanti. À 50 % de probabilité, un pari sur deux est perdu : c'est un choix risqué. Les cotes affichées sont des cotes équitables calculées par le modèle, celles du bookmaker seront plus basses. Jeu réservé aux 18 ans et plus : joue seulement ce que tu peux perdre.</div>';
 
 function tile(v,s){return '<div class="stat"><b>'+v+'</b><span>'+s+'</span></div>'}
 function liveTile(b,label){if(b&&b.n>0)return tile(b.gagnes+' / '+b.n,label+' publiés ici et déjà vérifiés ('+fr(Math.round(b.gagnes/b.n*1000)/10)+' %)'+(b.en_attente?', '+b.en_attente+' en attente':''));
